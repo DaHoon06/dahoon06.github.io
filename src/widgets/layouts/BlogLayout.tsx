@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 
 interface BlogLayoutProps {
-  children: ReactNode;
+    children: ReactNode;
 }
 
 export const BlogLayout = ({ children }: BlogLayoutProps) => {
-  return <div>{children}</div>;
+    return <div>{children}</div>;
 };

@@ -4,27 +4,27 @@ export type TPostStatus = "Private" | "Public" | "PublicOnDetail";
 export type TPostType = "Post" | "Paper" | "Page";
 
 export type TPost = {
-  id: string;
-  date: { start_date: string };
-  type: TPostType[];
-  slug: string;
-  tags?: string[];
-  category?: string[];
-  summary?: string;
-  author?: {
     id: string;
-    name: string;
-    profile_photo?: string;
-  }[];
-  title: string;
-  status: TPostStatus[];
-  createdTime: string;
-  fullWidth: boolean;
-  thumbnail?: string;
+    date: { start_date: string };
+    type: TPostType[];
+    slug: string;
+    tags?: string[];
+    category?: string[];
+    summary?: string;
+    author?: {
+        id: string;
+        name: string;
+        profile_photo?: string;
+    }[];
+    title: string;
+    status: TPostStatus[];
+    createdTime: string;
+    fullWidth: boolean;
+    thumbnail?: string;
 };
 
 export type PostDetail = TPost & {
-  recordMap: ExtendedRecordMap;
+    recordMap: ExtendedRecordMap;
 };
 
 export type TPosts = TPost[];
