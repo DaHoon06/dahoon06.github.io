@@ -2,16 +2,13 @@ import { NotionAPI } from "notion-client";
 import { idToUuid } from "notion-utils";
 import getAllPageIds from "./getAllPageIds";
 import getPageProperties from "./getPageProperties";
-import { NOTION_PAGE_ID } from "@apps/config/appConfig";
 import { PostsType } from "../types";
+import { CONFIG } from "@root/site.config";
 
-/**
- * @param {{ includePages: boolean }} - false: posts only / true: include pages
- */
-
-// TODO: react query를 사용해서 처음 불러온 뒤로는 해당데이터만 사용하도록 수정
 export const getPosts = async () => {
-    let id = NOTION_PAGE_ID;
+    let id =
+        CONFIG.notionConfig.pageId ||
+        (process.env.NEXT_PUBLIC_NOTION_PAGE_ID as string);
     const api = new NotionAPI();
 
     const response = await api.getPage(id);

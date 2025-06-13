@@ -2,11 +2,11 @@ import { filterPosts } from "@entities/notion/libs/filterPosts";
 import { getPosts } from "@entities/notion/libs/getPosts";
 import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
 import { queryClient } from "@shared/libs/react-query";
-import { dehydrate } from "@tanstack/react-query";
+import { dehydrate, QueryClientProvider } from "@tanstack/react-query";
 import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
-import { useQuery } from "@tanstack/react-query";
 import { PostList } from "@features/blog/ui/PostList";
+import { CONFIG } from "@root/site.config";
 
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(await getPosts());
@@ -14,44 +14,27 @@ export const getStaticProps: GetStaticProps = async () => {
         queryKey: notionQueryKeys.posts(),
         queryFn: () => posts,
     });
-    console.log(posts);
+
     return {
         props: {
             dehydratedState: dehydrate(queryClient),
         },
-        // revalidate: 3600, // 배포환경에서만 사용
+        ...(CONFIG.isProd ? { revalidate: 3600 } : {}),
     };
 };
 
-const BlogPage = () => {
-    const {
-        data: posts,
-        isLoading,
-        error,
-    } = useQuery({
-        queryKey: notionQueryKeys.posts(),
-        queryFn: async () => filterPosts(await getPosts()),
-    });
+interface BlogPageProps {
+    dehydratedState: any;
+}
 
-    if (isLoading)
-        return (
-            <BlogLayout>
-                <div>Loading...</div>
-            </BlogLayout>
-        );
-    if (error)
-        return (
-            <BlogLayout>
-                <div>Error: {String(error)}</div>
-            </BlogLayout>
-        );
-
+const BlogPage = ({ dehydratedState }: BlogPageProps) => {
     return (
-        <BlogLayout>
-            <h1>Blog</h1>
-
-            <PostList q={""} />
-        </BlogLayout>
+        <QueryClientProvider client={queryClient}>
+            <BlogLayout>
+                <h1>Blog</h1>
+                <PostList q={""} />
+            </BlogLayout>
+        </QueryClientProvider>
     );
 };
 
