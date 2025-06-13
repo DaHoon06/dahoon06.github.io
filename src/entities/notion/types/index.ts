@@ -1,12 +1,12 @@
 import { ExtendedRecordMap } from "notion-types";
 
-export type TPostStatus = "Private" | "Public" | "PublicOnDetail";
-export type TPostType = "Post" | "Paper" | "Page";
+export type PostStatusType = "Private" | "Public" | "PublicOnDetail";
+export type PostTypeType = "Post" | "Paper" | "Page";
 
-export type TPost = {
+export type PostType = {
     id: string;
     date: { start_date: string };
-    type: TPostType[];
+    type: PostTypeType[];
     slug: string;
     tags?: string[];
     category?: string[];
@@ -17,14 +17,14 @@ export type TPost = {
         profile_photo?: string;
     }[];
     title: string;
-    status: TPostStatus[];
+    status: PostStatusType[];
     createdTime: string;
     fullWidth: boolean;
     thumbnail?: string;
 };
 
-export type PostDetail = TPost & {
+export type PostDetail = PostType & {
     recordMap: ExtendedRecordMap;
 };
 
-export type TPosts = TPost[];
+export type PostsType = PostType[];

@@ -1,8 +1,8 @@
-import { TPosts } from "@shared/types";
+import { PostsType } from "../types";
 
 export function getAllSelectItemsFromPosts(
     key: "tags" | "category",
-    posts: TPosts
+    posts: PostsType
 ) {
     const selectedPosts = posts.filter((post) => post?.[key]);
     const items = [...selectedPosts.map((p) => p[key]).flat()];

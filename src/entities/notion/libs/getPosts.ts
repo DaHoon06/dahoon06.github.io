@@ -2,8 +2,8 @@ import { NotionAPI } from "notion-client";
 import { idToUuid } from "notion-utils";
 import getAllPageIds from "./getAllPageIds";
 import getPageProperties from "./getPageProperties";
-import { TPosts } from "@shared/types";
 import { NOTION_PAGE_ID } from "@apps/config/appConfig";
+import { PostsType } from "../types";
 
 /**
  * @param {{ includePages: boolean }} - false: posts only / true: include pages
@@ -53,7 +53,7 @@ export const getPosts = async () => {
             return dateB - dateA;
         });
 
-        const posts = data as TPosts;
+        const posts = data as PostsType;
         return posts;
     }
 };

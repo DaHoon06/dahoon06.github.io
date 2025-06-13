@@ -1,8 +1,8 @@
-import { TPosts, TPostStatus, TPostType } from "@shared/types";
+import { PostStatusType, PostTypeType, PostsType } from "../types";
 
 export type FilterPostsOptions = {
-    acceptStatus?: TPostStatus[];
-    acceptType?: TPostType[];
+    acceptStatus?: PostStatusType[];
+    acceptType?: PostTypeType[];
 };
 
 const initialOption: FilterPostsOptions = {
@@ -15,7 +15,7 @@ tomorrow.setDate(tomorrow.getDate() + 1);
 tomorrow.setHours(0, 0, 0, 0);
 
 export function filterPosts(
-    posts: TPosts,
+    posts: PostsType,
     options: FilterPostsOptions = initialOption
 ) {
     const { acceptStatus = ["Public"], acceptType = ["Post"] } = options;
