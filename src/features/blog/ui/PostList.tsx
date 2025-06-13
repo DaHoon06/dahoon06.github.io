@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 import { PostCard } from "@entities/blog/ui/PostCard";
 
 interface PostListProps {
-    q: string;
+    keyword: string;
 }
 
-export const PostList = ({ q }: PostListProps): ReactElement => {
+export const PostList = ({ keyword }: PostListProps): ReactElement => {
     const router = useRouter();
     const data = usePostsQuery();
     const [filteredPosts, setFilteredPosts] = useState(data);
@@ -22,7 +22,9 @@ export const PostList = ({ q }: PostListProps): ReactElement => {
             newFilteredPosts = newFilteredPosts.filter((post) => {
                 const tagContent = post.tags ? post.tags.join(" ") : "";
                 const searchContent = post.title + post.summary + tagContent;
-                return searchContent.toLowerCase().includes(q.toLowerCase());
+                return searchContent
+                    .toLowerCase()
+                    .includes(keyword.toLowerCase());
             });
 
             // tag
@@ -49,7 +51,7 @@ export const PostList = ({ q }: PostListProps): ReactElement => {
 
             return newFilteredPosts;
         });
-    }, [q, currentTag, currentCategory, currentOrder, setFilteredPosts]);
+    }, [keyword, currentTag, currentCategory, currentOrder, setFilteredPosts]);
 
     return (
         <div>
