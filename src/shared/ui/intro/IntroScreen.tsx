@@ -5,6 +5,7 @@ import { StaticHeader } from "@widgets/layouts/Header";
 import FlexBox from "@shared/ui/boxes/FlexBox";
 import { GitHubIcon, BlogIcon } from "@shared/ui/icons";
 import { IntroMessageBox } from "./IntroMessageBox";
+import Link from "next/link";
 
 const IntroScreenLayout = styled.article`
     position: sticky;
@@ -47,10 +48,14 @@ export const LinkItem = () => {
     return (
         <ul className="link-lists">
             <li>
-                <GitHubIcon />
+                <Link href="https://github.com/dahoon06" target="_blank">
+                    <GitHubIcon />
+                </Link>
             </li>
             <li>
-                <BlogIcon />
+                <Link href="/blog">
+                    <BlogIcon />
+                </Link>
             </li>
         </ul>
     );
