@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, { InputHTMLAttributes } from "react";
-import { Emoji } from "@shared/ui/icons/Emoji";
+import { Emoji } from "../../../shared/ui/icons/Emoji";
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {}
 

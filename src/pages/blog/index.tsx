@@ -13,6 +13,7 @@ import { PostList } from "@features/blog/ui/PostList";
 import { CONFIG } from "@root/site.config";
 import SearchInput from "@entities/blog/ui/SearchInput";
 import { useState } from "react";
+import { CategorySelect } from "@entities/blog/ui/CategorySelect";
 
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(await getPosts());
@@ -43,6 +44,7 @@ const BlogPage = ({ dehydratedState }: BlogPageProps) => {
                         value={keyword}
                         onChange={(e) => setKeyword(e.target.value)}
                     />
+                    <CategorySelect />
                     <PostList keyword={keyword} />
                 </BlogLayout>
             </HydrationBoundary>
