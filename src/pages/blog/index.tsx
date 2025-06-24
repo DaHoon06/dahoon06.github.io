@@ -37,18 +37,14 @@ interface BlogPageProps {
 const BlogPage = ({ dehydratedState }: BlogPageProps) => {
     const [keyword, setKeyword] = useState("");
     return (
-        <QueryClientProvider client={queryClient}>
-            <HydrationBoundary state={dehydratedState}>
-                <BlogLayout>
-                    <SearchInput
-                        value={keyword}
-                        onChange={(e) => setKeyword(e.target.value)}
-                    />
-                    <CategorySelect />
-                    <PostList keyword={keyword} />
-                </BlogLayout>
-            </HydrationBoundary>
-        </QueryClientProvider>
+        <BlogLayout>
+            {/* <SearchInput
+                value={keyword}
+                onChange={(e) => setKeyword(e.target.value)}
+            /> */}
+            <CategorySelect />
+            <PostList keyword={keyword} />
+        </BlogLayout>
     );
 };
 

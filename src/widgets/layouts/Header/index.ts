@@ -1,5 +1,4 @@
-import StaticHeader from "./StaticHeader";
-import MobileHeader from "./MobileHeader";
+import { BlogHeader } from "./BlogHeader";
 import { Header } from "./Header";
 
-export { StaticHeader, MobileHeader, Header };
+export { BlogHeader, Header };

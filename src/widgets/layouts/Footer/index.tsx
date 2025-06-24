@@ -1,33 +1,16 @@
-import styled from "styled-components";
-
-const FooterLayout = styled.footer`
-    width: 100%;
-    height: 136px;
-    border-top: 1px solid black;
-    background-color: #222;
-`;
-
-const FooterContainer = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    color: #fbfbfb;
-`;
+import styles from "./Footer.module.scss";
 
 const Footer = () => {
     return (
-        <FooterLayout>
-            <FooterContainer>
+        <footer className={styles.footerLayout}>
+            <div className={styles.footerContainer}>
                 <ul>
                     <li>
                         Copyright 2024. Developer Dahoon06 All Rights Reserved.
                     </li>
                 </ul>
-            </FooterContainer>
-        </FooterLayout>
+            </div>
+        </footer>
     );
 };
 

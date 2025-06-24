@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 7.75rem;
+    padding-right: 2rem;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.25rem;
+    background-color: var(--blog-header-background);
+    height: 80px;
+
+    .searchInputContainer {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .headerItemList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        li {
+        }
+    }
+}

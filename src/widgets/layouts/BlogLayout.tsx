@@ -1,25 +1,8 @@
 import { ReactNode } from "react";
-import { styled } from "styled-components";
-import { Header, StaticHeader } from "./Header";
+import { BlogHeader } from "./Header";
 import Footer from "./Footer";
-
-const BaseContainer = styled.div`
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: #2d2d2d;
-`;
-
-const Main = styled.main`
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    height: 100%;
-    min-height: 100vh;
-    background-color: transparent;
-    margin-top: 80px;
-`;
+import styles from "./BlogLayout.module.scss";
+import { SideBar } from "@entities/blog/ui/SideBar";
 
 interface BlogLayoutProps {
     children: ReactNode;
@@ -27,10 +10,13 @@ interface BlogLayoutProps {
 
 export const BlogLayout = ({ children }: BlogLayoutProps) => {
     return (
-        <BaseContainer>
-            <Header fullWidth={true} />
-            <Main>{children}</Main>
-            <Footer />
-        </BaseContainer>
+        <div className={styles.blogLayout}>
+            <SideBar />
+            <div>
+                <BlogHeader />
+                <main className={styles.main}>{children}</main>
+                <Footer />
+            </div>
+        </div>
     );
 };

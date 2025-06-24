@@ -1,0 +1,19 @@
+.sideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 1.4rem;
+    height: 100%;
+    width: 60px;
+    background-color: var(--background);
+    display: flex;
+    z-index: 120;
+    border-radius: 0 10px 10px 0;
+    flex-direction: column;
+    align-items: center;
+
+    .itemList {
+        position: sticky;
+        top: 10px;
+    }
+}

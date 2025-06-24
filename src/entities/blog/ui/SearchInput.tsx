@@ -1,45 +1,27 @@
-import styled from "styled-components";
-import React, { InputHTMLAttributes } from "react";
-import { Emoji } from "../../../shared/ui/icons/Emoji";
+import React, { ForwardedRef, forwardRef, InputHTMLAttributes } from "react";
+import styles from "./SearchInput.module.scss";
 
-interface Props extends InputHTMLAttributes<HTMLInputElement> {}
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
+    label?: string;
+}
 
-const SearchInput: React.FC<Props> = ({ ...props }) => {
-    return (
-        <StyledWrapper>
-            <div className="top">
-                <Emoji>🔎</Emoji> Search
-            </div>
-            <input
-                className="mid"
-                type="text"
-                placeholder="Search Keyword..."
-                {...props}
-            />
-        </StyledWrapper>
-    );
-};
+const SearchInput: React.FC<Props> = forwardRef(
+    ({ label, ...props }, ref: ForwardedRef<HTMLInputElement>) => {
+        return (
+            <label className={styles.inputLabel}>
+                {label && <span className={styles.label}>{label}</span>}
+                <input
+                    ref={ref}
+                    className={styles.input}
+                    type="text"
+                    placeholder="Search Keyword..."
+                    {...props}
+                />
+            </label>
+        );
+    }
+);
+
+SearchInput.displayName = "SearchInput";
 
 export default SearchInput;
-
-const StyledWrapper = styled.div`
-    margin-bottom: 1rem;
-
-    @media (min-width: 768px) {
-        margin-bottom: 2rem;
-    }
-    > .top {
-        padding: 0.25rem;
-        margin-bottom: 0.75rem;
-    }
-    > .mid {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-        border-radius: 1rem;
-        outline-style: none;
-        width: 100%;
-        background-color: #f0f0f0;
-    }
-`;
