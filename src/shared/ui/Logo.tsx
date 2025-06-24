@@ -8,8 +8,8 @@ export const Logo = (): ReactElement => {
     return (
         <LogoLayout>
             <svg
-                width="32"
-                height="32"
+                width="24"
+                height="24"
                 viewBox="0 0 40 40"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

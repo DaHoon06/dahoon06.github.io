@@ -1,0 +1,27 @@
+.slideTitleContainer {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgb(0, 0, 0) 12.5%,
+        rgb(0, 0, 0) 87.5%,
+        rgba(0, 0, 0, 0) 100%
+    );
+
+    .content {
+        display: flex;
+        gap: 2.4rem;
+        text-wrap: nowrap;
+        padding: 0.8rem 0;
+
+        > h5 {
+            font-size: 1.8rem;
+            font-family: "LCDDot";
+            font-weight: 500;
+            color: white;
+            letter-spacing: 0.8px;
+        }
+    }
+}

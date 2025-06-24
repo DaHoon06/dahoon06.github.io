@@ -1,0 +1,30 @@
+.characterPanel {
+    .character {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        z-index: 1;
+        width: 100%;
+        max-width: 15vmin;
+        object-fit: contain;
+        aspect-ratio: 1/1;
+
+        &:nth-child(1) {
+            max-width: 20vmin;
+            z-index: -1;
+        }
+
+        // 먼지 1 캐릭터
+        &:nth-child(2) {
+            left: calc(50% - 15vw);
+            bottom: calc(50% - 30vh);
+        }
+
+        // 먼지 2 캐릭터
+        &:nth-child(3) {
+            left: calc(50% + 15vw);
+            bottom: calc(50% - 20vh);
+        }
+    }
+}

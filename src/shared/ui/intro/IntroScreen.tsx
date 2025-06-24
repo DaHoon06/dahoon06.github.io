@@ -1,11 +1,14 @@
 import styled from "styled-components";
-import React, { forwardRef, Ref } from "react";
+import React, { forwardRef, Ref, useEffect, useState } from "react";
 import { ArrowButton } from "./ArrowButton";
 import { StaticHeader } from "@widgets/layouts/Header";
 import FlexBox from "@shared/ui/boxes/FlexBox";
 import { GitHubIcon, BlogIcon } from "@shared/ui/icons";
 import { IntroMessageBox } from "./IntroMessageBox";
 import Link from "next/link";
+import { AnimationHeader } from "@widgets/layouts/Header/AnimationHeader";
+import { Animation } from "@shared/utils";
+import { useMatchMedia, useRouteLoading } from "@shared/hooks";
 
 const IntroScreenLayout = styled.article`
     position: sticky;
@@ -65,9 +68,33 @@ export const IntroScreen = forwardRef<
     HTMLDivElement,
     React.PropsWithChildren<object>
 >((props, ref: Ref<HTMLDivElement>) => {
+    const isMobile = useMatchMedia("(max-width: 768px)");
+    const { isLoaded, loadingCount } = useRouteLoading();
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        if (!isMobile) {
+            (async () => {
+                await Animation.layout.main();
+            })();
+        }
+        // 클린업 함수는 반환하지 않음
+    }, [isMobile]);
+
+    useEffect(() => {
+        isVisible && setIsVisible(!isVisible);
+    }, [isMobile]);
+
     return (
         <IntroScreenLayout ref={ref}>
-            <StaticHeader isShow={true} />
+            <AnimationHeader
+                isMobile={isMobile}
+                isVisible={isVisible}
+                func={() => {
+                    setIsVisible(!isVisible);
+                }}
+            />
+            {/* <StaticHeader isShow={true} /> */}
             <FlexBox
                 $flexDirection="column"
                 $alignItems="flex-start"
