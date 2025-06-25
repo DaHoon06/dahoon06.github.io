@@ -7,17 +7,14 @@ import { IoLogoGithub } from "react-icons/io5";
 export const SideBar = (): ReactElement => {
     return (
         <div className={styles.sideBar}>
+            <div className={styles.logo}>
+                <Link href="/">
+                    <Logo />
+                </Link>
+            </div>
             <ul className={styles.itemList}>
                 <li>
-                    <Link href="/">
-                        <Logo />
-                    </Link>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <Link href="/">
+                    <Link href="https://github.com/DaHoon06">
                         <IoLogoGithub size={24} color="#fff" />
                     </Link>
                 </li>

@@ -3,8 +3,10 @@ import { PostType } from "@entities/notion/types";
 import { Category } from "./Category";
 import Image from "next/image";
 import { Tag } from "./Tag";
-import { StyledWrapper } from "./PostCard.styled";
 import { formatDate } from "../lib/formatDate";
+import Link from "next/link";
+import styles from "./PostCard.module.scss";
+import { motion } from "framer-motion";
 
 interface PostCardProps {
     post: PostType;
@@ -14,8 +16,15 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
     const category = (post.category && post.category?.[0]) || undefined;
 
     return (
-        <StyledWrapper href={`/blog/${post.slug}`}>
-            <article>
+        <Link href={`/blog/${post.slug}`} className={styles.postCard}>
+            <motion.article
+                layout
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 30 }}
+                transition={{ type: "spring", stiffness: 70, damping: 18 }}
+                style={{ width: "100%" }}
+            >
                 {category && (
                     <div className="category">
                         <Category>{category}</Category>
@@ -58,7 +67,7 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
                             ))}
                     </div>
                 </div>
-            </article>
-        </StyledWrapper>
+            </motion.article>
+        </Link>
     );
 };

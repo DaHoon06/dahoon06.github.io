@@ -2,6 +2,8 @@ import { ReactElement, useEffect, useState } from "react";
 import usePostsQuery from "../services/usePostsQuery";
 import { useRouter } from "next/router";
 import { PostCard } from "@entities/blog/ui/PostCard";
+import styles from "./PostList.module.scss";
+import { AnimatePresence, motion } from "framer-motion";
 
 interface PostListProps {
     keyword: string;
@@ -54,13 +56,19 @@ export const PostList = ({ keyword }: PostListProps): ReactElement => {
     }, [keyword, currentTag, currentCategory, currentOrder, setFilteredPosts]);
 
     return (
-        <div>
-            {!filteredPosts.length && (
-                <p className="text-gray-500 dark:text-gray-300">Nothing! 😺</p>
-            )}
-            {filteredPosts.map((post) => (
-                <PostCard key={post.id} post={post} />
-            ))}
-        </div>
+        <AnimatePresence>
+            <motion.div className={styles.postList} layout>
+                {!filteredPosts.length && (
+                    <p className="text-gray-500 dark:text-gray-300">
+                        Nothing! 😺
+                    </p>
+                )}
+                {filteredPosts.map((post) => (
+                    <motion.div key={post.id} layout>
+                        <PostCard post={post} />
+                    </motion.div>
+                ))}
+            </motion.div>
+        </AnimatePresence>
     );
 };

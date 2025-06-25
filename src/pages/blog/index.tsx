@@ -2,11 +2,7 @@ import { filterPosts } from "@entities/notion/libs/filterPosts";
 import { getPosts } from "@entities/notion/libs/getPosts";
 import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
 import { queryClient } from "@shared/libs/react-query";
-import {
-    dehydrate,
-    HydrationBoundary,
-    QueryClientProvider,
-} from "@tanstack/react-query";
+import { dehydrate } from "@tanstack/react-query";
 import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import { PostList } from "@features/blog/ui/PostList";
