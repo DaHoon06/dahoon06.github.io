@@ -1,0 +1,81 @@
+.bannerPostCard {
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+    .thumbnail {
+        position: relative;
+        width: 100%;
+
+        img {
+            object-fit: fill !important;
+            position: relative !important;
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            aspect-ratio: 16 / 9 !important; /* 여기서 비율 지정 */
+        }
+    }
+
+    .bannerPostCard__content {
+        width: 100%;
+        padding: 1rem;
+
+        .category {
+            width: 100%;
+            height: auto;
+            padding: 1rem 0;
+            color: #222;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .summary {
+            font-size: 1rem;
+        }
+
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            &__avatar {
+                position: relative;
+                width: 24px;
+                border-radius: 50% !important;
+                object-fit: cover;
+            }
+
+            &__info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+
+                .author__name {
+                    font-size: 1rem;
+                    font-weight: 700;
+                }
+
+                .author__date {
+                    font-size: 0.875rem;
+                    color: #666;
+                }
+            }
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            color: #222;
+        }
+    }
+}

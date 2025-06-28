@@ -2,7 +2,7 @@ import { filterPosts } from "@entities/notion/libs/filterPosts";
 import { getPosts } from "@entities/notion/libs/getPosts";
 import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
 import { queryClient } from "@shared/libs/react-query";
-import { dehydrate } from "@tanstack/react-query";
+import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import { PostList } from "@features/blog/ui/PostList";
@@ -10,12 +10,20 @@ import { CONFIG } from "@root/site.config";
 import SearchInput from "@entities/blog/ui/SearchInput";
 import { useState } from "react";
 import { CategorySelect } from "@entities/blog/ui/CategorySelect";
+import { RecentlyPostList } from "@features/blog/ui/RecentlyPostList";
+import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
 
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(await getPosts());
+    const recentlyPost = recentlyPosts(posts, 4);
+
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.posts(),
         queryFn: () => posts,
+    });
+    await queryClient.prefetchQuery({
+        queryKey: notionQueryKeys.recentlyPosts(),
+        queryFn: () => recentlyPost,
     });
 
     return {
@@ -33,14 +41,16 @@ interface BlogPageProps {
 const BlogPage = ({ dehydratedState }: BlogPageProps) => {
     const [keyword, setKeyword] = useState("");
     return (
-        <BlogLayout>
-            {/* <SearchInput
+        <HydrationBoundary state={dehydratedState}>
+            <BlogLayout>
+                {/* <SearchInput
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             /> */}
-            <CategorySelect />
-            <PostList keyword={keyword} />
-        </BlogLayout>
+                <CategorySelect />
+                <RecentlyPostList />
+            </BlogLayout>
+        </HydrationBoundary>
     );
 };
 

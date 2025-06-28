@@ -1,22 +1,5 @@
 import { useRouter } from "next/router";
-import styled from "styled-components";
-
-export const StyledCategoryButton = styled.button`
-    padding: 0.25rem 0.5rem;
-    border-radius: 9999px;
-    width: fit-content;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    opacity: 0.9;
-    color: #666666;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-
-    &:hover {
-        opacity: 1;
-    }
-`;
+import styles from "./Category.module.scss";
 
 type CategoryProps = {
     children: string;
@@ -32,11 +15,12 @@ export const Category = ({ children, readOnly = false }: CategoryProps) => {
     };
 
     return (
-        <StyledCategoryButton
+        <button
+            className={styles.category}
             type="button"
             onClick={() => handleClick(children)}
         >
             {children}
-        </StyledCategoryButton>
+        </button>
     );
 };

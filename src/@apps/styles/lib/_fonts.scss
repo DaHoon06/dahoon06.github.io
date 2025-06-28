@@ -3,9 +3,8 @@
     font-family: "GmarketSans";
     font-weight: 500;
     font-display: swap;
-    src:
-        url("/fonts/GmarketSans/GmarketSansTTFLight.woff2") format("woff2"),
-        url("/fonts/GmarketSans/GmarketSansTTFLight.ttf") format("truetype");
+    src: url("/fonts/GmarketSansTTFLight.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -14,9 +13,8 @@
     font-stretch: normal;
     font-weight: 500;
     font-display: swap;
-    src:
-        url("/fonts/GmarketSans/GmarketSansTTFMedium.woff2") format("woff2"),
-        url("/fonts/GmarketSans/GmarketSansTTFMedium.ttf") format("truetype");
+    src: url("/fonts/GmarketSansTTFMedium.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -25,7 +23,6 @@
     font-stretch: bold;
     font-weight: 700;
     font-display: swap;
-    src:
-        url("/fonts/GmarketSans/GmarketSansTTFBold.woff2") format("woff2"),
-        url("/fonts/GmarketSans/GmarketSansTTFBold.ttf") format("truetype");
+    src: url("/fonts/GmarketSansTTFBold.ttf") format("truetype");
+    font-display: swap;
 }

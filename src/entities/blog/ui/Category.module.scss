@@ -1,0 +1,15 @@
+.category {
+    border-radius: 50px;
+    width: fit-content;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    opacity: 0.9;
+    color: #666666;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}

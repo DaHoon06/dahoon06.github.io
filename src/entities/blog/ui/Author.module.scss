@@ -1,0 +1,28 @@
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &__avatar {
+        position: relative;
+        width: 24px;
+        border-radius: 50% !important;
+        object-fit: cover;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        .author__name {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .author__date {
+            font-size: 0.875rem;
+            color: #666;
+        }
+    }
+}
