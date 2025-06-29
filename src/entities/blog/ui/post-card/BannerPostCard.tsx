@@ -4,11 +4,12 @@ import Image from "next/image";
 import { useMemo } from "react";
 import { Category } from "../Category";
 import { Tag } from "../Tag";
-import { Author } from "../Author";
+import { DateFormmater } from "../DateFormatter";
 
 interface BannerPostCardProps {
     post: PostType;
 }
+
 export const BannerPostCard = ({ post }: BannerPostCardProps) => {
     const category = (post.category && post.category?.[0]) || undefined;
 
@@ -42,13 +43,8 @@ export const BannerPostCard = ({ post }: BannerPostCardProps) => {
                         <p>{post.summary}</p>
                     </div>
                 </div>
-                {author && (
-                    <Author
-                        profileImage={author.profile_photo}
-                        name={author.name}
-                        date={post.date.start_date}
-                    />
-                )}
+
+                <DateFormmater date={post.date.start_date} />
 
                 <div className={styles.tags}>
                     {post.tags &&

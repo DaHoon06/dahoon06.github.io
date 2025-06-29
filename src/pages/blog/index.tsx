@@ -5,12 +5,10 @@ import { queryClient } from "@shared/libs/react-query";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
-import { PostList } from "@features/blog/ui/PostList";
+import { PostList } from "@features/blog/ui/post-list/PostList";
 import { CONFIG } from "@root/site.config";
-import SearchInput from "@entities/blog/ui/SearchInput";
 import { useState } from "react";
 import { CategorySelect } from "@entities/blog/ui/CategorySelect";
-import { RecentlyPostList } from "@features/blog/ui/RecentlyPostList";
 import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -40,15 +38,12 @@ interface BlogPageProps {
 
 const BlogPage = ({ dehydratedState }: BlogPageProps) => {
     const [keyword, setKeyword] = useState("");
+
     return (
         <HydrationBoundary state={dehydratedState}>
-            <BlogLayout>
-                {/* <SearchInput
-                value={keyword}
-                onChange={(e) => setKeyword(e.target.value)}
-            /> */}
+            <BlogLayout isSearch={true}>
                 <CategorySelect />
-                <RecentlyPostList />
+                <PostList keyword={keyword} />
             </BlogLayout>
         </HydrationBoundary>
     );

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useCategoriesQuery } from "../services/useCategoriesQuery";
 import useDropdown from "../hooks/useDropdown";
 import { MdExpandMore } from "react-icons/md";
-import { StyledWrapper } from "./CategorySelect.styled";
+import styles from "./CategorySelect.module.scss";
 
 export const CategorySelect = () => {
     const router = useRouter();
@@ -20,7 +20,7 @@ export const CategorySelect = () => {
     };
 
     return (
-        <StyledWrapper>
+        <div className={styles.categorySelect}>
             <div ref={dropdownRef} className="wrapper" onClick={handleOpen}>
                 {currentCategory} Posts <MdExpandMore />
             </div>
@@ -37,6 +37,6 @@ export const CategorySelect = () => {
                     ))}
                 </div>
             )}
-        </StyledWrapper>
+        </div>
     );
 };

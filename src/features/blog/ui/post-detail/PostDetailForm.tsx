@@ -1,10 +1,11 @@
-import { styled } from "styled-components";
-import usePostQuery from "../services/usePostQuery";
 import NotionRenderer from "@entities/notion/ui/NotionRenderer";
-import { Category } from "./Category";
 import { PostHeader } from "./PostHeader";
+import styles from "./PostDetailForm.module.scss";
+import { ReactElement } from "react";
+import usePostQuery from "@entities/blog/services/usePostQuery";
+import { Category } from "@entities/blog/ui/Category";
 
-export const PostDetailForm = () => {
+export const PostDetailForm = (): ReactElement | null => {
     const data = usePostQuery();
 
     if (!data) return null;
@@ -12,7 +13,7 @@ export const PostDetailForm = () => {
     const category = (data.category && data.category?.[0]) || undefined;
 
     return (
-        <StyledWrapper>
+        <div className={styles.postDetailForm}>
             <article>
                 {category && (
                     <div style={{ marginBottom: "0.5rem" }}>
@@ -26,11 +27,6 @@ export const PostDetailForm = () => {
                 {data.type[0] === "Post" && <PostHeader data={data} />}
                 <NotionRenderer recordMap={data.recordMap} />
             </article>
-        </StyledWrapper>
+        </div>
     );
 };
-
-const StyledWrapper = styled.div`
-    margin: 0 auto;
-    max-width: 56rem;
-`;

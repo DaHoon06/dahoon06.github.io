@@ -1,6 +1,4 @@
-import { styled } from "styled-components";
-
-export const StyledWrapper = styled.div`
+.categorySelect {
     position: relative;
     > .wrapper {
         display: flex;
@@ -38,4 +36,4 @@ export const StyledWrapper = styled.div`
             }
         }
     }
-`;
+}

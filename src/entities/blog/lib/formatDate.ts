@@ -5,4 +5,8 @@ function formatDate(date: any, local: any) {
     return res;
 }
 
-export { formatDate };
+const postDateFormatter = (date: string) => {
+    return date.replace(/-/g, ". ");
+};
+
+export { formatDate, postDateFormatter };

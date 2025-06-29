@@ -1,5 +1,5 @@
 import usePostQuery from "@entities/blog/services/usePostQuery";
-import { PostDetail } from "@entities/blog/ui/PostDetail";
+import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
 import {
     filterPosts,
     FilterPostsOptions,

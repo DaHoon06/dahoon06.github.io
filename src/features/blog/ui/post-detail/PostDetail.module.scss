@@ -1,0 +1,7 @@
+.postDetail {
+    padding: 2rem 0;
+
+    &[data-type="Paper"] {
+        padding: 40px 0;
+    }
+}

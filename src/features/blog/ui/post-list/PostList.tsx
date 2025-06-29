@@ -1,9 +1,10 @@
 import { ReactElement, useEffect, useState } from "react";
-import usePostsQuery from "../services/usePostsQuery";
+import usePostsQuery from "../../services/usePostsQuery";
 import { useRouter } from "next/router";
 import { PostCard } from "@entities/blog/ui/post-card/PostCard";
 import styles from "./PostList.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 interface PostListProps {
     keyword: string;
@@ -65,7 +66,9 @@ export const PostList = ({ keyword }: PostListProps): ReactElement => {
                 )}
                 {filteredPosts.map((post) => (
                     <motion.div key={post.id} layout>
-                        <PostCard post={post} />
+                        <Link href={`/blog/${post.slug}`}>
+                            <PostCard post={post} />
+                        </Link>
                     </motion.div>
                 ))}
             </motion.div>

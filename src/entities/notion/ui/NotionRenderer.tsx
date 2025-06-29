@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ExtendedRecordMap } from "notion-types";
 import { FC } from "react";
 import { useScheme } from "../hooks/useScheme";
-import { styled } from "styled-components";
 
 import "react-notion-x/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
@@ -51,32 +50,21 @@ type Props = {
 const NotionRenderer: FC<Props> = ({ recordMap }) => {
     const [scheme] = useScheme();
     return (
-        <StyledWrapper>
-            <_NotionRenderer
-                darkMode={scheme === "dark"}
-                recordMap={recordMap}
-                components={{
-                    Code,
-                    Collection,
-                    Equation,
-                    Modal,
-                    Pdf,
-                    nextImage: Image,
-                    nextLink: Link,
-                }}
-                mapPageUrl={mapPageUrl}
-            />
-        </StyledWrapper>
+        <_NotionRenderer
+            darkMode={scheme === "dark"}
+            recordMap={recordMap}
+            components={{
+                Code,
+                Collection,
+                Equation,
+                Modal,
+                Pdf,
+                nextImage: Image,
+                nextLink: Link,
+            }}
+            mapPageUrl={mapPageUrl}
+        />
     );
 };
 
 export default NotionRenderer;
-
-const StyledWrapper = styled.div`
-    .notion-collection-page-properties {
-        display: none !important;
-    }
-    .notion-page {
-        padding: 0;
-    }
-`;

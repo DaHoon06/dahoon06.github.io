@@ -3,9 +3,9 @@ import { PostType } from "@entities/notion/types";
 import { Category } from "../Category";
 import Image from "next/image";
 import { Tag } from "../Tag";
-import { formatDate } from "../../lib/formatDate";
 import styles from "./PostCard.module.scss";
-import { Author } from "../Author";
+import { postDateFormatter } from "@entities/blog/lib/formatDate";
+import { DateFormmater } from "../DateFormatter";
 
 interface PostCardProps {
     post: PostType;
@@ -17,14 +17,12 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
         () => post.thumbnail || "/images/default.png",
         [post.thumbnail]
     );
-    console.log(thumbnail);
-    const author = (post.author && post.author?.[0]) || undefined;
 
     return (
         <article className={styles.postCard}>
-            <div>
+            <div className={styles.postCard__content}>
                 {category && (
-                    <div className="category">
+                    <div className={styles.category}>
                         <Category>{category}</Category>
                     </div>
                 )}
@@ -32,25 +30,19 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
                 <div
                     data-thumb={!!post.thumbnail}
                     data-category={!!category}
-                    className="content"
+                    className={styles.content}
                 >
-                    <header className="top">
+                    <header className={styles.top}>
                         <h2>{post.title}</h2>
                     </header>
 
-                    <div className="summary">
+                    <div className={styles.summary}>
                         <p>{post.summary}</p>
                     </div>
 
-                    {author && (
-                        <Author
-                            profileImage={author.profile_photo}
-                            name={author.name}
-                            date={post.date.start_date}
-                        />
-                    )}
+                    <DateFormmater date={post.date.start_date} />
 
-                    <div className="tags">
+                    <div className={styles.tags}>
                         {post.tags &&
                             post.tags.map((tag: string, idx: number) => (
                                 <Tag key={idx}>{tag}</Tag>
