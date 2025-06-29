@@ -20,11 +20,13 @@ export const RecentlyPostList = (): ReactElement => {
                             index === 0 ? styles.firstPost : styles.otherPost
                         }
                     >
-                        {index === 0 ? (
-                            <BannerPostCard post={post} />
-                        ) : (
-                            <PostCard post={post} />
-                        )}
+                        <Link href={`/blog/${post.slug}`}>
+                            {index === 0 ? (
+                                <BannerPostCard post={post} />
+                            ) : (
+                                <PostCard post={post} />
+                            )}
+                        </Link>
                     </li>
                 ))}
             </ul>

@@ -21,14 +21,18 @@ export const CategorySelect = () => {
 
     return (
         <div className={styles.categorySelect}>
-            <div ref={dropdownRef} className="wrapper" onClick={handleOpen}>
+            <div
+                ref={dropdownRef}
+                className={styles.wrapper}
+                onClick={handleOpen}
+            >
                 {currentCategory} Posts <MdExpandMore />
             </div>
             {opened && (
-                <div className="content">
+                <div className={styles.content}>
                     {Object.keys(data).map((key, idx) => (
                         <div
-                            className="item"
+                            className={styles.item}
                             key={idx}
                             onClick={() => handleOptionClick(key)}
                         >
