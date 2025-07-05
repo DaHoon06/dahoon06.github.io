@@ -2,7 +2,7 @@ import { ReactElement, useMemo } from "react";
 import { PostType } from "@entities/notion/types";
 import { Category } from "../Category";
 import Image from "next/image";
-import { Tag } from "../Tag";
+import { Tag } from "../tag/Tag";
 import styles from "./PostCard.module.scss";
 import { postDateFormatter } from "@entities/blog/lib/formatDate";
 import { DateFormmater } from "../DateFormatter";

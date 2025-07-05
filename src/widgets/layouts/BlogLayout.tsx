@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import { BlogHeader } from "./Header";
-import Footer from "./Footer";
 import styles from "./BlogLayout.module.scss";
 import { SideBar } from "@entities/blog/ui/SideBar";
 import { AnimatePresence, motion } from "framer-motion";
@@ -22,11 +21,13 @@ export const BlogLayout = ({ children, isSearch = false }: BlogLayoutProps) => {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.5 }}
+                        style={{
+                            paddingLeft: "60px",
+                        }}
                     >
                         <div className={styles.main}>{children}</div>
                     </motion.main>
                 </AnimatePresence>
-                <Footer />
             </div>
         </div>
     );

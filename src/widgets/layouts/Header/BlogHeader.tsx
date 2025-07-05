@@ -30,11 +30,6 @@ export const BlogHeader = ({ isSearch = false }: BlogHeaderProps) => {
                         />
                     </Link>
                 </li>
-                <li>
-                    <Link href="/">
-                        <IoLogOutOutline size={24} color="#222" />
-                    </Link>
-                </li>
             </ul>
         </header>
     );

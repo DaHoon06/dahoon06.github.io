@@ -11,11 +11,16 @@ export const CategorySelect = () => {
     const currentCategory = `${router.query.category || ``}` || "📂 All";
 
     const handleOptionClick = (category: string) => {
+        const updatedQuery = { ...router.query };
+
+        if ("tag" in updatedQuery) {
+            delete updatedQuery.tag;
+        }
+
+        updatedQuery.category = category;
+
         router.push({
-            query: {
-                ...router.query,
-                category,
-            },
+            query: updatedQuery,
         });
     };
 

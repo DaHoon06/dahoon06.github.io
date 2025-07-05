@@ -3,7 +3,7 @@ import styles from "./BannerPostCard.module.scss";
 import Image from "next/image";
 import { useMemo } from "react";
 import { Category } from "../Category";
-import { Tag } from "../Tag";
+import { Tag } from "../tag/Tag";
 import { DateFormmater } from "../DateFormatter";
 
 interface BannerPostCardProps {
