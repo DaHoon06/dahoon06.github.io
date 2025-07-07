@@ -1,0 +1,23 @@
+.recentlyPostTitleList {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        h2 {
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+    }
+
+    .postList {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        li {
+            font-size: 1.1rem;
+        }
+    }
+}

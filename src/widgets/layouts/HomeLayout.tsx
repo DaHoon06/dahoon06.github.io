@@ -20,7 +20,6 @@ export const HomeLayout = ({ children }: HomeLayoutProps) => {
         <>
             <Header
                 isMobile={isMobile}
-                isVisible={isVisible}
                 func={() => {
                     setIsVisible(!isVisible);
                 }}

@@ -1,27 +1,31 @@
+import { ReactElement, useState } from "react";
 import { filterPosts } from "@entities/notion/libs/filterPosts";
 import { getPosts } from "@entities/notion/libs/getPosts";
 import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
 import { queryClient } from "@shared/libs/react-query";
-import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
-import { GetStaticProps } from "next";
+import {
+    dehydrate,
+    DehydratedState,
+    HydrationBoundary,
+} from "@tanstack/react-query";
+import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
-import { RecentlyPostList } from "@features/blog/ui/post-list/RecentlyPostList";
 import { BlogLayout } from "@widgets/layouts";
-import { MainBanner } from "@entities/portpolio/main-banner/ui/MainBanner";
-import { TagList } from "@entities/blog/ui/tag/TagList";
+import { PostList } from "@features/blog/ui/post-list/PostList";
+import { HomeSideBar } from "@widgets/blog/HomeSideBar";
 
 interface HomePageProps {
-    dehydratedState: any;
+    dehydratedState: DehydratedState;
 }
 
-const HomePage = ({ dehydratedState }: HomePageProps) => {
+const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
+    const [keyword, setKeyword] = useState("");
     return (
         <HydrationBoundary state={dehydratedState}>
-            <BlogLayout isSearch={false}>
-                <MainBanner />
-                <TagList />
-                <RecentlyPostList />
+            <BlogLayout onChangeKeyword={setKeyword}>
+                <PostList keyword={keyword} />
+                <HomeSideBar />
             </BlogLayout>
         </HydrationBoundary>
     );

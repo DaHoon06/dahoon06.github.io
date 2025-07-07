@@ -1,36 +1,39 @@
 import Link from "next/link";
-import SearchInput from "@entities/blog/ui/SearchInput";
 import styles from "./BlogHeader.module.scss";
-import { IoLogOutOutline } from "react-icons/io5";
-import Image from "next/image";
+import { Logo } from "@shared/ui/Logo";
+import SearchInput from "@entities/blog/ui/SearchInput";
 
 interface BlogHeaderProps {
-    isSearch?: boolean;
+    isMobile: boolean;
+    onChangeKeyword: (keyword: string) => void;
 }
 
-export const BlogHeader = ({ isSearch = false }: BlogHeaderProps) => {
+export const BlogHeader = ({ isMobile, onChangeKeyword }: BlogHeaderProps) => {
     return (
-        <header className={styles.header}>
-            {isSearch && (
-                <div className={styles.searchInputContainer}>
-                    <SearchInput />
-                </div>
-            )}
-
-            <ul className={styles.headerItemList}>
-                <li>
-                    <Link href="/me" className={styles.profileContainer}>
-                        <span className={styles.profileName}>dahoon06</span>
-                        <Image
-                            src="/images/dahoon06.jpg"
-                            alt="dahoon06"
-                            style={{ borderRadius: "50%" }}
-                            width={30}
-                            height={30}
-                        />
+        <header className={styles.headerContainer}>
+            <div className={styles.headerInner}>
+                <section className={styles.logo}>
+                    <Link href="#intro">
+                        <Logo />
+                        <h1>프론트-엔드</h1>
+                        <h1 className="target">전다훈</h1>
                     </Link>
-                </li>
-            </ul>
+                </section>
+                <div>
+                    {!isMobile && (
+                        <>
+                            <SearchInput
+                                onChange={(e) =>
+                                    onChangeKeyword(e.target.value)
+                                }
+                            />
+                            <div className={styles.menu}>
+                                <Link href="/blog">블로그</Link>
+                            </div>
+                        </>
+                    )}
+                </div>
+            </div>
         </header>
     );
 };
