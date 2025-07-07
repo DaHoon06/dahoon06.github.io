@@ -18,7 +18,7 @@ export const RecentlyPostTitleList = (): ReactElement => {
                             index === 0 ? styles.firstPost : styles.otherPost
                         }
                     >
-                        <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                        <Link href={`/posts/${post.slug}`}>{post.title}</Link>
                     </li>
                 ))}
             </ul>

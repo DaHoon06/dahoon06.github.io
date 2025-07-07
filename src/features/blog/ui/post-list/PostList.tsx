@@ -66,7 +66,7 @@ export const PostList = ({ keyword }: PostListProps): ReactElement => {
                 )}
                 {filteredPosts.map((post) => (
                     <motion.div key={post.id} layout>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link href={`/posts/${post.slug}`}>
                             <PostCard post={post} />
                         </Link>
                     </motion.div>

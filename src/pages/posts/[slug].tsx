@@ -59,7 +59,7 @@ export const getStaticPaths = async () => {
     const filteredPost = filterPosts(posts, filter);
 
     return {
-        paths: filteredPost.map((post) => `/blog/${post.slug}`),
+        paths: filteredPost.map((post) => `/posts/${post.slug}`),
         fallback: CONFIG.isProd,
     };
 };
