@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
-import { useCategoriesQuery } from "../services/useCategoriesQuery";
-import useDropdown from "../hooks/useDropdown";
 import { MdExpandMore } from "react-icons/md";
 import styles from "./CategorySelect.module.scss";
+import { useCategoriesQuery } from "@entities/blog/posts/services/useCategoriesQuery";
+import useDropdown from "@entities/blog/posts/hooks/useDropdown";
 
 export const CategorySelect = () => {
     const router = useRouter();

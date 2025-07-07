@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import styles from "./RecentlyPostList.module.scss";
 import useRecentlyPostsQuery from "../../services/useRecentlyPostsQuery";
-import { BannerPostCard, PostCard } from "@entities/blog/ui/post-card";
+import { BannerPostCard, PostCard } from "@entities/blog/post-card";
 
 export const RecentlyPostList = (): ReactElement => {
     const recentlyPosts = useRecentlyPostsQuery();

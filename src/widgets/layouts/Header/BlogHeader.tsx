@@ -1,14 +1,19 @@
 import Link from "next/link";
 import styles from "./BlogHeader.module.scss";
 import { Logo } from "@shared/ui/Logo";
-import SearchInput from "@entities/blog/ui/SearchInput";
+import SearchInput from "@entities/blog/shared/ui/SearchInput";
 
 interface BlogHeaderProps {
     isMobile: boolean;
-    onChangeKeyword: (keyword: string) => void;
+    isSearch?: boolean;
+    onChangeKeyword?: (keyword: string) => void;
 }
 
-export const BlogHeader = ({ isMobile, onChangeKeyword }: BlogHeaderProps) => {
+export const BlogHeader = ({
+    isMobile,
+    isSearch = false,
+    onChangeKeyword,
+}: BlogHeaderProps) => {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerInner}>
@@ -22,11 +27,13 @@ export const BlogHeader = ({ isMobile, onChangeKeyword }: BlogHeaderProps) => {
                 <div>
                     {!isMobile && (
                         <>
-                            <SearchInput
-                                onChange={(e) =>
-                                    onChangeKeyword(e.target.value)
-                                }
-                            />
+                            {isSearch && (
+                                <SearchInput
+                                    onChange={(e) =>
+                                        onChangeKeyword?.(e.target.value)
+                                    }
+                                />
+                            )}
                             <div className={styles.menu}>
                                 <Link href="/blog">블로그</Link>
                             </div>

@@ -1,11 +1,10 @@
 import { ReactElement, useMemo } from "react";
 import { PostType } from "@entities/notion/types";
-import { Category } from "../Category";
 import Image from "next/image";
-import { Tag } from "../tag/Tag";
 import styles from "./PostCard.module.scss";
-import { postDateFormatter } from "@entities/blog/lib/formatDate";
-import { DateFormmater } from "../DateFormatter";
+import { DateFormatter } from "../shared/ui/DateFormatter";
+import { Category } from "../shared/ui/Category";
+import { Tag } from "../tag/Tag";
 
 interface PostCardProps {
     post: PostType;
@@ -40,7 +39,7 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
                         <p>{post.summary}</p>
                     </div>
 
-                    <DateFormmater date={post.date.start_date} />
+                    <DateFormatter date={post.date.start_date} />
 
                     <div className={styles.tags}>
                         {post.tags &&

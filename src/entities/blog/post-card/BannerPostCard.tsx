@@ -2,9 +2,9 @@ import { PostType } from "@entities/notion/types";
 import styles from "./BannerPostCard.module.scss";
 import Image from "next/image";
 import { useMemo } from "react";
-import { Category } from "../Category";
+import { Category } from "../shared/ui/Category";
 import { Tag } from "../tag/Tag";
-import { DateFormmater } from "../DateFormatter";
+import { DateFormatter } from "../shared/ui/DateFormatter";
 
 interface BannerPostCardProps {
     post: PostType;
@@ -44,7 +44,7 @@ export const BannerPostCard = ({ post }: BannerPostCardProps) => {
                     </div>
                 </div>
 
-                <DateFormmater date={post.date.start_date} />
+                <DateFormatter date={post.date.start_date} />
 
                 <div className={styles.tags}>
                     {post.tags &&

@@ -1,8 +1,8 @@
 import { Emoji } from "@shared/ui/icons/Emoji";
 import styles from "./TagList.module.scss";
 import { useRouter } from "next/router";
-import { useTagsQuery } from "./hooks/useTagsQuery";
 import Link from "next/link";
+import { useTagsQuery } from "@entities/blog/tag/hooks/useTagsQuery";
 
 export const TagList = () => {
     const router = useRouter();

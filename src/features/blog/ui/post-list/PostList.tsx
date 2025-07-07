@@ -1,10 +1,10 @@
 import { ReactElement, useEffect, useState } from "react";
 import usePostsQuery from "../../services/usePostsQuery";
 import { useRouter } from "next/router";
-import { PostCard } from "@entities/blog/ui/post-card/PostCard";
 import styles from "./PostList.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { PostCard } from "@entities/blog/post-card";
 
 interface PostListProps {
     keyword: string;

@@ -5,13 +5,22 @@ import { AnimatePresence, motion } from "framer-motion";
 
 interface BlogLayoutProps {
     children: ReactNode;
-    onChangeKeyword: (keyword: string) => void;
+    isSearch?: boolean;
+    onChangeKeyword?: (keyword: string) => void;
 }
 
-export const BlogLayout = ({ children, onChangeKeyword }: BlogLayoutProps) => {
+export const BlogLayout = ({
+    children,
+    isSearch = false,
+    onChangeKeyword,
+}: BlogLayoutProps) => {
     return (
         <div className={styles.blogLayout}>
-            <BlogHeader isMobile={false} onChangeKeyword={onChangeKeyword} />
+            <BlogHeader
+                isMobile={false}
+                isSearch={isSearch}
+                onChangeKeyword={onChangeKeyword}
+            />
             <AnimatePresence mode="wait">
                 <motion.main
                     initial={{ opacity: 0, x: 20 }}

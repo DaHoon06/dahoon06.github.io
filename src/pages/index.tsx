@@ -1,4 +1,4 @@
-import { ReactElement, useState } from "react";
+import { useState } from "react";
 import { filterPosts } from "@entities/notion/libs/filterPosts";
 import { getPosts } from "@entities/notion/libs/getPosts";
 import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
@@ -23,7 +23,7 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     const [keyword, setKeyword] = useState("");
     return (
         <HydrationBoundary state={dehydratedState}>
-            <BlogLayout onChangeKeyword={setKeyword}>
+            <BlogLayout isSearch={true} onChangeKeyword={setKeyword}>
                 <PostList keyword={keyword} />
                 <HomeSideBar />
             </BlogLayout>

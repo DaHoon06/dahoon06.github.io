@@ -1,5 +1,3 @@
-import usePostQuery from "@entities/blog/services/usePostQuery";
-import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
 import {
     filterPosts,
     FilterPostsOptions,
@@ -15,11 +13,46 @@ import { dehydrate } from "@tanstack/react-query";
 import CustomError from "@widgets/error/CustomError";
 import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
+import usePostQuery from "@entities/blog/posts/services/usePostQuery";
+import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
 
 const filter: FilterPostsOptions = {
     acceptStatus: ["Public", "PublicOnDetail"],
     acceptType: ["Paper", "Post", "Page"],
 };
+
+const BlogPostDetailPage: NextPageWithLayout = () => {
+    const post = usePostQuery();
+
+    if (!post) return <CustomError />;
+
+    const image =
+        post.thumbnail ??
+        CONFIG.ogImageGenerateURL ??
+        `${CONFIG.ogImageGenerateURL}/${encodeURIComponent(post.title)}.png`;
+
+    const date = post.date?.start_date || post.createdTime || "";
+
+    const meta = {
+        title: post.title,
+        date: new Date(date).toISOString(),
+        image: image,
+        description: post.summary || "",
+        type: post.type[0],
+        url: `${CONFIG.link}/${post.slug}`,
+    };
+
+    return (
+        <>
+            <CustomHead {...meta} />
+            <BlogLayout>
+                <PostDetail />
+            </BlogLayout>
+        </>
+    );
+};
+
+export default BlogPostDetailPage;
 
 export const getStaticPaths = async () => {
     const posts = await getPosts();
@@ -60,36 +93,3 @@ export const getStaticProps: GetStaticProps = async (context) => {
         revalidate: CONFIG.isProd ? CONFIG.revalidateTime : false,
     };
 };
-
-const BlogPostDetailPage: NextPageWithLayout = () => {
-    const post = usePostQuery();
-
-    if (!post) return <CustomError />;
-
-    const image =
-        post.thumbnail ??
-        CONFIG.ogImageGenerateURL ??
-        `${CONFIG.ogImageGenerateURL}/${encodeURIComponent(post.title)}.png`;
-
-    const date = post.date?.start_date || post.createdTime || "";
-
-    const meta = {
-        title: post.title,
-        date: new Date(date).toISOString(),
-        image: image,
-        description: post.summary || "",
-        type: post.type[0],
-        url: `${CONFIG.link}/${post.slug}`,
-    };
-
-    return (
-        <>
-            <CustomHead {...meta} />
-            <BlogLayout>
-                <PostDetail />
-            </BlogLayout>
-        </>
-    );
-};
-
-export default BlogPostDetailPage;
