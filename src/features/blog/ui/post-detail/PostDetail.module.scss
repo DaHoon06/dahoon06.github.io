@@ -1,5 +1,9 @@
 .postDetail {
-    padding: 2rem 0;
+    padding: 2rem;
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 
     &[data-type="Paper"] {
         padding: 40px 0;

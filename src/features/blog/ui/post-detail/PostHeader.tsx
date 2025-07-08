@@ -11,20 +11,21 @@ type PostHeaderProps = {
 export const PostHeader = ({ data }: PostHeaderProps) => {
     return (
         <div className={styles.postHeader}>
-            <h1 className="title">{data.title}</h1>
+            <h1 className={styles.title}>{data.title}</h1>
+
             {data.type[0] !== "Paper" && (
                 <nav>
-                    <div className="top">
-                        <div className="date">
+                    <div className={styles.top}>
+                        <div className={styles.date}>
                             {formatDate(
                                 data?.date?.start_date || data.createdTime,
                                 "ko-KR"
                             )}
                         </div>
                     </div>
-                    <div className="mid">
+                    <div className={styles.mid}>
                         {data.tags && (
-                            <div className="tags">
+                            <div className={styles.tags}>
                                 {data.tags.map((tag: string) => (
                                     <Tag key={tag}>{tag}</Tag>
                                 ))}
@@ -32,7 +33,7 @@ export const PostHeader = ({ data }: PostHeaderProps) => {
                         )}
                     </div>
                     {data.thumbnail && (
-                        <div className="thumbnail">
+                        <div className={styles.thumbnail}>
                             <Image
                                 src={data.thumbnail}
                                 style={{ objectFit: "cover" }}

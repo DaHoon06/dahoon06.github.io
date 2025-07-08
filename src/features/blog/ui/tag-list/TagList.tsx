@@ -1,4 +1,3 @@
-import { Emoji } from "@shared/ui/icons/Emoji";
 import styles from "./TagList.module.scss";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -11,9 +10,7 @@ export const TagList = () => {
 
     return (
         <div className={styles.tagList}>
-            <div className={styles.top}>
-                <Emoji>🏷️</Emoji> Tags
-            </div>
+            <div className={styles.top}>태그</div>
             <div className={styles.list}>
                 {Object.keys(data).map((key) => (
                     <Link

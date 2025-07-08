@@ -1,10 +1,9 @@
 .tag {
     border-radius: 50px;
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 1.05rem;
     font-weight: 400;
-    color: #3a3a3a;
-    background-color: #f0f0f0;
+    color: white;
+    background-color: var(--primary);
     cursor: pointer;
     transition: background-color 0.2s ease;
 

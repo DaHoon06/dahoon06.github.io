@@ -3,10 +3,10 @@
         font-size: 1.875rem;
         line-height: 2.25rem;
         font-weight: 700;
+        color: var(--primary);
     }
     nav {
-        margin-top: 1.5rem;
-        color: #222;
+        color: white;
         > .top {
             display: flex;
             margin-bottom: 0.75rem;
@@ -25,7 +25,9 @@
                 background-color: #222;
             }
             .date {
-                margin-right: 0.5rem;
+                margin: 1rem 0;
+                font-size: 1.25rem;
+                font-weight: 500;
 
                 @media (min-width: 768px) {
                     margin-left: 0;
@@ -36,6 +38,7 @@
             display: flex;
             margin-bottom: 1rem;
             align-items: center;
+
             .tags {
                 display: flex;
                 overflow-x: auto;

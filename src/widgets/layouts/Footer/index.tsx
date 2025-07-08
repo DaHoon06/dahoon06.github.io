@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
@@ -5,8 +6,10 @@ const Footer = () => {
         <footer className={styles.footerLayout}>
             <div className={styles.footerContainer}>
                 <ul>
-                    <li>
-                        Copyright 2024. Developer Dahoon06 All Rights Reserved.
+                    <li style={{ display: "flex", gap: "0.5rem" }}>
+                        Copyright 2025.
+                        <Link href="https://github.com/Dahoon06">Dahoon06</Link>
+                        All Rights Reserved.
                     </li>
                 </ul>
             </div>

@@ -14,8 +14,8 @@ export const PostDetailForm = (): ReactElement | null => {
 
     return (
         <div className={styles.postDetailForm}>
-            <article>
-                {category && (
+            <article style={{ width: "100%" }}>
+                {/* {category && (
                     <div style={{ marginBottom: "0.5rem" }}>
                         <Category
                             readOnly={data.status?.[0] === "PublicOnDetail"}
@@ -23,7 +23,7 @@ export const PostDetailForm = (): ReactElement | null => {
                             {category}
                         </Category>
                     </div>
-                )}
+                )} */}
                 {data.type[0] === "Post" && <PostHeader data={data} />}
                 <NotionRenderer recordMap={data.recordMap} />
             </article>

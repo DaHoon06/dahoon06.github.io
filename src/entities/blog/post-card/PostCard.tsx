@@ -5,6 +5,7 @@ import styles from "./PostCard.module.scss";
 import { DateFormatter } from "../shared/ui/DateFormatter";
 import { Category } from "../shared/ui/Category";
 import { Tag } from "../tag/Tag";
+import { Author } from "../shared/ui/Author";
 
 interface PostCardProps {
     post: PostType;
@@ -20,11 +21,16 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
     return (
         <article className={styles.postCard}>
             <div className={styles.postCard__content}>
-                {category && (
+                <Author
+                    profileImage={post.author?.[0]?.profile_photo || ""}
+                    name={post.author?.[0]?.name || ""}
+                />
+
+                {/* {category && (
                     <div className={styles.category}>
                         <Category>{category}</Category>
                     </div>
-                )}
+                )} */}
 
                 <div
                     data-thumb={!!post.thumbnail}
@@ -53,8 +59,8 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
             <div className={styles.thumbnail}>
                 <Image
                     src={thumbnail}
-                    fill
                     alt={post.title}
+                    fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                 />
             </div>

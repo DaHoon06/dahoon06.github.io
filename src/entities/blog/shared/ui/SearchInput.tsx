@@ -14,7 +14,7 @@ const SearchInput: React.FC<Props> = forwardRef(
                     ref={ref}
                     className={styles.input}
                     type="text"
-                    placeholder="Search Keyword..."
+                    placeholder="Search..."
                     {...props}
                 />
             </label>

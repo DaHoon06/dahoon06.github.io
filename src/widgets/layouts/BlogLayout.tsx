@@ -27,9 +27,6 @@ export const BlogLayout = ({
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -20 }}
                     transition={{ duration: 0.5 }}
-                    style={{
-                        paddingLeft: "60px",
-                    }}
                 >
                     <div className={styles.main}>{children}</div>
                 </motion.main>

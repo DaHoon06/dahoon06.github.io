@@ -18,7 +18,7 @@ export const BlogHeader = ({
         <header className={styles.headerContainer}>
             <div className={styles.headerInner}>
                 <section className={styles.logo}>
-                    <Link href="#intro">
+                    <Link href="/">
                         <Logo />
                         <h1>프론트-엔드</h1>
                         <h1 className="target">전다훈</h1>
@@ -34,9 +34,6 @@ export const BlogHeader = ({
                                     }
                                 />
                             )}
-                            <div className={styles.menu}>
-                                <Link href="/blog">블로그</Link>
-                            </div>
                         </>
                     )}
                 </div>

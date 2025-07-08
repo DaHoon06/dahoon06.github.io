@@ -13,7 +13,9 @@ import { CONFIG } from "@root/site.config";
 import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
 import { BlogLayout } from "@widgets/layouts";
 import { PostList } from "@features/blog/ui/post-list/PostList";
-import { HomeSideBar } from "@widgets/blog/HomeSideBar";
+import { TagList } from "@features/blog/ui/tag-list/TagList";
+import styles from "./index.module.scss";
+import Footer from "@widgets/layouts/Footer";
 
 interface HomePageProps {
     dehydratedState: DehydratedState;
@@ -24,9 +26,16 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
             <BlogLayout isSearch={true} onChangeKeyword={setKeyword}>
-                <PostList keyword={keyword} />
-                <HomeSideBar />
+                <div className={styles.container}>
+                    <div className={styles.post}>
+                        <PostList keyword={keyword} />
+                    </div>
+                    <div className={styles.aside}>
+                        <TagList />
+                    </div>
+                </div>
             </BlogLayout>
+            <Footer />
         </HydrationBoundary>
     );
 };

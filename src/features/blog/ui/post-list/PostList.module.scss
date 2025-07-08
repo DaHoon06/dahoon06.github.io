@@ -1,12 +1,6 @@
 .postList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     width: 100%;
-}
-
-@media (max-width: 600px) {
-    .postList {
-        grid-template-columns: 1fr;
-    }
 }

@@ -3,11 +3,12 @@
     width: fit-content;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    opacity: 0.9;
-    color: #666666;
+    color: white;
     background: transparent;
     border: none;
     cursor: pointer;
+    background-color: #222;
+    border-radius: 10px;
 
     &:hover {
         opacity: 1;

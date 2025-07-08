@@ -5,14 +5,9 @@ import { ReactElement } from "react";
 interface AuthorProps {
     profileImage?: string;
     name: string;
-    date: string;
 }
 
-export const Author = ({
-    profileImage,
-    name,
-    date,
-}: AuthorProps): ReactElement => {
+export const Author = ({ profileImage, name }: AuthorProps): ReactElement => {
     return (
         <div className={styles.author}>
             <Image
@@ -24,7 +19,6 @@ export const Author = ({
             />
             <div className={styles.author__info}>
                 <span className={styles.author__name}>{name}</span>
-                <span className={styles.author__date}>{date}</span>
             </div>
         </div>
     );

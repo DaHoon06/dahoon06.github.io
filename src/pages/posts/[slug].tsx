@@ -15,6 +15,7 @@ import { BlogLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import usePostQuery from "@entities/blog/posts/services/usePostQuery";
 import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
+import Footer from "@widgets/layouts/Footer";
 
 const filter: FilterPostsOptions = {
     acceptStatus: ["Public", "PublicOnDetail"],
@@ -48,6 +49,7 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
             <BlogLayout>
                 <PostDetail />
             </BlogLayout>
+            <Footer />
         </>
     );
 };
