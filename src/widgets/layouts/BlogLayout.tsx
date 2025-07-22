@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { BlogHeader } from "./Header";
+import { BlogHeader } from "./header";
 import styles from "./BlogLayout.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
 

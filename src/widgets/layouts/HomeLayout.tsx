@@ -1,6 +1,6 @@
 import { useMatchMedia, useRouteLoading } from "@shared/hooks";
 import React, { ReactNode, useEffect, useState } from "react";
-import { Header } from "./Header";
+import { Header } from "./header";
 import styles from "./HomeLayout.module.scss";
 
 interface HomeLayoutProps {

@@ -18,8 +18,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: var(--page-home-bg);
-    color: var(--main-text-color);
+    background: #fff;
+    color: #222;
 }
 
 html {
@@ -46,13 +46,8 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
-    // overflow: hidden;
+    overflow: auto;
     width: 100%;
-}
-
-html,
-body {
-    background-color: #222;
 }
 
 // 로딩 중 스크롤 방지

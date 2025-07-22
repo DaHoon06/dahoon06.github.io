@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React, { forwardRef, Ref, useEffect, useState } from "react";
 import { ArrowButton } from "./ArrowButton";
-import { StaticHeader } from "@widgets/layouts/Header";
+import { StaticHeader } from "@widgets/layouts/header";
 import FlexBox from "@shared/ui/boxes/FlexBox";
 import { GitHubIcon, BlogIcon } from "@shared/ui/icons";
 import { IntroMessageBox } from "./IntroMessageBox";
