@@ -45,7 +45,7 @@ export default HomePage;
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(await getPosts());
     const recentlyPost = recentlyPosts(posts, 4);
-
+    console.log(posts);
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.posts(),
         queryFn: () => posts,

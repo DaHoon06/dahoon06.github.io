@@ -1,14 +1,12 @@
 import React from "react";
-import { TTags } from "@shared/types";
-import { TPosts } from "@shared/types";
 import { NextPageWithLayout } from "@shared/types";
 import { styled } from "styled-components";
 import { Emoji } from "@shared/ui/icons/Emoji";
 import CustomHead from "@shared/ui/heads/CustomHead";
 
 type Props = {
-    tags: TTags;
-    posts: TPosts;
+    tags: any;
+    posts: any;
 };
 
 type CustomErrorProps = Record<string, never>;

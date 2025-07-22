@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
-@import "./lib/utility";
-@import "./lib/resets";
-@import "./lib/fonts";
-@import "./lib/variables";
-@import "./lib/lenis";
-@import "./lib/swiper";
-@import "./lib/notion";
+@use "./lib/utility";
+@use "./lib/resets";
+@use "./lib/fonts";
+@use "./lib/variables";
+@use "./lib/lenis";
+@use "./lib/swiper";
+@use "./lib/notion";
+
+@use "./tailwind.css";
