@@ -12,7 +12,7 @@ import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
 import { PostList } from "@features/blog/ui/post-list/PostList";
-import styles from "./index.module.scss";
+import { BaseLayout } from "@widgets/layouts";
 
 interface HomePageProps {
     dehydratedState: DehydratedState;
@@ -20,38 +20,36 @@ interface HomePageProps {
 
 const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     const [keyword, setKeyword] = useState("");
+
     return (
         <HydrationBoundary state={dehydratedState}>
-            <div className={styles.container}>
-                <div className={styles.post}>
+            <BaseLayout onChangeKeyword={setKeyword}>
+                <div className="flex flex-col gap-4 p-4">
                     <PostList keyword={keyword} />
                 </div>
-                {/* <div className={styles.aside}>
-                    <TagList />
-                </div> */}
-            </div>
+            </BaseLayout>
         </HydrationBoundary>
     );
 };
 
 export default HomePage;
 
-// export const getStaticProps: GetStaticProps = async () => {
-//     const posts = filterPosts(await getPosts());
-//     const recentlyPost = recentlyPosts(posts, 4);
-//     await queryClient.prefetchQuery({
-//         queryKey: notionQueryKeys.posts(),
-//         queryFn: () => posts,
-//     });
-//     await queryClient.prefetchQuery({
-//         queryKey: notionQueryKeys.recentlyPosts(),
-//         queryFn: () => recentlyPost,
-//     });
+export const getStaticProps: GetStaticProps = async () => {
+    const posts = filterPosts(await getPosts());
+    const recentlyPost = recentlyPosts(posts, 4);
+    await queryClient.prefetchQuery({
+        queryKey: notionQueryKeys.posts(),
+        queryFn: () => posts,
+    });
+    await queryClient.prefetchQuery({
+        queryKey: notionQueryKeys.recentlyPosts(),
+        queryFn: () => recentlyPost,
+    });
 
-//     return {
-//         props: {
-//             dehydratedState: dehydrate(queryClient),
-//         },
-//         ...(CONFIG.isProd ? { revalidate: 3600 } : {}),
-//     };
-// };
+    return {
+        props: {
+            dehydratedState: dehydrate(queryClient),
+        },
+        ...(CONFIG.isProd ? { revalidate: 3600 } : {}),
+    };
+};

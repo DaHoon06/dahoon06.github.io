@@ -1,8 +1,6 @@
 import { ReactElement, useEffect, useState } from "react";
 import usePostsQuery from "../../services/usePostsQuery";
 import { useRouter } from "next/router";
-import styles from "./PostList.module.scss";
-import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { PostCard } from "@entities/blog/post-card";
 
@@ -57,21 +55,18 @@ export const PostList = ({ keyword }: PostListProps): ReactElement => {
     }, [keyword, currentTag, currentCategory, currentOrder, setFilteredPosts]);
 
     return (
-        <AnimatePresence>
-            <motion.div className={styles.postList} layout>
-                {!filteredPosts.length && (
-                    <p className="text-gray-500 dark:text-gray-300">
-                        Nothing! 😺
-                    </p>
-                )}
-                {filteredPosts.map((post) => (
-                    <motion.div key={post.id} layout>
-                        <Link href={`/posts/${post.slug}`}>
-                            <PostCard post={post} />
-                        </Link>
-                    </motion.div>
-                ))}
-            </motion.div>
-        </AnimatePresence>
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {!filteredPosts.length && (
+                <p className="text-gray-500 dark:text-gray-300">Nothing! 😺</p>
+            )}
+            {filteredPosts.map((post) => (
+                <Link
+                    href={`/posts/${post.slug}`}
+                    key={`${post.id}_${post.slug}`}
+                >
+                    <PostCard post={post} />
+                </Link>
+            ))}
+        </div>
     );
 };

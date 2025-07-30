@@ -1,4 +1,3 @@
-import { HomeLayout } from "./HomeLayout";
-import { BlogLayout } from "./BlogLayout";
+import { BaseLayout } from "./BaseLayout";
 
-export { HomeLayout, BlogLayout };
+export { BaseLayout };

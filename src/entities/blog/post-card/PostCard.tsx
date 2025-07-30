@@ -1,67 +1,30 @@
-import { ReactElement, useMemo } from "react";
+import { ImageLoader } from "@shared/ui/images";
 import { PostType } from "@entities/notion/types";
-import Image from "next/image";
-import styles from "./PostCard.module.scss";
-import { DateFormatter } from "../shared/ui/DateFormatter";
-import { Category } from "../shared/ui/Category";
-import { Tag } from "../tag/Tag";
 import { Author } from "../shared/ui/Author";
+import { ReactElement } from "react";
 
 interface PostCardProps {
     post: PostType;
 }
 
 export const PostCard = ({ post }: PostCardProps): ReactElement => {
-    const category = (post.category && post.category?.[0]) || undefined;
-    const thumbnail = useMemo(
-        () => post.thumbnail || "/images/default.png",
-        [post.thumbnail]
-    );
-
     return (
-        <article className={styles.postCard}>
-            <div className={styles.postCard__content}>
+        <article className="flex flex-col gap-2 rounded-md bg-white">
+            <ImageLoader
+                src={post.thumbnail || "/images/default.png"}
+                alt={post.title}
+                className=" w-full rounded-md object-cover"
+                fill
+                sizes="(max-width: 768px) 100vw, 800px"
+            />
+            <div className="flex flex-col gap-1">
+                <h3 className="text-sm font-bold text-gray-800">
+                    {post.title}
+                </h3>
+
                 <Author
                     profileImage={post.author?.[0]?.profile_photo || ""}
                     name={post.author?.[0]?.name || ""}
-                />
-
-                {/* {category && (
-                    <div className={styles.category}>
-                        <Category>{category}</Category>
-                    </div>
-                )} */}
-
-                <div
-                    data-thumb={!!post.thumbnail}
-                    data-category={!!category}
-                    className={styles.content}
-                >
-                    <header className={styles.top}>
-                        <h2>{post.title}</h2>
-                    </header>
-
-                    <div className={styles.summary}>
-                        <p>{post.summary}</p>
-                    </div>
-
-                    <DateFormatter date={post.date.start_date} />
-
-                    <div className={styles.tags}>
-                        {post.tags &&
-                            post.tags.map((tag: string, idx: number) => (
-                                <Tag key={idx}>{tag}</Tag>
-                            ))}
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.thumbnail}>
-                <Image
-                    src={thumbnail}
-                    alt={post.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
                 />
             </div>
         </article>

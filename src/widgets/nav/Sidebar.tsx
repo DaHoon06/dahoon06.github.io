@@ -1,14 +1,14 @@
-"use client";
-
 import React, { ReactElement, useEffect, useState } from "react";
 import Link from "next/link";
 import { tv } from "tailwind-variants";
+import { GoHomeFill } from "react-icons/go";
+import { IconLoader } from "@shared/ui/icons/IconLoader";
 
 const SidebarItemStyle = tv({
     base: [
         "flex rounded-lg p-2 transition-all duration-200 ease-in-out hover:bg-gray-100",
         "flex-col items-center gap-2", // 기본 모바일용
-        "md:gap-1", // md 이상에서 gap 변경
+        "md:gap-4", // md 이상에서 gap 변경
         "lg:flex-row lg:text-center", // lg 이상에서 레이아웃 변경
     ],
     variants: {
@@ -33,10 +33,10 @@ const SidebarItem = ({
     return (
         <li>
             <Link href={href} className={SidebarItemStyle({ active })}>
-                <div className="flex items-center justify-center [&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-none [&>svg]:stroke-current">
-                    {icon}
-                </div>
-                <span className="text-s">{label}</span>
+                <IconLoader>{icon}</IconLoader>
+                <span className="md:block hidden text-s text-gray-800">
+                    {label}
+                </span>
             </Link>
         </li>
     );
@@ -49,25 +49,26 @@ const SidebarStyle = tv({
     ],
 });
 
-export const Sidebar = (): ReactElement => {
+export const Sidebar = ({
+    isActive,
+}: {
+    isActive: (path: string) => boolean;
+}): ReactElement => {
     const [currentPath, setCurrentPath] = useState("/");
 
     useEffect(() => {
         setCurrentPath(window.location.pathname);
     }, [currentPath]);
 
-    const isActive = (path: string) => currentPath === path;
-
     return (
         <aside className={SidebarStyle()}>
             <ul className="flex flex-col gap-4">
                 <SidebarItem
                     href="/"
-                    icon={<span>아이콘</span>}
+                    icon={<GoHomeFill color="#000" />}
                     label="홈"
                     active={isActive("/")}
                 />
-                {/* <SidebarItem href="#" icon={<span>아이코</span>>} label="랭킹" active={isActive('/test')} /> */}
             </ul>
 
             <footer className="hidden h-auto w-full flex-col items-start gap-4 lg:flex">

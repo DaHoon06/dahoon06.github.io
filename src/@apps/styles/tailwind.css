@@ -30,14 +30,6 @@
     }
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
     *,
     ::after,
@@ -114,42 +106,7 @@
         --input: 30% 0.02 256;
         --ring: 85% 0.01 256;
 
-        /* COLOR SYSTEM */
-
         /* primary */
-        --color-primary-000: #0b1532; /* 버튼 베이스 */
-        --color-primary-100: #1b357f; /* 듀오톤 배경 */
-        --color-primary-200: #1e3f8e; /* 하이라이트 비활성화 */
-        --color-primary-300: #203c8d; /* 보조색상 */
-        --color-primary-400: #2646a2; /* 하이라이트 보조 */
-        --color-primary-500: #5f7fde; /* 하이라이트 컬러 */
-        --color-primary-600: #7b98eb; /* 하이라이트 보조 */
-        --color-primary-700: #90a7eb; /* 하이라이트 선택 */
-        --color-primary-800: #e3eaff; /* 보조색상 */
-        --color-primary-900: #f0f3fc; /* 버튼 하이라이트 폰트 */
-
-        /* secondary a */
-        --color-secondary-A-000: #4a030d; /* 버튼 베이스 */
-        --color-secondary-A-100: #800416; /* 듀오톤 배경 */
-        --color-secondary-A-200: #a7061d; /* 하이라이트 비활성화 */
-        --color-secondary-A-300: #d3001e; /* 보조색상 */
-        --color-secondary-A-400: #eb0a2a; /* 하이라이트 보조 */
-        --color-secondary-A-500: #ee5369; /* 하이라이트 컬러 */
-        --color-secondary-A-600: #f78d9c; /* 하이라이트 보조 */
-        --color-secondary-A-700: #f9b4bd; /* 하이라이트 선택 */
-        --color-secondary-A-800: #fee0eb; /* 보조색상 */
-        --color-secondary-A-900: #fff1f6; /* 버튼 하이라이트 폰트 */
-
-        /* secondary b */
-        --color-secondary-B-000: #270542; /* 버튼 베이스 */
-        --color-secondary-B-100: #3a0863; /* 듀오톤 배경 */
-        --color-secondary-B-200: #500b89; /* 하이라이트 비활성화 */
-        --color-secondary-B-300: #660fad; /* 보조색상 */
-        --color-secondary-B-400: #7412c4; /* 하이라이트 보조 */
-        --color-secondary-B-500: #8d1cea; /* 하이라이트 컬러 */
-        --color-secondary-B-600: #b060f0; /* 하이라이트 보조 */
-        --color-secondary-B-700: #c996f3; /* 하이라이트 선택 */
-        --color-secondary-B-800: #e4caf8; /* 보조색상 */
-        --color-secondary-B-900: #f0f3fc; /* 버튼 하이라이트 폰트 */
+        --color-primary-000: #ff7337; /* 버튼 베이스 */
     }
 }

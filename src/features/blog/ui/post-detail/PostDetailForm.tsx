@@ -14,7 +14,7 @@ export const PostDetailForm = (): ReactElement | null => {
 
     return (
         <div className={styles.postDetailForm}>
-            <article style={{ width: "100%" }}>
+            <article className="w-full">
                 {/* {category && (
                     <div style={{ marginBottom: "0.5rem" }}>
                         <Category

@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import React from "react";
-import styles from "./Tag.module.scss";
 
 interface TagProps {
     children: string;
@@ -14,7 +13,7 @@ export const Tag: React.FC<TagProps> = ({ children }) => {
     };
     return (
         <button
-            className={styles.tag}
+            className="rounded-full text-[1.05rem] font-normal text-white bg-primary px-4 py-1 cursor-pointer transition-colors duration-200 hover:bg-gray-200 hover:text-primary"
             type="button"
             onClick={() => handleClick(children)}
         >

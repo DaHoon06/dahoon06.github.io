@@ -11,11 +11,11 @@ import { NextPageWithLayout } from "@shared/types";
 import CustomHead from "@shared/ui/heads/CustomHead";
 import { dehydrate } from "@tanstack/react-query";
 import CustomError from "@widgets/error/CustomError";
-import { BlogLayout } from "@widgets/layouts";
+import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import usePostQuery from "@entities/blog/posts/services/usePostQuery";
 import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
-import Footer from "@widgets/layouts/Footer";
+import Footer from "@widgets/footer";
 
 const filter: FilterPostsOptions = {
     acceptStatus: ["Public", "PublicOnDetail"],
@@ -46,10 +46,9 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
     return (
         <>
             <CustomHead {...meta} />
-            <BlogLayout>
+            <BaseLayout>
                 <PostDetail />
-            </BlogLayout>
-            <Footer />
+            </BaseLayout>
         </>
     );
 };

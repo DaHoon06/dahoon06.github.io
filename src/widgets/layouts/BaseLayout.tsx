@@ -1,36 +1,30 @@
-"use client";
-
-import { ReactNode, useState, useEffect } from "react";
-import { Header } from "./header";
-import { Sidebar } from "./nav";
+import { ReactNode, useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { BaseHeader } from "@widgets/header";
+import { BottomNavigation, Sidebar } from "@widgets/nav";
 
 interface BaseLayoutProps {
     children: ReactNode;
+    onChangeKeyword?: (keyword: string) => void;
 }
 
-export const BaseLayout = ({ children }: BaseLayoutProps) => {
-    const [isMobile, setIsMobile] = useState(false);
+export const BaseLayout = ({ children, onChangeKeyword }: BaseLayoutProps) => {
+    const [currentPath, setCurrentPath] = useState("/");
 
     useEffect(() => {
-        const checkIsMobile = () => {
-            setIsMobile(window.innerWidth < 500);
-        };
-
-        checkIsMobile();
-
-        window.addEventListener("resize", checkIsMobile);
-
-        return () => {
-            window.removeEventListener("resize", checkIsMobile);
-        };
+        setCurrentPath(window.location.pathname);
     }, []);
+
+    const isActive = useMemo(
+        () => (path: string) => path === currentPath,
+        [currentPath]
+    );
 
     return (
         <div className="flex h-full min-h-[100vh] w-full flex-col">
-            <Header isMobile={isMobile} />
-            <div className="mt-[60px] flex h-[calc(100vh-60px)] w-full">
-                <Sidebar />
+            <BaseHeader onChangeKeyword={onChangeKeyword} />
+            <div className="xs:p-0 mt-[60px] flex h-[calc(100vh-60px)] w-full pb-[60px]">
+                <Sidebar isActive={isActive} />
                 <AnimatePresence mode="wait">
                     <motion.main
                         initial={{ opacity: 0, x: 20 }}
@@ -43,6 +37,10 @@ export const BaseLayout = ({ children }: BaseLayoutProps) => {
                     </motion.main>
                 </AnimatePresence>
             </div>
+            <BottomNavigation
+                className={"xs:hidden z-50 h-[60px]"}
+                isActive={isActive}
+            />
         </div>
     );
 };

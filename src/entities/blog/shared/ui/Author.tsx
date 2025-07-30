@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./Author.module.scss";
 import { ReactElement } from "react";
 
 interface AuthorProps {
@@ -9,16 +8,16 @@ interface AuthorProps {
 
 export const Author = ({ profileImage, name }: AuthorProps): ReactElement => {
     return (
-        <div className={styles.author}>
+        <div className="flex items-center gap-2">
             <Image
                 src={profileImage || "/images/default.png"}
                 alt={name}
                 width={24}
                 height={24}
-                className={styles.author__avatar}
+                className="rounded-full"
             />
-            <div className={styles.author__info}>
-                <span className={styles.author__name}>{name}</span>
+            <div className="flex flex-col gap-1">
+                <span className="text-sm font-bold text-gray-800">{name}</span>
             </div>
         </div>
     );
