@@ -13,7 +13,7 @@ export const Tag: React.FC<TagProps> = ({ children }) => {
     };
     return (
         <button
-            className="rounded-full text-[1.05rem] font-normal text-white bg-primary px-4 py-1 cursor-pointer transition-colors duration-200 hover:bg-gray-200 hover:text-primary"
+            className="text-[.8rem] font-normal text-white rounded-md p-1 cursor-pointer transition-colors duration-200 hover:bg-gray-200 hover:text-primary-000"
             type="button"
             onClick={() => handleClick(children)}
         >
