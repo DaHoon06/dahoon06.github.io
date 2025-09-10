@@ -1,6 +1,6 @@
-import { ReactNode, useEffect, useMemo, useState } from "react";
+import { ReactNode } from "react";
 import { BaseHeader } from "@widgets/header";
-import { BottomNavigation, Sidebar } from "@widgets/nav";
+import Footer from "@widgets/footer";
 
 interface BaseLayoutProps {
     children: ReactNode;
@@ -8,32 +8,15 @@ interface BaseLayoutProps {
 }
 
 export const BaseLayout = ({ children, onChangeKeyword }: BaseLayoutProps) => {
-    const [currentPath, setCurrentPath] = useState("/");
-
-    useEffect(() => {
-        setCurrentPath(window.location.pathname);
-    }, []);
-
-    const isActive = useMemo(
-        () => (path: string) => path === currentPath,
-        [currentPath]
-    );
-
     return (
         <div className="flex h-full min-h-[100vh] w-full flex-col">
             <BaseHeader onChangeKeyword={onChangeKeyword} />
-            <div className="xs:p-0 mt-[60px] flex h-[calc(100vh-60px)] w-full pb-[60px]">
-                <Sidebar isActive={isActive} />
-                    <main
-                        className="flex-1 overflow-y-auto"
-                    >
-                        {children}
-                    </main>
+            <div className="xs:p-0 mt-[60px] flex  w-full pb-[60px]">
+                <main className="flex-1  max-w-[1000px] mx-auto">
+                    {children}
+                </main>
             </div>
-            <BottomNavigation
-                className={"xs:hidden z-50 h-[60px]"}
-                isActive={isActive}
-            />
+            {/* <Footer /> */}
         </div>
     );
 };

@@ -110,3 +110,10 @@
         --color-primary-000: #ff7337; /* 버튼 베이스 */
     }
 }
+
+@layer components {
+    #nprogress .bar {
+        background: #ff7101 !important;
+        height: 4px !important;
+    }
+}

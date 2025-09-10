@@ -2,6 +2,7 @@ import React from "react";
 import { NextPageWithLayout } from "@shared/types";
 import { styled } from "styled-components";
 import { Emoji } from "@shared/ui/icons/Emoji";
+import CustomHead from "@shared/ui/heads/CustomHead";
 
 type Props = {
     tags: any;

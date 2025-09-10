@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className={styles.footerLayout}>
             <div className={styles.footerContainer}>
                 <ul>
-                    <li style={{ display: "flex", gap: "0.5rem" }}>
+                    <li className="flex gap-2">
                         Copyright 2025.
                         <Link href="https://github.com/Dahoon06">Dahoon06</Link>
                         All Rights Reserved.

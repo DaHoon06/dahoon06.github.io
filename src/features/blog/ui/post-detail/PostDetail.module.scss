@@ -3,6 +3,7 @@
     background-color: rgb(51, 51, 51);
     width: 100%;
     height: 100%;
+    overflow-y: auto;
 
     &[data-type="Paper"] {
         padding: 40px 0;
