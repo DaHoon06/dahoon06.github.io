@@ -1,3 +1,3 @@
-import RouteProgressBar from "./RouteProgressbar";
+import RouteProgressBar from "./RouteProgressBar";
 
 export { RouteProgressBar };
