@@ -15,7 +15,7 @@ export const PostHeader = ({ data }: PostHeaderProps) => {
             </h1>
 
             {data.type[0] !== "Paper" && (
-                <nav className="text-white">
+                <nav className="text-[#222]">
                     <div className="flex items-center">
                         <div className="text-lg font-medium my-2 md:ml-0">
                             {formatDate(

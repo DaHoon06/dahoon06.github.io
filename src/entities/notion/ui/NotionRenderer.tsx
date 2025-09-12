@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ExtendedRecordMap } from "notion-types";
 import { FC } from "react";
-import { useScheme } from "../hooks/useScheme";
 
 import "react-notion-x/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
@@ -48,10 +47,8 @@ type Props = {
 };
 
 const NotionRenderer: FC<Props> = ({ recordMap }) => {
-    const [scheme] = useScheme();
     return (
         <_NotionRenderer
-            darkMode={scheme === "dark"}
             recordMap={recordMap}
             components={{
                 Code,
@@ -62,6 +59,7 @@ const NotionRenderer: FC<Props> = ({ recordMap }) => {
                 nextImage: Image,
                 nextLink: Link,
             }}
+            className="text-[#222]"
             mapPageUrl={mapPageUrl}
         />
     );
