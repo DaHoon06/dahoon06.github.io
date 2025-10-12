@@ -23,6 +23,11 @@ class Dahoon06Document extends Document {
                         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
                         rel="stylesheet"
                     />
+
+                    <meta
+                        name="google-site-verification"
+                        content="DKXaK73vI5S3vLqgQOayghfbLqkHd2xlVIir_4D6X_g"
+                    />
                 </Head>
                 <body>
                     <Main />
