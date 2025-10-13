@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
+import "dotenv/config";
 
 import { getPosts } from "@entities/notion/libs/getPosts";
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env" });
 
 (async () => {
     console.log("Fetching posts from Notion...");
