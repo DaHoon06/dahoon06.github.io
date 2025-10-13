@@ -5,6 +5,7 @@
     "homepage": "https://dahoon06.github.io/",
     "scripts": {
         "dev": "next dev",
+        "prebuild": "tsx ./src/@apps/scripts/fetchNotionCache.ts",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
@@ -60,6 +61,7 @@
         "sass": "^1.89.2",
         "tailwind-variants": "^1.0.0",
         "tailwindcss": "^4.1.1",
+        "tsx": "^4.20.6",
         "typescript": "^5"
     }
 }

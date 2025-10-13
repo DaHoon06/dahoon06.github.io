@@ -16,6 +16,15 @@ import { GetStaticProps } from "next";
 import usePostQuery from "@entities/blog/posts/services/usePostQuery";
 import { PostDetail } from "@features/blog/ui/post-detail/PostDetail";
 import Footer from "@widgets/footer";
+import path from "path";
+import fs from "fs";
+
+const cachedPosts = fs.readFileSync(
+    path.join(process.cwd(), "posts/cachedPosts.json"),
+    "utf8"
+);
+
+const posts = JSON.parse(cachedPosts);
 
 const filter: FilterPostsOptions = {
     acceptStatus: ["Public", "PublicOnDetail"],
@@ -56,7 +65,6 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
 export default BlogPostDetailPage;
 
 export const getStaticPaths = async () => {
-    const posts = await getPosts();
     const filteredPost = filterPosts(posts, filter);
 
     return {
@@ -66,31 +74,23 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-    const slug = context.params?.slug;
+    const slug = context.params?.slug as string;
+    const filtered = filterPosts(posts, filter);
+    const postDetail = filtered.find((t) => t.slug === slug);
 
-    const posts = await getPosts();
-    const feedPosts = filterPosts(posts);
-    await queryClient.prefetchQuery({
-        queryKey: notionQueryKeys.posts(),
-        queryFn: () => feedPosts,
-    });
+    if (!postDetail) {
+        return { notFound: true };
+    }
 
-    const detailPosts = filterPosts(posts, filter);
-    const postDetail = detailPosts.find((t: any) => t.slug === slug);
-    const recordMap = await getRecordMap(postDetail?.id!);
+    const recordMap = await getRecordMap(postDetail.id);
 
     await queryClient.prefetchQuery({
-        queryKey: notionQueryKeys.post(`${slug}`),
-        queryFn: () => ({
-            ...postDetail,
-            recordMap,
-        }),
+        queryKey: notionQueryKeys.post(slug),
+        queryFn: () => ({ ...postDetail, recordMap }),
     });
 
     return {
-        props: {
-            dehydratedState: dehydrate(queryClient),
-        },
+        props: { dehydratedState: dehydrate(queryClient) },
         revalidate: CONFIG.isProd ? CONFIG.revalidateTime : false,
     };
 };
