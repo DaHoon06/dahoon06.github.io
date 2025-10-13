@@ -24,7 +24,7 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
             <BaseLayout onChangeKeyword={setKeyword}>
-                <div className="flex flex-col gap-4 p-4">
+                <div className="flex flex-col gap-4 p-4 pb-10">
                     <PostList keyword={keyword} />
                 </div>
             </BaseLayout>
