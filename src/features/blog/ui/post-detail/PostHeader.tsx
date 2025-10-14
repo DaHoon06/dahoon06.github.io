@@ -1,7 +1,6 @@
 import { PostType } from "@entities/notion/types";
 import Image from "next/image";
 import { formatDate } from "@entities/blog/posts/lib/formatDate";
-import { Tag } from "@entities/blog/tag/Tag";
 
 type PostHeaderProps = {
     data: PostType;
@@ -26,9 +25,14 @@ export const PostHeader = ({ data }: PostHeaderProps) => {
                     </div>
                     <div className="flex items-center mb-2">
                         {data.tags && (
-                            <div className="flex gap-2 flex-nowrap overflow-x-auto max-w-full bg-[#ff7337] rounded-lg p-1">
+                            <div className="flex gap-2 flex-nowrap overflow-x-auto max-w-full  rounded-lg p-1">
                                 {data.tags.map((tag: string) => (
-                                    <Tag key={tag}>{tag}</Tag>
+                                    <span
+                                        key={tag}
+                                        className="text-[.8rem] font-normal text-white rounded-md p-1 transition-colors duration-200 bg-[#ff7337] "
+                                    >
+                                        {tag}
+                                    </span>
                                 ))}
                             </div>
                         )}
@@ -38,7 +42,7 @@ export const PostHeader = ({ data }: PostHeaderProps) => {
 
                     {data.thumbnail && (
                         <div
-                            className="relative overflow-hidden rounded-3xl w-full bg-zinc-900 mb-7"
+                            className="relative overflow-hidden rounded-3xl w-full mb-7"
                             style={{ paddingBottom: "50%" }}
                         >
                             <Image

@@ -20,6 +20,7 @@
 }
 
 html {
+    font-family: var(--custom-font);
     line-height: 1.25;
     -webkit-text-size-adjust: 100%;
     max-width: 100%;
@@ -37,14 +38,8 @@ html {
 }
 
 * {
+    font-family: var(--custom-font);
     box-sizing: border-box;
-}
-
-body {
-    position: relative;
-    overflow-x: hidden;
-    overflow: auto;
-    width: 100%;
 }
 
 body {
@@ -53,6 +48,12 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: var(--custom-font);
+
+    position: relative;
+    overflow-x: hidden;
+    overflow: auto;
+    width: 100%;
 }
 
 input,
@@ -90,7 +91,6 @@ table {
 button {
     cursor: pointer;
     border: none;
-    background: none;
 }
 
 a {
