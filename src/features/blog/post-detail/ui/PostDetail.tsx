@@ -3,6 +3,7 @@ import { PostDetailForm } from "./PostDetailForm";
 import styles from "./PostDetail.module.scss";
 import usePostQuery from "@entities/blog/model/queries/usePostQuery";
 import useMermaidEffect from "@entities/blog/hooks/useMermaidEffect";
+import CommentBox from "@entities/comment/ui/CommentBox";
 
 export const PostDetail = (): ReactElement | null => {
     const data = usePostQuery();
@@ -14,6 +15,9 @@ export const PostDetail = (): ReactElement | null => {
         <div className={styles.postDetail} data-type={data.type}>
             {data.type[0] === "Page" && <PostDetailForm />}
             {data.type[0] !== "Page" && <PostDetailForm />}
+            <div className="mt-10 border-t border-gray-200 pt-10">
+                <CommentBox data={data} />
+            </div>
         </div>
     );
 };

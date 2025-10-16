@@ -1,3 +1,3 @@
-export function AboutMePage() {
+export default function AboutMePage() {
     return <div>페이지 준비중 입니다~!</div>;
 }

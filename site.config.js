@@ -1,8 +1,7 @@
 const CONFIG = {
-    // profile setting (required)
     profile: {
         name: "Dahoon06",
-        image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+        image: "/avatar.svg",
         role: "FullStack Developer",
         bio: "Next.js React Vue.js NestJS MongoDB Node.js",
         email: "dahoon226@gmail.com",
@@ -69,7 +68,10 @@ const CONFIG = {
     utterances: {
         enable: true,
         config: {
-            repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+            repo:
+                process.env.NEXT_PUBLIC_UTTERANCES_REPO ||
+                process.env.UTTERANCES_REPO ||
+                "DaHoon06/utterances", // owner/repo format required by utterances (GithubName/RepositoryName is required)
             "issue-term": "og:title",
             label: "💬 Utterances",
         },

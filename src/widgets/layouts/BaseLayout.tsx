@@ -4,10 +4,9 @@ import Footer from "@widgets/footer";
 
 interface BaseLayoutProps {
     children: ReactNode;
-    onChangeKeyword?: (keyword: string) => void;
 }
 
-export const BaseLayout = ({ children, onChangeKeyword }: BaseLayoutProps) => {
+export const BaseLayout = ({ children }: BaseLayoutProps) => {
     return (
         <div className="flex h-full min-h-[100vh] w-full flex-col">
             <BaseHeader />
