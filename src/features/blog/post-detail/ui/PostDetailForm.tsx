@@ -2,8 +2,7 @@ import NotionRenderer from "@entities/notion/ui/NotionRenderer";
 import { PostHeader } from "./PostHeader";
 import styles from "./PostDetailForm.module.scss";
 import { ReactElement } from "react";
-import usePostQuery from "@entities/blog/posts/services/usePostQuery";
-import { Category } from "@entities/blog/shared/ui/Category";
+import usePostQuery from "@entities/blog/model/queries/usePostQuery";
 
 export const PostDetailForm = (): ReactElement | null => {
     const data = usePostQuery();

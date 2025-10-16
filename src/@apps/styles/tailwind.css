@@ -16,6 +16,8 @@
     --text-l: 1.1875rem;
 
     --font-pretendard: var(--font-pretendard);
+
+    --color-primary-000: #ff7337;
 }
 
 @utility container {
@@ -115,5 +117,26 @@
     #nprogress .bar {
         background: #ff7101 !important;
         height: 4px !important;
+    }
+}
+
+/* Smooth entry animations for cards */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

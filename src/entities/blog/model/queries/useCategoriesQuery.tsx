@@ -1,5 +1,5 @@
 import { getAllSelectItemsFromPosts } from "@entities/notion/libs/getAllSelectItemsFromPosts";
-import usePostsQuery from "@features/blog/services/usePostsQuery";
+import { usePostsQuery } from "@features/blog/post-list/model/queries";
 
 export const useCategoriesQuery = () => {
     const posts = usePostsQuery();
