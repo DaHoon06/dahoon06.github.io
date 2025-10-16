@@ -12,9 +12,15 @@ export const BaseHeader = (): ReactElement => {
                 </Link>
 
                 <div className="flex items-center gap-4">
+                    <Link
+                        href="/tools/timestamp-converter"
+                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
+                    >
+                        <span>⚡Tools⚡</span>
+                    </Link>
                     <a
                         onClick={() => alert("🚧 페이지 준비중 입니다 🚧")}
-                        className="text-sm text-gray-400 "
+                        className="hidden md:block text-sm text-gray-400 "
                     >
                         <span>About Me</span>
                     </a>
@@ -31,7 +37,7 @@ export const BaseHeader = (): ReactElement => {
                             className="group-hover:animate-bounce group-hover:drop-shadow-lg transition-all duration-200"
                         />
 
-                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg">
+                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg pointer-events-none">
                             dahoon06 깃허브 바로가기
                         </span>
                     </a>
@@ -47,7 +53,7 @@ export const BaseHeader = (): ReactElement => {
                             color="#000"
                             className="group-hover:animate-bounce group-hover:drop-shadow-lg transition-all duration-200"
                         />
-                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg">
+                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg pointer-events-none">
                             dahoon226@gmail.com
                         </span>
                     </a>
