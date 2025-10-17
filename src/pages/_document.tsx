@@ -114,6 +114,11 @@ class Dahoon06Document extends Document {
                         content="DKXaK73vI5S3vLqgQOayghfbLqkHd2xlVIir_4D6X_g"
                     />
 
+                    <meta
+                        name="naver-site-verification"
+                        content="1a5e498298290f51a81ed75b9096df52e9042c0f"
+                    />
+
                     <MetaHead />
                 </Head>
                 <body>
