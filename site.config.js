@@ -9,6 +9,7 @@ const CONFIG = {
         github: "dahoon06",
         instagram: "",
     },
+    domain: "https://dahoon06.github.io",
     projects: [
         {
             icon: "/img/unisurvey_logo.jpeg",

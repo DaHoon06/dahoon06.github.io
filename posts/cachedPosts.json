@@ -27,8 +27,8 @@
     "status": [
       "Private"
     ],
-    "createdTime": "Wed Oct 08 2025 02:11:25 GMT+0900 (Korean Standard Time)",
-    "fullWidth": false
+    "createdTime": "Wed Oct 08 2025 02:11:25 GMT+0900 (대한민국 표준시)",
+    "fullWidth": true
   },
   {
     "id": "27a8d60b-90d2-80fd-b51d-decce6af85a5",
@@ -59,7 +59,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Sep 26 2025 09:49:41 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Sep 26 2025 09:49:41 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -91,7 +91,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Sep 24 2025 15:24:10 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Sep 24 2025 15:24:10 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -122,7 +122,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Sep 17 2025 22:56:50 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Sep 17 2025 22:56:50 GMT+0900 (대한민국 표준시)",
     "fullWidth": true
   },
   {
@@ -153,7 +153,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Sep 06 2025 13:42:33 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Sat Sep 06 2025 13:42:33 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -183,7 +183,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Sep 05 2025 20:23:26 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Sep 05 2025 20:23:26 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -214,7 +214,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 25 2025 23:14:37 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Aug 25 2025 23:14:37 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -246,7 +246,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sun Aug 17 2025 17:48:54 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Sun Aug 17 2025 17:48:54 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -277,7 +277,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Aug 16 2025 15:03:18 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Sat Aug 16 2025 15:03:18 GMT+0900 (대한민국 표준시)",
     "fullWidth": true
   },
   {
@@ -307,7 +307,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Aug 14 2025 23:59:59 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Aug 14 2025 23:59:59 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -333,7 +333,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Aug 13 2025 09:59:08 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Aug 13 2025 09:59:08 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -363,7 +363,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 11 2025 14:11:11 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Aug 11 2025 14:11:11 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -392,7 +392,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 11 2025 22:35:13 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Aug 11 2025 22:35:13 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -422,7 +422,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Jul 30 2025 21:48:02 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Jul 30 2025 21:48:02 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -451,7 +451,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sun Jul 20 2025 13:15:31 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Sun Jul 20 2025 13:15:31 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -478,7 +478,7 @@
     "status": [
       "Private"
     ],
-    "createdTime": "Wed Dec 11 2024 10:50:09 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Dec 11 2024 10:50:09 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -507,7 +507,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Nov 14 2024 20:48:55 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Nov 14 2024 20:48:55 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -537,7 +537,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Nov 26 2024 10:41:08 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Tue Nov 26 2024 10:41:08 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -567,7 +567,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Oct 24 2024 00:26:09 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Oct 24 2024 00:26:09 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -599,7 +599,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Aug 16 2024 13:27:27 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Aug 16 2024 13:27:27 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -630,7 +630,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Aug 07 2024 22:19:54 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Aug 07 2024 22:19:54 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -659,7 +659,7 @@
     "status": [
       "Private"
     ],
-    "createdTime": "Mon Aug 05 2024 10:46:20 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Aug 05 2024 10:46:20 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -688,7 +688,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 30 2024 14:38:35 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Tue Jul 30 2024 14:38:35 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -720,7 +720,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jul 25 2024 22:08:22 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Jul 25 2024 22:08:22 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -749,7 +749,7 @@
     "status": [
       "Private"
     ],
-    "createdTime": "Fri Jul 19 2024 18:36:37 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Jul 19 2024 18:36:37 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -778,7 +778,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jul 18 2024 18:05:29 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Jul 18 2024 18:05:29 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -808,7 +808,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Jul 17 2024 18:03:44 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Wed Jul 17 2024 18:03:44 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -839,7 +839,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Jul 08 2024 13:41:30 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Jul 08 2024 13:41:30 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -870,7 +870,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 16 2024 16:40:19 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Tue Jul 16 2024 16:40:19 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -904,7 +904,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Jul 15 2024 23:14:30 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Jul 15 2024 23:14:30 GMT+0900 (대한민국 표준시)",
     "fullWidth": true
   },
   {
@@ -935,7 +935,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Jul 12 2024 11:28:04 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Jul 12 2024 11:28:04 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -966,7 +966,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jun 20 2024 09:33:13 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Thu Jun 20 2024 09:33:13 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -997,7 +997,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Jul 20 2024 00:35:31 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Sat Jul 20 2024 00:35:31 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1030,7 +1030,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 02 2024 16:03:52 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Tue Jul 02 2024 16:03:52 GMT+0900 (대한민국 표준시)",
     "fullWidth": true
   },
   {
@@ -1061,7 +1061,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:39:46 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:39:46 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1069,6 +1069,7 @@
     "date": {
       "start_date": "2023-10-29"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Aa252bbf3-2345-4845-a000-02628bbbb5d0%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-80a8-8596-e4e206208107&cache=v2",
     "type": [
       "Post"
     ],
@@ -1091,7 +1092,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:54:03 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:54:03 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1099,6 +1100,7 @@
     "date": {
       "start_date": "2023-10-29"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ab6463844-347c-4819-b072-1b7f3d61ed17%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-8078-98c6-ec8f3853d543&cache=v2",
     "type": [
       "Post"
     ],
@@ -1121,7 +1123,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:51:57 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:51:57 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1129,6 +1131,7 @@
     "date": {
       "start_date": "2023-10-20"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A13a0fa88-dd1e-4297-87c5-13d91bbb3c97%3Ablog-thumbnail.png?table=block&id=1118d60b-90d2-80b2-a163-f3b15ec76217&cache=v2",
     "type": [
       "Post"
     ],
@@ -1151,7 +1154,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:55:25 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:55:25 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1159,6 +1162,7 @@
     "date": {
       "start_date": "2023-10-15"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Acd61c018-781f-4cb6-b12c-50cd76be1b09%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-8089-bb34-f27dfde7739f&cache=v2",
     "type": [
       "Post"
     ],
@@ -1181,7 +1185,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:58:49 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:58:49 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1189,6 +1193,7 @@
     "date": {
       "start_date": "2023-10-15"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ace1dd3e7-522f-4bd3-ad4f-c7e6c5f8abb9%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-803c-9283-f039e2339d89&cache=v2",
     "type": [
       "Post"
     ],
@@ -1211,7 +1216,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:58:38 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:58:38 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1219,6 +1224,7 @@
     "date": {
       "start_date": "2023-10-15"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ac32b64f3-04da-4b0a-86be-36498075c222%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-80ff-99f7-d750a693e0ca&cache=v2",
     "type": [
       "Post"
     ],
@@ -1241,7 +1247,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:05 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:59:05 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1249,6 +1255,7 @@
     "date": {
       "start_date": "2023-09-24"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A077835d3-8d29-4710-b237-f7f7415418d1%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-805e-ae6d-ee61502d3c4b&cache=v2",
     "type": [
       "Post"
     ],
@@ -1271,7 +1278,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:21 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:59:21 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1279,6 +1286,7 @@
     "date": {
       "start_date": "2023-09-24"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A37492edb-fdf7-42c2-9e11-df8c0845a833%3Ablog-thumbnail.png?table=block&id=1118d60b-90d2-806a-ab4f-c3a54cc214bd&cache=v2",
     "type": [
       "Post"
     ],
@@ -1301,7 +1309,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:10 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:59:10 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1309,6 +1317,7 @@
     "date": {
       "start_date": "2023-09-22"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A6008fc90-c589-48ff-8a6d-6c6abd262730%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-807d-93e1-cc77836b4441&cache=v2",
     "type": [
       "Post"
     ],
@@ -1331,7 +1340,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:35 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 11:59:35 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1360,7 +1369,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:16:51 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 13:16:51 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1368,6 +1377,7 @@
     "date": {
       "start_date": "2023-09-11"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ac17c87b9-1771-4ea7-bd89-5227ddaa7863%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-805f-aa7a-d29aae175b53&cache=v2",
     "type": [
       "Post"
     ],
@@ -1390,7 +1400,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:20:32 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 13:20:32 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1419,7 +1429,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Aug 02 2024 09:46:41 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri Aug 02 2024 09:46:41 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   },
   {
@@ -1427,6 +1437,7 @@
     "date": {
       "start_date": "2021-08-17"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A91ff2dc1-c3b2-4d68-9bc7-601e112ce691%3Astudy-thumbnail.png?table=block&id=1118d60b-90d2-803d-8d3e-f48fd9a1c102&cache=v2",
     "type": [
       "Post"
     ],
@@ -1448,7 +1459,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:25:39 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon Sep 30 2024 13:25:39 GMT+0900 (대한민국 표준시)",
     "fullWidth": false
   }
 ]

@@ -1,3 +1,4 @@
+import { CONFIG } from "@root/site.config";
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
 const MetaHead = () => {
@@ -5,11 +6,11 @@ const MetaHead = () => {
         <>
             <meta
                 name="description"
-                content="프론트엔드 개발자 전다훈(Da-hoon Jeon)의 기술 블로그 | 이것저것 기록해봅니다."
+                content="프론트엔드 개발자 전다훈(Da-hoon Jeon)의 기술 블로그입니다. Next.js, React, Vue.js를 중심으로 웹 프론트엔드 개발을 다루며, NestJS와 Node.js, Django를 활용한 서버 개발도 지원합니다. 프로젝트 경험, 기술 스터디, 코드 노하우를 기록합니다."
             />
             <meta
                 name="keywords"
-                content="프론트엔드, 개발자, 전다훈, Dahoon06, Next.js, React, Vue.js, NestJS, GitHub Pages, 웹 개발, 포트폴리오"
+                content="프론트엔드, 백엔드, 개발자, 전다훈, Dahoon06, Next.js, React, Vue.js, NestJS, Node.js, Django, Python, 웹 개발, 기술 블로그, 포트폴리오, 프로젝트 경험"
             />
             <meta name="author" content="전다훈 (Da-hoon Jeon)" />
             <meta name="robots" content="index, follow" />
@@ -20,8 +21,11 @@ const MetaHead = () => {
                 property="og:title"
                 content="프론트엔드 개발자 | 전다훈 (Dahoon06)"
             />
-            <meta property="og:description" content="이것저것 기록해봅니다." />
-            <meta property="og:url" content="https://dahoon06.github.io" />
+            <meta
+                property="og:description"
+                content="프론트엔드(Next.js, React, Vue.js)와 서버 개발(NestJS, Node.js, Django) 경험을 공유하는 기술 블로그입니다. 프로젝트 경험과 개발 노하우를 기록합니다."
+            />
+            <meta property="og:url" content={CONFIG.domain} />
             <meta property="og:site_name" content="Dahoon06 | 전다훈 블로그" />
             <meta property="og:locale" content="ko_KR" />
             <meta
@@ -36,7 +40,7 @@ const MetaHead = () => {
             />
             <meta
                 name="twitter:description"
-                content="프론트엔드 기술과 개발 노하우를 공유하는 전다훈의 기술 블로그입니다."
+                content="Next.js, React, Vue.js 중심의 프론트엔드 개발과 NestJS 기반 서버 개발 경험을 공유하는 전다훈의 기술 블로그입니다."
             />
             <meta
                 name="twitter:image"

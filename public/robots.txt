@@ -1,35 +1,10 @@
-# Global directives
+# *
 User-agent: *
 Allow: /
-Allow: /_next/static/
-Allow: /images/
-Allow: /fonts/
-Disallow: /api/
-# Filter common tracking params
-Disallow: /*?*utm_*
-Disallow: /*?*fbclid=*
-Disallow: /*?*gclid=*
-Disallow: /*?*ref=*
+Disallow: /api/**
 
-# Google bots
-User-agent: Googlebot
-Allow: /
+# Host
+Host: https://dahoon06.github.io
 
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-# Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-# Yandex
-Host: dahoon06.github.io
-Crawl-delay: 1
-# Ignore params (Yandex)
-Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&fbclid&gclid&ref /
-
+# Sitemaps
 Sitemap: https://dahoon06.github.io/sitemap.xml
