@@ -27,7 +27,7 @@
     "status": [
       "Private"
     ],
-    "createdTime": "Wed Oct 08 2025 02:11:25 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Oct 08 2025 02:11:25 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
   },
   {
@@ -55,11 +55,11 @@
         "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
       }
     ],
-    "title": "배포 꼬임",
+    "title": "컨테이너 배포 꼬임",
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Sep 26 2025 09:49:41 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Sep 26 2025 09:49:41 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -91,7 +91,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Sep 24 2025 15:24:10 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Sep 24 2025 15:24:10 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -122,7 +122,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Sep 17 2025 22:56:50 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Sep 17 2025 22:56:50 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
   },
   {
@@ -153,7 +153,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Sep 06 2025 13:42:33 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Sat Sep 06 2025 13:42:33 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -183,7 +183,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Sep 05 2025 20:23:26 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Sep 05 2025 20:23:26 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -214,7 +214,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 25 2025 23:14:37 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Aug 25 2025 23:14:37 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -246,7 +246,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sun Aug 17 2025 17:48:54 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Sun Aug 17 2025 17:48:54 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -277,7 +277,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Aug 16 2025 15:03:18 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Sat Aug 16 2025 15:03:18 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
   },
   {
@@ -307,7 +307,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Aug 14 2025 23:59:59 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Thu Aug 14 2025 23:59:59 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -333,7 +333,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Aug 13 2025 09:59:08 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Aug 13 2025 09:59:08 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -363,7 +363,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 11 2025 14:11:11 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Aug 11 2025 14:11:11 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -392,7 +392,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Aug 11 2025 22:35:13 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Aug 11 2025 22:35:13 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -422,7 +422,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Jul 30 2025 21:48:02 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Jul 30 2025 21:48:02 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -451,7 +451,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sun Jul 20 2025 13:15:31 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Sun Jul 20 2025 13:15:31 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -466,6 +466,9 @@
     "category": [
       "😎 일상"
     ],
+    "tags": [
+      "Daily"
+    ],
     "summary": "byebye PMI.. Hello Instiz!!",
     "author": [
       {
@@ -476,9 +479,9 @@
     ],
     "title": "새로운 시작",
     "status": [
-      "Private"
+      "Public"
     ],
-    "createdTime": "Wed Dec 11 2024 10:50:09 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Dec 11 2024 10:50:09 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -507,7 +510,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Nov 14 2024 20:48:55 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Thu Nov 14 2024 20:48:55 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -537,7 +540,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Nov 26 2024 10:41:08 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Tue Nov 26 2024 10:41:08 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -567,7 +570,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Oct 24 2024 00:26:09 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Thu Oct 24 2024 00:26:09 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -599,38 +602,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Aug 16 2024 13:27:27 GMT+0900 (대한민국 표준시)",
-    "fullWidth": false
-  },
-  {
-    "id": "57c5a0b9-fb07-4424-b621-4bd8a40b864e",
-    "date": {
-      "start_date": "2024-08-07"
-    },
-    "type": [
-      "Post"
-    ],
-    "slug": "dockerfile-만들어보기",
-    "category": [
-      "Development"
-    ],
-    "tags": [
-      "Nextjs",
-      "NestJS",
-      "Docker"
-    ],
-    "author": [
-      {
-        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
-        "name": "dahoon06",
-        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
-      }
-    ],
-    "title": "Dockerfile 만들기",
-    "status": [
-      "Public"
-    ],
-    "createdTime": "Wed Aug 07 2024 22:19:54 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Aug 16 2024 13:27:27 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -648,6 +620,7 @@
     "tags": [
       "Daily"
     ],
+    "summary": "오늘도 어김없이 기획팀과의 대화",
     "author": [
       {
         "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
@@ -657,10 +630,10 @@
     ],
     "title": "역시는 역시였던 하루",
     "status": [
-      "Private"
+      "Public"
     ],
-    "createdTime": "Mon Aug 05 2024 10:46:20 GMT+0900 (대한민국 표준시)",
-    "fullWidth": false
+    "createdTime": "Mon Aug 05 2024 10:46:20 GMT+0900 (Korean Standard Time)",
+    "fullWidth": true
   },
   {
     "id": "5ca3d29c-dd2f-4f7c-92ac-a3cdd13941da",
@@ -688,7 +661,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 30 2024 14:38:35 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Tue Jul 30 2024 14:38:35 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -720,8 +693,8 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jul 25 2024 22:08:22 GMT+0900 (대한민국 표준시)",
-    "fullWidth": false
+    "createdTime": "Thu Jul 25 2024 22:08:22 GMT+0900 (Korean Standard Time)",
+    "fullWidth": true
   },
   {
     "id": "9f6e906a-0408-4c94-91e0-be3ffc1bc2f0",
@@ -747,9 +720,9 @@
     ],
     "title": "Hydration",
     "status": [
-      "Private"
+      "Public"
     ],
-    "createdTime": "Fri Jul 19 2024 18:36:37 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Jul 19 2024 18:36:37 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -778,7 +751,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jul 18 2024 18:05:29 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Thu Jul 18 2024 18:05:29 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -808,7 +781,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Wed Jul 17 2024 18:03:44 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Wed Jul 17 2024 18:03:44 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -839,7 +812,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Jul 08 2024 13:41:30 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Jul 08 2024 13:41:30 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -870,7 +843,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 16 2024 16:40:19 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Tue Jul 16 2024 16:40:19 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -904,7 +877,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Jul 15 2024 23:14:30 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Jul 15 2024 23:14:30 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
   },
   {
@@ -935,7 +908,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Jul 12 2024 11:28:04 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Jul 12 2024 11:28:04 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -951,8 +924,7 @@
       "😎 일상"
     ],
     "tags": [
-      "timeout",
-      "Daily"
+      "timeout"
     ],
     "summary": "막 적어보는 오늘의 기록",
     "author": [
@@ -966,7 +938,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Thu Jun 20 2024 09:33:13 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Thu Jun 20 2024 09:33:13 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -997,7 +969,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Sat Jul 20 2024 00:35:31 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Sat Jul 20 2024 00:35:31 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1030,7 +1002,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Tue Jul 02 2024 16:03:52 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Tue Jul 02 2024 16:03:52 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
   },
   {
@@ -1046,7 +1018,6 @@
       "Development"
     ],
     "tags": [
-      "Daily",
       "Development"
     ],
     "summary": "메모",
@@ -1061,7 +1032,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:39:46 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:39:46 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1092,7 +1063,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:54:03 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:54:03 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1123,7 +1094,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:51:57 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:51:57 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1154,7 +1125,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:55:25 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:55:25 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1185,7 +1156,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:58:49 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:58:49 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1216,7 +1187,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:58:38 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:58:38 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1247,7 +1218,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:05 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:59:05 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1278,7 +1249,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:21 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:59:21 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1309,7 +1280,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:10 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:59:10 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1340,7 +1311,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 11:59:35 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 11:59:35 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1369,7 +1340,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:16:51 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 13:16:51 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1400,7 +1371,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:20:32 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 13:20:32 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1429,7 +1400,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Fri Aug 02 2024 09:46:41 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Fri Aug 02 2024 09:46:41 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {
@@ -1459,7 +1430,7 @@
     "status": [
       "Public"
     ],
-    "createdTime": "Mon Sep 30 2024 13:25:39 GMT+0900 (대한민국 표준시)",
+    "createdTime": "Mon Sep 30 2024 13:25:39 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   }
 ]
