@@ -1,6 +1,6 @@
 import { ReactElement, useEffect, useRef } from "react";
 import elasticMouse from "./elasticMouse";
-import classNames from "classnames";
+import cn from "@shared/libs/cn";
 import styles from "./Cursor.module.scss";
 
 const Cursor = (): ReactElement => {
@@ -25,14 +25,8 @@ const Cursor = (): ReactElement => {
 
     return (
         <div>
-            <div
-                className={classNames(styles.cursor, styles.main)}
-                ref={cursorMain}
-            />
-            <div
-                className={classNames(styles.cursor, styles.sub)}
-                ref={cursorSub}
-            />
+            <div className={cn(styles.cursor, styles.main)} ref={cursorMain} />
+            <div className={cn(styles.cursor, styles.sub)} ref={cursorSub} />
         </div>
     );
 };

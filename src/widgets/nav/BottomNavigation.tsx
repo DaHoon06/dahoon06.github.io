@@ -2,7 +2,7 @@ import { IconLoader } from "@shared/ui/icons/IconLoader";
 import Link from "next/link";
 import { HTMLAttributes, ReactElement } from "react";
 import { GoHomeFill } from "react-icons/go";
-import classNames from "classnames";
+import cn from "@shared/libs/cn";
 
 interface BottomNavigationProps extends HTMLAttributes<HTMLDivElement> {
     isActive: (path: string) => boolean;
@@ -14,7 +14,7 @@ export const BottomNavigation = ({
 }: BottomNavigationProps): ReactElement => {
     return (
         <nav
-            className={classNames(
+            className={cn(
                 "fixed right-0 bottom-0 left-0 w-full border-t border-[#e1e1e8] bg-white",
                 className
             )}
@@ -23,7 +23,7 @@ export const BottomNavigation = ({
                 <li>
                     <Link
                         href="/"
-                        className={classNames(
+                        className={cn(
                             isActive("/")
                                 ? "text-primary-200"
                                 : "text-gray-600",

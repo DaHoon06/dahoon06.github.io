@@ -18,12 +18,12 @@ export const BaseHeader = (): ReactElement => {
                     >
                         <span>⚡Tools⚡</span>
                     </Link>
-                    <a
-                        onClick={() => alert("🚧 페이지 준비중 입니다 🚧")}
-                        className="hidden md:block text-sm text-gray-400 "
+                    <Link
+                        href="/about-me"
+                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
                     >
                         <span>About Me</span>
-                    </a>
+                    </Link>
                     <a
                         href="https://github.com/DaHoon06"
                         target="_blank"

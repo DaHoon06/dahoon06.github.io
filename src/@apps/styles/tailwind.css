@@ -120,7 +120,6 @@
     }
 }
 
-/* Smooth entry animations for cards */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -138,5 +137,51 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+/* Toast slide animations */
+@keyframes toast-slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toast-slide-out-right {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/* Left-side slide animations for Toast */
+@keyframes toast-slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toast-slide-out-left {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-100%);
     }
 }

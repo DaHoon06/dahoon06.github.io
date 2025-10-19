@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { relativeTimeFromNow } from "../utils/relativeTimeFromNow";
+import { useToast } from "@shared/hooks";
 
 export default function PlaygroundPage() {
+    const { toast } = useToast();
     const [input, setInput] = useState("");
     const [error, setError] = useState<string | null>(null);
     const [date, setDate] = useState<Date | null>(null);
@@ -112,10 +114,13 @@ export default function PlaygroundPage() {
 
     function copy(text: string) {
         navigator.clipboard?.writeText(text);
+        toast({
+            title: "복사되었습니다.",
+            description: "타임스탬프가 복사되었습니다.",
+        });
     }
 
     useEffect(() => {
-        // auto-convert when input looks like a timestamp number (quick UX)
         if (!input) {
             setError(null);
             setDate(null);
@@ -171,7 +176,7 @@ export default function PlaygroundPage() {
                                     한국 시간 (Asia/Seoul)
                                 </div>
                                 <div className="flex items-center gap-2">
-                                    <div className="font-mono text-lg">
+                                    <div className="font-mono text-sm">
                                         {formatKorea(date)}
                                     </div>
                                     <button
@@ -188,7 +193,7 @@ export default function PlaygroundPage() {
                                     ISO (KST)
                                 </div>
                                 <div className="flex items-center gap-2">
-                                    <div className="font-mono">
+                                    <div className="font-mono text-sm ">
                                         {formatIsoKorea(date)}
                                     </div>
                                     <button
@@ -207,7 +212,7 @@ export default function PlaygroundPage() {
                                     GMT (UTC)
                                 </div>
                                 <div className="flex items-center gap-2">
-                                    <div className="font-mono">
+                                    <div className="font-mono text-sm ">
                                         {formatGmt(date)}
                                     </div>
                                     <button
@@ -224,7 +229,7 @@ export default function PlaygroundPage() {
                                     <div className="text-xs text-gray-500">
                                         Unix (seconds)
                                     </div>
-                                    <div className="font-mono">
+                                    <div className="font-mono text-sm">
                                         {Math.floor(date.getTime() / 1000)}
                                     </div>
                                 </div>
@@ -232,7 +237,7 @@ export default function PlaygroundPage() {
                                     <div className="text-xs text-gray-500">
                                         Unix (ms)
                                     </div>
-                                    <div className="font-mono">
+                                    <div className="font-mono text-sm">
                                         {date.getTime()}
                                     </div>
                                 </div>
@@ -240,7 +245,7 @@ export default function PlaygroundPage() {
                                     <div className="text-xs text-gray-500">
                                         브라우저 로컬
                                     </div>
-                                    <div className="font-mono">
+                                    <div className="font-mono text-sm">
                                         {date.toString()}
                                     </div>
                                 </div>
@@ -254,7 +259,7 @@ export default function PlaygroundPage() {
                             </div>
                         </>
                     ) : (
-                        <div className="text-gray-500">
+                        <div className="text-gray-500 text-sm">
                             변환된 날짜가 없습니다. 입력 후 변환 버튼을 누르거나
                             숫자를 입력하면 자동으로 변환됩니다.
                         </div>

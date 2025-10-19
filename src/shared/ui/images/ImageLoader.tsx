@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image, { ImageProps } from "next/image";
 
 interface ImageLoaderProps extends ImageProps {
@@ -8,6 +8,13 @@ interface ImageLoaderProps extends ImageProps {
 
 export const ImageLoader = ({ src, alt, ...props }: ImageLoaderProps) => {
     const [loading, setLoading] = useState(true);
+    const imgRef = useRef<HTMLImageElement | null>(null);
+
+    useEffect(() => {
+        if (imgRef.current?.complete) {
+            setLoading(false);
+        }
+    }, [src]);
 
     return (
         <div className="relative h-[180px] w-auto">
@@ -15,9 +22,12 @@ export const ImageLoader = ({ src, alt, ...props }: ImageLoaderProps) => {
                 <div className="absolute inset-0 animate-pulse rounded-lg bg-gray-200" />
             )}
             <Image
+                ref={imgRef}
                 src={src}
                 alt={alt}
-                className={`rounded-lg object-cover transition-opacity duration-300 ${loading ? "opacity-0" : "opacity-100"}`}
+                className={`rounded-lg object-cover transition-opacity duration-300 ${
+                    loading ? "opacity-0" : "opacity-100"
+                }`}
                 onLoad={() => setLoading(false)}
                 onError={() => setLoading(false)}
                 {...props}
