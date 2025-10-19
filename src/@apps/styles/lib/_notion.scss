@@ -21,3 +21,69 @@
 .notion-h3 {
     margin-top: 0 !important;
 }
+
+.notion-blank {
+    padding: 0 2px !important;
+    min-height: 16px !important;
+}
+.notion-simple-table {
+    width: 100%;
+    border-color: #ededed !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    font-family:
+        "Pretendard",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+.notion-simple-table th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    color: #222;
+}
+
+.notion-simple-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: middle;
+}
+
+.notion-simple-table tr:last-child td {
+    border-bottom: none;
+}
+
+.notion-simple-table tr:hover td {
+    background-color: #f8fafc;
+}
+
+.notion-simple-table code {
+    background-color: #f3f4f6; /* gray-100 */
+    color: #eb5757; /* blue-600 */
+    font-family: "Pretendard", sans-serif;
+    padding: 3px 6px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.notion-simple-table td svg {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.notion-simple-table td:first-child {
+    font-weight: 500;
+    color: #eb5757;
+}
