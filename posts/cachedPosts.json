@@ -1,5 +1,38 @@
 [
   {
+    "id": "2928d60b-90d2-80a6-8f79-efaaddd02c91",
+    "date": {
+      "start_date": "2025-10-20"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ae78fab00-eb4e-481f-9d33-7deb6e425758%3Aimg.png?table=block&id=2928d60b-90d2-80a6-8f79-efaaddd02c91&cache=v2",
+    "type": [
+      "Post"
+    ],
+    "slug": "sqld-certification-preparation",
+    "category": [
+      "😎 일상"
+    ],
+    "tags": [
+      "SQLD",
+      "Daily",
+      "SQL"
+    ],
+    "summary": "공부하자",
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "SQLD 준비",
+    "status": [
+      "Public"
+    ],
+    "createdTime": "Mon Oct 20 2025 22:13:40 GMT+0900 (Korean Standard Time)",
+    "fullWidth": true
+  },
+  {
     "id": "2858d60b-90d2-8066-bb06-df6e4b88adc1",
     "date": {
       "start_date": "2025-10-08"

@@ -16,6 +16,7 @@ import usePostQuery from "@entities/blog/model/queries/usePostQuery";
 import path from "path";
 import fs from "fs";
 import { PostDetail } from "@features/blog/post-detail/ui/PostDetail";
+import { TableOfContents } from "@entities/blog/ui";
 
 const cachedPosts = fs.readFileSync(
     path.join(process.cwd(), "posts/cachedPosts.json"),
@@ -55,6 +56,7 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
             <CustomHead {...meta} />
             <BaseLayout>
                 <PostDetail />
+                <TableOfContents />
             </BaseLayout>
         </>
     );
@@ -89,6 +91,5 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
     return {
         props: { dehydratedState: dehydrate(queryClient) },
-        revalidate: CONFIG.isProd ? CONFIG.revalidateTime : false,
     };
 };

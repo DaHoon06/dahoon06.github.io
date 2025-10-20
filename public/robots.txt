@@ -1,7 +1,10 @@
 # *
 User-agent: *
 Allow: /
+
+# 수집 대상 제외 처리
 Disallow: /api/**
+Disallow: /about-me
 
 # Host
 Host: https://dahoon06.github.io
