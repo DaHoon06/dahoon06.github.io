@@ -8,4 +8,8 @@
     &[data-type="Paper"] {
         padding: 40px 0;
     }
+
+    @media (min-width: 768px) {
+        padding: 2rem 1.25rem;
+    }
 }

@@ -22,6 +22,26 @@
     margin-top: 0 !important;
 }
 
+.notion-h1 {
+    font-size: 1.625rem !important;
+}
+
+.notion-h2 {
+    font-size: 1.375rem !important;
+}
+
+.notion-h3 {
+    font-size: 1.125rem !important;
+}
+.notion-text {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.notion-list > li {
+    padding: 4px 0 !important;
+}
+
 .notion-blank {
     padding: 0 2px !important;
     min-height: 16px !important;
