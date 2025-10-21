@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { BsListNested } from "react-icons/bs";
+import { FaAngleUp } from "react-icons/fa6";
 
 type TocItem = {
     id: string;
@@ -12,6 +14,7 @@ type TocItem = {
 export const TableOfContents = () => {
     const [toc, setToc] = useState<TocItem[]>([]);
     const [activeId, setActiveId] = useState<string>("");
+    const [isCollapsed, setIsCollapsed] = useState(false);
     const observerRef = useRef<IntersectionObserver | null>(null);
     const mutationObserverRef = useRef<MutationObserver | null>(null);
 
@@ -155,26 +158,64 @@ export const TableOfContents = () => {
     };
 
     return (
-        <nav className="hidden md:block fixed top-20 right-4 w-64 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white p-4 shadow-sm dark:bg-gray-900 dark:border-gray-700">
-            {toc.length === 0 ? (
-                <p className="text-gray-500 text-sm">헤딩이 없습니다.</p>
-            ) : (
-                <ul className="space-y-1 text-sm">
-                    {toc.map((t) => (
-                        <li
-                            key={t.id}
-                            style={{ marginLeft: `${(t.level - 2) * 12}px` }}
-                            className={`cursor-pointer truncate rounded px-1 py-0.5 transition-colors ${
-                                activeId === t.id
-                                    ? "text-primary-000 font-medium"
-                                    : "text-gray-700 hover:text-primary-000"
-                            }`}
-                            onClick={() => handleClick(t.id)}
-                        >
-                            {t.text}
-                        </li>
-                    ))}
-                </ul>
+        <nav
+            className={`hidden md:block fixed top-20 right-4 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white shadow-sm dark:bg-gray-900 dark:border-gray-700 transition-all duration-300 ${
+                isCollapsed ? "w-14" : "w-64"
+            }`}
+        >
+            <div className="flex items-center justify-between p-3 border-b border-gray-200 dark:border-gray-700">
+                {!isCollapsed && (
+                    <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        목차
+                    </h3>
+                )}
+                <button
+                    onClick={() => setIsCollapsed(!isCollapsed)}
+                    className={`p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
+                        isCollapsed ? "mx-auto" : ""
+                    }`}
+                    aria-label={isCollapsed ? "목차 펼치기" : "목차 접기"}
+                >
+                    {isCollapsed ? (
+                        <BsListNested
+                            className="text-gray-500 transition-transform"
+                            size={24}
+                        />
+                    ) : (
+                        <FaAngleUp
+                            className="text-gray-500 transition-transform"
+                            size={18}
+                        />
+                    )}
+                </button>
+            </div>
+            {!isCollapsed && (
+                <div className="p-4">
+                    {toc.length === 0 ? (
+                        <p className="text-gray-500 text-sm">
+                            헤딩이 없습니다.
+                        </p>
+                    ) : (
+                        <ul className="space-y-1 text-sm">
+                            {toc.map((t) => (
+                                <li
+                                    key={t.id}
+                                    style={{
+                                        marginLeft: `${(t.level - 2) * 12}px`,
+                                    }}
+                                    className={`cursor-pointer truncate rounded px-1 py-0.5 transition-colors ${
+                                        activeId === t.id
+                                            ? "text-primary-000 font-medium"
+                                            : "text-gray-700 hover:text-primary-000"
+                                    }`}
+                                    onClick={() => handleClick(t.id)}
+                                >
+                                    {t.text}
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                </div>
             )}
         </nav>
     );
