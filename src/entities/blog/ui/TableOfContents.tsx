@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import cn from "@shared/libs/cn";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BsListNested } from "react-icons/bs";
 import { FaAngleUp } from "react-icons/fa6";
 
@@ -18,24 +19,29 @@ export const TableOfContents = () => {
     const observerRef = useRef<IntersectionObserver | null>(null);
     const mutationObserverRef = useRef<MutationObserver | null>(null);
 
-    const containerSelectors = [".notion", "main"];
+    const containerSelectors = useMemo(
+        () => [".notion", "main", "article", "[data-testid='post-content']"],
+        []
+    );
 
-    const findContainer = () => {
+    const findContainer = useCallback(() => {
         for (const s of containerSelectors) {
             const el = document.querySelector(s);
             if (el) return el;
         }
         // fallback: body
         return document.body;
-    };
+    }, [containerSelectors]);
 
     const buildToc = useCallback(() => {
         const container = findContainer();
-        if (!container) return [];
+        if (!container) {
+            return [];
+        }
 
-        // h2, h3, h4만 수집
+        // h1, h2, h3, h4 모두 수집 (h1도 포함)
         const headingNodes = Array.from(
-            container.querySelectorAll("h2, h3, h4")
+            container.querySelectorAll("h1, h2, h3, h4")
         ) as HTMLElement[];
 
         const items: TocItem[] = headingNodes.map((heading) => {
@@ -59,7 +65,7 @@ export const TableOfContents = () => {
 
         setToc(items);
         return items;
-    }, []);
+    }, [findContainer]);
 
     const observeHeadings = useCallback(
         (items: TocItem[]) => {
@@ -118,10 +124,11 @@ export const TableOfContents = () => {
         });
 
         mutationObserverRef.current = mo;
-    }, [buildToc, observeHeadings]);
+    }, [buildToc, observeHeadings, findContainer]);
 
     useEffect(() => {
         const items = buildToc();
+
         if (items.length > 0) {
             observeHeadings(items);
         } else {
@@ -163,7 +170,12 @@ export const TableOfContents = () => {
                 isCollapsed ? "w-14" : "w-64"
             }`}
         >
-            <div className="flex items-center justify-between p-3 border-b border-gray-200 dark:border-gray-700">
+            <div
+                className={cn(
+                    "flex items-center justify-between p-3 border-b-0 border-gray-200 dark:border-gray-700",
+                    isCollapsed ? "" : "border-b"
+                )}
+            >
                 {!isCollapsed && (
                     <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         목차
