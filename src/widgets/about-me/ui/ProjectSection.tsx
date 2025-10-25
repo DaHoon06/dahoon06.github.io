@@ -3,6 +3,40 @@ import { useState, useEffect } from "react";
 
 const projects = [
     {
+        title: "🚧 인스티즈 🚧",
+        description: "-",
+        company: "인스티즈",
+        techs: [
+            {
+                type: "frontend",
+                stacks: [
+                    "Next.js",
+                    "TypeScript",
+                    "TailwindCSS",
+                    "Chart.js",
+                    "React-Query",
+                    "Zustand",
+                ],
+            },
+            {
+                type: "backend",
+                stacks: ["Django", "Python", "MySQL"],
+            },
+            {
+                type: "etc",
+                stacks: [
+                    "Docker",
+                    "AWS",
+                    "Git",
+                    "GitLab",
+                    "CloudFlare",
+                    "Nginx",
+                ],
+            },
+        ],
+        images: [],
+    },
+    {
         title: "아이차트(iChart)",
         description: "음원 순위 차트 서비스",
         company: "인스티즈",
@@ -34,41 +68,6 @@ const projects = [
                 stacks: [
                     "Centry",
                     "Jest",
-                    "Docker",
-                    "AWS",
-                    "Git",
-                    "GitLab",
-                    "CloudFlare",
-                    "Nginx",
-                ],
-            },
-        ],
-        images: [],
-    },
-    {
-        title: "🚧 인스티즈 리뉴얼 (진행중)",
-        description:
-            "PHP 기반 레거시 프로젝트에서 Next.js 기반으로 리뉴얼 작업 진행 중",
-        company: "인스티즈",
-        techs: [
-            {
-                type: "frontend",
-                stacks: [
-                    "Next.js",
-                    "TypeScript",
-                    "TailwindCSS",
-                    "Chart.js",
-                    "React-Query",
-                    "Zustand",
-                ],
-            },
-            {
-                type: "backend",
-                stacks: ["Django", "Python", "MySQL"],
-            },
-            {
-                type: "etc",
-                stacks: [
                     "Docker",
                     "AWS",
                     "Git",

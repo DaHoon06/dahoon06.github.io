@@ -1,5 +1,3 @@
-"use client";
-
 import cn from "@shared/libs/cn";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BsListNested } from "react-icons/bs";
@@ -25,21 +23,17 @@ export const TableOfContents = () => {
     );
 
     const findContainer = useCallback(() => {
-        for (const s of containerSelectors) {
-            const el = document.querySelector(s);
+        for (const selector of containerSelectors) {
+            const el = document.querySelector(selector);
             if (el) return el;
         }
-        // fallback: body
         return document.body;
     }, [containerSelectors]);
 
     const buildToc = useCallback(() => {
         const container = findContainer();
-        if (!container) {
-            return [];
-        }
+        if (!container) return [];
 
-        // h1, h2, h3, h4 모두 수집 (h1도 포함)
         const headingNodes = Array.from(
             container.querySelectorAll("h1, h2, h3, h4")
         ) as HTMLElement[];
@@ -55,6 +49,7 @@ export const TableOfContents = () => {
 
                 heading.id = `${base}-${Math.random().toString(36).slice(2, 7)}`;
             }
+
             return {
                 id: heading.id,
                 text: heading.textContent?.trim() || "",
@@ -67,54 +62,49 @@ export const TableOfContents = () => {
         return items;
     }, [findContainer]);
 
-    const observeHeadings = useCallback(
-        (items: TocItem[]) => {
-            if (observerRef.current) {
-                observerRef.current.disconnect();
-                observerRef.current = null;
-            }
+    const observeHeadings = useCallback((items: TocItem[]) => {
+        if (observerRef.current) {
+            observerRef.current.disconnect();
+        }
 
-            const io = new IntersectionObserver(
-                (entries) => {
-                    const visible = entries
-                        .filter((e) => e.isIntersecting)
-                        .sort(
-                            (a, b) =>
-                                a.boundingClientRect.top -
-                                b.boundingClientRect.top
-                        );
+        const io = new IntersectionObserver(
+            (entries) => {
+                const visible = entries
+                    .filter((e) => e.isIntersecting)
+                    .sort(
+                        (a, b) =>
+                            a.boundingClientRect.top - b.boundingClientRect.top
+                    );
 
-                    if (visible.length > 0) {
-                        if (visible[0]?.target.id) {
-                            setActiveId(visible[0].target.id);
-                        }
-                    }
-                },
-                {
-                    root: null,
-                    rootMargin: "0px 0px -70% 0px",
-                    threshold: [0, 0.1, 0.5, 1],
+                if (visible.length > 0 && visible[0]?.target?.id) {
+                    setActiveId(visible[0]?.target?.id);
                 }
-            );
+            },
+            {
+                root: null,
+                rootMargin: "0px 0px -70% 0px",
+                threshold: [0, 0.1, 0.5, 1],
+            }
+        );
 
-            items.forEach((it) => io.observe(it.node));
-            observerRef.current = io;
-        },
-        [setActiveId]
-    );
+        items.forEach((it) => io.observe(it.node));
+        observerRef.current = io;
+    }, []);
 
     const observeMutations = useCallback(() => {
-        if (mutationObserverRef.current) return;
+        if (mutationObserverRef.current) return; // 이미 등록된 경우 무시
 
         const container = findContainer();
         if (!container) return;
 
-        const mo = new MutationObserver((mutations) => {
+        const mo = new MutationObserver(() => {
             clearTimeout((observeMutations as any)._timer);
             (observeMutations as any)._timer = setTimeout(() => {
                 const items = buildToc();
-                if (items.length > 0) observeHeadings(items);
-            }, 120);
+                if (items.length > 0) {
+                    observeHeadings(items);
+                }
+            }, 150);
         });
 
         mo.observe(container, {
@@ -128,28 +118,21 @@ export const TableOfContents = () => {
 
     useEffect(() => {
         const items = buildToc();
-
-        if (items.length > 0) {
-            observeHeadings(items);
-        } else {
-            observeMutations();
-        }
+        observeHeadings(items);
+        observeMutations();
 
         return () => {
-            if (observerRef.current) {
-                observerRef.current.disconnect();
-                observerRef.current = null;
-            }
-            if (mutationObserverRef.current) {
-                mutationObserverRef.current.disconnect();
-                mutationObserverRef.current = null;
-            }
+            observerRef.current?.disconnect();
+            observerRef.current = null;
+            mutationObserverRef.current?.disconnect();
+            mutationObserverRef.current = null;
         };
     }, [buildToc, observeHeadings, observeMutations]);
 
     const handleClick = (id: string) => {
         const el = document.getElementById(id);
         if (!el) return;
+
         const headerOffset = 80;
         const bodyRect = document.body.getBoundingClientRect().top;
         const elemRect = el.getBoundingClientRect().top;
@@ -160,20 +143,20 @@ export const TableOfContents = () => {
             behavior: "smooth",
         });
 
-        // 포커스(접근성)
         el.focus?.();
     };
 
     return (
         <nav
-            className={`hidden md:block fixed top-20 right-4 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white shadow-sm dark:bg-gray-900 dark:border-gray-700 transition-all duration-300 ${
+            className={cn(
+                "hidden md:block fixed top-20 right-4 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white shadow-sm dark:bg-gray-900 dark:border-gray-700 transition-all duration-300",
                 isCollapsed ? "w-14" : "w-64"
-            }`}
+            )}
         >
             <div
                 className={cn(
                     "flex items-center justify-between p-3 border-b-0 border-gray-200 dark:border-gray-700",
-                    isCollapsed ? "" : "border-b"
+                    !isCollapsed && "border-b"
                 )}
             >
                 {!isCollapsed && (
@@ -183,9 +166,10 @@ export const TableOfContents = () => {
                 )}
                 <button
                     onClick={() => setIsCollapsed(!isCollapsed)}
-                    className={`p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${
-                        isCollapsed ? "mx-auto" : ""
-                    }`}
+                    className={cn(
+                        "p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors",
+                        isCollapsed && "mx-auto"
+                    )}
                     aria-label={isCollapsed ? "목차 펼치기" : "목차 접기"}
                 >
                     {isCollapsed ? (
@@ -201,6 +185,7 @@ export const TableOfContents = () => {
                     )}
                 </button>
             </div>
+
             {!isCollapsed && (
                 <div className="p-4">
                     {toc.length === 0 ? (
@@ -215,11 +200,12 @@ export const TableOfContents = () => {
                                     style={{
                                         marginLeft: `${(t.level - 2) * 12}px`,
                                     }}
-                                    className={`cursor-pointer truncate rounded px-1 py-0.5 transition-colors ${
+                                    className={cn(
+                                        "cursor-pointer truncate rounded px-1 py-0.5 transition-colors",
                                         activeId === t.id
                                             ? "text-primary-000 font-medium"
                                             : "text-gray-700 hover:text-primary-000"
-                                    }`}
+                                    )}
                                     onClick={() => handleClick(t.id)}
                                 >
                                     {t.text}
