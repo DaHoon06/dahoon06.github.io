@@ -1,5 +1,12 @@
 import cn from "@shared/libs/cn";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+    ReactElement,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+} from "react";
 import { BsListNested } from "react-icons/bs";
 import { FaAngleUp } from "react-icons/fa6";
 
@@ -10,7 +17,7 @@ type TocItem = {
     node: HTMLElement;
 };
 
-export const TableOfContents = () => {
+export const TableOfContents = (): ReactElement | null => {
     const [toc, setToc] = useState<TocItem[]>([]);
     const [activeId, setActiveId] = useState<string>("");
     const [isCollapsed, setIsCollapsed] = useState(false);
@@ -145,6 +152,8 @@ export const TableOfContents = () => {
 
         el.focus?.();
     };
+
+    if (toc.length === 0) return null;
 
     return (
         <nav
