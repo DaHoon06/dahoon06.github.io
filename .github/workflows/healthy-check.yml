@@ -11,5 +11,5 @@ jobs:
         steps:
             - name: system health check
               run: |
-                  curl -X GET "${{ vars.API_URL }}" \
+                  curl -X GET "${{ secrets.API_URL }}" \
                     -H "Authorization: ${{ secrets.API_KEY }}" || exit 1
