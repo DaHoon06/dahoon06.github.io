@@ -5,7 +5,7 @@ on:
         - cron: "*/5 * * * *"
 
 jobs:
-    crawl-ranking:
+    healthy-check:
         if: github.event_name == 'schedule'
         runs-on: ubuntu-latest
         steps:
