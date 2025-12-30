@@ -25,4 +25,4 @@ jobs:
                   fi
 
                   curl -X GET "$API_URL" \
-                    -H "Authorization: Bearer $API_KEY"
+                    -H "Authorization: $API_KEY"
