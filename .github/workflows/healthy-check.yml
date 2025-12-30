@@ -14,6 +14,10 @@ jobs:
                   API_URL: ${{ secrets.API_URL }}
                   API_KEY: ${{ secrets.API_KEY }}
               run: |
+                  set -e
+
+                  ENDPOINT="/health-check"
+
                   if [ -z "$API_URL" ]; then
                     echo "API_URL is empty"
                     exit 1
@@ -24,5 +28,7 @@ jobs:
                     exit 1
                   fi
 
-                  curl -X GET "$API_URL" \
+                  FULL_URL="${API_URL%/}${ENDPOINT}"
+
+                  curl -X GET "$FULL_URL" \
                     -H "Authorization: $API_KEY"
