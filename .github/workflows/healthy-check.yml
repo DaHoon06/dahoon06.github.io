@@ -1,0 +1,15 @@
+name: healthy-check
+
+on:
+    schedule:
+        - cron: 10 * * * *
+
+jobs:
+    crawl-ranking:
+        if: github.event_name == 'schedule'
+        runs-on: ubuntu-latest
+        steps:
+            - name: system health check
+              run: |
+                  curl -X GET "${{ vars.API_URL }}" \
+                    -H "Authorization: ${{ secrets.API_KEY }}" || exit 1
