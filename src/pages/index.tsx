@@ -9,7 +9,6 @@ import {
 } from "@tanstack/react-query";
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
-import { recentlyPosts } from "@entities/notion/libs/recentlyPosts";
 import { BaseLayout } from "@widgets/layouts";
 import { PostListRenderer } from "@features/blog/post-list/ui/PostListRenderer";
 
@@ -31,14 +30,9 @@ export default HomePage;
 
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(await getPosts());
-    const recentlyPost = recentlyPosts(posts, 4);
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.posts(),
         queryFn: () => posts,
-    });
-    await queryClient.prefetchQuery({
-        queryKey: notionQueryKeys.recentlyPosts(),
-        queryFn: () => recentlyPost,
     });
 
     return {

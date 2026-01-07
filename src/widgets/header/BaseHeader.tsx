@@ -12,6 +12,9 @@ export const BaseHeader = (): ReactElement => {
                 </Link>
 
                 <div className="flex items-center gap-4">
+                    <button className="text-sm text-gray-400 hover:text-primary-000 transition-colors">
+                        <span>👋 Me!</span>
+                    </button>
                     <Link
                         href="/tools/timestamp-converter"
                         className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
