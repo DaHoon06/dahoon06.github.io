@@ -1,5 +1,158 @@
 [
   {
+    "id": "2f08d60b-90d2-80b8-873a-ee3b8974efb3",
+    "date": {
+      "start_date": "2026-01-22"
+    },
+    "type": [
+      "Post"
+    ],
+    "slug": "redis-server-migration",
+    "category": [
+      "Development"
+    ],
+    "tags": [
+      "EC2",
+      "Development",
+      "Redis"
+    ],
+    "summary": "EC2에 레디스 서버 설치하기",
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "레디스 서버 이전",
+    "status": [
+      "Public"
+    ],
+    "createdTime": "Thu Jan 22 2026 14:16:27 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
+    "id": "2eb8d60b-90d2-8010-8741-c3e13a9087a1",
+    "date": {
+      "start_date": "2026-01-20"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A916f6102-f9af-4b36-87b2-8b1a5c67702a%3AChatGPT_Image_2026%E1%84%82%E1%85%A7%E1%86%AB_1%E1%84%8B%E1%85%AF%E1%86%AF_17%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_09_38_00.png?table=block&id=2eb8d60b-90d2-8010-8741-c3e13a9087a1&cache=v2",
+    "type": [
+      "Post"
+    ],
+    "slug": "gitlab-server-migration",
+    "category": [
+      "Development"
+    ],
+    "tags": [
+      "Development",
+      "Server",
+      "gitlab"
+    ],
+    "summary": "결국엔 깃허브로",
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "깃랩 서버 이전 (On-Premise → EC2)",
+    "status": [
+      "Public"
+    ],
+    "createdTime": "Sat Jan 17 2026 21:34:49 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
+    "id": "2e18d60b-90d2-8009-8a67-f36e8880f038",
+    "date": {
+      "start_date": "2026-01-07"
+    },
+    "type": [
+      "Post"
+    ],
+    "category": [
+      "Development"
+    ],
+    "tags": [
+      "Development",
+      "Nextjs"
+    ],
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "cache",
+    "status": [
+      "Private"
+    ],
+    "createdTime": "Wed Jan 07 2026 10:36:49 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
+    "id": "2e08d60b-90d2-80a5-87f2-f4cb88f15566",
+    "date": {
+      "start_date": "2026-01-06"
+    },
+    "type": [
+      "Post"
+    ],
+    "slug": "nextjs-server",
+    "category": [
+      "Development"
+    ],
+    "tags": [
+      "Nextjs"
+    ],
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "-",
+    "status": [
+      "Private"
+    ],
+    "createdTime": "Tue Jan 06 2026 11:24:16 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
+    "id": "2bc8d60b-90d2-80d6-939b-ef3c03c65fe5",
+    "date": {
+      "start_date": "2025-12-02"
+    },
+    "type": [
+      "Post"
+    ],
+    "slug": "2025-12-\nretrospect",
+    "category": [
+      "😎 일상"
+    ],
+    "tags": [
+      "Daily"
+    ],
+    "summary": "생각난김에 적어보는 1년 회고",
+    "author": [
+      {
+        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
+        "name": "dahoon06",
+        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
+      }
+    ],
+    "title": "회고",
+    "status": [
+      "Public"
+    ],
+    "createdTime": "Tue Dec 02 2025 00:27:33 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
     "id": "2928d60b-90d2-806d-b523-cb048eca544e",
     "date": {
       "start_date": "2025-10-21"
@@ -57,7 +210,7 @@
     ],
     "title": "SQLD 준비",
     "status": [
-      "Public"
+      "Private"
     ],
     "createdTime": "Mon Oct 20 2025 22:13:40 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
@@ -941,36 +1094,6 @@
       "Public"
     ],
     "createdTime": "Fri Jul 12 2024 11:28:04 GMT+0900 (Korean Standard Time)",
-    "fullWidth": false
-  },
-  {
-    "id": "74618a6b-c611-4537-a493-6d7b357675cf",
-    "date": {
-      "start_date": "2024-07-01"
-    },
-    "type": [
-      "Post"
-    ],
-    "slug": "request-timeout",
-    "category": [
-      "😎 일상"
-    ],
-    "tags": [
-      "timeout"
-    ],
-    "summary": "막 적어보는 오늘의 기록",
-    "author": [
-      {
-        "id": "b2ac3da0-4d50-4fa7-93fa-9ce7fd900671",
-        "name": "dahoon06",
-        "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6ff80612-696d-4f1a-b8f5-d596674d7dd2/76781436.jfif"
-      }
-    ],
-    "title": "Request Timeout",
-    "status": [
-      "Public"
-    ],
-    "createdTime": "Thu Jun 20 2024 09:33:13 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   },
   {

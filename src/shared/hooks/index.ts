@@ -3,3 +3,7 @@ import useMatchMedia from "./useMatchMedia";
 import useRouteLoading from "./useRouteLoading";
 import { useToast } from "./useToast";
 export { useCheckScroll, useMatchMedia, useRouteLoading, useToast };
+
+export { useEscapeKey } from "./useEscapeKey";
+export { useScrollLock } from "./useScrollLock";
+export { useModal } from "./useModal";

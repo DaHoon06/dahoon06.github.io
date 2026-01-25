@@ -2,8 +2,11 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import { Logo } from "@shared/ui/Logo";
 import { IoLogoGithub, IoMailOutline } from "react-icons/io5";
+import { useModal } from "@shared/hooks";
 
 export const BaseHeader = (): ReactElement => {
+    const { open } = useModal();
+
     return (
         <header className="fixed top-0 right-0 left-0 z-10 h-[60px] w-full border-b border-[#e1e1e8] bg-white px-6">
             <nav className="flex h-full w-full items-center justify-between gap-4">
@@ -12,7 +15,10 @@ export const BaseHeader = (): ReactElement => {
                 </Link>
 
                 <div className="flex items-center gap-4">
-                    <button className="text-sm text-gray-400 hover:text-primary-000 transition-colors">
+                    <button
+                        onClick={() => open("signIn", {})}
+                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
+                    >
                         <span>👋 Me!</span>
                     </button>
                     <Link
