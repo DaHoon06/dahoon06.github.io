@@ -7,6 +7,7 @@ import { queryClient } from "@shared/libs/react-query";
 import { RouteProgressBar } from "@shared/ui/progress-bar";
 import Script from "next/script";
 import { Toaster } from "@shared/ui/toast/toaster";
+import { ModalProvider } from "@apps/providers";
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -23,15 +24,17 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-F3D23SCNJB');
         `}
             </Script>
-            <QueryClientProvider client={queryClient}>
-                <HydrationBoundary state={pageProps.dehydratedState}>
-                    <RouteProgressBar />
-                    <MetaHead />
-                    <Component {...pageProps} />
-                    <div id="modal" />
-                    <Toaster />
-                </HydrationBoundary>
-            </QueryClientProvider>
+            <ModalProvider>
+                <QueryClientProvider client={queryClient}>
+                    <HydrationBoundary state={pageProps.dehydratedState}>
+                        <RouteProgressBar />
+                        <MetaHead />
+                        <Component {...pageProps} />
+                        <div id="modal" />
+                        <Toaster />
+                    </HydrationBoundary>
+                </QueryClientProvider>
+            </ModalProvider>
         </>
     );
 }

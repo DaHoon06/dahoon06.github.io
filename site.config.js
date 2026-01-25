@@ -43,6 +43,7 @@ const CONFIG = {
     // notion configuration (required)
     notionConfig: {
         pageId: process.env.NOTION_PAGE_ID,
+        dairyPageId: process.env.NOTION_DAIRY_PAGE_ID,
     },
 
     // plugin configuration (optional)
