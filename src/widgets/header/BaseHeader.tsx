@@ -15,12 +15,12 @@ export const BaseHeader = (): ReactElement => {
                 </Link>
 
                 <div className="flex items-center gap-4">
-                    <button
+                    {/* <button
                         onClick={() => open("signIn", {})}
                         className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
                     >
                         <span>👋 Me!</span>
-                    </button>
+                    </button> */}
                     <Link
                         href="/tools/timestamp-converter"
                         className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
