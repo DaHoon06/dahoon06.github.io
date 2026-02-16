@@ -9,7 +9,9 @@ async function getPageProperties(
     schema: CollectionPropertySchemaMap
 ) {
     const api = new NotionAPI();
-    const rawProperties = Object.entries(block?.[id]?.value?.properties || []);
+    const rawProperties = Object.entries(
+        block?.[id]?.value?.value?.properties || []
+    );
     const excludeProperties = [
         "date",
         "select",
