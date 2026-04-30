@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2e18d60b-90d2-80e8-b505-e9f4646b5154",
+    "type": [
+      "Post"
+    ],
+    "summary": "모노레포 환경에서의 claude code 최적화",
+    "slug": "monorepo-ai-agent-architecture",
+    "tags": [
+      "cluade code",
+      "monorepo"
+    ],
+    "date": {
+      "start_date": "2026-01-07"
+    },
+    "title": "Front AI agent 환경 구축",
+    "createdTime": "Wed Jan 07 2026 13:25:40 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  }
+]

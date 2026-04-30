@@ -5,5 +5,6 @@ export const notionQueryKeys = {
     tags: () => ["tags"],
     categories: () => ["categories"],
     post: (slug: string) => ["post", slug],
-    dairy: () => ["dairy"],
+    archivings: () => ["archivings"],
+    archiving: (slug: string) => ["archiving", slug],
 };

@@ -15,13 +15,15 @@ export const BaseHeader = (): ReactElement => {
                 </Link>
 
                 <div className="flex items-center gap-4">
-                    {/* <button
-                        onClick={() => open("signIn", {})}
+                    <Link
+                        prefetch
+                        href="/archiving"
                         className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
                     >
-                        <span>👋 Me!</span>
-                    </button> */}
+                        <span>Archiving</span>
+                    </Link>
                     <Link
+                        prefetch
                         href="/tools/timestamp-converter"
                         className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
                     >

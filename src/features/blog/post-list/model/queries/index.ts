@@ -1,5 +1,5 @@
 import usePostsQuery from "./usePostsQuery";
 import useRecentlyPostsQuery from "./useRecentlyPostsQuery";
-import useDairyQuery from "./useDairyQuery";
+import useArchivingQuery from "./useArchivingQuery";
 
-export { usePostsQuery, useRecentlyPostsQuery, useDairyQuery };
+export { usePostsQuery, useRecentlyPostsQuery, useArchivingQuery };

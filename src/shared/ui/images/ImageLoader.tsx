@@ -1,36 +1,41 @@
-import { useEffect, useRef, useState } from "react";
+import cn from "@shared/libs/cn";
 import Image, { ImageProps } from "next/image";
 
 interface ImageLoaderProps extends ImageProps {
     src: string;
     alt: string;
+    fallbackImage?: string;
 }
 
-export const ImageLoader = ({ src, alt, ...props }: ImageLoaderProps) => {
-    const [loading, setLoading] = useState(true);
-    const imgRef = useRef<HTMLImageElement | null>(null);
-
-    useEffect(() => {
-        if (imgRef.current?.complete) {
-            setLoading(false);
-        }
-    }, [src]);
+export const ImageLoader = ({
+    src,
+    width,
+    height,
+    alt,
+    fallbackImage,
+    style,
+    ...props
+}: ImageLoaderProps) => {
+    const resolvedSrc = src || fallbackImage || "/images/default.png";
+    const isFill = props.fill === true;
 
     return (
-        <div className="relative h-[180px] w-auto">
-            {loading && (
-                <div className="absolute inset-0 animate-pulse rounded-lg bg-gray-200" />
+        <div
+            className={cn(
+                "relative flex-shrink-0 overflow-hidden rounded-lg",
+                isFill ? "h-full w-full" : "h-auto w-auto"
             )}
+        >
+            <div className="bg-grayscale-200 absolute inset-0 animate-pulse" />
+
             <Image
-                ref={imgRef}
-                src={src}
-                alt={alt}
-                className={`rounded-lg object-cover transition-opacity duration-300 ${
-                    loading ? "opacity-0" : "opacity-100"
-                }`}
-                onLoad={() => setLoading(false)}
-                onError={() => setLoading(false)}
                 {...props}
+                src={resolvedSrc}
+                alt={alt}
+                width={width}
+                height={height}
+                className={cn("relative z-10 object-cover", props.className)}
+                style={isFill ? style : { height, width, ...style }}
             />
         </div>
     );

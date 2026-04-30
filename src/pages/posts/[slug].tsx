@@ -45,7 +45,7 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
     const meta = {
         title: post.title,
         date: new Date(date).toISOString(),
-        image: image,
+        image,
         description: post.summary || "",
         type: post.type[0],
         url: `${CONFIG.link}/${post.slug}`,

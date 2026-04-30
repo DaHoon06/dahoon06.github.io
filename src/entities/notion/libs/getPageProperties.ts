@@ -37,7 +37,7 @@ async function getPageProperties(
                         const newurl = customMapImageUrl(url, Block);
                         properties[schema[key].name] = newurl;
                     } catch (error) {
-                        properties[schema[key].name] = undefined;
+                        properties[schema[key].name] = null;
                     }
                     break;
                 }
@@ -73,15 +73,18 @@ async function getPageProperties(
                                 res?.recordMapWithRoles?.notion_user?.[
                                     userId[1]
                                 ]?.value;
-                            const user = {
-                                id: resValue?.id,
-                                name:
-                                    resValue?.name ||
-                                    `${resValue?.family_name}${resValue?.given_name}` ||
-                                    undefined,
-                                profile_photo: resValue?.profile_photo || null,
-                            };
-                            users.push(user);
+                            if (resValue?.id) {
+                                const user = {
+                                    id: resValue.id,
+                                    name:
+                                        resValue?.name ||
+                                        `${resValue?.family_name ?? ""}${resValue?.given_name ?? ""}` ||
+                                        null,
+                                    profile_photo:
+                                        resValue?.profile_photo || null,
+                                };
+                                users.push(user);
+                            }
                         }
                     }
                     properties[schema[key].name] = users;

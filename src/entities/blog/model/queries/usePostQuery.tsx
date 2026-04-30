@@ -16,7 +16,7 @@ const usePostQuery = () => {
             const post = filterPosts(posts).find(
                 (p) => p.slug === slug
             ) as PostType;
-            const recordMap = await getRecordMap(slug as string);
+            const recordMap = await getRecordMap(post.id);
             return {
                 ...post,
                 recordMap,
