@@ -5,7 +5,6 @@
     "homepage": "https://dahoon06.github.io/",
     "scripts": {
         "dev": "next dev",
-        "prebuild": "tsx ./src/@apps/scripts/fetchNotionCache.ts && tsx ./src/@apps/scripts/fetchArchivingCache.ts",
         "postbuild": "next-sitemap --config ./src/next-sitemap.config.cjs",
         "archivingbuild": "tsx ./src/@apps/scripts/fetchArchivingCache.ts",
         "build": "next build",

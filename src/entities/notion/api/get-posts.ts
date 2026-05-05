@@ -4,6 +4,7 @@ import getAllPageIds from "../lib/get-all-page-ids";
 import getPageProperties from "../lib/get-page-properties";
 import { PostsType } from "../model/post.types";
 import { CONFIG } from "@root/site.config";
+import { getPageWithDelay } from "./get-page-with-retry";
 
 export const getPosts = async () => {
     let id =
@@ -11,7 +12,7 @@ export const getPosts = async () => {
         (process.env.NEXT_PUBLIC_NOTION_PAGE_ID as string);
     const api = new NotionAPI();
 
-    const response = await api.getPage(id);
+    const response = await getPageWithDelay(api, id);
 
     id = idToUuid(id);
 

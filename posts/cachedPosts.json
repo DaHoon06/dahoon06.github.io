@@ -83,6 +83,7 @@
     "type": [
       "Post"
     ],
+    "slug": "cache",
     "category": [
       "Development"
     ],
@@ -166,7 +167,7 @@
     "author": [],
     "title": "SQLD 준비",
     "status": [
-      "Public"
+      "Private"
     ],
     "createdTime": "Mon Oct 20 2025 22:13:40 GMT+0900 (Korean Standard Time)",
     "fullWidth": true
