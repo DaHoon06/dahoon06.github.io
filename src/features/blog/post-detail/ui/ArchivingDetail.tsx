@@ -3,7 +3,7 @@ import styles from "./PostDetail.module.scss";
 import formStyles from "./PostDetailForm.module.scss";
 import useMermaidEffect from "@entities/blog/lib/use-mermaid-effect";
 import { useArchivingQuery } from "@features/blog/post-list";
-import { NotionRenderer } from "react-notion-x";
+import NotionRenderer from "@entities/notion/ui/NotionRenderer";
 import { PostHeader } from "./PostHeader";
 
 export const ArchivingDetail = (): ReactElement | null => {
