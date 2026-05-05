@@ -1,22 +1,22 @@
 import {
     filterPosts,
     FilterPostsOptions,
-} from "@entities/notion/libs/filterPosts";
-import { getRecordMap } from "@entities/notion/libs/getRecordMap";
-import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
+    getRecordMap,
+    notionQueryKeys,
+} from "@entities/notion";
 import { CONFIG } from "@root/site.config";
-import { queryClient } from "@shared/libs/react-query";
+import { queryClient } from "@shared/lib/react-query";
 import { NextPageWithLayout } from "@shared/types";
 import CustomHead from "@shared/ui/heads/CustomHead";
 import { dehydrate } from "@tanstack/react-query";
-import CustomError from "@widgets/error/CustomError";
+import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
-import usePostQuery from "@entities/blog/model/queries/usePostQuery";
+import usePostQuery from "@features/blog/post-detail/model/use-post-query";
 import path from "path";
 import fs from "fs";
 import { PostDetail } from "@features/blog/post-detail/ui/PostDetail";
-import { TableOfContents } from "@entities/blog/ui";
+import { TableOfContents } from "@entities/blog";
 
 const cachedPosts = fs.readFileSync(
     path.join(process.cwd(), "posts/cachedPosts.json"),

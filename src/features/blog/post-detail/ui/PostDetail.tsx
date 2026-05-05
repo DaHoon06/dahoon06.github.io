@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
 import { PostDetailForm } from "./PostDetailForm";
 import styles from "./PostDetail.module.scss";
-import usePostQuery from "@entities/blog/model/queries/usePostQuery";
-import useMermaidEffect from "@entities/blog/hooks/useMermaidEffect";
+import usePostQuery from "../model/use-post-query";
+import useMermaidEffect from "@entities/blog/lib/use-mermaid-effect";
 import CommentBox from "@entities/comment/ui/CommentBox";
 
 export const PostDetail = (): ReactElement | null => {

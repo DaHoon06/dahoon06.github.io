@@ -1,8 +1,8 @@
 import { ImageLoader } from "@shared/ui/images";
-import { PostType } from "@entities/notion/types";
+import { PostType } from "@entities/notion/@x/blog";
 import { Author } from "./Author";
 import { ReactElement } from "react";
-import { postDateFormatter } from "../lib/formatDate";
+import { postDateFormatter } from "../lib/format-date";
 
 interface ArchivingCardProps {
     post: PostType;

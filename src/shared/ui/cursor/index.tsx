@@ -1,6 +1,6 @@
 import { ReactElement, useEffect, useRef } from "react";
 import elasticMouse from "./elasticMouse";
-import cn from "@shared/libs/cn";
+import cn from "@shared/lib/cn";
 import styles from "./Cursor.module.scss";
 
 const Cursor = (): ReactElement => {

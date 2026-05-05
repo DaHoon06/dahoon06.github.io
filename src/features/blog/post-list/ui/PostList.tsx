@@ -1,7 +1,7 @@
 import { ReactElement, memo } from "react";
 import Link from "next/link";
-import { PostCard, BannerCard } from "@entities/blog/ui";
-import { PostType } from "@entities/notion/types";
+import { PostCard, BannerCard } from "@entities/blog";
+import { PostType } from "@entities/notion";
 
 interface PostListProps {
     mainPost: PostType | null;

@@ -1,7 +1,7 @@
 import { CONFIG } from "@root/site.config";
 import { useEffect } from "react";
 import styled from "styled-components";
-import { useScheme } from "@entities/notion/hooks/useScheme";
+import { useScheme } from "@entities/notion";
 
 type Props = {
     issueTerm: string;

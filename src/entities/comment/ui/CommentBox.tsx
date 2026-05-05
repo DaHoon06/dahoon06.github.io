@@ -1,4 +1,4 @@
-import { PostType } from "@entities/notion/types";
+import { PostType } from "@entities/notion/@x/comment";
 import { CONFIG } from "@root/site.config";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";

@@ -1,6 +1,8 @@
-import { PostType } from "@entities/notion/types";
+import { PostType } from "@entities/notion/@x/blog";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
+import { Author } from "./Author";
+import { postDateFormatter } from "../lib/format-date";
 interface BannerCardProps {
     post: PostType;
 }
@@ -47,29 +49,6 @@ export const BannerCard = ({ post }: BannerCardProps) => {
                 </div>
 
                 <footer className="flex md:items-center justify-between md:flex-row flex-col md:gap-4 gap-2">
-                    <div className="flex items-center flex-row gap-4">
-                        <div className="relative h-8 w-8 overflow-hidden rounded-full">
-                            <Image
-                                src={
-                                    post.author?.[0]?.profile_photo ||
-                                    "/images/default.png"
-                                }
-                                alt={post.author?.[0]?.name || "author"}
-                                fill
-                                className="object-cover"
-                                sizes="32px"
-                            />
-                        </div>
-                        <div className="flex flex-col">
-                            <span className="text-sm font-semibold text-gray-900">
-                                {post.author?.[0]?.name}
-                            </span>
-                            <span className="text-xs text-gray-500">
-                                {post.date?.start_date || post.createdTime}
-                            </span>
-                        </div>
-                    </div>
-
                     <button
                         type="button"
                         className="border border-gray-400 inline-flex items-center gap-2 rounded-md  px-4 py-2 text-sm  text-gray-600 transition-colors hover:border-gray-400 hover:bg-gray-50"

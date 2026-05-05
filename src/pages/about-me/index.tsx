@@ -4,7 +4,7 @@ import {
     CareerSection,
     ProfileSection,
     ProjectSection,
-} from "@widgets/about-me/ui";
+} from "@widgets/about-me";
 import { AboutLayout } from "@widgets/layouts";
 
 export default function AboutMePage() {

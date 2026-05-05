@@ -1,4 +1,4 @@
-import { getPosts } from "@entities/notion/libs/getPosts";
+import { getPosts } from "@entities/notion";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(

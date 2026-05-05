@@ -3,7 +3,7 @@ import "@apps/styles/index.scss";
 import "react-tooltip/dist/react-tooltip.css";
 import MetaHead from "@shared/ui/heads/MetaHead";
 import { HydrationBoundary, QueryClientProvider } from "@tanstack/react-query";
-import { queryClient } from "@shared/libs/react-query";
+import { queryClient } from "@shared/lib/react-query";
 import { RouteProgressBar } from "@shared/ui/progress-bar";
 import Script from "next/script";
 import { Toaster } from "@shared/ui/toast/toaster";

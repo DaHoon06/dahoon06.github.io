@@ -1,4 +1,4 @@
-import cn from "@shared/libs/cn";
+import cn from "@shared/lib/cn";
 import { cva } from "class-variance-authority";
 import { forwardRef } from "react";
 

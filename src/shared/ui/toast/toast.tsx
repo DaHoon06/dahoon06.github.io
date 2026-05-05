@@ -1,4 +1,4 @@
-import cn from "@shared/libs/cn";
+import cn from "@shared/lib/cn";
 import * as ToastPrimitives from "@radix-ui/react-toast";
 import { cva, type VariantProps } from "class-variance-authority";
 import * as React from "react";

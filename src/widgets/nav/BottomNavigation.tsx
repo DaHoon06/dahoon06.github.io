@@ -2,7 +2,7 @@ import { IconLoader } from "@shared/ui/icons/IconLoader";
 import Link from "next/link";
 import { HTMLAttributes, ReactElement } from "react";
 import { GoHomeFill } from "react-icons/go";
-import cn from "@shared/libs/cn";
+import cn from "@shared/lib/cn";
 
 interface BottomNavigationProps extends HTMLAttributes<HTMLDivElement> {
     isActive: (path: string) => boolean;

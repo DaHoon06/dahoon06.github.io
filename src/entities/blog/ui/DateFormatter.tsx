@@ -1,4 +1,4 @@
-import { postDateFormatter } from "@entities/blog/lib/formatDate";
+import { postDateFormatter } from "@entities/blog/lib/format-date";
 import styles from "./DateFormatter.module.scss";
 
 export const DateFormatter = ({ date }: { date: string }) => {

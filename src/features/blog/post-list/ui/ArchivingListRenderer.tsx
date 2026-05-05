@@ -1,7 +1,7 @@
 import { ReactElement, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { ArchivingList } from "./ArchivingList";
-import useArchivingsQuery from "../model/queries/useArchivingsQuery";
+import useArchivingsQuery from "../model/use-archivings-query";
 
 export const ArchivingListRenderer = (): ReactElement => {
     const [searchKeyword, setSearchKeyword] = useState("");

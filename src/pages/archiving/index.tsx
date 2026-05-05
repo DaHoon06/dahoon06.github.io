@@ -1,5 +1,5 @@
-import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
-import { queryClient } from "@shared/libs/react-query";
+import { notionQueryKeys, getArchiving } from "@entities/notion";
+import { queryClient } from "@shared/lib/react-query";
 import {
     dehydrate,
     DehydratedState,
@@ -8,8 +8,7 @@ import {
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
-import { getArchiving } from "@entities/notion/libs/getArchiving";
-import { ArchivingListRenderer } from "@features/blog/post-list/ui/ArchivingListRenderer";
+import { ArchivingListRenderer } from "@features/blog/post-list";
 
 interface ArchivingPageProps {
     dehydratedState: DehydratedState;

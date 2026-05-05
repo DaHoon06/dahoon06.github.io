@@ -1,6 +1,6 @@
-import { PostType } from "@entities/notion/types";
+import { PostType } from "@entities/notion";
 import Image from "next/image";
-import { formatDate } from "@entities/blog/lib/formatDate";
+import { formatDate } from "@entities/blog/lib/format-date";
 
 type PostHeaderProps = {
     data: PostType;

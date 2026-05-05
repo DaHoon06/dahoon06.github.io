@@ -1,7 +1,7 @@
 import styles from "./TagList.module.scss";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { useTagsQuery } from "@entities/blog/hooks/useTagsQuery";
+import { useTagsQuery } from "@features/blog/post-list";
 
 export const TagList = () => {
     const router = useRouter();

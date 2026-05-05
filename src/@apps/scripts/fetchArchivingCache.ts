@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import "dotenv/config";
 
-import { getArchiving } from "@entities/notion/libs/getArchiving";
+import { getArchiving } from "@entities/notion";
 import dotenv from "dotenv";
 
 dotenv.config({ path: ".env" });

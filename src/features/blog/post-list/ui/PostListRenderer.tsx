@@ -1,8 +1,11 @@
 import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
 import { PostList } from "./PostList";
 import { IoSearchOutline } from "react-icons/io5";
-import { usePostsQuery } from "../model/queries";
+import usePostsQuery from "../model/use-posts-query";
+import useArchivingsQuery from "../model/use-archivings-query";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import { ArchivingCard } from "@entities/blog/ui/ArchivingCard";
 
 type Item = { category?: string[] | null };
 
@@ -11,6 +14,11 @@ export const PostListRenderer = (): ReactElement => {
     const [searchKeyword, setSearchKeyword] = useState("");
 
     const data = usePostsQuery();
+    const archivings = useArchivingsQuery();
+    const recentArchivings = useMemo(
+        () => archivings.slice(0, 6),
+        [archivings]
+    );
     const router = useRouter();
 
     const [filteredPosts, setFilteredPosts] = useState(data);
@@ -93,6 +101,32 @@ export const PostListRenderer = (): ReactElement => {
 
     return (
         <div className="flex flex-col md:gap-10 gap-4 p-4 pb-10 transition-all duration-300 ease-in-out motion-reduce:transition-none">
+            {recentArchivings.length > 0 && (
+                <section className="flex flex-col gap-4">
+                    <div className="flex items-center justify-between">
+                        <h2 className="text-lg font-bold text-gray-800">
+                            지식 저장소
+                        </h2>
+                        <Link
+                            href="/archiving"
+                            className="text-sm text-gray-500 hover:text-gray-800 transition-colors"
+                        >
+                            더 보기 →
+                        </Link>
+                    </div>
+                    <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+                        {recentArchivings.map((post) => (
+                            <Link
+                                href={`/archiving/${post.slug}`}
+                                key={`${post.id}_${post.slug}`}
+                            >
+                                <ArchivingCard post={post} />
+                            </Link>
+                        ))}
+                    </div>
+                </section>
+            )}
+
             <header className="flex flex-col w-full md:my-8 my-4 gap-4 transition-all duration-300 ease-in-out motion-reduce:transition-none">
                 <div className="relative">
                     <input

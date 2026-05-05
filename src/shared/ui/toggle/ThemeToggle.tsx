@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
 import { Emoji } from "../icons/Emoji";
-import { useScheme } from "@entities/notion/hooks/useScheme";
+import { useScheme } from "@entities/notion";
 
 type Props = {};
 

@@ -1,19 +1,17 @@
 import { CONFIG } from "@root/site.config";
 import { NextPageWithLayout } from "@shared/types";
 import CustomHead from "@shared/ui/heads/CustomHead";
-import CustomError from "@widgets/error/CustomError";
+import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import path from "path";
 import fs from "fs";
-import { TableOfContents } from "@entities/blog/ui";
-import { PostType } from "@entities/notion/types";
-import { useArchivingQuery } from "@features/blog/post-list/model/queries";
+import { TableOfContents } from "@entities/blog";
+import { PostType, notionQueryKeys, getRecordMap } from "@entities/notion";
+import { useArchivingQuery } from "@features/blog/post-list";
 import { dehydrate } from "@tanstack/react-query";
-import { queryClient } from "@shared/libs/react-query";
-import { notionQueryKeys } from "@entities/notion/model/queries/queryKeys";
+import { queryClient } from "@shared/lib/react-query";
 import { ArchivingDetail } from "@features/blog/post-detail/ui/ArchivingDetail";
-import { getRecordMap } from "@entities/notion/libs/getRecordMap";
 
 const cachedArchiving = fs.readFileSync(
     path.join(process.cwd(), "posts/cachedArchiving.json"),

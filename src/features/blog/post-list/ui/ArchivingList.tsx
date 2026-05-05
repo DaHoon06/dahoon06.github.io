@@ -1,6 +1,6 @@
 import { ReactElement, memo } from "react";
 import Link from "next/link";
-import { PostType } from "@entities/notion/types";
+import { PostType } from "@entities/notion";
 import { ArchivingCard } from "@entities/blog/ui/ArchivingCard";
 
 interface ArchivingListProps {

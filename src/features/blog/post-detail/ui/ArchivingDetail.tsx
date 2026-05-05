@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
 import styles from "./PostDetail.module.scss";
 import formStyles from "./PostDetailForm.module.scss";
-import useMermaidEffect from "@entities/blog/hooks/useMermaidEffect";
-import { useArchivingQuery } from "@features/blog/post-list/model/queries";
+import useMermaidEffect from "@entities/blog/lib/use-mermaid-effect";
+import { useArchivingQuery } from "@features/blog/post-list";
 import { NotionRenderer } from "react-notion-x";
 import { PostHeader } from "./PostHeader";
 
