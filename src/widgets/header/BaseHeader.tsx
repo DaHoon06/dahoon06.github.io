@@ -1,75 +1,54 @@
 import { ReactElement } from "react";
-import Link from "next/link";
-import { Logo } from "@shared/ui/Logo";
+import { Menu, X } from "lucide-react";
 import { IoLogoGithub, IoMailOutline } from "react-icons/io5";
-import { useModal } from "@shared/hooks";
+import { CONFIG } from "@root/site.config";
 
-export const BaseHeader = (): ReactElement => {
-    const { open } = useModal();
+interface BaseHeaderProps {
+    pageTitle: string;
+    isSidebarOpen: boolean;
+    onToggleSidebar: () => void;
+}
 
+export const BaseHeader = ({
+    pageTitle,
+    isSidebarOpen,
+    onToggleSidebar,
+}: BaseHeaderProps): ReactElement => {
     return (
-        <header className="fixed top-0 right-0 left-0 z-10 h-[60px] w-full border-b border-[#e1e1e8] bg-white px-6">
-            <nav className="flex h-full w-full items-center justify-between gap-4">
-                <Link href="/" className="flex items-center gap-2">
-                    <Logo />
-                </Link>
+        <header className="shrink-0 bg-white border-b border-zinc-200 h-14 flex items-center gap-3 px-4 sm:px-6">
+            {/* Mobile hamburger */}
+            <button
+                onClick={onToggleSidebar}
+                className="lg:hidden p-1.5 -ml-1 rounded-md hover:bg-zinc-100 transition-colors text-zinc-500"
+                aria-label="메뉴 열기"
+            >
+                {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
 
-                <div className="flex items-center gap-4">
-                    <Link
-                        prefetch
-                        href="/archiving"
-                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
-                    >
-                        <span>Archiving</span>
-                    </Link>
-                    <Link
-                        prefetch
-                        href="/tools/timestamp-converter"
-                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
-                    >
-                        <span>⚡Tools⚡</span>
-                    </Link>
-                    <Link
-                        href="/about-me"
-                        className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
-                    >
-                        <span>About Me</span>
-                    </Link>
-                    <a
-                        href="https://github.com/DaHoon06"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="dahoon06"
-                        className="relative group"
-                    >
-                        <IoLogoGithub
-                            size={26}
-                            color="#000"
-                            className="group-hover:animate-bounce group-hover:drop-shadow-lg transition-all duration-200"
-                        />
+            {/* Page title */}
+            <h1 className="flex-1 text-sm font-semibold text-zinc-800 tracking-tight">
+                {pageTitle}
+            </h1>
 
-                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg pointer-events-none">
-                            dahoon06 깃허브 바로가기
-                        </span>
-                    </a>
-
-                    <a
-                        href="mailto:dahoon226@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="relative group"
-                    >
-                        <IoMailOutline
-                            size={26}
-                            color="#000"
-                            className="group-hover:animate-bounce group-hover:drop-shadow-lg transition-all duration-200"
-                        />
-                        <span className="absolute top-8 right-0 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg pointer-events-none">
-                            dahoon226@gmail.com
-                        </span>
-                    </a>
-                </div>
-            </nav>
+            {/* Right actions */}
+            <div className="flex items-center gap-1">
+                <a
+                    href={`https://github.com/${CONFIG.profile.github}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="GitHub"
+                    className="hidden sm:flex items-center justify-center w-8 h-8 rounded-md text-zinc-500 hover:text-zinc-800 hover:bg-zinc-100 transition-colors"
+                >
+                    <IoLogoGithub size={18} />
+                </a>
+                <a
+                    href={`mailto:${CONFIG.profile.email}`}
+                    title="이메일"
+                    className="hidden sm:flex items-center justify-center w-8 h-8 rounded-md text-zinc-500 hover:text-zinc-800 hover:bg-zinc-100 transition-colors"
+                >
+                    <IoMailOutline size={18} />
+                </a>
+            </div>
         </header>
     );
 };

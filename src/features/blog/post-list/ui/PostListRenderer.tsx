@@ -1,11 +1,10 @@
 import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
 import { PostList } from "./PostList";
-import { IoSearchOutline } from "react-icons/io5";
+import { Search } from "lucide-react";
 import usePostsQuery from "../model/use-posts-query";
-import useArchivingsQuery from "../model/use-archivings-query";
 import { useRouter } from "next/router";
-import Link from "next/link";
-import { ArchivingCard } from "@entities/blog/ui/ArchivingCard";
+import { ROUTES } from "@shared/routes";
+import cn from "@shared/lib/cn";
 
 type Item = { category?: string[] | null };
 
@@ -14,175 +13,130 @@ export const PostListRenderer = (): ReactElement => {
     const [searchKeyword, setSearchKeyword] = useState("");
 
     const data = usePostsQuery();
-    const archivings = useArchivingsQuery();
-    const recentArchivings = useMemo(
-        () => archivings.slice(0, 6),
-        [archivings]
-    );
     const router = useRouter();
 
     const [filteredPosts, setFilteredPosts] = useState(data);
 
-    const currentTag = `${router.query.tag || ``}` || undefined;
-    const currentCategory = `${router.query.category || ``}` || "📂 All";
-    const currentOrder = `${router.query.order || ``}` || "desc";
+    const currentTag = `${router.query.tag || ""}` || undefined;
+    const currentCategory = `${router.query.category || ""}` || "All";
+    const currentOrder = `${router.query.order || ""}` || "desc";
 
     useEffect(() => {
         setFilteredPosts(() => {
-            let newFilteredPosts = data;
-            // keyword
-            newFilteredPosts = newFilteredPosts.filter((post) => {
-                const tagContent = post.tags ? post.tags.join(" ") : "";
-                const searchContent = post.title + post.summary + tagContent;
-                return searchContent
-                    .toLowerCase()
-                    .includes(searchKeyword.toLowerCase());
-            });
+            let result = [...data];
 
-            // tag
+            if (searchKeyword) {
+                result = result.filter((post) => {
+                    const tagContent = post.tags ? post.tags.join(" ") : "";
+                    const content = post.title + (post.summary ?? "") + tagContent;
+                    return content.toLowerCase().includes(searchKeyword.toLowerCase());
+                });
+            }
             if (currentTag) {
-                newFilteredPosts = newFilteredPosts.filter(
-                    (post) =>
-                        post && post.tags && post.tags.includes(currentTag)
-                );
+                result = result.filter((post) => post.tags?.includes(currentTag));
             }
-
-            // category
-            if (currentCategory !== "📂 All") {
-                newFilteredPosts = newFilteredPosts.filter(
-                    (post) =>
-                        post &&
-                        post.category &&
-                        post.category.includes(currentCategory)
-                );
+            if (currentCategory !== "All") {
+                result = result.filter((post) => post.category?.includes(currentCategory));
             }
-            // order
             if (currentOrder !== "desc") {
-                newFilteredPosts = newFilteredPosts.reverse();
+                result = result.reverse();
             }
 
-            return newFilteredPosts;
+            return result;
         });
-    }, [
-        data,
-        searchKeyword,
-        currentTag,
-        currentCategory,
-        currentOrder,
-        setFilteredPosts,
-    ]);
+    }, [data, searchKeyword, currentTag, currentCategory, currentOrder]);
 
-    const allCategories = (data: Item[]) =>
-        Array.from(new Set(data.flatMap((item) => item.category ?? [])));
+    const allCategories = (items: Item[]) =>
+        Array.from(new Set(items.flatMap((item) => item.category ?? [])));
 
-    const handleSearch = useCallback(
-        (e: React.KeyboardEvent<HTMLInputElement>): void => {
-            e.preventDefault();
-            setSearchKeyword(inputKeyword);
-            setInputKeyword("");
-        },
-        [inputKeyword]
-    );
-
-    const mainPost = useMemo(() => {
-        return filteredPosts[0] ?? null;
-    }, [filteredPosts]);
-
-    const otherPosts = useMemo(() => {
-        return filteredPosts.slice(1) ?? [];
-    }, [filteredPosts]);
+    const handleSearch = useCallback(() => {
+        setSearchKeyword(inputKeyword);
+        setInputKeyword("");
+    }, [inputKeyword]);
 
     const handleCategoryClick = useCallback(
         (category: string) => {
-            router.push(`/?category=${category}`);
+            router.push(ROUTES.POSTS_WITH_CATEGORY(category));
         },
-        [router]
+        [router],
     );
 
+    const mainPost = useMemo(() => filteredPosts[0] ?? null, [filteredPosts]);
+    const otherPosts = useMemo(() => filteredPosts.slice(1), [filteredPosts]);
+    const categories = ["All", ...allCategories(data)];
+
     return (
-        <div className="flex flex-col md:gap-10 gap-4 p-4 pb-10 transition-all duration-300 ease-in-out motion-reduce:transition-none">
-            {recentArchivings.length > 0 && (
-                <section className="flex flex-col gap-4">
-                    <div className="flex items-center justify-between">
-                        <h2 className="text-lg font-bold text-gray-800">
-                            지식 저장소
-                        </h2>
-                        <Link
-                            href="/archiving"
-                            className="text-sm text-gray-500 hover:text-gray-800 transition-colors"
-                        >
-                            더 보기 →
-                        </Link>
-                    </div>
-                    <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
-                        {recentArchivings.map((post) => (
-                            <Link
-                                href={`/archiving/${post.slug}`}
-                                key={`${post.id}_${post.slug}`}
-                            >
-                                <ArchivingCard post={post} />
-                            </Link>
-                        ))}
-                    </div>
-                </section>
-            )}
-
-            <header className="flex flex-col w-full md:my-8 my-4 gap-4 transition-all duration-300 ease-in-out motion-reduce:transition-none">
-                <div className="relative">
-                    <input
-                        type="text"
-                        placeholder="Search..."
-                        className="w-full rounded-md border border-gray-200 p-2 pl-4 pr-14 text-sm text-gray-700 focus:border-primary-000 focus:outline-none"
-                        value={inputKeyword}
-                        onChange={(e) => setInputKeyword(e.target.value)}
-                        onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                                handleSearch(e);
-                            }
-                        }}
-                    />
-                    <button className="bg-[#222] flex justify-center items-center text-white rounded-r-md w-[48px] h-[38px] p-2 absolute right-0 top-1/2 -translate-y-1/2 ">
-                        <IoSearchOutline size={22} color="#fff" />
-                    </button>
-                </div>
-
-                <div className="flex flex-wrap items-center gap-3 mt-2">
-                    {["📂 All", ...allCategories(data)].map((category) => {
-                        const isActive = currentCategory === category;
-                        const label = category === "📂 All" ? "전체" : category;
-                        const baseClass =
-                            "px-5 py-2 rounded-full text-[14px] border transition-colors";
-                        const activeClass =
-                            "bg-[#0B0B17] text-white border-[#0B0B17]";
-                        const inactiveClass =
-                            "bg-white text-gray-800 border-gray-200 hover:border-gray-300 hover:bg-gray-50";
-
-                        return (
-                            <button
-                                key={category}
-                                className={`${baseClass} ${isActive ? activeClass : inactiveClass}`}
-                                onClick={() =>
-                                    category === "📂 All"
-                                        ? router.push("/")
-                                        : handleCategoryClick(category)
-                                }
-                            >
-                                {label}
-                            </button>
-                        );
-                    })}
-                </div>
-            </header>
-
-            {!filteredPosts.length && (
-                <div className="flex flex-col items-center justify-center mt-10">
-                    <p className="text-gray-500 dark:text-gray-300">
-                        Nothing! 😺
+        <div className="space-y-5">
+            {/* Header */}
+            <div className="flex items-center justify-between">
+                <div>
+                    <h2 className="text-lg font-bold text-zinc-800">블로그</h2>
+                    <p className="text-xs text-zinc-400 mt-0.5">
+                        총 {data.length}개의 포스트
                     </p>
                 </div>
+            </div>
+
+            {/* Search */}
+            <div className="relative">
+                <Search
+                    size={15}
+                    className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none"
+                />
+                <input
+                    type="text"
+                    placeholder="제목, 내용, 태그로 검색..."
+                    className="w-full bg-white border border-zinc-200 rounded-lg py-2.5 pl-9 pr-[52px] text-sm text-zinc-700 placeholder:text-zinc-400 focus:outline-none focus:border-zinc-400 transition-colors"
+                    value={inputKeyword}
+                    onChange={(e) => setInputKeyword(e.target.value)}
+                    onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                />
+                <button
+                    onClick={handleSearch}
+                    className="absolute right-0 top-0 h-full px-4 bg-[#111] text-white rounded-r-lg text-xs font-medium hover:bg-zinc-800 transition-colors"
+                >
+                    검색
+                </button>
+            </div>
+
+            {/* Category filter */}
+            <div className="flex flex-wrap gap-1.5">
+                {categories.map((cat) => {
+                    const isActive = currentCategory === cat;
+                    const label = cat === "All" ? "전체" : cat;
+                    return (
+                        <button
+                            key={cat}
+                            onClick={() =>
+                                cat === "All"
+                                    ? router.push(ROUTES.POSTS)
+                                    : handleCategoryClick(cat)
+                            }
+                            className={cn(
+                                "px-3 py-1.5 rounded-md text-xs font-medium border transition-all",
+                                isActive
+                                    ? "bg-[#111] text-white border-[#111]"
+                                    : "bg-white text-zinc-600 border-zinc-200 hover:border-zinc-400 hover:text-zinc-800",
+                            )}
+                        >
+                            {label}
+                        </button>
+                    );
+                })}
+            </div>
+
+            {/* Empty state */}
+            {!filteredPosts.length && (
+                <div className="flex flex-col items-center justify-center py-20 text-zinc-400">
+                    <p className="text-4xl mb-3">😺</p>
+                    <p className="text-sm font-medium">포스트가 없습니다.</p>
+                </div>
             )}
 
-            <PostList mainPost={mainPost} otherPosts={otherPosts} />
+            {/* Post list */}
+            {filteredPosts.length > 0 && (
+                <PostList mainPost={mainPost} otherPosts={otherPosts} />
+            )}
         </div>
     );
 };

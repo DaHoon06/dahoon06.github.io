@@ -3,6 +3,7 @@ import { NextPageWithLayout } from "@shared/types";
 import { Emoji } from "@shared/ui/icons/Emoji";
 import CustomHead from "@shared/ui/heads/CustomHead";
 import Link from "next/link";
+import { ROUTES } from "@shared/routes";
 
 type Props = {
     tags: any;
@@ -30,7 +31,7 @@ const CustomError: React.FC<CustomErrorProps> = () => {
                     Post not found
                 </div>
                 <Link
-                    href="/"
+                    href={ROUTES.HOME}
                     replace
                     className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
                 >

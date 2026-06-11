@@ -4,23 +4,23 @@ import { dehydrate, DehydratedState, HydrationBoundary } from "@tanstack/react-q
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
-import { DashboardHome } from "@widgets/dashboard";
+import { PostListRenderer } from "@features/blog/post-list/ui/PostListRenderer";
 
-interface HomePageProps {
+interface PostsPageProps {
     dehydratedState: DehydratedState;
 }
 
-const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
+const PostsPage: NextPage<PostsPageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
             <BaseLayout>
-                <DashboardHome />
+                <PostListRenderer />
             </BaseLayout>
         </HydrationBoundary>
     );
 };
 
-export default HomePage;
+export default PostsPage;
 
 export const getStaticProps: GetStaticProps = async () => {
     const [posts, archivings] = await Promise.all([
@@ -40,9 +40,7 @@ export const getStaticProps: GetStaticProps = async () => {
     ]);
 
     return {
-        props: {
-            dehydratedState: dehydrate(queryClient),
-        },
+        props: { dehydratedState: dehydrate(queryClient) },
         ...(CONFIG.isProd ? { revalidate: 3600 } : {}),
     };
 };

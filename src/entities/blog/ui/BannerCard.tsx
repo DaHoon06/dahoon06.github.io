@@ -1,62 +1,77 @@
 import { PostType } from "@entities/notion/@x/blog";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa6";
-import { Author } from "./Author";
+import { ArrowRight } from "lucide-react";
 import { postDateFormatter } from "../lib/format-date";
+
 interface BannerCardProps {
     post: PostType;
 }
 
 export const BannerCard = ({ post }: BannerCardProps) => {
+    const date = post.date?.start_date || post.createdTime;
+
     return (
-        <article
-            className="grid grid-cols-1 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md md:grid-cols-2 will-change-transform"
-            style={{ animation: "fadeIn 200ms ease-out both" }}
-        >
-            <div className="relative h-[220px] w-full md:h-auto">
-                <Image
-                    src={post.thumbnail || "/images/default.png"}
-                    alt={post.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    priority
-                />
-            </div>
-
-            <div className="flex flex-col justify-between gap-4 p-5 md:p-8">
-                <div className="flex flex-col gap-3">
-                    <div className="flex flex-wrap items-center gap-2">
-                        {post.category?.map((category) => (
-                            <span
-                                key={category}
-                                className="rounded-md bg-[#030213] px-2 py-1 text-xs text-white md:text-sm"
-                            >
-                                {category}
-                            </span>
-                        ))}
-                    </div>
-
-                    <h2 className="line-clamp-2 text-xl font-extrabold leading-snug text-gray-900 md:text-2xl">
-                        {post.title}
-                    </h2>
-
-                    {post.summary && (
-                        <p className="line-clamp-3 text-base leading-relaxed text-gray-600 md:line-clamp-2">
-                            {post.summary}
-                        </p>
-                    )}
+        <article className="overflow-hidden rounded-xl border border-zinc-200 bg-white group hover:border-zinc-300 hover:shadow-md transition-all duration-200">
+            <div className="grid grid-cols-1 md:grid-cols-5">
+                {/* Thumbnail */}
+                <div className="relative h-52 md:h-auto md:col-span-2 overflow-hidden bg-zinc-100">
+                    <Image
+                        src={post.thumbnail || "/images/default.png"}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 768px) 100vw, 40vw"
+                        priority
+                    />
                 </div>
 
-                <footer className="flex md:items-center justify-between md:flex-row flex-col md:gap-4 gap-2">
-                    <button
-                        type="button"
-                        className="border border-gray-400 inline-flex items-center gap-2 rounded-md  px-4 py-2 text-sm  text-gray-600 transition-colors hover:border-gray-400 hover:bg-gray-50"
-                    >
-                        읽어보기
-                        <FaArrowRight className="w-4 h-4 " />
-                    </button>
-                </footer>
+                {/* Content */}
+                <div className="md:col-span-3 p-6 md:p-8 flex flex-col justify-between gap-5">
+                    <div className="space-y-3">
+                        {/* Badges */}
+                        <div className="flex flex-wrap gap-1.5">
+                            {post.category?.map((cat) => (
+                                <span
+                                    key={cat}
+                                    className="text-[11px] font-semibold bg-[#111] text-white px-2 py-0.5 rounded"
+                                >
+                                    {cat}
+                                </span>
+                            ))}
+                            {post.tags?.slice(0, 3).map((tag) => (
+                                <span
+                                    key={tag}
+                                    className="text-[11px] font-medium bg-zinc-100 text-zinc-500 px-2 py-0.5 rounded"
+                                >
+                                    {tag}
+                                </span>
+                            ))}
+                        </div>
+
+                        {/* Title */}
+                        <h2 className="text-xl md:text-2xl font-bold text-zinc-800 leading-snug line-clamp-2 group-hover:text-[#ff7337] transition-colors">
+                            {post.title}
+                        </h2>
+
+                        {/* Summary */}
+                        {post.summary && (
+                            <p className="text-sm text-zinc-500 leading-relaxed line-clamp-2 md:line-clamp-3">
+                                {post.summary}
+                            </p>
+                        )}
+                    </div>
+
+                    {/* Footer */}
+                    <div className="flex items-center justify-between pt-4 border-t border-zinc-100">
+                        <span className="text-xs text-zinc-400">
+                            {date ? postDateFormatter(date) : ""}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#ff7337]">
+                            읽어보기
+                            <ArrowRight size={14} />
+                        </span>
+                    </div>
+                </div>
             </div>
         </article>
     );

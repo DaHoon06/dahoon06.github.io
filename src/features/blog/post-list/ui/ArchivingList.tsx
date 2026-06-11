@@ -2,6 +2,7 @@ import { ReactElement, memo } from "react";
 import Link from "next/link";
 import { PostType } from "@entities/notion";
 import { ArchivingCard } from "@entities/blog/ui/ArchivingCard";
+import { ROUTES } from "@shared/routes";
 
 interface ArchivingListProps {
     posts: PostType[];
@@ -14,7 +15,7 @@ export const ArchivingList = memo(
                 <div className="grid gap-5 grid-cols-1">
                     {posts.map((post, index) => (
                         <Link
-                            href={`/archiving/${post.slug}`}
+                            href={ROUTES.ARCHIVING_DETAIL(post.slug)}
                             key={`${post.id}_${post.slug}`}
                             style={{
                                 animationDelay: `${index * 40}ms`,

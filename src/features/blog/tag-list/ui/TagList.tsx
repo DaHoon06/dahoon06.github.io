@@ -2,6 +2,7 @@ import styles from "./TagList.module.scss";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useTagsQuery } from "@features/blog/post-list";
+import { ROUTES } from "@shared/routes";
 
 export const TagList = () => {
     const router = useRouter();
@@ -15,7 +16,7 @@ export const TagList = () => {
                 {Object.keys(data).map((key) => (
                     <Link
                         key={key}
-                        href={`/blog?tag=${key}`}
+                        href={ROUTES.POSTS_WITH_TAG(key)}
                         data-active={key === currentTag}
                         className={styles.tag}
                     >

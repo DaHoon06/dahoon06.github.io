@@ -2,6 +2,7 @@ import { ReactElement, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { ArchivingList } from "./ArchivingList";
 import useArchivingsQuery from "../model/use-archivings-query";
+import { ROUTES } from "@shared/routes";
 
 export const ArchivingListRenderer = (): ReactElement => {
     const [searchKeyword, setSearchKeyword] = useState("");
@@ -98,7 +99,7 @@ export const ArchivingListRenderer = (): ReactElement => {
                                 className={`${baseClass} ${isActive ? activeClass : inactiveClass}`}
                                 onClick={() =>
                                     category === "📂 All"
-                                        ? router.push("/")
+                                        ? router.push(ROUTES.ARCHIVING)
                                         : handleCategoryClick(category)
                                 }
                             >

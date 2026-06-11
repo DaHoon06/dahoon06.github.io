@@ -20,7 +20,7 @@ type TocItem = {
 export const TableOfContents = (): ReactElement | null => {
     const [toc, setToc] = useState<TocItem[]>([]);
     const [activeId, setActiveId] = useState<string>("");
-    const [isCollapsed, setIsCollapsed] = useState(false);
+    const [isCollapsed, setIsCollapsed] = useState(true);
     const observerRef = useRef<IntersectionObserver | null>(null);
     const mutationObserverRef = useRef<MutationObserver | null>(null);
 
