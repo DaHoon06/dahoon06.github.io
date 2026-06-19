@@ -4,6 +4,7 @@ import {
     CareerSection,
     ProfileSection,
     ProjectSection,
+    SkillsSection,
 } from "@widgets/about-me";
 import { AboutLayout } from "@widgets/layouts";
 
@@ -27,6 +28,7 @@ export default function AboutMePage() {
                 <div className="flex flex-col w-full mx-auto">
                     <ProfileSection />
                     <AboutMeSection />
+                    <SkillsSection />
                     <CareerSection />
                     <ProjectSection />
                 </div>

@@ -4,7 +4,7 @@
     "private": true,
     "homepage": "https://dahoon06.github.io/",
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev --port 3088",
         "postbuild": "next-sitemap --config ./src/next-sitemap.config.cjs",
         "archivingbuild": "tsx ./src/@apps/scripts/fetchArchivingCache.ts",
         "build": "next build",

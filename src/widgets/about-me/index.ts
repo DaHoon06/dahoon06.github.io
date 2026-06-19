@@ -3,4 +3,5 @@ export {
     ProfileSection,
     CareerSection,
     ProjectSection,
+    SkillsSection,
 } from "./ui";
