@@ -8,22 +8,31 @@ import { RouteProgressBar } from "@shared/ui/progress-bar";
 import Script from "next/script";
 import { Toaster } from "@shared/ui/toast/toaster";
 import { ModalProvider } from "@apps/providers";
+import { CONFIG } from "@root/site.config";
+
+const { enable: gaEnable, config: gaConfig } = CONFIG.googleAnalytics;
+const gaMeasurementId = gaConfig.measurementId;
+const useGoogleAnalytics = gaEnable && Boolean(gaMeasurementId);
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
-            <Script
-                src="https://www.googletagmanager.com/gtag/js?id=G-F3D23SCNJB"
-                strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-                {`
+            {useGoogleAnalytics && (
+                <>
+                    <Script
+                        src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
+                        strategy="afterInteractive"
+                    />
+                    <Script id="google-analytics" strategy="afterInteractive">
+                        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-F3D23SCNJB');
+          gtag('config', '${gaMeasurementId}');
         `}
-            </Script>
+                    </Script>
+                </>
+            )}
             <ModalProvider>
                 <QueryClientProvider client={queryClient}>
                     <HydrationBoundary state={pageProps.dehydratedState}>
