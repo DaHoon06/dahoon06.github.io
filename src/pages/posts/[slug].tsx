@@ -1,9 +1,12 @@
 import {
     filterPosts,
     FilterPostsOptions,
-    getRecordMap,
     notionQueryKeys,
 } from "@entities/notion";
+import {
+    readCachedPosts,
+    readCachedRecordMap,
+} from "@entities/notion/lib/notion-cache";
 import { CONFIG } from "@root/site.config";
 import { queryClient } from "@shared/lib/react-query";
 import { NextPageWithLayout } from "@shared/types";
@@ -13,17 +16,10 @@ import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import usePostQuery from "@features/blog/post-detail/model/use-post-query";
-import path from "path";
-import fs from "fs";
 import { PostDetail } from "@features/blog/post-detail/ui/PostDetail";
 import { TableOfContents } from "@entities/blog";
 
-const cachedPosts = fs.readFileSync(
-    path.join(process.cwd(), "posts/cachedPosts.json"),
-    "utf8"
-);
-
-const posts = JSON.parse(cachedPosts);
+const posts = readCachedPosts();
 
 const filter: FilterPostsOptions = {
     acceptStatus: ["Public", "PublicOnDetail"],
@@ -82,7 +78,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         return { notFound: true };
     }
 
-    const recordMap = await getRecordMap(postDetail.id);
+    const recordMap = readCachedRecordMap(postDetail.id);
 
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.post(slug),

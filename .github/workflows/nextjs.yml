@@ -73,11 +73,11 @@ jobs:
                       ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
             - name: Install dependencies
               run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+            # Notion 데이터는 로컬에서 `npm run notion:cache`로 받아 posts/ 에 커밋해 둔다.
+            # 빌드는 그 캐시만 읽으므로 Notion을 호출하지 않는다 (429 방지).
+            # 캐시가 없거나 비면 빌드가 명확한 메시지와 함께 실패한다.
             - name: Build with Next.js
               run: ${{ steps.detect-package-manager.outputs.runner }} next build
-              env:
-                  NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
-                  NOTION_ARCHIVING_PAGE_ID: ${{ secrets.NOTION_ARCHIVING_PAGE_ID }}
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:

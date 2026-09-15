@@ -1,9 +1,8 @@
+import { filterPosts, notionQueryKeys } from "@entities/notion";
 import {
-    filterPosts,
-    getPosts,
-    getArchiving,
-    notionQueryKeys,
-} from "@entities/notion";
+    readCachedArchiving,
+    readCachedPosts,
+} from "@entities/notion/lib/notion-cache";
 import { queryClient } from "@shared/lib/react-query";
 import {
     dehydrate,
@@ -33,10 +32,8 @@ const PostsPage: NextPage<PostsPageProps> = ({ dehydratedState }) => {
 export default PostsPage;
 
 export const getStaticProps: GetStaticProps = async () => {
-    const [posts, archivings] = await Promise.all([
-        getPosts().then(filterPosts),
-        getArchiving(),
-    ]);
+    const posts = filterPosts(readCachedPosts());
+    const archivings = readCachedArchiving();
 
     await Promise.all([
         queryClient.prefetchQuery({

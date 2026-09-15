@@ -19,6 +19,7 @@ export type PostType = {
     title: string;
     status: PostStatusType[];
     createdTime: string;
+    lastEditedTime?: string;
     fullWidth: boolean;
     thumbnail?: string;
 };

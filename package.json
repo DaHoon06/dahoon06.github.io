@@ -5,8 +5,8 @@
     "homepage": "https://dahoon06.github.io/",
     "scripts": {
         "dev": "next dev --port 3088",
+        "notion:cache": "tsx ./src/@apps/scripts/fetchNotionCache.ts",
         "postbuild": "next-sitemap --config ./src/next-sitemap.config.cjs",
-        "archivingbuild": "tsx ./src/@apps/scripts/fetchArchivingCache.ts",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",

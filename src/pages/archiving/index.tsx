@@ -1,4 +1,5 @@
-import { notionQueryKeys, getArchiving } from "@entities/notion";
+import { notionQueryKeys } from "@entities/notion";
+import { readCachedArchiving } from "@entities/notion/lib/notion-cache";
 import { queryClient } from "@shared/lib/react-query";
 import {
     dehydrate,
@@ -27,7 +28,7 @@ const ArchivingPage: NextPage<ArchivingPageProps> = ({ dehydratedState }) => {
 export default ArchivingPage;
 
 export const getStaticProps: GetStaticProps = async () => {
-    const posts = await getArchiving();
+    const posts = readCachedArchiving();
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.archivings(),
         queryFn: () => posts,

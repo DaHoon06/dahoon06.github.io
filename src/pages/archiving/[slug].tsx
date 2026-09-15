@@ -4,21 +4,18 @@ import CustomHead from "@shared/ui/heads/CustomHead";
 import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
-import path from "path";
-import fs from "fs";
 import { TableOfContents } from "@entities/blog";
-import { PostType, notionQueryKeys, getRecordMap } from "@entities/notion";
+import { PostType, notionQueryKeys } from "@entities/notion";
+import {
+    readCachedArchiving,
+    readCachedRecordMap,
+} from "@entities/notion/lib/notion-cache";
 import { useArchivingQuery } from "@features/blog/post-list";
 import { dehydrate } from "@tanstack/react-query";
 import { queryClient } from "@shared/lib/react-query";
 import { ArchivingDetail } from "@features/blog/post-detail/ui/ArchivingDetail";
 
-const cachedArchiving = fs.readFileSync(
-    path.join(process.cwd(), "posts/cachedArchiving.json"),
-    "utf8"
-);
-
-const archivings = JSON.parse(cachedArchiving);
+const archivings = readCachedArchiving();
 
 const ArchivingDetailPage: NextPageWithLayout = () => {
     const archiving: any = useArchivingQuery();
@@ -70,7 +67,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         return { notFound: true };
     }
 
-    const recordMap = await getRecordMap(archiving.id);
+    const recordMap = readCachedRecordMap(archiving.id);
 
     await queryClient.prefetchQuery({
         queryKey: notionQueryKeys.archiving(`${slug}`),
