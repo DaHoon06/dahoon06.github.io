@@ -12,7 +12,7 @@ import {
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
-import { BlogSideNav } from "@widgets/nav";
+import { BlogSideNav, ProfileCard } from "@widgets/nav";
 import { PostListRenderer } from "@features/blog/post-list";
 
 interface HomePageProps {
@@ -23,10 +23,11 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
             <BaseLayout aside={<BlogSideNav />}>
-                <PostListRenderer
-                    heading={`안녕하세요, ${CONFIG.profile.name}입니다`}
-                    description={CONFIG.profile.bio}
-                />
+                {/* 우측 aside는 lg 이상에서만 보여서, 모바일에서는 목록 위에 둔다 */}
+                <div className="mb-8 lg:hidden">
+                    <ProfileCard />
+                </div>
+                <PostListRenderer />
             </BaseLayout>
         </HydrationBoundary>
     );

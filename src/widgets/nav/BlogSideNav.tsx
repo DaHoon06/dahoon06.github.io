@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { usePostsQuery, useTagsQuery } from "@features/blog/post-list";
 import { ROUTES } from "@shared/routes";
 import cn from "@shared/lib/cn";
+import { ProfileCard } from "./ProfileCard";
 
 const RECOMMEND_COUNT = 3;
 
@@ -26,6 +27,9 @@ export const BlogSideNav = (): ReactElement => {
 
     return (
         <div className="space-y-8">
+            {/* 프로필 */}
+            <ProfileCard />
+
             {/* 태그 */}
             {tagNames.length > 0 && (
                 <section>
@@ -57,11 +61,10 @@ export const BlogSideNav = (): ReactElement => {
                 </section>
             )}
 
-            {/* 추천 글 */}
             {recommendedPosts.length > 0 && (
                 <section className="rounded-2xl bg-zinc-50 p-5">
                     <h2 className="mb-4 text-[13px] font-semibold tracking-tight text-zinc-900">
-                        추천 글
+                        최신 글
                     </h2>
                     <ol className="space-y-4">
                         {recommendedPosts.map((post, index) => (

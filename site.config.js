@@ -1,8 +1,8 @@
 const CONFIG = {
     profile: {
         name: "Dahoon06",
-        image: "/images/dahoon06.jpg",
-        role: "FullStack Developer",
+        image: "/images/profile.png",
+        role: "Product Engineer",
         bio: "Next.js React Vue.js NestJS MongoDB Node.js",
         email: "dahoon226@gmail.com",
         linkedin: "다훈-전-702984242",
