@@ -1,4 +1,11 @@
-import { Archive, Home, User, Wrench, type LucideIcon } from "lucide-react";
+import {
+    Archive,
+    Home,
+    Newspaper,
+    User,
+    Wrench,
+    type LucideIcon,
+} from "lucide-react";
 import { ROUTES } from "@shared/routes";
 
 export type NavItemType = {
@@ -24,6 +31,13 @@ export const NAV_ITEMS: NavItemType[] = [
         label: "아카이빙",
         href: ROUTES.ARCHIVING,
         icon: Archive,
+    },
+    {
+        key: "news",
+        label: "뉴스",
+        href: ROUTES.NEWS,
+        match: "/news",
+        icon: Newspaper,
     },
     {
         key: "tools",

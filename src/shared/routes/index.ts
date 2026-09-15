@@ -7,6 +7,7 @@ export const ROUTES = {
     ARCHIVING: "/archiving",
     ARCHIVING_DETAIL: (slug: string) => `/archiving/${slug}`,
     NEWS: "/news",
+    NEWS_DETAIL: (date: string) => `/news/${date}`,
     STOCKS: "/stocks",
     TOOLS: "/tools/timestamp-converter",
     FOOD: "/food",
