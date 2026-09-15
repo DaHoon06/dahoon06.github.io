@@ -1,7 +1,8 @@
 export {
-    AboutMeSection,
-    ProfileSection,
+    HeroSection,
+    IntroSection,
+    SkillsSection,
     CareerSection,
     ProjectSection,
-    SkillsSection,
+    ContactSection,
 } from "./ui";

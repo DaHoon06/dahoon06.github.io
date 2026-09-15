@@ -206,3 +206,22 @@
         transform: translateY(-6px) rotate(1.5deg);
     }
 }
+
+/* 포트폴리오(about-me) 무한 마퀴 — 트랙에 콘텐츠 2벌을 두고 절반만큼 밀어 루프를 잇는다 */
+@keyframes pf-marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes pf-marquee-reverse {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
