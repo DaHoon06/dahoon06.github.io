@@ -40,7 +40,7 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
 
             {/* Content */}
             <div className="flex-1 flex flex-col p-4 gap-2">
-                <h3 className="text-sm font-bold text-zinc-800 line-clamp-2 leading-snug group-hover:text-[#ff7337] transition-colors">
+                <h3 className="text-sm font-bold text-zinc-800 line-clamp-2 leading-snug group-hover:text-primary-900 transition-colors">
                     {post.title}
                 </h3>
                 {post.summary && (
@@ -55,7 +55,7 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
                         {date ? postDateFormatter(date) : ""}
                     </span>
                     {post.tags?.[0] && (
-                        <span className="text-[10px] font-medium text-[#ff7337] bg-orange-50 px-1.5 py-0.5 rounded">
+                        <span className="text-[10px] font-medium text-primary-900 bg-primary-50 px-1.5 py-0.5 rounded">
                             {post.tags[0]}
                         </span>
                     )}

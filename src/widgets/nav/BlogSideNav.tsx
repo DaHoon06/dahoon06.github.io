@@ -73,11 +73,11 @@ export const BlogSideNav = (): ReactElement => {
                                     href={ROUTES.POST(post.slug)}
                                     className="group flex gap-3"
                                 >
-                                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-white text-[11px] font-bold text-zinc-400 transition-colors group-hover:text-[#ff7337]">
+                                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-white text-[11px] font-bold text-zinc-400 transition-colors group-hover:text-primary-900">
                                         {index + 1}
                                     </span>
                                     <span className="min-w-0">
-                                        <span className="line-clamp-2 text-[13px] font-semibold leading-snug text-zinc-800 transition-colors group-hover:text-[#ff7337]">
+                                        <span className="line-clamp-2 text-[13px] font-semibold leading-snug text-zinc-800 transition-colors group-hover:text-primary-900">
                                             {post.title}
                                         </span>
                                         {post.summary && (

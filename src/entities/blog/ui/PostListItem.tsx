@@ -27,7 +27,7 @@ export const PostListItem = ({ post }: PostListItemProps): ReactElement => {
                 )}
 
                 <div className="min-w-0 flex-1">
-                    <h3 className="line-clamp-2 text-[17px] font-bold leading-snug tracking-tight text-zinc-900 transition-colors group-hover:text-[#ff7337] sm:text-lg">
+                    <h3 className="line-clamp-2 text-[17px] font-bold leading-snug tracking-tight text-zinc-900 transition-colors group-hover:text-primary-900 sm:text-lg">
                         {post.title}
                     </h3>
                     <p className="mt-1.5 text-xs text-zinc-400">

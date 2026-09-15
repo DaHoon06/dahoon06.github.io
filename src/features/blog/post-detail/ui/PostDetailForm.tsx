@@ -9,8 +9,6 @@ export const PostDetailForm = (): ReactElement | null => {
 
     if (!data) return null;
 
-    const category = (data.category && data.category?.[0]) || undefined;
-
     return (
         <div className={styles.postDetailForm}>
             <article className="w-full">

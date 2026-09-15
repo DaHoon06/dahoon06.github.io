@@ -20,7 +20,11 @@
 
     --font-pretendard: var(--font-pretendard);
 
-    --color-primary-000: #ff7337;
+    /* 파스텔 연보라 — 브랜드 기본색 */
+    --color-primary-50: #f2f3fe; /* 옅은 배경 틴트 */
+    --color-primary-000: #c9cbf8; /* 베이스: 칩·버튼 배경, 그래픽 */
+    --color-primary-500: #7c80e0; /* 보조 강조: 얇은 바·아이콘 */
+    --color-primary-900: #4b4ea8; /* 텍스트용: 흰 배경 대비 7:1 */
 }
 
 @utility container {
@@ -111,14 +115,17 @@
         --input: 30% 0.02 256;
         --ring: 85% 0.01 256;
 
-        /* primary */
-        --color-primary-000: #ff7337; /* 버튼 베이스 */
+        /* primary — 어두운 배경에선 톤을 밝은 쪽으로 뒤집는다 */
+        --color-primary-50: #2a2c52;
+        --color-primary-000: #c9cbf8; /* 버튼 베이스 */
+        --color-primary-500: #a5a8ee;
+        --color-primary-900: #c9cbf8;
     }
 }
 
 @layer components {
     #nprogress .bar {
-        background: #ff7101 !important;
+        background: var(--color-primary-500) !important;
         height: 4px !important;
     }
 }

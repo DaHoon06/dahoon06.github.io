@@ -13,9 +13,8 @@ export const PostDetail = (): ReactElement | null => {
 
     return (
         <div className={styles.postDetail} data-type={data.type}>
-            {data.type[0] === "Page" && <PostDetailForm />}
-            {data.type[0] !== "Page" && <PostDetailForm />}
-            <div className="mt-10 border-t border-gray-200 pt-10">
+            <PostDetailForm />
+            <div className="mx-auto mt-12 max-w-[720px] border-t border-zinc-200 pt-10">
                 <CommentBox data={data} />
             </div>
         </div>

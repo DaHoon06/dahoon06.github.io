@@ -158,7 +158,7 @@ export const TableOfContents = (): ReactElement | null => {
     return (
         <nav
             className={cn(
-                "hidden md:block fixed top-20 right-4 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white shadow-sm dark:bg-gray-900 dark:border-gray-700 transition-all duration-300",
+                "hidden lg:block fixed top-24 right-4 max-h-[80vh] overflow-y-auto rounded-2xl border border-gray-200 bg-white shadow-sm dark:bg-gray-900 dark:border-gray-700 transition-all duration-300",
                 isCollapsed ? "w-14" : "w-64"
             )}
         >
@@ -212,8 +212,8 @@ export const TableOfContents = (): ReactElement | null => {
                                     className={cn(
                                         "cursor-pointer truncate rounded px-1 py-0.5 transition-colors",
                                         activeId === t.id
-                                            ? "text-primary-000 font-medium"
-                                            : "text-gray-700 hover:text-primary-000"
+                                            ? "text-primary-900 font-medium"
+                                            : "text-gray-700 hover:text-primary-900"
                                     )}
                                     onClick={() => handleClick(t.id)}
                                 >

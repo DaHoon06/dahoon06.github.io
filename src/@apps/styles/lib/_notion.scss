@@ -8,43 +8,161 @@
     color: #222;
 }
 
+/**
+ * 본문 타이포그래피.
+ *
+ * react-notion-x 기본값(본문 16px · h1 30px)은 이 블로그의 다른 화면
+ * (카드 제목 15px, 메타 13px)보다 한참 커서 상세만 튀어 보였다.
+ * 본문 14px을 기준으로 잡고, 헤딩 최대 18px · 최소 13px 안에서 맞춘다.
+ */
 .notion {
     color: #222 !important;
+    font-size: 14px;
+    line-height: 1.75;
+    /* 긴 URL·코드 토큰이 가로 스크롤을 만들지 않게 */
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .notion-simple-table {
     width: 100% !important;
 }
 
+/* 제목 — 크기 차이가 작아진 만큼 위쪽 여백과 굵기로 단계를 구분한다 */
 .notion-h1,
 .notion-h2,
-.notion-h3 {
+.notion-h3,
+.notion-h4 {
+    margin-bottom: 0.375rem !important;
+    line-height: 1.45 !important;
+    letter-spacing: -0.01em;
+    font-weight: 700 !important;
+    color: #18181b;
+}
+
+.notion-page-content > :first-child {
     margin-top: 0 !important;
 }
 
+/* 18px — 본문에서 가장 큰 글자 */
 .notion-h1 {
-    font-size: 1.625rem !important;
-}
-
-.notion-h2 {
-    font-size: 1.375rem !important;
-}
-
-.notion-h3 {
     font-size: 1.125rem !important;
+    margin-top: 2rem !important;
 }
+
+/* 16px */
+.notion-h2 {
+    font-size: 1rem !important;
+    margin-top: 1.75rem !important;
+}
+
+/* 15px */
+.notion-h3 {
+    font-size: 0.9375rem !important;
+    margin-top: 1.5rem !important;
+}
+
+/* 14px — 본문과 같은 크기, 굵기로만 구분 */
+.notion-h4 {
+    font-size: 0.875rem !important;
+    margin-top: 1.25rem !important;
+}
+
 .notion-text {
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0.25rem 0 !important;
+}
+
+/* 리스트 — 모바일에서 기본 들여쓰기(1.7em)가 과해 본문이 밀려 보였다 */
+.notion-list {
+    padding-left: 1.15em !important;
+    margin: 0.25rem 0 !important;
+
+    @media (min-width: 640px) {
+        padding-left: 1.6em !important;
+    }
 }
 
 .notion-list > li {
-    padding: 4px 0 !important;
+    padding: 3px 0 !important;
 }
 
 .notion-blank {
     padding: 0 2px !important;
-    min-height: 16px !important;
+    min-height: 12px !important;
+}
+
+/* 인용 · 콜아웃 */
+.notion-quote {
+    padding: 0.2rem 0 0.2rem 0.9rem !important;
+    border-left: 3px solid var(--color-primary-500) !important;
+    color: #52525b !important;
+    font-size: 14px !important;
+}
+
+.notion-callout {
+    border-radius: 0.75rem !important;
+    padding: 0.875rem 1rem !important;
+}
+
+/* 코드 — 모바일에서 넘치면 가로 스크롤 */
+.notion-code {
+    border-radius: 0.75rem !important;
+    font-size: 13px !important;
+    line-height: 1.7 !important;
+    overflow-x: auto !important;
+    padding: 0.875rem 1rem !important;
+}
+
+/* 이미지·임베드 캡션 — 하한 13px */
+.notion-asset-caption,
+.notion-caption {
+    font-size: 13px !important;
+    color: #71717a !important;
+}
+
+.notion-inline-code {
+    padding: 2px 5px !important;
+    border-radius: 5px !important;
+    font-size: 0.9em !important;
+}
+
+/* 이미지 · 임베드 */
+.notion-asset-wrapper {
+    margin: 1.25rem 0 !important;
+    max-width: 100% !important;
+}
+
+.notion-asset-wrapper img,
+.notion-asset-wrapper video {
+    max-width: 100% !important;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+/**
+ * 테이블 — react-notion-x는 <table>을 감싸는 래퍼를 만들지 않아서,
+ * 좁은 화면에서는 테이블 자체를 블록으로 바꿔 가로 스크롤을 붙인다.
+ */
+.notion-simple-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @media (min-width: 640px) {
+        display: table;
+    }
+}
+
+.notion-collection {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.notion-hr {
+    margin: 2rem 0 !important;
+    border-color: #e4e4e7 !important;
 }
 .notion-simple-table {
     width: 100%;
@@ -62,21 +180,22 @@
         "Segoe UI",
         Roboto,
         sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #222;
 }
 
 .notion-simple-table th {
     background-color: #f9fafb;
     font-weight: 600;
-    padding: 14px 16px;
+    padding: 10px 12px;
+    white-space: nowrap;
     text-align: left;
     border-bottom: 1px solid #e5e7eb;
     color: #222;
 }
 
 .notion-simple-table td {
-    padding: 12px 16px;
+    padding: 10px 12px;
     border-bottom: 1px solid #e5e7eb;
     vertical-align: middle;
 }

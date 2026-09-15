@@ -145,7 +145,7 @@ export const mockPlatformReviews = [
 ];
 
 export const mockCostRatios = [
-    { label: "식재료비", ratio: 32, color: "#ff7337" },
+    { label: "식재료비", ratio: 32, color: "#7c80e0" },
     { label: "인건비", ratio: 28, color: "#3b82f6" },
     { label: "임대료", ratio: 18, color: "#8b5cf6" },
     { label: "기타 경비", ratio: 10, color: "#10b981" },

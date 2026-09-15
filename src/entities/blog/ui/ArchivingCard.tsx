@@ -25,7 +25,7 @@ export const ArchivingCard = ({ post }: ArchivingCardProps): ReactElement => {
 
             <div className="flex flex-col gap-3 p-4">
                 <div className="flex flex-col gap-1.5">
-                    <h3 className="text-[15px] font-bold leading-snug tracking-tight text-zinc-900 transition-colors group-hover:text-[#ff7337]">
+                    <h3 className="text-[15px] font-bold leading-snug tracking-tight text-zinc-900 transition-colors group-hover:text-primary-900">
                         {post.title}
                     </h3>
                     {post.summary && (

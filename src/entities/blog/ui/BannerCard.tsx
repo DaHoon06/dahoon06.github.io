@@ -49,7 +49,7 @@ export const BannerCard = ({ post }: BannerCardProps) => {
                         </div>
 
                         {/* Title */}
-                        <h2 className="text-xl md:text-2xl font-bold text-zinc-800 leading-snug line-clamp-2 group-hover:text-[#ff7337] transition-colors">
+                        <h2 className="text-xl md:text-2xl font-bold text-zinc-800 leading-snug line-clamp-2 group-hover:text-primary-900 transition-colors">
                             {post.title}
                         </h2>
 
@@ -66,7 +66,7 @@ export const BannerCard = ({ post }: BannerCardProps) => {
                         <span className="text-xs text-zinc-400">
                             {date ? postDateFormatter(date) : ""}
                         </span>
-                        <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#ff7337]">
+                        <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-900">
                             읽어보기
                             <ArrowRight size={14} />
                         </span>

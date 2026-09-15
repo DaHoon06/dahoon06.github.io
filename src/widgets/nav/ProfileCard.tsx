@@ -38,7 +38,7 @@ export const ProfileCard = (): ReactElement => {
     return (
         <section className="overflow-hidden rounded-2xl border border-zinc-200 bg-white">
             {/* 배너 — 아바타가 걸치면서 카드 상단 섹션을 구분한다 */}
-            <div className="h-14 bg-gradient-to-br from-[#ff7337]/20 via-[#ff7337]/5 to-zinc-50" />
+            <div className="h-14 bg-gradient-to-br from-primary-000/60 via-primary-000/20 to-zinc-50" />
 
             <div className="-mt-9 flex flex-col items-center px-5 pb-5">
                 <Image
@@ -71,7 +71,7 @@ export const ProfileCard = (): ReactElement => {
                 >
                     <Mail
                         size={13}
-                        className="shrink-0 text-zinc-400 transition-colors group-hover:text-[#ff7337]"
+                        className="shrink-0 text-zinc-400 transition-colors group-hover:text-primary-900"
                     />
                     <span className="truncate text-xs text-zinc-500 transition-colors group-hover:text-zinc-900">
                         {profile.email}
@@ -90,7 +90,7 @@ export const ProfileCard = (): ReactElement => {
                             rel="noopener noreferrer"
                             className="group flex flex-1 items-center justify-center gap-1.5 py-3 transition-colors hover:bg-zinc-50"
                         >
-                            <Icon className="h-3.5 w-3.5 text-zinc-400 transition-colors group-hover:text-[#ff7337]" />
+                            <Icon className="h-3.5 w-3.5 text-zinc-400 transition-colors group-hover:text-primary-900" />
                             <span className="text-[11px] font-medium text-zinc-500 transition-colors group-hover:text-zinc-900">
                                 {label}
                             </span>

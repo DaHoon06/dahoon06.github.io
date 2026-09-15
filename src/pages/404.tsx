@@ -33,7 +33,7 @@ const CustomError: React.FC<CustomErrorProps> = () => {
                 <Link
                     href={ROUTES.HOME}
                     replace
-                    className="text-sm text-gray-400 hover:text-primary-000 transition-colors"
+                    className="text-sm text-gray-400 hover:text-primary-900 transition-colors"
                 >
                     <span>🚀 블로그로 돌아가기</span>
                 </Link>
