@@ -1,0 +1,417 @@
+{
+  "date": "2026-09-16",
+  "collectedAt": "2026-09-15T23:51:54.087Z",
+  "items": [
+    {
+      "slug": "introducing-system-one-models-and-jev",
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "summary": "Hacker News 토론 205개 · 625 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T19:25:03.000Z",
+      "contentType": "discussion",
+      "engagement": 625,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "show-hn-an-e-ink-frame-that-hears-birds-and-draws-them-as-1800s",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "summary": "Hacker News 토론 172개 · 1233 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T12:31:10.000Z",
+      "contentType": "discussion",
+      "engagement": 1233,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "an-update-on-wayback-machine-access",
+      "title": "An Update on Wayback Machine Access",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "summary": "Hacker News 토론 182개 · 335 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T17:52:18.000Z",
+      "contentType": "discussion",
+      "engagement": 335,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "danny-avilalibrechat-typescript",
+      "title": "danny-avila/LibreChat (TypeScript)",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code I",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:51:51.694Z",
+      "contentType": "repo",
+      "engagement": 43807,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "addyosmaniagent-skills-javascript",
+      "title": "addyosmani/agent-skills (JavaScript)",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:51:51.695Z",
+      "contentType": "repo",
+      "engagement": 94760,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "suspected-sabotage-causes-major-netherlands-rail-disruption",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+      "summary": "Hacker News 토론 384개 · 415 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T10:22:46.000Z",
+      "contentType": "discussion",
+      "engagement": 415,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "nationalsecurityagencyghidra-java",
+      "title": "NationalSecurityAgency/ghidra (Java)",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "summary": "Ghidra is a software reverse engineering (SRE) framework",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:51:51.693Z",
+      "contentType": "repo",
+      "engagement": 76680,
+      "tags": [
+        "github",
+        "Java"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "ever-coever-gauzy-typescript",
+      "title": "ever-co/ever-gauzy (TypeScript)",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "summary": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:51:51.692Z",
+      "contentType": "repo",
+      "engagement": 6616,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "show-hn-20달러짜리-4g-무선-핫스팟을-메시지-기기로-개조하기",
+      "title": "Show HN: 20달러짜리 4G 무선 핫스팟을 메시지 기기로 개조하기",
+      "url": "https://news.hada.io/topic?id=33758",
+      "summary": "배송비 포함 20달러 미만의 MF800 4G 모뎀에 Linux를 설치하고, Clicks 물리 키보드와 SHARP 디스플레이를 결합해 메시지 전용 휴대 기기를 제작함 OpenStick으로 기본 Android를 Linux로 교체하고, 원래 기기의 디바이스 트리에서 디스플레이 핀과 전원 정보를 추...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T23:34:32.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "디스토피아적-감시가-현실이-되고-있음",
+      "title": "디스토피아적 감시가 현실이 되고 있음",
+      "url": "https://news.hada.io/topic?id=33757",
+      "summary": "Apple Watch에 도입될 예정인 Audio Intelligence는 대화를 상시 청취하고 전사해 하루가 끝날 때 요약하며, 대화 상대는 인지하거나 동의하지 않은 채 기록될 수 있음 개인 일지 작성이나 업무 회의 기록에는 유용할 수 있지만, 기기 소유자의 개인정보 보호 장치...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T22:39:28.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "25분-만에-baseten의-프로덕션-github-관리자-권한을-확보함",
+      "title": "25분 만에 Baseten의 프로덕션 GitHub 관리자 권한을 확보함",
+      "url": "https://news.hada.io/topic?id=33756",
+      "summary": "자율 해킹 에이전트 Strix가 자격 증명이나 소스 코드 없이 Baseten을 점검해, 약 25분 만에 내부 저장소 관리자 권한이 있는 유효한 GitHub 토큰을 발견함 공개된 Harbor 컨테이너 레지스트리에서 이미지를 내려받을 수 있었고, Docker 빌드 이력...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T22:36:28.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "google-대화하며-추론하는-gemini-38-live와-extended-thinking-출시",
+      "title": "Google, 대화하며 추론하는 Gemini 3.8 Live와 Extended Thinking 출시",
+      "url": "https://news.hada.io/topic?id=33755",
+      "summary": "음성으로 대화하면서 복잡한 작업을 수행하는 두 모델로, Live는 비용 효율과 대규모 활용, Extended Thinking은 고난도 작업과 다단계 추론에 초점을 맞춤 Gemini 3.8 Live는 시각 정보를 거의 실시간으로 파악하고, 97개 언어를 대화 도중 자동으로 감지해 전환하...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T21:33:27.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "performance-improvements-in-net-11",
+      "title": "Performance Improvements in .NET 11",
+      "url": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T17:03:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "dotnet",
+        "performance"
+      ],
+      "score": 45
+    },
+    {
+      "slug": "css-tricks-in-limbo",
+      "title": "CSS-Tricks in Limbo",
+      "url": "https://vale.rocks/micros/20260915-0135",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T09:12:31.000Z",
+      "contentType": "article",
+      "tags": [
+        "web",
+        "css"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "small-programming-tricks",
+      "title": "Small Programming Tricks",
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T20:50:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-much-of-f-droid-is-llm-generated",
+      "title": "How much of F-Droid is LLM generated?",
+      "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T17:09:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "functional-programming-jargon-mapped-out",
+      "title": "Functional programming jargon, mapped out",
+      "url": "https://javascriptweekly.com/issues/802",
+      "summary": "#​802 — September 15, 2026 Read on the Web JavaScript Weekly Functional Programming Jargon, Mapped and Explained — Currying, purity, functors, monads…? If FP terms ever go over your head, TC39 delegate Hemanth HM's popul",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "contentType": "article",
+      "score": 40
+    },
+    {
+      "slug": "expiry-windows-nodejs-email-status-sms-escalation-and-event-traces",
+      "title": "Expiry Windows: Node.js Email Status, SMS Escalation, and Event Traces",
+      "url": "https://dev.to/horatiofox1281/expiry-windows-nodejs-email-status-sms-escalation-and-event-traces-303k",
+      "summary": "TL;DR: For Node.js event notifications, send transactional email first, poll its delivery status, and use SMS fallback only while the password-reset token remains useful. The deciding constraint is the expiry clock: a la",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:24:38.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "observability",
+        "security"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "리엑트react",
+      "title": "리엑트react",
+      "url": "https://velog.io/@1o1403/%EB%A6%AC%EC%97%91%ED%8A%B8react",
+      "summary": "데이터는 부모에서 자식으로만 흐른다. 이때 이용하는 것이 props",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T19:53:11.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "siri-ai-zuckerberg-profile-xcode-27",
+      "title": "Siri AI 📱, Zuckerberg profile 🧍‍♂️, Xcode 27 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-15",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "gotten-lazy-a-week-of-users-watching-their-ai-do-less",
+      "title": "‘Gotten Lazy’: A Week of Users Watching Their AI Do Less",
+      "url": "https://dev.to/theaidownside/gotten-lazy-a-week-of-users-watching-their-ai-do-less-3494",
+      "summary": "There is a complaint that sounds like nostalgia but usually isn’t: “it used to be better than this.” Last week we listened to paying users ask what their money still buys — a story about price, ads and upsell. This week ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:32:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "voices",
+        "ratelimits",
+        "perplexity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "examining-the-boolean-switch-in-java",
+      "title": "Examining the \"Boolean-Switch\" in Java \\_(ツ)_/",
+      "url": "https://dev.to/annavi11arrea1/examining-the-boolean-switch-in-java-tu--39j4",
+      "summary": "While reading through some ai-generated code today, I was caught off guard when I saw a switch statement inside of a boolean. What on earth has ai done now, I wondered. Here is the suspect: public boolean canChangeTo(Ord",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:22:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "java",
+        "software",
+        "programming"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "conceptual-contours",
+      "title": "Conceptual Contours",
+      "url": "https://dev.to/mckeondev/conceptual-contours-dc6",
+      "summary": "Domain Excavation Because it requires constant discovery and refinement, building software is much like excavating a buried house. One requirement exposes a section of wall. A bug fix reveals a doorway we hadn’t accounte",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-15T23:18:11.000Z",
+      "contentType": "article",
+      "tags": [
+        "ddd",
+        "oop",
+        "design"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "47일차",
+      "title": "47일차",
+      "url": "https://velog.io/@ik_e/47%EC%9D%BC%EC%B0%A8",
+      "summary": "47일차 1. 배운 내용 깃허브 CI/CD .github를 이용하면 깃허브에서 제공하는 actions으로 CI/CD를 자동적으로 할 수 있다. 즉, 통합, 배포에 관한 테스트를 모두 깃허브에서 진행하는 것이다. 2. 실제 작업한 내용 도커 활용한 배포 이전에 배운 도커를 활용한 배포 실습을 여러 번 연습했다. 즉, 완성된 프로젝트 기준으로 로컬 테스트 -> 컴포즈를 이용한 이미지 생성, 도커",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T23:36:17.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "보안-인프라-운영-관리-11",
+      "title": "보안 인프라 운영 관리 (11)",
+      "url": "https://velog.io/@sang-woo02/%EB%B3%B4%EC%95%88-%EC%9D%B8%ED%94%84%EB%9D%BC-%EC%9A%B4%EC%98%81-%EA%B4%80%EB%A6%AC-11",
+      "summary": "",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T23:28:43.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "25일",
+      "title": "25일",
+      "url": "https://velog.io/@kangdh/25%EC%9D%BC",
+      "summary": "AI 규칙기반(Rule-Based) 1~4강에서 배웠던 프론트엔드,백엔드,DB,배포까지는 전부 다 사람이 직접 규칙을 코드로 썼다. 이 흐름에 해당하는 코드를 개발자가 직접 작성 사용자가 로그인 버튼을 누름 > 이메일+PW를 서버로 전송 > 서버는 DB에서 조회 > 일치 : 세션 발급 / 불일치 : 오류 리턴 > 결정론적 시스템 / 같은 입력 = 같은 출력 규칙으로 풀기 어려운 문제들이 생김",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-15T23:28:20.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
