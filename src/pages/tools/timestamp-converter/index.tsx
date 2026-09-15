@@ -9,7 +9,7 @@ export default function TimestampConverterPage() {
         title: "Timestamp Converter — 유닉스 타임스탬프 변환기",
         description:
             "초 또는 밀리초 단위의 유닉스 타임스탬프를 한국 표준시(KST)로 변환합니다. 날짜 문자열을 타임스탬프로도 변환 가능하며, 복사하여 바로 활용할 수 있습니다.",
-        url: "https://dahoon06.github.io/tools/timestamp-converter",
+        url: "https://blog.dahoon06.com/tools/timestamp-converter",
         image: "/images/profile.png",
         type: "website",
         keywords:

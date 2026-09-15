@@ -6,7 +6,7 @@ const parser = new Parser({
     timeout: 12_000,
     headers: {
         "User-Agent":
-            "Mozilla/5.0 (compatible; dahoon06-news/1.0; +https://dahoon06.github.io)",
+            "Mozilla/5.0 (compatible; dahoon06-news/1.0; +https://blog.dahoon06.com)",
         Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
     },
 });

@@ -9,7 +9,7 @@ const CONFIG = {
         github: "dahoon06",
         instagram: "",
     },
-    domain: "https://dahoon06.github.io",
+    domain: "https://blog.dahoon06.com",
     projects: [
         {
             icon: "/img/unisurvey_logo.jpeg",
@@ -35,7 +35,7 @@ const CONFIG = {
     },
 
     // CONFIG configration (required)
-    link: "https://dahoon06.github.io",
+    link: "https://blog.dahoon06.com",
     since: 2024, // If leave this empty, current year will be used.
     lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
     ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash

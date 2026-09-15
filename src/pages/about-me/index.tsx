@@ -13,7 +13,7 @@ export default function AboutMePage() {
     const meta = {
         title: "전다훈 | About Me :: 포트폴리오",
         description: "프론트엔드 개발자 전다훈(Da-hoon Jeon)의 포트폴리오",
-        url: "https://dahoon06.github.io/about-me",
+        url: "https://blog.dahoon06.com/about-me",
         image: "/images/dahoon06.jpg",
         type: "website",
         keywords:

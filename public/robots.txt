@@ -4,7 +4,7 @@ Allow: /
 Disallow: /api/**
 
 # Host
-Host: https://dahoon06.github.io
+Host: https://blog.dahoon06.com
 
 # Sitemaps
-Sitemap: https://dahoon06.github.io/sitemap.xml
+Sitemap: https://blog.dahoon06.com/sitemap.xml
