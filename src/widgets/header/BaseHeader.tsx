@@ -1,53 +1,65 @@
 import { ReactElement } from "react";
-import { Menu, X } from "lucide-react";
-import { IoLogoGithub, IoMailOutline } from "react-icons/io5";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { CONFIG } from "@root/site.config";
+import { ROUTES } from "@shared/routes";
+import { Logo } from "@shared/ui/Logo";
+import cn from "@shared/lib/cn";
 
-interface BaseHeaderProps {
-    pageTitle: string;
-    isSidebarOpen: boolean;
-    onToggleSidebar: () => void;
+interface NavItem {
+    label: string;
+    href: string;
+    /** 활성 판별용 경로 prefix (href가 하위 페이지를 가리킬 때 사용) */
+    match?: string;
+    exact?: boolean;
 }
 
-export const BaseHeader = ({
-    pageTitle,
-    isSidebarOpen,
-    onToggleSidebar,
-}: BaseHeaderProps): ReactElement => {
+const NAV_ITEMS: NavItem[] = [
+    { label: "홈", href: ROUTES.HOME, exact: true },
+    { label: "아카이빙", href: ROUTES.ARCHIVING },
+    { label: "도구", href: ROUTES.TOOLS, match: "/tools" },
+    { label: "About", href: ROUTES.ABOUT },
+];
+
+export const BaseHeader = (): ReactElement => {
+    const router = useRouter();
+
+    const isActive = ({ href, match, exact }: NavItem) =>
+        exact
+            ? router.pathname === href
+            : router.pathname.startsWith(match ?? href);
+
     return (
-        <header className="shrink-0 bg-white border-b border-zinc-200 h-14 flex items-center gap-3 px-4 sm:px-6">
-            {/* Mobile hamburger */}
-            <button
-                onClick={onToggleSidebar}
-                className="lg:hidden p-1.5 -ml-1 rounded-md hover:bg-zinc-100 transition-colors text-zinc-500"
-                aria-label="메뉴 열기"
-            >
-                {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
-            </button>
-
-            {/* Page title */}
-            <h1 className="flex-1 text-sm font-semibold text-zinc-800 tracking-tight">
-                {pageTitle}
-            </h1>
-
-            {/* Right actions */}
-            <div className="flex items-center gap-1">
-                <a
-                    href={`https://github.com/${CONFIG.profile.github}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="GitHub"
-                    className="hidden sm:flex items-center justify-center w-8 h-8 rounded-md text-zinc-500 hover:text-zinc-800 hover:bg-zinc-100 transition-colors"
+        <header className="sticky top-0 z-40 border-b border-zinc-100 bg-white/90 backdrop-blur-md">
+            <div className="mx-auto flex h-16 w-full max-w-[1180px] items-center justify-between px-5 sm:px-6 lg:px-8">
+                <Link
+                    href={ROUTES.HOME}
+                    className="flex items-center gap-2.5 transition-opacity hover:opacity-70"
                 >
-                    <IoLogoGithub size={18} />
-                </a>
-                <a
-                    href={`mailto:${CONFIG.profile.email}`}
-                    title="이메일"
-                    className="hidden sm:flex items-center justify-center w-8 h-8 rounded-md text-zinc-500 hover:text-zinc-800 hover:bg-zinc-100 transition-colors"
-                >
-                    <IoMailOutline size={18} />
-                </a>
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#111]">
+                        <Logo className="flex" />
+                    </span>
+                    <span className="text-[17px] font-bold tracking-tight text-zinc-900">
+                        {CONFIG.profile.name}
+                    </span>
+                </Link>
+
+                <nav className="flex items-center gap-0.5 sm:gap-1">
+                    {NAV_ITEMS.map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className={cn(
+                                "rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors sm:px-3",
+                                isActive(item)
+                                    ? "text-zinc-900"
+                                    : "text-zinc-500 hover:text-zinc-900"
+                            )}
+                        >
+                            {item.label}
+                        </Link>
+                    ))}
+                </nav>
             </div>
         </header>
     );

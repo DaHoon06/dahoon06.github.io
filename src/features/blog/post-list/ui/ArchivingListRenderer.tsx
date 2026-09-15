@@ -1,124 +1,105 @@
-import { ReactElement, useEffect, useState } from "react";
+import { ReactElement, useMemo, useState } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import { Search } from "lucide-react";
+import { EmptyState } from "@shared/ui/empty-state";
 import { ArchivingList } from "./ArchivingList";
 import useArchivingsQuery from "../model/use-archivings-query";
-import { ROUTES } from "@shared/routes";
 
 export const ArchivingListRenderer = (): ReactElement => {
-    const [searchKeyword, setSearchKeyword] = useState("");
+    const [keyword, setKeyword] = useState("");
 
-    const data = useArchivingsQuery();
+    const archivings = useArchivingsQuery();
     const router = useRouter();
 
-    const [filteredPosts, setFilteredPosts] = useState(data);
+    const currentTag = `${router.query.tag ?? ""}` || undefined;
 
-    const currentTag = `${router.query.tag || ``}` || undefined;
-    const currentCategory = `${router.query.category || ``}` || "📂 All";
-    const currentOrder = `${router.query.order || ``}` || "desc";
+    const filteredPosts = useMemo(() => {
+        const search = keyword.trim().toLowerCase();
 
-    useEffect(() => {
-        setFilteredPosts(() => {
-            let newFilteredPosts = data;
-            // keyword
-            newFilteredPosts = newFilteredPosts.filter((post) => {
-                const tagContent = post.tags ? post.tags.join(" ") : "";
-                const searchContent = post.title + post.summary + tagContent;
-                return searchContent
-                    .toLowerCase()
-                    .includes(searchKeyword.toLowerCase());
-            });
+        return archivings.filter((post) => {
+            if (currentTag && !post.tags?.includes(currentTag)) return false;
+            if (!search) return true;
 
-            // tag
-            if (currentTag) {
-                newFilteredPosts = newFilteredPosts.filter(
-                    (post) =>
-                        post && post.tags && post.tags.includes(currentTag)
-                );
-            }
-
-            // category
-            if (currentCategory !== "📂 All") {
-                newFilteredPosts = newFilteredPosts.filter(
-                    (post) =>
-                        post &&
-                        post.category &&
-                        post.category.includes(currentCategory)
-                );
-            }
-            // order
-            if (currentOrder !== "desc") {
-                newFilteredPosts = newFilteredPosts.reverse();
-            }
-
-            return newFilteredPosts;
+            const content = [post.title, post.summary, post.tags?.join(" ")]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase();
+            return content.includes(search);
         });
-    }, [
-        data,
-        searchKeyword,
-        currentTag,
-        currentCategory,
-        currentOrder,
-        setFilteredPosts,
-    ]);
+    }, [archivings, keyword, currentTag]);
 
     return (
-        <div className="flex flex-col md:gap-10 gap-4 p-4 pb-10 transition-all duration-300 ease-in-out motion-reduce:transition-none">
-            {/* <header className="flex flex-col w-full md:my-8 my-4 gap-4 transition-all duration-300 ease-in-out motion-reduce:transition-none">
-                <div className="relative">
-                    <input
-                        type="text"
-                        placeholder="Search..."
-                        className="w-full rounded-md border border-gray-200 p-2 pl-4 pr-14 text-sm text-gray-700 focus:border-primary-000 focus:outline-none"
-                        value={inputKeyword}
-                        onChange={(e) => setInputKeyword(e.target.value)}
-                        onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                                handleSearch(e);
-                            }
-                        }}
-                    />
-                    <button className="bg-[#222] flex justify-center items-center text-white rounded-r-md w-[48px] h-[38px] p-2 absolute right-0 top-1/2 -translate-y-1/2 ">
-                        <IoSearchOutline size={22} color="#fff" />
+        <div>
+            <div className="mb-8">
+                <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-[28px]">
+                    아카이빙
+                </h1>
+                <p className="mt-2 text-sm text-zinc-500">
+                    찾아본 것, 정리해 둔 것
+                </p>
+            </div>
+
+            {/* 검색 */}
+            <div className="relative">
+                <Search
+                    size={17}
+                    className="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-zinc-400"
+                />
+                <input
+                    type="text"
+                    placeholder="제목, 요약, 내용으로 검색..."
+                    className="w-full rounded-xl border border-zinc-200 bg-white py-3 pr-4 pl-11 text-sm text-zinc-800 transition-colors placeholder:text-zinc-400 focus:border-zinc-400 focus:outline-none"
+                    value={keyword}
+                    onChange={(e) => setKeyword(e.target.value)}
+                />
+            </div>
+
+            {/* 목록 헤더 */}
+            <div className="mt-10 mb-6 flex items-baseline gap-2 border-b border-zinc-200 pb-4">
+                <h2 className="text-lg font-bold tracking-tight text-zinc-900">
+                    {currentTag ? `#${currentTag}` : "전체"}
+                </h2>
+                <span className="text-sm text-zinc-400">
+                    {filteredPosts.length}개
+                </span>
+            </div>
+
+            {filteredPosts.length > 0 ? (
+                <ArchivingList posts={filteredPosts} />
+            ) : keyword.trim() ? (
+                <EmptyState
+                    face="( ・ั﹏・ั )"
+                    title={`"${keyword.trim()}" 검색 결과가 없어요`}
+                    description="다른 단어로 한 번만 더 찾아볼까요?"
+                >
+                    <button
+                        type="button"
+                        onClick={() => setKeyword("")}
+                        className="rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900"
+                    >
+                        검색어 지우기
                     </button>
-                </div>
-
-                <div className="flex flex-wrap items-center gap-3 mt-2">
-                    {["📂 All", ...allCategories(data)].map((category) => {
-                        const isActive = currentCategory === category;
-                        const label = category === "📂 All" ? "전체" : category;
-                        const baseClass =
-                            "px-5 py-2 rounded-full text-[14px] border transition-colors";
-                        const activeClass =
-                            "bg-[#0B0B17] text-white border-[#0B0B17]";
-                        const inactiveClass =
-                            "bg-white text-gray-800 border-gray-200 hover:border-gray-300 hover:bg-gray-50";
-
-                        return (
-                            <button
-                                key={category}
-                                className={`${baseClass} ${isActive ? activeClass : inactiveClass}`}
-                                onClick={() =>
-                                    category === "📂 All"
-                                        ? router.push(ROUTES.ARCHIVING)
-                                        : handleCategoryClick(category)
-                                }
-                            >
-                                {label}
-                            </button>
-                        );
-                    })}
-                </div>
-            </header> */}
-
-            {!filteredPosts.length && (
-                <div className="flex flex-col items-center justify-center mt-10">
-                    <p className="text-gray-500 dark:text-gray-300">
-                        Nothing! 😺
-                    </p>
-                </div>
+                </EmptyState>
+            ) : currentTag ? (
+                <EmptyState
+                    face="( ˘ ᵕ ˘ )"
+                    title={`#${currentTag} 아카이빙은 아직 없어요`}
+                    description="다른 태그에는 모아둔 게 있어요."
+                >
+                    <Link
+                        href={{ pathname: router.pathname }}
+                        className="rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900"
+                    >
+                        전체 보기
+                    </Link>
+                </EmptyState>
+            ) : (
+                <EmptyState
+                    title="아직 모아둔 게 없어요"
+                    description="좋은 걸 발견하면 여기에 차곡차곡 쌓아둘게요."
+                />
             )}
-
-            <ArchivingList posts={filteredPosts} />
         </div>
     );
 };

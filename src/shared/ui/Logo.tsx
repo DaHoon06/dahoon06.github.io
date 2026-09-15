@@ -4,7 +4,7 @@ interface LogoProps extends React.HTMLAttributes<HTMLSpanElement> {}
 
 export const Logo = ({ className, ...props }: LogoProps): ReactElement => {
     return (
-        <span {...props}>
+        <span className={className} {...props}>
             <svg
                 width="28"
                 height="28"

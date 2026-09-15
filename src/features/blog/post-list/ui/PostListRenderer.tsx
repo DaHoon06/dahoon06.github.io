@@ -1,141 +1,132 @@
-import { ReactElement, useCallback, useEffect, useMemo, useState } from "react";
-import { PostList } from "./PostList";
-import { Search } from "lucide-react";
-import usePostsQuery from "../model/use-posts-query";
+import { ReactElement, useMemo, useState } from "react";
 import { useRouter } from "next/router";
-import { ROUTES } from "@shared/routes";
-import cn from "@shared/lib/cn";
+import Link from "next/link";
+import { Search, X } from "lucide-react";
+import { EmptyState } from "@shared/ui/empty-state";
+import { PostList } from "./PostList";
+import usePostsQuery from "../model/use-posts-query";
 
-type Item = { category?: string[] | null };
+interface PostListRendererProps {
+    heading?: string;
+    description?: string;
+}
 
-export const PostListRenderer = (): ReactElement => {
-    const [inputKeyword, setInputKeyword] = useState("");
-    const [searchKeyword, setSearchKeyword] = useState("");
+export const PostListRenderer = ({
+    heading,
+    description,
+}: PostListRendererProps): ReactElement => {
+    const [keyword, setKeyword] = useState("");
 
-    const data = usePostsQuery();
+    const posts = usePostsQuery();
     const router = useRouter();
 
-    const [filteredPosts, setFilteredPosts] = useState(data);
+    const currentTag = `${router.query.tag ?? ""}` || undefined;
 
-    const currentTag = `${router.query.tag || ""}` || undefined;
-    const currentCategory = `${router.query.category || ""}` || "All";
-    const currentOrder = `${router.query.order || ""}` || "desc";
+    const filteredPosts = useMemo(() => {
+        const search = keyword.trim().toLowerCase();
 
-    useEffect(() => {
-        setFilteredPosts(() => {
-            let result = [...data];
+        return posts.filter((post) => {
+            if (currentTag && !post.tags?.includes(currentTag)) return false;
+            if (!search) return true;
 
-            if (searchKeyword) {
-                result = result.filter((post) => {
-                    const tagContent = post.tags ? post.tags.join(" ") : "";
-                    const content = post.title + (post.summary ?? "") + tagContent;
-                    return content.toLowerCase().includes(searchKeyword.toLowerCase());
-                });
-            }
-            if (currentTag) {
-                result = result.filter((post) => post.tags?.includes(currentTag));
-            }
-            if (currentCategory !== "All") {
-                result = result.filter((post) => post.category?.includes(currentCategory));
-            }
-            if (currentOrder !== "desc") {
-                result = result.reverse();
-            }
-
-            return result;
+            const content = [post.title, post.summary, post.tags?.join(" ")]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase();
+            return content.includes(search);
         });
-    }, [data, searchKeyword, currentTag, currentCategory, currentOrder]);
-
-    const allCategories = (items: Item[]) =>
-        Array.from(new Set(items.flatMap((item) => item.category ?? [])));
-
-    const handleSearch = useCallback(() => {
-        setSearchKeyword(inputKeyword);
-        setInputKeyword("");
-    }, [inputKeyword]);
-
-    const handleCategoryClick = useCallback(
-        (category: string) => {
-            router.push(ROUTES.POSTS_WITH_CATEGORY(category));
-        },
-        [router],
-    );
-
-    const mainPost = useMemo(() => filteredPosts[0] ?? null, [filteredPosts]);
-    const otherPosts = useMemo(() => filteredPosts.slice(1), [filteredPosts]);
-    const categories = ["All", ...allCategories(data)];
+    }, [posts, keyword, currentTag]);
 
     return (
-        <div className="space-y-5">
-            {/* Header */}
-            <div className="flex items-center justify-between">
-                <div>
-                    <h2 className="text-lg font-bold text-zinc-800">블로그</h2>
-                    <p className="text-xs text-zinc-400 mt-0.5">
-                        총 {data.length}개의 포스트
-                    </p>
-                </div>
-            </div>
-
-            {/* Search */}
-            <div className="relative">
-                <Search
-                    size={15}
-                    className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none"
-                />
-                <input
-                    type="text"
-                    placeholder="제목, 내용, 태그로 검색..."
-                    className="w-full bg-white border border-zinc-200 rounded-lg py-2.5 pl-9 pr-[52px] text-sm text-zinc-700 placeholder:text-zinc-400 focus:outline-none focus:border-zinc-400 transition-colors"
-                    value={inputKeyword}
-                    onChange={(e) => setInputKeyword(e.target.value)}
-                    onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                />
-                <button
-                    onClick={handleSearch}
-                    className="absolute right-0 top-0 h-full px-4 bg-[#111] text-white rounded-r-lg text-xs font-medium hover:bg-zinc-800 transition-colors"
-                >
-                    검색
-                </button>
-            </div>
-
-            {/* Category filter */}
-            <div className="flex flex-wrap gap-1.5">
-                {categories.map((cat) => {
-                    const isActive = currentCategory === cat;
-                    const label = cat === "All" ? "전체" : cat;
-                    return (
-                        <button
-                            key={cat}
-                            onClick={() =>
-                                cat === "All"
-                                    ? router.push(ROUTES.POSTS)
-                                    : handleCategoryClick(cat)
-                            }
-                            className={cn(
-                                "px-3 py-1.5 rounded-md text-xs font-medium border transition-all",
-                                isActive
-                                    ? "bg-[#111] text-white border-[#111]"
-                                    : "bg-white text-zinc-600 border-zinc-200 hover:border-zinc-400 hover:text-zinc-800",
-                            )}
-                        >
-                            {label}
-                        </button>
-                    );
-                })}
-            </div>
-
-            {/* Empty state */}
-            {!filteredPosts.length && (
-                <div className="flex flex-col items-center justify-center py-20 text-zinc-400">
-                    <p className="text-4xl mb-3">😺</p>
-                    <p className="text-sm font-medium">포스트가 없습니다.</p>
+        <div>
+            {heading && (
+                <div className="mb-8">
+                    <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-[28px]">
+                        {heading}
+                    </h1>
+                    {description && (
+                        <p className="mt-2 text-sm text-zinc-500">
+                            {description}
+                        </p>
+                    )}
                 </div>
             )}
 
-            {/* Post list */}
-            {filteredPosts.length > 0 && (
-                <PostList mainPost={mainPost} otherPosts={otherPosts} />
+            {/* 검색 */}
+            <div className="relative">
+                <Search
+                    size={17}
+                    className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-zinc-400"
+                />
+                <input
+                    type="text"
+                    placeholder="제목, 요약, 내용으로 검색..."
+                    className="w-full rounded-xl border border-zinc-200 bg-white py-3 pl-11 pr-4 text-sm text-zinc-800 transition-colors placeholder:text-zinc-400 focus:border-zinc-400 focus:outline-none"
+                    value={keyword}
+                    onChange={(e) => setKeyword(e.target.value)}
+                />
+            </div>
+
+            {/* 선택된 태그 (우측 네비게이션이 숨겨지는 모바일에서도 해제할 수 있도록) */}
+            {currentTag && (
+                <div className="mt-4 flex items-center gap-2">
+                    <span className="rounded-full bg-[#111] px-2.5 py-1 text-xs font-medium text-white">
+                        #{currentTag}
+                    </span>
+                    <Link
+                        href={{ pathname: router.pathname }}
+                        className="flex items-center gap-0.5 text-xs text-zinc-400 transition-colors hover:text-zinc-700"
+                    >
+                        <X size={12} />
+                        필터 해제
+                    </Link>
+                </div>
+            )}
+
+            {/* 목록 헤더 */}
+            <div className="mt-10 flex items-baseline gap-2 border-b border-zinc-200 pb-4">
+                <h2 className="text-lg font-bold tracking-tight text-zinc-900">
+                    {currentTag ? `#${currentTag}` : "최신 글"}
+                </h2>
+                <span className="text-sm text-zinc-400">
+                    {filteredPosts.length}개
+                </span>
+            </div>
+
+            {filteredPosts.length > 0 ? (
+                <PostList posts={filteredPosts} />
+            ) : keyword.trim() ? (
+                <EmptyState
+                    face="( ・ั﹏・ั )"
+                    title={`"${keyword.trim()}" 검색 결과가 없어요`}
+                    description="다른 단어로 한 번만 더 찾아볼까요?"
+                >
+                    <button
+                        type="button"
+                        onClick={() => setKeyword("")}
+                        className="rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900"
+                    >
+                        검색어 지우기
+                    </button>
+                </EmptyState>
+            ) : currentTag ? (
+                <EmptyState
+                    face="( ˘ ᵕ ˘ )"
+                    title={`#${currentTag} 글은 아직 없어요`}
+                    description="다른 태그에는 글이 기다리고 있어요."
+                >
+                    <Link
+                        href={{ pathname: router.pathname }}
+                        className="rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-600 transition-colors hover:border-zinc-300 hover:text-zinc-900"
+                    >
+                        전체 글 보기
+                    </Link>
+                </EmptyState>
+            ) : (
+                <EmptyState
+                    title="아직 쓴 글이 없어요"
+                    description="지금 열심히 쓰는 중이에요. 곧 들고 올게요!"
+                />
             )}
         </div>
     );

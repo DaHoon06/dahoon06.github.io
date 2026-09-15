@@ -4,6 +4,9 @@
 
 @theme {
     --breakpoint-xs: 500px;
+    /* sm만 기본값(40rem)으로 남으면 px 브레이크포인트와 정렬 순서가 어긋나
+       `sm:` 규칙이 `lg:` 뒤에 출력돼 항상 이겨버린다. 단위를 px로 통일한다. */
+    --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
     --breakpoint-xl: 1280px;
@@ -183,5 +186,16 @@
     to {
         opacity: 0;
         transform: translateX(-100%);
+    }
+}
+
+/* EmptyState 말풍선이 살짝 떠 있는 느낌 */
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0) rotate(-1.5deg);
+    }
+    50% {
+        transform: translateY(-6px) rotate(1.5deg);
     }
 }

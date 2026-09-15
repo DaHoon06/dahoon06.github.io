@@ -1,4 +1,4 @@
-import { NotionAPI } from "notion-client";
+import { createNotionClient } from "./notion-api-client";
 import { idToUuid } from "notion-utils";
 import getAllPageIds from "../lib/get-all-page-ids";
 import getPageProperties from "../lib/get-page-properties";
@@ -11,7 +11,7 @@ export const getArchiving = async () => {
         CONFIG.notionConfig.archivingPageId ||
         (process.env.NEXT_PUBLIC_NOTION_ARCHIVING_PAGE_ID as string);
 
-    const api = new NotionAPI();
+    const api = createNotionClient();
 
     const response = await getPageWithDelay(api, id);
 

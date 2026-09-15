@@ -1,6 +1,56 @@
 [
   {
+    "id": "3d18d60b-90d2-81de-9b2e-d505c80febce",
+    "category": [
+      "etc"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "docs/notion-sync-test.md — slug 기반 Notion 동기화 규칙 동작 확인용 테스트 문서.",
+    "slug": "notion-sync-test",
+    "updatedAt": {
+      "start_date": "2026-09-04"
+    },
+    "date": {
+      "start_date": "2026-09-04"
+    },
+    "title": "Notion 아카이빙 연동 테스트",
+    "createdTime": "Fri Sep 04 2026 16:38:09 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
+    "id": "3d18d60b-90d2-81e2-943b-e3a714d5ca46",
+    "category": [
+      "backend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "instiz_renew_api 키워드 알림 이벤트 파이프라인 설계 + 규모 확장(BullMQ) 검토. docs/keyword-notification-event-pipeline-plan.md, docs/notification-scale-plan.md 통합.",
+    "slug": "keyword-notification",
+    "tags": [
+      "MySQL"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-04"
+    },
+    "date": {
+      "start_date": "2026-09-02"
+    },
+    "title": "키워드 알림 (Keyword Notification)",
+    "createdTime": "Fri Sep 04 2026 16:36:34 GMT+0900 (Korean Standard Time)",
+    "fullWidth": false
+  },
+  {
     "id": "35b8d60b-90d2-8038-aab7-c3e25aee74d1",
+    "type": [
+      "Post"
+    ],
+    "slug": "parallel-routes-intercepting-routes",
+    "tags": [
+      "nextjs"
+    ],
     "title": "Parallel Routes + Intercepting Routes",
     "createdTime": "Sat May 09 2026 14:51:51 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
@@ -83,7 +133,7 @@
     "date": {
       "start_date": "2026-05-01"
     },
-    "title": "아이차트 성능 지표",
+    "title": "프론트 성능 최적화 작업 진행 로그",
     "createdTime": "Fri May 01 2026 02:13:23 GMT+0900 (Korean Standard Time)",
     "fullWidth": false
   }

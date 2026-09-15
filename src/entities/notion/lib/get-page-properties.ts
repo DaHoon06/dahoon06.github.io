@@ -1,5 +1,5 @@
 import { getTextContent, getDateValue } from "notion-utils";
-import { NotionAPI } from "notion-client";
+import { createNotionClient } from "../api/notion-api-client";
 import { BlockMap, CollectionPropertySchemaMap } from "notion-types";
 import { customMapImageUrl } from "./custom-map-image-url";
 import { getUsersWithDelay } from "../api/get-page-with-retry";
@@ -9,7 +9,7 @@ async function getPageProperties(
     block: BlockMap,
     schema: CollectionPropertySchemaMap
 ) {
-    const api = new NotionAPI();
+    const api = createNotionClient();
     const rawProperties = Object.entries(
         block?.[id]?.value?.value?.properties || []
     );

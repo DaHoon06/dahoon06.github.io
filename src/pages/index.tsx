@@ -1,10 +1,20 @@
-import { filterPosts, getPosts, getArchiving, notionQueryKeys } from "@entities/notion";
+import {
+    filterPosts,
+    getPosts,
+    getArchiving,
+    notionQueryKeys,
+} from "@entities/notion";
 import { queryClient } from "@shared/lib/react-query";
-import { dehydrate, DehydratedState, HydrationBoundary } from "@tanstack/react-query";
+import {
+    dehydrate,
+    DehydratedState,
+    HydrationBoundary,
+} from "@tanstack/react-query";
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
-import { DashboardHome } from "@widgets/dashboard";
+import { BlogSideNav } from "@widgets/nav";
+import { PostListRenderer } from "@features/blog/post-list";
 
 interface HomePageProps {
     dehydratedState: DehydratedState;
@@ -13,8 +23,11 @@ interface HomePageProps {
 const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
-            <BaseLayout>
-                <DashboardHome />
+            <BaseLayout aside={<BlogSideNav />}>
+                <PostListRenderer
+                    heading={`안녕하세요, ${CONFIG.profile.name}입니다`}
+                    description={CONFIG.profile.bio}
+                />
             </BaseLayout>
         </HydrationBoundary>
     );

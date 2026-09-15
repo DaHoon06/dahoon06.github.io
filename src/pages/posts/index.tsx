@@ -1,10 +1,20 @@
-import { filterPosts, getPosts, getArchiving, notionQueryKeys } from "@entities/notion";
+import {
+    filterPosts,
+    getPosts,
+    getArchiving,
+    notionQueryKeys,
+} from "@entities/notion";
 import { queryClient } from "@shared/lib/react-query";
-import { dehydrate, DehydratedState, HydrationBoundary } from "@tanstack/react-query";
+import {
+    dehydrate,
+    DehydratedState,
+    HydrationBoundary,
+} from "@tanstack/react-query";
 import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
-import { PostListRenderer } from "@features/blog/post-list/ui/PostListRenderer";
+import { BlogSideNav } from "@widgets/nav";
+import { PostListRenderer } from "@features/blog/post-list";
 
 interface PostsPageProps {
     dehydratedState: DehydratedState;
@@ -13,8 +23,8 @@ interface PostsPageProps {
 const PostsPage: NextPage<PostsPageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
-            <BaseLayout>
-                <PostListRenderer />
+            <BaseLayout aside={<BlogSideNav />}>
+                <PostListRenderer heading="블로그" />
             </BaseLayout>
         </HydrationBoundary>
     );

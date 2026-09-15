@@ -1,6 +1,7 @@
 // ui
 export { BannerCard } from "./ui/BannerCard";
 export { PostCard } from "./ui/PostCard";
+export { PostListItem } from "./ui/PostListItem";
 export { ArchivingCard } from "./ui/ArchivingCard";
 export { Author } from "./ui/Author";
 export { DateFormatter } from "./ui/DateFormatter";

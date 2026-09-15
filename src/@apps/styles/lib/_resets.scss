@@ -24,7 +24,8 @@ html {
     line-height: 1.25;
     -webkit-text-size-adjust: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    /* `hidden`은 스크롤 컨테이너를 만들어 position: sticky를 깨뜨린다. clip은 그렇지 않다. */
+    overflow-x: clip;
 }
 
 ::selection {
@@ -51,8 +52,7 @@ body {
     font-family: var(--custom-font);
 
     position: relative;
-    overflow-x: hidden;
-    overflow: auto;
+    overflow-x: clip;
     width: 100%;
 }
 
