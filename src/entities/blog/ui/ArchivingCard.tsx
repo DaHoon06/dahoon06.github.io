@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import { CONFIG } from "@root/site.config";
 import { PostType } from "@entities/notion/@x/blog";
 import { Author } from "./Author";
 import { formatDate } from "../lib/format-date";
@@ -17,7 +16,7 @@ export const ArchivingCard = ({ post }: ArchivingCardProps): ReactElement => {
             <div className="overflow-hidden bg-zinc-100">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                    src={post.thumbnail || CONFIG.profile.image}
+                    src={post.thumbnail || "/images/default.png"}
                     alt={post.title}
                     loading="lazy"
                     className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
