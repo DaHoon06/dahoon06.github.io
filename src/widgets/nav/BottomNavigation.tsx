@@ -1,41 +1,66 @@
-import { IconLoader } from "@shared/ui/icons/IconLoader";
+import { ReactElement } from "react";
 import Link from "next/link";
-import { HTMLAttributes, ReactElement } from "react";
-import { GoHomeFill } from "react-icons/go";
+import { useRouter } from "next/router";
+import { motion } from "framer-motion";
+import { isNavItemActive, NAV_ITEMS } from "@shared/config/nav";
 import cn from "@shared/lib/cn";
 
-interface BottomNavigationProps extends HTMLAttributes<HTMLDivElement> {
-    isActive: (path: string) => boolean;
-}
+/**
+ * 모바일 하단 탭 바 (웹 앱뷰).
+ *
+ * 높이는 4rem이 아니라 `4rem + safe-area`다 — 고정 높이에 하단 패딩만 더하면
+ * border-box 특성상 탭 콘텐츠 자리가 그만큼 깎여(iOS 34px) 아이콘·라벨이 밀린다.
+ * 패딩은 홈 인디케이터를 피하는 용도로만 남긴다.
+ *
+ * 활성 표시는 상단 2px 잉크 바 — 헤더의 활성 표시(진한 글자색)와 같은 문법이다.
+ */
+export const BottomNavigation = (): ReactElement => {
+    const router = useRouter();
 
-export const BottomNavigation = ({
-    className,
-    isActive,
-}: BottomNavigationProps): ReactElement => {
     return (
         <nav
-            className={cn(
-                "fixed right-0 bottom-0 left-0 w-full border-t border-[#e1e1e8] bg-white",
-                className
-            )}
+            data-slot="bottom-nav"
+            className="fixed inset-x-0 bottom-0 z-40 flex h-[calc(4rem+env(safe-area-inset-bottom,_0px))] items-stretch border-t border-zinc-100 bg-white/95 pb-[env(safe-area-inset-bottom,_0px)] backdrop-blur-md md:hidden"
         >
-            <ul className="flex h-full w-full items-center justify-start gap-8 px-8">
-                <li>
+            {NAV_ITEMS.map((item) => {
+                const Icon = item.icon;
+                const active = isNavItemActive(router.pathname, item);
+
+                return (
                     <Link
-                        href="/"
+                        key={item.key}
+                        href={item.href}
+                        aria-current={active ? "page" : undefined}
                         className={cn(
-                            isActive("/")
-                                ? "text-primary-200"
-                                : "text-gray-600",
-                            "flex flex-col items-center gap-1"
+                            "relative flex flex-1 flex-col items-center justify-center gap-1 transition-colors",
+                            active
+                                ? "text-zinc-900"
+                                : "text-zinc-400 hover:text-zinc-600"
                         )}
                     >
-                        <IconLoader>
-                            <GoHomeFill />
-                        </IconLoader>
+                        {active && (
+                            <motion.span
+                                layoutId="bottom-nav-indicator"
+                                transition={{
+                                    type: "spring",
+                                    stiffness: 380,
+                                    damping: 30,
+                                }}
+                                className="absolute top-0 h-[2px] w-8 rounded-full bg-zinc-900"
+                            />
+                        )}
+                        <Icon size={19} strokeWidth={active ? 2.2 : 1.8} />
+                        <span
+                            className={cn(
+                                "text-[11px] leading-none",
+                                active ? "font-semibold" : "font-medium"
+                            )}
+                        >
+                            {item.shortLabel ?? item.label}
+                        </span>
                     </Link>
-                </li>
-            </ul>
+                );
+            })}
         </nav>
     );
 };

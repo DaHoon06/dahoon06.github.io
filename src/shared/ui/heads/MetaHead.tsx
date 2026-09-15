@@ -6,7 +6,7 @@ const MetaHead = () => {
             <title>프론트엔드 개발자 | 전다훈(Dahoon06)</title>
             <meta
                 name="viewport"
-                content="width=device-width, initial-scale=1, user-scalable=0"
+                content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=0"
             />
             <meta httpEquiv="Subject" content="전다훈 포트폴리오" />
             <meta httpEquiv="Title" content="프론트엔드 개발자 | 전다훈" />
@@ -23,8 +23,13 @@ const MetaHead = () => {
                 httpEquiv="Page-Enter"
                 content="revealtrans(Duration=1,Transition=12)"
             />
+            {/* 홈 화면에 추가했을 때 앱처럼 전체 화면으로 뜬다 */}
             <meta name="mobile-web-app-capable" content="yes" />
-            <meta name="apple-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta
+                name="apple-mobile-web-app-status-bar-style"
+                content="default"
+            />
 
             <meta name="color-scheme" content="dark light" />
             <meta

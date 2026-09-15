@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { BaseHeader } from "@widgets/header";
+import { BottomNavigation } from "@widgets/nav";
 import { CONFIG } from "@root/site.config";
 
 interface BaseLayoutProps {
@@ -10,7 +11,8 @@ interface BaseLayoutProps {
 
 export const BaseLayout = ({ children, aside }: BaseLayoutProps) => {
     return (
-        <div className="flex min-h-screen flex-col bg-white">
+        /* 하단 탭 바 높이만큼 본문 아래를 비워 둔다 (모바일 전용) */
+        <div className="flex min-h-screen flex-col bg-white pb-[calc(4rem+env(safe-area-inset-bottom,_0px))] md:pb-0">
             <BaseHeader />
 
             <div className="mx-auto w-full max-w-[1180px] flex-1 px-5 sm:px-6 lg:px-8">
@@ -33,6 +35,8 @@ export const BaseLayout = ({ children, aside }: BaseLayoutProps) => {
                     </p>
                 </div>
             </footer>
+
+            <BottomNavigation />
         </div>
     );
 };
