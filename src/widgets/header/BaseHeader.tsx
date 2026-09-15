@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { CONFIG } from "@root/site.config";
 import { ROUTES } from "@shared/routes";
 import { Logo } from "@shared/ui/Logo";
 import cn from "@shared/lib/cn";
@@ -36,11 +35,8 @@ export const BaseHeader = (): ReactElement => {
                     href={ROUTES.HOME}
                     className="flex items-center gap-2.5 transition-opacity hover:opacity-70"
                 >
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#111]">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded bg-[#111]">
                         <Logo className="flex" />
-                    </span>
-                    <span className="text-[17px] font-bold tracking-tight text-zinc-900">
-                        {CONFIG.profile.name}
                     </span>
                 </Link>
 
