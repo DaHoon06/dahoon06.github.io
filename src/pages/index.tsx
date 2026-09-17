@@ -13,7 +13,7 @@ import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
 import { BlogSideNav, ProfileCard } from "@widgets/nav";
-import { PostListRenderer } from "@features/blog/post-list";
+import { ArchivingShowcase, PostListRenderer } from "@features/blog/post-list";
 
 interface HomePageProps {
     dehydratedState: DehydratedState;
@@ -27,6 +27,7 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
                 <div className="mb-8 lg:hidden">
                     <ProfileCard />
                 </div>
+                <ArchivingShowcase />
                 <PostListRenderer />
             </BaseLayout>
         </HydrationBoundary>

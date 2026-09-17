@@ -13,9 +13,7 @@ const _NotionRenderer = dynamic(
     { ssr: false }
 );
 
-const Code = dynamic(() =>
-    import("react-notion-x/build/third-party/code").then(async (m) => m.Code)
-);
+const Code = dynamic(() => import("./NotionCodeBlock"));
 
 const Collection = dynamic(() =>
     import("react-notion-x/build/third-party/collection").then(

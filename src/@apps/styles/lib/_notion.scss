@@ -24,10 +24,6 @@
     word-break: break-word;
 }
 
-.notion-simple-table {
-    width: 100% !important;
-}
-
 /* 제목 — 크기 차이가 작아진 만큼 위쪽 여백과 굵기로 단계를 구분한다 */
 .notion-h1,
 .notion-h2,
@@ -105,13 +101,252 @@
     padding: 0.875rem 1rem !important;
 }
 
-/* 코드 — 모바일에서 넘치면 가로 스크롤 */
+/**
+ * 코드 블록 — macOS 창 모양(신호등 + Copy)에 왼쪽 줄 번호.
+ *
+ * 마크업은 NotionCodeBlock이 만든다. react-notion-x가 뱉는 <pre.notion-code>를
+ * .notion-code-window__body 안에 넣고, 배경·모서리는 바깥 창이 책임진다.
+ */
 .notion-code {
     border-radius: 0.75rem !important;
     font-size: 13px !important;
     line-height: 1.7 !important;
     overflow-x: auto !important;
     padding: 0.875rem 1rem !important;
+}
+
+.notion-code-window {
+    --code-bg: #282c34;
+    --code-fg: #abb2bf;
+    /* 줄 번호(블록 박스마다 반올림)와 코드(연속 텍스트)가 어긋나지 않게 px 고정 */
+    --code-line-height: 22px;
+
+    /* 본문 텍스트와 너무 붙어 있던 문제 — 위아래로 여백을 넉넉히 */
+    margin: 1.75rem 0;
+    /* .notion-page-content가 flex 컬럼이라 폭을 명시하지 않으면 내용만큼 줄어든다 */
+    width: 100%;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: var(--code-bg);
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.12),
+        0 10px 28px -16px rgba(0, 0, 0, 0.45);
+}
+
+/* 창 헤더 — 신호등 + Copy */
+.notion-code-window__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.7rem 0.95rem;
+}
+
+.notion-code-window__dots {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    i {
+        display: block;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+    }
+
+    i:nth-child(1) {
+        background: #ff5f56;
+    }
+
+    i:nth-child(2) {
+        background: #ffbd2e;
+    }
+
+    i:nth-child(3) {
+        background: #27c93f;
+    }
+}
+
+.notion-code-window__copy {
+    padding: 3px 7px;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: #9199a8;
+    font-size: 12px;
+    line-height: 1.4;
+    cursor: pointer;
+    transition:
+        color 0.15s ease,
+        background-color 0.15s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.08);
+        color: #e6e9ef;
+    }
+}
+
+/**
+ * 본문 — 세로 스크롤은 여기서, 가로 스크롤은 <pre>에서 받는다.
+ * 그래야 코드가 가로로 밀려도 줄 번호는 제자리에 남는다.
+ */
+.notion-code-window__body {
+    display: flex;
+    align-items: flex-start;
+    max-height: 32rem;
+    overflow-y: auto;
+    padding: 0.6rem 0 1rem;
+
+    /* 전역 리셋이 스크롤바를 숨기지만, 코드 창 안에서는 보여준다 */
+    &::-webkit-scrollbar {
+        display: block;
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border: 3px solid transparent;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.18);
+        background-clip: padding-box;
+    }
+}
+
+.notion-code-window__gutter {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0 0.85rem 0 1rem;
+    color: #4d5666;
+    font-size: 13px;
+    line-height: var(--code-line-height);
+    text-align: right;
+    user-select: none;
+
+    span {
+        display: block;
+    }
+}
+
+/* 창 안의 <pre>는 배경·여백 없이 코드만 — 크롬은 바깥이 담당한다 */
+.notion-code-window .notion-code {
+    flex: 1 1 auto;
+    min-width: 0;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 1rem 0 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: var(--code-fg) !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    &::-webkit-scrollbar {
+        display: block;
+        height: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border: 3px solid transparent;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.18);
+        background-clip: padding-box;
+    }
+}
+
+/**
+ * 줄 번호와 코드가 어긋나지 않게 폰트·line-height를 토큰(span)까지 통일한다.
+ *
+ * 전역 리셋의 `* { font-family: var(--custom-font) }`가 prism 토큰 span에도
+ * 걸려서, 코드가 본문 폰트(Pretendard)로 찍히고 줄 높이도 22px가 아니라
+ * 23px가 됐다. 줄 번호(정확히 22px)와 한 줄씩 어긋나던 원인.
+ */
+.notion-code-window__gutter,
+.notion-code-window .notion-code,
+.notion-code-window .notion-code code,
+.notion-code-window .notion-code .token {
+    font-family:
+        ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        "Liberation Mono", monospace !important;
+}
+
+.notion-code-window .notion-code,
+.notion-code-window .notion-code code {
+    font-size: 13px !important;
+    line-height: var(--code-line-height) !important;
+    background: transparent !important;
+    text-shadow: none !important;
+}
+
+/* react-notion-x 기본 복사 버튼은 헤더의 Copy로 대체한다 */
+.notion-code-window .notion-code-copy {
+    display: none !important;
+}
+
+/* 캡션은 창 바깥에서 다시 그리므로 안쪽 것은 숨긴다 */
+.notion-code-window__body .notion-asset-caption {
+    display: none !important;
+}
+
+.notion-code-window__caption {
+    margin-top: -1.25rem !important;
+    margin-bottom: 1.75rem !important;
+}
+
+/* 토큰 색 — 첨부 이미지와 같은 One Dark 계열로 맞춘다 */
+.notion-code-window {
+    .token.comment,
+    .token.prolog,
+    .token.doctype,
+    .token.cdata {
+        color: #5c6370;
+        font-style: italic;
+    }
+
+    .token.punctuation {
+        color: #abb2bf;
+    }
+
+    .token.property,
+    .token.tag,
+    .token.selector,
+    .token.constant,
+    .token.symbol,
+    .token.deleted {
+        color: #e06c75;
+    }
+
+    .token.boolean,
+    .token.number,
+    .token.attr-name,
+    .token.regex,
+    .token.variable,
+    .token.important {
+        color: #d19a66;
+    }
+
+    .token.string,
+    .token.char,
+    .token.attr-value,
+    .token.builtin,
+    .token.inserted {
+        color: #98c379;
+    }
+
+    .token.operator,
+    .token.entity,
+    .token.url {
+        color: #56b6c2;
+    }
+
+    .token.atrule,
+    .token.keyword {
+        color: #c678dd;
+    }
+
+    .token.function,
+    .token.class-name {
+        color: #61afef;
+    }
 }
 
 /* 이미지·임베드 캡션 — 하한 13px */
@@ -140,20 +375,6 @@
     border-radius: 0.75rem;
 }
 
-/**
- * 테이블 — react-notion-x는 <table>을 감싸는 래퍼를 만들지 않아서,
- * 좁은 화면에서는 테이블 자체를 블록으로 바꿔 가로 스크롤을 붙인다.
- */
-.notion-simple-table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-
-    @media (min-width: 640px) {
-        display: table;
-    }
-}
-
 .notion-collection {
     max-width: 100%;
     overflow-x: auto;
@@ -164,65 +385,152 @@
     margin: 2rem 0 !important;
     border-color: #e4e4e7 !important;
 }
+
+/**
+ * 테이블 — 좁은 화면에서 표만 가로로 스크롤되게.
+ *
+ * react-notion-x는 <table class="notion-simple-table">를 감싸는 래퍼를 만들지
+ * 않는다. build/index.js의 "table" 케이스가 <table>을 직접 뱉고, components로
+ * 갈아끼울 수 있는 자리도 없다(Code·Collection 같은 교체 지점이 표에는 없다).
+ * 그래서 스크롤 컨테이너를 DOM으로 끼워 넣을 수 없어 CSS로만 해결한다.
+ *
+ * 방법은 table 자체를 스크롤 박스로 쓰고(display: block + overflow-x),
+ * 진짜 표 박스 역할은 tbody에 넘기는 것이다. tbody에 display: table을 주는 게
+ * 핵심인데, table만 block으로 바꾸면 안쪽에 익명 표 박스가 생기면서 폭이
+ * 내용만큼 줄어들어(2열 표가 본문 폭의 절반만 차지) 데스크톱에서 표가
+ * 쪼그라든다. tbody가 표 박스가 되면 width: 100%로 본문 폭을 채우면서,
+ * 셀 최소 너비의 합이 그 폭을 넘을 때만 넘쳐서 가로 스크롤이 생긴다.
+ *
+ * 이전에는 표가 본문 폭에 강제로 맞춰져(width: 100% !important) 셀이 찌그러지고,
+ * 그래도 안 들어가는 만큼은 페이지 전체를 밀어 모바일에서 본문까지 잘렸다.
+ *
+ * !important가 붙은 선언은 react-notion-x의 styles.css와 정면으로 겹치는 것들이다.
+ * 그 파일은 NotionRenderer에서 import돼 전역 SCSS보다 뒤에 주입되므로, 선택자
+ * 특이도가 같으면 라이브러리 쪽이 이긴다(이 파일의 다른 규칙들도 같은 이유).
+ */
 .notion-simple-table {
+    display: block;
+    /* 본문 컨테이너가 align-items: flex-start인 flex 컬럼이라, 폭을 명시하지
+       않으면 표가 내용만큼만 줄어든다(코드 창에도 같은 이유로 width가 있다) */
     width: 100%;
-    border-color: #ededed !important;
+    max-width: 100%;
+    /* 셀이 다 안 들어가는 좁은 화면에서만 스크롤바가 보인다 */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* 표 끝까지 밀었을 때 브라우저 뒤로가기 제스처로 넘어가지 않게 */
+    overscroll-behavior-x: contain;
+    /* .notion *의 margin-block: 0을 넘어서야 해서 !important */
+    margin: 1.5rem 0 !important;
+    /* 테두리·배경은 실제 표 박스인 tbody가 그린다 */
+    border: 0 !important;
+    font-size: 13px !important;
+    line-height: 1.65;
+    color: #222;
+
+    /**
+     * 스크롤바 — 전역 리셋이 ::-webkit-scrollbar를 숨기지만, 표 안에서는 되살린다.
+     * 스크롤바가 안 보이면 "옆에 더 있다"는 신호가 사라져서 모바일에서는
+     * 잘린 열을 못 보고 지나친다. 대신 본문을 가리지 않게 얇게.
+     */
+    scrollbar-width: thin;
+    scrollbar-color: #d4d4d8 transparent;
+
+    &::-webkit-scrollbar {
+        display: block;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 999px;
+        background: #d4d4d8;
+    }
+}
+
+.notion-simple-table tbody {
+    display: table;
+    width: 100%;
+    border: 1px solid #e4e4e7;
+    border-radius: 0.75rem;
     border-collapse: separate;
     border-spacing: 0;
     background-color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    font-family:
-        "Pretendard",
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        sans-serif;
-    font-size: 13px;
-    color: #222;
 }
 
-.notion-simple-table th {
-    background-color: #f9fafb;
-    font-weight: 600;
-    padding: 10px 12px;
-    white-space: nowrap;
-    text-align: left;
-    border-bottom: 1px solid #e5e7eb;
-    color: #222;
-}
-
+/**
+ * 셀 — 최소 너비 112px.
+ *
+ * react-notion-x가 td에 붙이는 인라인 width(기본 120px)는 표가 좁아지면 무시되는
+ * "희망 너비"라 찌그러짐을 막아주지 못한다. 실제로 폭을 지켜주는 건 min-width다.
+ * 120px이 아니라 112px인 이유는 3열 표(가장 흔한 형태)가 390px 화면에서
+ * 딱 들어맞게 하기 위해서다 — 120px이면 14px만 넘쳐서 스크롤바가 생긴다.
+ */
 .notion-simple-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e5e7eb;
-    vertical-align: middle;
+    min-width: 7rem;
+    padding: 0.625rem 0.875rem !important;
+    /* 라이브러리가 넣는 사방 1px 테두리를 지우고 아래·오른쪽만 다시 긋는다 */
+    border: 0 !important;
+    border-right: 1px solid #f4f4f5 !important;
+    border-bottom: 1px solid #f4f4f5 !important;
+    vertical-align: top;
 }
 
-.notion-simple-table tr:last-child td {
-    border-bottom: none;
+.notion-simple-table tr > td:last-child {
+    border-right: 0 !important;
 }
 
-.notion-simple-table tr:hover td {
-    background-color: #f8fafc;
+.notion-simple-table tr:last-child > td {
+    border-bottom: 0 !important;
 }
 
-.notion-simple-table code {
-    background-color: #f3f4f6; /* gray-100 */
-    color: #eb5757; /* blue-600 */
-    font-family: "Pretendard", sans-serif;
-    padding: 3px 6px;
-    border-radius: 6px;
-    font-size: 13px;
+/* 헤더 행·열 — react-notion-x는 <th>를 쓰지 않고 td에 클래스만 붙인다 */
+.notion-simple-table .notion-simple-table-header-row > td,
+.notion-simple-table td.notion-simple-table-header-cell {
+    background-color: #fafafa !important;
+    font-weight: 600;
+    color: #18181b;
 }
+
+/* 헤더 행 아래는 본문 구분선보다 한 단계 진하게 */
+.notion-simple-table .notion-simple-table-header-row > td {
+    border-bottom-color: #e4e4e7 !important;
+}
+
+/**
+ * 모서리 — 스크롤 박스라 overflow: hidden으로 잘라낼 수 없다.
+ * (잘라내면 가로 스크롤이 죽는다.) 그래서 네 귀퉁이 셀에 직접 반경을 준다.
+ */
+.notion-simple-table tr:first-child > td:first-child {
+    border-top-left-radius: calc(0.75rem - 1px);
+}
+
+.notion-simple-table tr:first-child > td:last-child {
+    border-top-right-radius: calc(0.75rem - 1px);
+}
+
+.notion-simple-table tr:last-child > td:first-child {
+    border-bottom-left-radius: calc(0.75rem - 1px);
+}
+
+.notion-simple-table tr:last-child > td:last-child {
+    border-bottom-right-radius: calc(0.75rem - 1px);
+}
+
+/* 헤더 행은 그대로 두고 본문 행만 짚어준다 */
+.notion-simple-table tr:not(.notion-simple-table-header-row):hover > td {
+    background-color: #fafafa;
+}
+
+/*
+ * 표 안 인라인 코드는 따로 꾸미지 않는다.
+ * 예전에는 배경·색·폰트를 다시 지정해 본문 인라인 코드와 다르게 보였는데,
+ * 규칙을 빼면 .notion-inline-code가 그대로 적용돼 본문과 같은 모양이 된다.
+ */
 
 .notion-simple-table td svg {
     vertical-align: middle;
     margin-right: 4px;
-}
-
-.notion-simple-table td:first-child {
-    font-weight: 500;
-    color: #eb5757;
 }

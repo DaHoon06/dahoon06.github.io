@@ -3,6 +3,7 @@ export { BannerCard } from "./ui/BannerCard";
 export { PostCard } from "./ui/PostCard";
 export { PostListItem } from "./ui/PostListItem";
 export { ArchivingCard } from "./ui/ArchivingCard";
+export { ArchivingFrameCard } from "./ui/ArchivingFrameCard";
 export { Author } from "./ui/Author";
 export { DateFormatter } from "./ui/DateFormatter";
 export { TableOfContents } from "./ui/TableOfContents";

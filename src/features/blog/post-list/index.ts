@@ -3,6 +3,7 @@ export { PostListRenderer } from "./ui/PostListRenderer";
 export { PostList } from "./ui/PostList";
 export { ArchivingListRenderer } from "./ui/ArchivingListRenderer";
 export { ArchivingList } from "./ui/ArchivingList";
+export { ArchivingShowcase } from "./ui/ArchivingShowcase";
 
 // model
 export { default as usePostsQuery } from "./model/use-posts-query";

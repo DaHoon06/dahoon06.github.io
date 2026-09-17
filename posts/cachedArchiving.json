@@ -1,61 +1,52 @@
 [
   {
-    "id": "3d18d60b-90d2-81de-9b2e-d505c80febce",
+    "id": "35b8d60b-90d2-8038-aab7-c3e25aee74d1",
     "category": [
-      "etc"
+      "frontend"
     ],
     "type": [
       "Post"
     ],
-    "summary": "docs/notion-sync-test.md — slug 기반 Notion 동기화 규칙 동작 확인용 테스트 문서.",
-    "slug": "notion-sync-test",
+    "summary": "사이드프로젝트",
+    "slug": "parallel-routes-intercepting-routes",
+    "tags": [
+      "nextjs"
+    ],
     "updatedAt": {
-      "start_date": "2026-09-04"
+      "start_date": "2026-09-17"
     },
     "date": {
-      "start_date": "2026-09-04"
+      "start_date": "2026-06-04"
     },
-    "title": "Notion 아카이빙 연동 테스트",
-    "createdTime": "Fri Sep 04 2026 16:38:09 GMT+0900 (Korean Standard Time)",
-    "lastEditedTime": "2026-09-04T07:42:26.287Z",
+    "title": "Parallel Routes + Intercepting Routes",
+    "createdTime": "Sat May 09 2026 14:51:51 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T04:10:15.960Z",
     "fullWidth": false
   },
   {
-    "id": "3d18d60b-90d2-81e2-943b-e3a714d5ca46",
+    "id": "3de8d60b-90d2-81fb-ba4b-daef040abc39",
     "category": [
       "backend"
     ],
     "type": [
       "Post"
     ],
-    "summary": "instiz_renew_api 키워드 알림 이벤트 파이프라인 설계 + 규모 확장(BullMQ) 검토. docs/keyword-notification-event-pipeline-plan.md, docs/notification-scale-plan.md 통합.",
-    "slug": "keyword-notification",
+    "summary": "실시간 키워드 알림을 SSE로 붙이고 로컬 테스트까지 다 통과했는데, 구현 끝낸 날 혼자 육하원칙으로 전 구간 감사를 해보니 결함이 16개나 나왔다. 그중 하트비트가 Last-Event-ID를 덮어써서 백로그 복구가 통째로 죽어있던 결함이 제일 치명적이었다.",
+    "slug": "sse-realtime-notification",
     "tags": [
-      "MySQL"
+      "SSE",
+      "실시간"
     ],
     "updatedAt": {
-      "start_date": "2026-09-04"
+      "start_date": "2026-09-17"
     },
+    "thumbnail": "https://www.notion.so/image/attachment%3A5dd6ce63-889f-4237-92ff-224c6d1374db%3Asse-realtime-cover.svg?table=undefined&id=undefined&cache=v2",
     "date": {
-      "start_date": "2026-09-02"
+      "start_date": "2026-05-26"
     },
-    "title": "키워드 알림 (Keyword Notification)",
-    "createdTime": "Fri Sep 04 2026 16:36:34 GMT+0900 (Korean Standard Time)",
-    "lastEditedTime": "2026-09-04T07:42:24.011Z",
-    "fullWidth": false
-  },
-  {
-    "id": "35b8d60b-90d2-8038-aab7-c3e25aee74d1",
-    "type": [
-      "Post"
-    ],
-    "slug": "parallel-routes-intercepting-routes",
-    "tags": [
-      "nextjs"
-    ],
-    "title": "Parallel Routes + Intercepting Routes",
-    "createdTime": "Sat May 09 2026 14:51:51 GMT+0900 (Korean Standard Time)",
-    "lastEditedTime": "2026-05-10T14:49:39.232Z",
+    "title": "SSE 알림 만들기",
+    "createdTime": "Thu Sep 17 2026 09:21:52 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T04:00:35.413Z",
     "fullWidth": false
   },
   {
@@ -74,8 +65,36 @@
       "start_date": "2026-05-04"
     },
     "title": "FSD Guide",
-    "createdTime": "Mon May 04 2026 11:32:16 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Mon May 04 2026 11:32:16 GMT+0900 (한국 표준시)",
     "lastEditedTime": "2026-05-09T04:42:00.895Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81bc-a1f2-df5b523ced7b",
+    "category": [
+      "etc"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "AI 코딩 에이전트와 함께 리뉴얼 프로젝트를 진행하면서 세션마다 맥락이 초기화되는 문제를 겪었고, 이를 해결하려 우선순위 계층형 문서 체계(P0~P5)와 SKILL 명세를 만들었던 과정을 정리했다. 컨텍스트 낭비, 요청과 실제 스키마의 불일치, 여러 에이전트 세션이 작업 트리를 공유할 때의 사고 등 실제로 부딪힌 문제와 해결 방법을 담았다.",
+    "slug": "ai-agent-collaboration-docs",
+    "tags": [
+      "cluade code",
+      "ai-agent",
+      "documentation",
+      "team-process"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A741f3dd4-f314-4377-bf91-6da473537ada%3Aagent-collaboration-docs-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2026-05-04"
+    },
+    "title": "AI 에이전트가 매번 같은 걸 물어봐서, 규칙을 코드 옆에 묻어버렸다",
+    "createdTime": "Thu Sep 17 2026 09:43:46 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:46.286Z",
     "fullWidth": false
   },
   {
@@ -96,8 +115,8 @@
       "start_date": "2026-05-01"
     },
     "title": "AI Agent 환경 구성 (모노레포 기준)",
-    "createdTime": "Wed Jan 07 2026 13:25:40 GMT+0900 (Korean Standard Time)",
-    "lastEditedTime": "2026-05-18T04:58:00.291Z",
+    "createdTime": "Wed Jan 07 2026 13:25:40 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T04:09:01.095Z",
     "fullWidth": false
   },
   {
@@ -118,7 +137,7 @@
       "start_date": "2026-05-01"
     },
     "title": "테이블 인덱스 재 설계",
-    "createdTime": "Fri May 01 2026 02:12:08 GMT+0900 (Korean Standard Time)",
+    "createdTime": "Fri May 01 2026 02:12:08 GMT+0900 (한국 표준시)",
     "lastEditedTime": "2026-05-06T02:20:11.130Z",
     "fullWidth": false
   },
@@ -140,8 +159,373 @@
       "start_date": "2026-05-01"
     },
     "title": "프론트 성능 최적화 작업 진행 로그",
-    "createdTime": "Fri May 01 2026 02:13:23 GMT+0900 (Korean Standard Time)",
-    "lastEditedTime": "2026-07-08T02:26:36.219Z",
+    "createdTime": "Fri May 01 2026 02:13:23 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T04:08:03.137Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-8104-a285-d5403f0c1d57",
+    "category": [
+      "backend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "MAU 1000만 규모 PHP 레거시 서비스를 점진적으로 전환하면서, 신규 화면이 호출할 NestJS 모노레포 API 서버를 초기 커밋부터 설계하고 GitHub Actions 기반 Blue/Green 무중단 배포까지 구축한 과정을 정리했다. 실행 단위(앱)와 공유 단위(라이브러리)를 분리하는 설계 결정, 레거시 DB 위에서 ORM을 쓸 때 만난 함정들, 그리고 배포 파이프라인을 겪으며 얻은 시행착오를 담았다.",
+    "slug": "nestjs-api-server-design-cicd",
+    "tags": [
+      "NestJS",
+      "CI/CD",
+      "backend",
+      "monorepo",
+      "TypeORM",
+      "Blue-Green Deployment"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A01d82b3c-0ba4-49dc-b713-de8ac75f810b%3Aapi-server-cicd-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2026-03-18"
+    },
+    "title": "레거시 위에 새 API 서버를 올릴 때, 나눠야 할 것과 나누면 안 되는 것",
+    "createdTime": "Thu Sep 17 2026 09:47:16 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:58:02.592Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-8122-8223-d9eba35801a9",
+    "category": [
+      "backend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "화면이 가끔 멈추는 원인을 쫓다가 6,300만 건 테이블을 매번 풀스캔하던 배치 쿼리를 찾아냈다. 카디널리티와 선택도를 기준으로 등치→정렬→범위 순서의 복합 인덱스를 설계해서 배치 소요 시간을 43초에서 2초로(-95%) 줄인 회고.",
+    "slug": "mysql-index-batch-optimization",
+    "tags": [
+      "MySQL",
+      "indexing",
+      "PHP"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3Ad9d56401-ccec-4d16-b24a-bff626325f8d%3Aindex-redesign-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2026-02-10"
+    },
+    "title": "6,300만 건 풀스캔범을 잡았더니 배치가 43초에서 2초로 줄었다",
+    "createdTime": "Thu Sep 17 2026 09:24:31 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:56:52.330Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81a3-8e5e-d0ec550ac62b",
+    "category": [
+      "infra"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "로컬에서 띄울 방법이 없던 레거시 PHP 7.2 서비스를 도커 컨테이너로 옮기면서 겪은 과정 정리. EOL 베이스 이미지, 웹/크론 분리, 개발 환경 부작용 차단, Redis 구성 분리, 그리고 MySQL 5.x에서 8로 넘어오며 만난 호환성 문제들을 다룬다.",
+    "slug": "dockerize-legacy-php-mysql8",
+    "tags": [
+      "MySQL"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3Aa3cfd193-f4c7-4e51-bf44-7e325b5fb484%3Adockerize-legacy-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2026-02-05"
+    },
+    "title": "\"서버에서 확인해볼게요\" 안 하려고 레거시 PHP를 도커에 욱여넣은 썰",
+    "createdTime": "Thu Sep 17 2026 09:25:27 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:26.374Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81ff-a4ab-fb13ab8054ce",
+    "category": [
+      "infra"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "FTP 기반 레거시 이미지 서버를 Cloudflare R2 + CDN으로 옮긴 과정을 정리했다. presigned URL로 서명 키를 API 서버 한 곳에 모으고, 게시글 본문 등 옛 경로가 박힌 곳을 DB 수정 없이 조회 시점 치환으로 풀어낸 이야기, 그리고 삭제·캐시 퍼지와 마이그레이션 중 만난 함정들을 다룬다.",
+    "slug": "legacy-file-storage-to-r2",
+    "tags": [
+      "Cloudflare R2",
+      "스토리지",
+      "PHP",
+      "CDN",
+      "migration"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A07b1791d-f0c5-4a01-9ff6-5565e5049897%3Afile-storage-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2026-01-02"
+    },
+    "title": "10년 된 PHP 커뮤니티 파일 스토리지, R2로 옮긴 여덟 달 회고",
+    "createdTime": "Thu Sep 17 2026 09:26:41 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:25.056Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81f4-8b56-ea1b671852d9",
+    "category": [
+      "frontend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "커뮤니티 운영 어드민 백오피스에서 글로벌 5초 타임아웃 제약 아래 대량 게시물 이동을 비동기 잡으로 풀어낸 과정과, 몇 달 뒤 오래된 세션에서만 터진 NestJS 조용한 DI 실패 버그를 추적해 고친 이야기. 덤으로 콘솔형 디자인 시스템 정리와 프레임 드랍 원인 제거까지 다룬다.",
+    "slug": "main-service-admin-backoffice",
+    "tags": [
+      "nextjs",
+      "backend",
+      "FSD",
+      "MySQL"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3Aff6fab5a-8ba6-4ee6-be75-0c33a3ce2761%3Acommunity-admin-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-12-02"
+    },
+    "title": "5초 타임아웃은 못 건드린다면서 대량 게시물 이동은 어떻게 시켰냐면",
+    "createdTime": "Thu Sep 17 2026 09:40:32 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:38.553Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-816c-bdea-dc290dabb541",
+    "category": [
+      "infra"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "PHP 레거시와 Next.js 리뉴얼이 같은 쿠키를 읽는다는 걸 사람이 아니라 시스템으로 증명하기 위해 E2E 테스트 스위트를 처음부터 설계한 이야기. 53개 라우트, 324개 테스트를 프로젝트 단위로 쪼개 안정성을 확보하고, 그 테스트를 PR 머지 차단 CI 게이트로 묶은 과정을 다룬다.",
+    "slug": "e2e-legacy-compat-testing",
+    "tags": [
+      "nextjs",
+      "PHP",
+      "FSD",
+      "E2E",
+      "Playwright",
+      "CI"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A7989b11e-c546-45fd-a6e8-9e0798bdafab%3Ae2e-compat-suite-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-09-24"
+    },
+    "title": "테스트가 아니라 규칙을 만든 이야기 - 324개 E2E로 레거시와 신규를 묶어놓기",
+    "createdTime": "Thu Sep 17 2026 09:39:48 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:37.361Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-8164-97c2-e118d7ae656e",
+    "category": [
+      "infra"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "레거시 게시판의 영상 업로드를 Vimeo에 위탁해오다가 요금제가 단종되는 걸 계기로 DB와 Vimeo API를 전수 대조했다. 그 과정에서 60%가 넘는 고아 데이터와 알림 없이 영상을 지우는 크론을 발견했고, Stream은 트랜스코딩에만 쓰고 실제 저장은 R2에 맡기는 구조로 전환해 연 비용을 90%대로 줄이는 계획을 세운 이야기.",
+    "slug": "video-hosting-vimeo-cost-optimization",
+    "tags": [
+      "Vimeo",
+      "비용최적화",
+      "Cloudflare",
+      "Cloudflare R2",
+      "스토리지",
+      "migration",
+      "PHP"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A97d0bf29-f0f7-4ce2-bc41-abbbfa931715%3Avideo-hosting-cost-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-06-04"
+    },
+    "title": "우리 서비스는 영상을 안 지우는데, 요금은 왜 지우는 서비스처럼 나올까",
+    "createdTime": "Thu Sep 17 2026 09:46:57 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:42.342Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81f8-86bd-cc8a58e2ae23",
+    "category": [
+      "backend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "PHP 레거시와 신규 Next.js/NestJS가 공존하는 동안 로그인 상태가 서로 어긋나는 문제를, NestJS가 PHP와 같은 포맷으로 세션을 함께 기록하는 방식으로 풀었던 과정을 정리했다.",
+    "slug": "session-bridge-php-jwt",
+    "tags": [
+      "PHP",
+      "nextjs",
+      "migration"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A220bc0ca-7953-4ba0-9ede-679bf435360e%3Asession-bridge-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-05-07"
+    },
+    "title": "레거시와 리뉴얼 로그인 연동",
+    "createdTime": "Thu Sep 17 2026 09:22:34 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:52:01.918Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81f0-89aa-e9db0e91f597",
+    "category": [
+      "frontend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "Project A 리뉴얼의 마이페이지·설정·결제·본인인증 영역을 구현하면서 마주친 실제 문제들을 정리했다. 설정값을 쿠키로 둘지 서버에 둘지 고른 이유, 체크박스 극성이 뒤집혀서 나던 버그, 결제·본인인증 연동과 프로필 편집 폼 검증까지 기능 구현 관점에서 다룬다.",
+    "slug": "mypage-settings-payment-identity-renewal",
+    "tags": [
+      "nextjs",
+      "FSD"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A671f33c2-a872-4e84-a982-37091d246c70%3Amypage-renewal-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-04-22"
+    },
+    "title": "체크박스 하나 살리려고 결제창까지 열어봐야 했던 이유",
+    "createdTime": "Thu Sep 17 2026 09:47:38 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:38:05.982Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81ac-800a-e69ed48a416f",
+    "category": [
+      "frontend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "같은 UI 컴포넌트가 4개 서비스에 흩어져 각자 복제되던 상황을 pnpm+Turborepo 모노레포와 자체 디자인시스템 패키지(Package A)로 통합한 과정을 정리했다. workspace 참조 대신 배포 패키지를 택한 이유, tsup 빌드에서 겪은 'use client' 경계 문제, FSD와 Changesets 릴리즈 흐름을 실제 트러블슈팅 위주로 담았다.",
+    "slug": "design-system-monorepo-turborepo",
+    "tags": [
+      "monorepo",
+      "FSD",
+      "nextjs"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3Aeecd4fda-7ac1-40ff-a4a0-cd88693b5871%3Adesign-system-monorepo-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-04-17"
+    },
+    "title": "컴포넌트가 4번 복사되고 있는 걸 알고 나서 모노레포를 만들기로 했다",
+    "createdTime": "Thu Sep 17 2026 09:39:57 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:36:18.370Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-81a5-be27-f5bb56fbc92c",
+    "category": [
+      "backend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "10년 넘은 커뮤니티 서비스의 키워드 알림 기능을 DB 폴링 데몬 22개 구조에서 Redis Streams 컨슈머 그룹 기반으로 재설계한 회고. 컨슈머 그룹과 PEL, MAXLEN, TTL 등에서 실제로 겪은 함정들과, 알림 지연을 3초대에서 50ms 미만으로 줄인 과정을 정리했다.",
+    "slug": "redis-streams-migration",
+    "tags": [
+      "Redis Streams",
+      "메시지큐"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A62f6df4d-99a0-4da1-ba9a-ae5338b603e5%3Aredis-streams-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-03-20"
+    },
+    "title": "폴링 데몬 22개 걷어내고 Redis Stream 처음 만져봤다",
+    "createdTime": "Thu Sep 17 2026 09:29:42 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:16.710Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-814c-91c8-cbdd9ac0446f",
+    "category": [
+      "frontend"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "Font Awesome 아이콘 폰트 전체를 그대로 번들에 넣고 있었는데, 실제 사용하는 아이콘은 200개도 안 된다는 걸 알고 서브셋 빌드 파이프라인을 직접 만든 이야기. 정규식 CSS 파싱이 왜 위험한지, 런타임에 조립되는 아이콘 이름을 어떻게 정적으로 추적했는지, 줄인 폰트도 로드 순서 때문에 왜 여전히 느렸는지를 반말 회고체로 정리했다.",
+    "slug": "fontawesome-icon-subset-pipeline",
+    "tags": [
+      "monorepo",
+      "nextjs",
+      "lighthouse"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A757799e5-6d07-471f-a521-2ee04fb19278%3Aicon-subset-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2025-02-19"
+    },
+    "title": "아이콘 4,843개 중 실제로 쓰는 건 200개도 안 됐다",
+    "createdTime": "Thu Sep 17 2026 09:20:56 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:29:04.870Z",
+    "fullWidth": false
+  },
+  {
+    "id": "3de8d60b-90d2-8113-a50a-ecccd116c680",
+    "category": [
+      "infra"
+    ],
+    "type": [
+      "Post"
+    ],
+    "summary": "레거시 커뮤니티 서비스를 운영하며 마주친 작지만 손이 많이 가는 문제들을 정리했다. FTP 업로드 로직 공용화부터 이미지 포맷·WebP 처리, 인기글 선정 기준 재설계, AI 크롤러 차단까지 운영 과정에서 하나씩 해결한 사례를 담았다.\n\n반복되는 로직은 공용 함수로 분리하고, 외부 I/O는 재시도와 실패 상황을 확인할 수 있도록 설계하며, 메인 지면에 영향을 주는 로직은 테스트로 먼저 검증하는 등 실제 운영에서 얻은 원칙과 시행착오를 함께 정리한다.",
+    "slug": "legacy-ops-misc-improvements",
+    "tags": [
+      "운영",
+      "봇차단",
+      "이미지처리",
+      "인기글",
+      "FTP",
+      "레거시",
+      "크롤러",
+      "PHP"
+    ],
+    "updatedAt": {
+      "start_date": "2026-09-17"
+    },
+    "thumbnail": "https://www.notion.so/image/attachment%3A447da374-f10e-4d16-8eae-29761bfa2bf2%3Alegacy-ops-grab-bag-cover.svg?table=undefined&id=undefined&cache=v2",
+    "date": {
+      "start_date": "2024-12-17"
+    },
+    "title": "레거시 서비스 돌리다 보면 별의별 걸 다 고치게 된다",
+    "createdTime": "Thu Sep 17 2026 09:37:54 GMT+0900 (한국 표준시)",
+    "lastEditedTime": "2026-09-17T03:27:44.802Z",
     "fullWidth": false
   }
 ]
