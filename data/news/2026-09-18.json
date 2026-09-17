@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-18",
+  "collectedAt": "2026-09-17T23:49:42.186Z",
+  "items": [
+    {
+      "slug": "hister-a-private-search-engine-for-the-pages-you-visit-and-the-files",
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "url": "https://github.com/asciimoo/hister",
+      "summary": "Hacker News 토론 123개 · 410 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T16:25:37.000Z",
+      "contentType": "discussion",
+      "engagement": 410,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ccc-invites-all-model-citizens-to-40c3",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "summary": "Hacker News 토론 176개 · 325 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T08:03:54.000Z",
+      "contentType": "discussion",
+      "engagement": 325,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "how-glm-built-its-own-inference-infrastructure",
+      "title": "How GLM built its own inference infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "summary": "Hacker News 토론 259개 · 357 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T08:27:09.000Z",
+      "contentType": "discussion",
+      "engagement": 357,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "tencentweknora-go",
+      "title": "Tencent/WeKnora (Go)",
+      "url": "https://github.com/Tencent/WeKnora",
+      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:49:40.106Z",
+      "contentType": "repo",
+      "engagement": 26167,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "ciliumcilium-go",
+      "title": "cilium/cilium (Go)",
+      "url": "https://github.com/cilium/cilium",
+      "summary": "eBPF-based Networking, Security, and Observability",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:49:40.106Z",
+      "contentType": "repo",
+      "engagement": 25258,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "astra-for-law",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "summary": "Hacker News 토론 263개 · 238 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T20:17:48.000Z",
+      "contentType": "discussion",
+      "engagement": 238,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "cloudflaresecurity-audit-skill-javascript",
+      "title": "cloudflare/security-audit-skill (JavaScript)",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:49:40.104Z",
+      "contentType": "repo",
+      "engagement": 10549,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "abue-ammartinycast-swift",
+      "title": "abue-ammar/tinycast (Swift)",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "summary": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:49:40.106Z",
+      "contentType": "repo",
+      "engagement": 6133,
+      "tags": [
+        "github",
+        "Swift"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "gitlabcom의-요청-속도-제한이-변경됨",
+      "title": "GitLab.com의 요청 속도 제한이 변경됨",
+      "url": "https://news.hada.io/topic?id=33867",
+      "summary": "GitLab.com이 구독 등급에 따라 사용자별, 최상위 그룹별 요청 제한을 적용함. Free와 비인증 요청은 2026년 10월 19일, Premium과 Ultimate는 2027년 1월부터 변경됨 비인증 요청은 IP 주소당 시간당 60회로 제한됨. 유료 계정 대상 자동화도 인...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T23:42:15.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "왁스-모터",
+      "title": "왁스 모터",
+      "url": "https://news.hada.io/topic?id=33865",
+      "summary": "왁스 모터는 왁스가 녹고 굳을 때의 부피 변화를 이용해 열에너지를 직선 운동으로 바꾸는 장치로, 왁스는 녹을 때 보통 5~20% 팽창함 밀폐된 왁스가 가열되면 플런저를 밀어내고, 냉각되어 수축하면 스프링이나 추의 힘으로 플런저가 복귀하는 구...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T22:52:16.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "bend-cpu와-gpu에서-증명으로-ai의-실수를-차단하는-언어",
+      "title": "Bend - CPU와 GPU에서 증명으로 AI의 실수를 차단하는 언어",
+      "url": "https://news.hada.io/topic?id=33864",
+      "summary": "Bend는 지켜야 할 규칙을 코드로 선언하고 AI가 구현의 정확성을 증명하도록 하는 언어로, 자연어보다 정밀한 요구사항과 빠른 실행을 결합함 네이티브 코드로 컴파일하며, 단일 코어에서 C에 가까운 속도로 실행되고 같은 바이너리를 여러 CPU 코어나 GPU에서도 실...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T22:52:15.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "astra-for-law-법률-업무용-ai",
+      "title": "Astra for Law - 법률 업무용 AI",
+      "url": "https://news.hada.io/topic?id=33863",
+      "summary": "OpenAI가 GPT‑6 Astra에 법률 검색, 분석 및 작성 지침을 결합한 Astra for Law를 공개함. 로펌과 법률 기술 기업이 자체 전문성을 바탕으로 AI 제품과 업무 흐름을 구축할 수 있음 2억 3,000만 개 이상의 URL을 대상으로 미국 판례, 법률, 규정 등을 검색하며, F...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T22:42:15.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "i-dont-like-llms",
+      "title": "I Don't Like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T15:25:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-golden-spike-and-resurrecting-the-valen-programming-language",
+      "title": "The Golden Spike, and Resurrecting the Vale(n) Programming Language",
+      "url": "https://verdagon.dev/blog/golden-spike-reviving-vale-valen",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T15:10:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "everybodys-lost-their-minds",
+      "title": "Everybody's Lost Their Minds",
+      "url": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T15:06:08.000Z",
+      "contentType": "article",
+      "tags": [
+        "culture"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "be-alert-targeted-attacks-on-prominent-rustaceans",
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T18:10:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "your-calendar-invite-just-ordered-cupcakes-the-smart-home-agent",
+      "title": "Your Calendar Invite Just Ordered Cupcakes: The Smart Home Agent Security Gap Nobody's Watching",
+      "url": "https://dev.to/coridev/your-calendar-invite-just-ordered-cupcakes-the-smart-home-agent-security-gap-nobodys-watching-111e",
+      "summary": "A Gemini-powered smart home agent misread a dentist appointment invite and ordered cupcakes instead. Not a hypothetical, not a red-team exercise, just a normal calendar entry that got interpreted as a commerce instructio",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:15:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "ai",
+        "llm"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "node-269-turns-on-ffi-by-default",
+      "title": "Node 26.9 turns on FFI by default",
+      "url": "https://nodeweekly.com/issues/641",
+      "summary": "#​641 — September 17, 2026 Read on the Web Why (and How) GitHub Ported Copilot's Runtime from Node to Rust — GitHub's Copilot runtime moved to Rust, ported in pieces behind napi-rs shims while shipping daily. Startup tim",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "apple-ai-servers-snap-specs-google-home-mcp",
+      "title": "Apple AI servers 🖥️, Snap Specs 👓, Google Home MCP 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-17",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "cursor-kiro-chatgpt-trs-harness-uma-arquitetura",
+      "title": "Cursor, Kiro, ChatGPT: três harness, uma arquitetura",
+      "url": "https://dev.to/tiagovilasboas/cursor-kiro-chatgpt-tres-harness-uma-arquitetura-7li",
+      "summary": "Toda semana alguém me pergunta: \"qual IDE com IA você usa?\". A resposta curta é \"Cursor\". A resposta real é que Cursor é só a interface. O que faz funcionar é um vault Logseq que serve de memória, skills compartilhadas e",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:35:14.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "productivity",
+        "architecture"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "is-it-legal-for-ai-to-train-on-your-data",
+      "title": "Is It Legal for AI to Train on Your Data?",
+      "url": "https://dev.to/theaidownside/is-it-legal-for-ai-to-train-on-your-data-43b5",
+      "summary": "Somewhere in the training data of the model you used this morning, there is a decent chance you are in there. Not you by name, necessarily, but your Reddit comments, the code you pushed to a public repository, the blog y",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:34:34.000Z",
+      "contentType": "article",
+      "tags": [
+        "copyright",
+        "airegulation",
+        "privacy"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "readme",
+      "title": "readme",
+      "url": "https://dev.to/pedrohs_cdc/readme-43di",
+      "summary": "Estou dando os primeiros passos na minha carreira em TI — e faço questão de compartilhar essa jornada com transparência. Meu nome é Pedro Sigismundo, tenho 22 anos e atualmente curso o 1º ano de Ciência da Computação na ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-17T23:24:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "beginners",
+        "career",
+        "computerscience"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "fullstack-108",
+      "title": "Fullstack 108",
+      "url": "https://velog.io/@heo-hyuk/Fullstack-108",
+      "summary": "풀스택",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T23:44:03.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai-에이전트-시대-개발자에게-가장-중요한-능력은-이해력이다",
+      "title": "AI 에이전트 시대, 개발자에게 가장 중요한 능력은 ‘이해력’이다",
+      "url": "https://velog.io/@straycat405/AI-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B0%80%EC%9E%A5-%EC%A4%91%EC%9A%94%ED%95%9C-%EB%8A%A5%EB%A0%A5%EC%9D%80-%EC%9D%B4%ED%95%B4%EB%A0%A5%EC%9D%B4%EB%8B%A4",
+      "summary": "최근 Notion의 디자인 엔지니어 Geoffrey Litt가 “Understanding is the new bottleneck”라는 주제로 흥미로운 발표를 했다. AI 에이전트가 코드를 작성하는 속도는 이미 사람이 직접 코드를 작성하는 속도를 크게 넘어섰다. Claude Code, Codex, Cursor와 같은 도구를 사용하면 몇 분 만에 수백, 수천 줄의 코드가 변경되기도 한다. 그런데",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T23:42:09.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "49일차",
+      "title": "49일차",
+      "url": "https://velog.io/@ik_e/49%EC%9D%BC%EC%B0%A8",
+      "summary": "49일차 1. 배운 내용 복습 도커와 AWS를 이용해서 AWS 서버에 도커를 설치하고 이미지를 받아서 배포하는 작업을 했다. 2. 실제 작업한 내용 CI/CD 개념 학습 CI/CD에 이미 표준과 같은 흐름들이 자리 잡은 것들이 있다. CI를 github action으로 처리하고 쿠버네티스(그 사이에 GitOps CD 구성)로 CD를 완성하는 구조가 가장 표준의 흐름처럼 보인다. 쿠버네티스는 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T23:41:07.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "attenion-is-all-you-need-리뷰",
+      "title": "Attenion Is All You Need 리뷰",
+      "url": "https://velog.io/@jeonseoknam/Attenion-Is-All-You-Need-%EB%A6%AC%EB%B7%B0",
+      "summary": "",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-17T23:39:28.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "mcp-subscriptionslisten으로-서버-알림-구독하기",
+      "title": "MCP subscriptions/listen으로 서버 알림 구독하기",
+      "url": "https://daleseo.com/mcp-subscriptions/",
+      "summary": "MCP 2026-07-28 스펙에서 독립 GET 스트림과 resources/subscribe가 사라지고 들어온 subscriptions/listen을 알림 필터, 확인 응답, 구독 종료까지 Bun 예제로 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "contentType": "article",
+      "score": 34
+    }
+  ]
+}
