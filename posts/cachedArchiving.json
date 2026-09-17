@@ -50,54 +50,6 @@
     "fullWidth": false
   },
   {
-    "id": "3568d60b-90d2-80ef-9b9d-ca24b31ffee1",
-    "type": [
-      "Post"
-    ],
-    "slug": "fsd-structure",
-    "tags": [
-      "FSD"
-    ],
-    "updatedAt": {
-      "start_date": "2026-05-04"
-    },
-    "date": {
-      "start_date": "2026-05-04"
-    },
-    "title": "FSD Guide",
-    "createdTime": "Mon May 04 2026 11:32:16 GMT+0900 (한국 표준시)",
-    "lastEditedTime": "2026-05-09T04:42:00.895Z",
-    "fullWidth": false
-  },
-  {
-    "id": "3de8d60b-90d2-81bc-a1f2-df5b523ced7b",
-    "category": [
-      "etc"
-    ],
-    "type": [
-      "Post"
-    ],
-    "summary": "AI 코딩 에이전트와 함께 리뉴얼 프로젝트를 진행하면서 세션마다 맥락이 초기화되는 문제를 겪었고, 이를 해결하려 우선순위 계층형 문서 체계(P0~P5)와 SKILL 명세를 만들었던 과정을 정리했다. 컨텍스트 낭비, 요청과 실제 스키마의 불일치, 여러 에이전트 세션이 작업 트리를 공유할 때의 사고 등 실제로 부딪힌 문제와 해결 방법을 담았다.",
-    "slug": "ai-agent-collaboration-docs",
-    "tags": [
-      "cluade code",
-      "ai-agent",
-      "documentation",
-      "team-process"
-    ],
-    "updatedAt": {
-      "start_date": "2026-09-17"
-    },
-    "thumbnail": "https://www.notion.so/image/attachment%3A741f3dd4-f314-4377-bf91-6da473537ada%3Aagent-collaboration-docs-cover.svg?table=undefined&id=undefined&cache=v2",
-    "date": {
-      "start_date": "2026-05-04"
-    },
-    "title": "AI 에이전트가 매번 같은 걸 물어봐서, 규칙을 코드 옆에 묻어버렸다",
-    "createdTime": "Thu Sep 17 2026 09:43:46 GMT+0900 (한국 표준시)",
-    "lastEditedTime": "2026-09-17T03:27:46.286Z",
-    "fullWidth": false
-  },
-  {
     "id": "2e18d60b-90d2-80e8-b505-e9f4646b5154",
     "type": [
       "Post"
@@ -116,7 +68,7 @@
     },
     "title": "AI Agent 환경 구성 (모노레포 기준)",
     "createdTime": "Wed Jan 07 2026 13:25:40 GMT+0900 (한국 표준시)",
-    "lastEditedTime": "2026-09-17T04:09:01.095Z",
+    "lastEditedTime": "2026-09-17T04:39:11.614Z",
     "fullWidth": false
   },
   {
