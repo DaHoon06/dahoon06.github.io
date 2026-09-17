@@ -1,0 +1,469 @@
+{
+  "date": "2026-09-17",
+  "collectedAt": "2026-09-16T23:59:41.592Z",
+  "items": [
+    {
+      "slug": "training-a-4b-model-to-produce-81-faster-query-plans-than-postgres",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "summary": "Hacker News 토론 68개 · 352 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T18:50:00.000Z",
+      "contentType": "discussion",
+      "engagement": 352,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "hackers-got-inside-a-flock-camera",
+      "title": "Hackers Got Inside a Flock Camera",
+      "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
+      "summary": "Hacker News 토론 208개 · 448 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T13:18:47.000Z",
+      "contentType": "discussion",
+      "engagement": 448,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "jamiepinevoicebox-typescript",
+      "title": "jamiepine/voicebox (TypeScript)",
+      "url": "https://github.com/jamiepine/voicebox",
+      "summary": "The open-source AI voice studio. Clone, dictate, create.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:59:38.994Z",
+      "contentType": "repo",
+      "engagement": 54363,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "anthropicsclaude-code-typescript",
+      "title": "anthropics/claude-code (TypeScript)",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natura",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:59:38.996Z",
+      "contentType": "repo",
+      "engagement": 145484,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "mistral-x-mozilla-private-multilingual-ai-browsing",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "summary": "Hacker News 토론 183개 · 520 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T08:08:57.000Z",
+      "contentType": "discussion",
+      "engagement": 520,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "vectorized-and-performance-portable-quicksort-2022",
+      "title": "Vectorized and performance-portable Quicksort (2022)",
+      "url": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+      "summary": "Hacker News 토론 25개 · 161 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T18:31:35.000Z",
+      "contentType": "discussion",
+      "engagement": 161,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "anthropicsknowledge-work-plugins-python",
+      "title": "anthropics/knowledge-work-plugins (Python)",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:59:38.995Z",
+      "contentType": "repo",
+      "engagement": 24275,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "ankitectsanki-rust",
+      "title": "ankitects/anki (Rust)",
+      "url": "https://github.com/ankitects/anki",
+      "summary": "Anki is a smart spaced repetition flashcard program",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:59:38.995Z",
+      "contentType": "repo",
+      "engagement": 30843,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "벡터화와-성능-이식성을-갖춘-quicksort-2022",
+      "title": "벡터화와 성능 이식성을 갖춘 Quicksort (2022)",
+      "url": "https://news.hada.io/topic?id=33807",
+      "summary": "Google이 SIMD 기반 Quicksort 코드를 오픈소스로 공개함. 수치 배열 정렬에서 C++ std::sort보다 약 10배 빠르며, 기존 아키텍처 전용 정렬 알고리듬도 능가함 CPU 시간 대부분을 차지하는 분할 작업을 벡터화함. 피벗보다 작은 원소와 나머지를",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T22:39:20.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "css-zen-garden의-꿈-마침내-실제로-구현되다",
+      "title": "CSS Zen Garden의 꿈, 마침내 실제로 구현되다",
+      "url": "https://news.hada.io/topic?id=33798",
+      "summary": "Mozilla, Lincoln Loop와 함께 재구축한 Firefox.com은 현대적인 디자인을 특수 문법이나 전처리기에 의존하지 않는 네이티브 CSS로 구현함 Custom Properties, Grid, Flexbox의 발전과 브라우저 구현의 일관성 덕분에 과거의 우회 기법 없이 디자인을 충실하게 구...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T17:53:37.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "aws-이란-공격을-받은-중동-시설의-일부-데이터를-복구할-수-없다고-밝혀",
+      "title": "AWS, 이란 공격을 받은 중동 시설의 일부 데이터를 복구할 수 없다고 밝혀",
+      "url": "https://news.hada.io/topic?id=33811",
+      "summary": "Amazon Web Services(AWS) 가 이란 드론 공격을 받은 페르시아만 데이터센터에 저장된 일부 고객 데이터에 대한 접근을 복구할 수 없다고 밝힘 복구 불가 발표는 일부 고객 데이터에 한정되며, 전체 데이터에 대한 접근을 복구할 수 없다는 뜻은 아님",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T23:32:14.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "deepseek-v41-flash-이제-enclave의-최고-해킹-모델",
+      "title": "DeepSeek V4.1 Flash, 이제 Enclave의 최고 해킹 모델",
+      "url": "https://news.hada.io/topic?id=33809",
+      "summary": "DeepSeek V4.1 Flash가 Enclave 해킹 벤치마크의 취약한 타깃 11개 모두에서 코드 실행에 성공했으며, 수정된 대조군 4개는 모두 안전하게 유지됨 전체 공격 경로를 감사한 결과, 6회는 의도한 취약점을 이용했고 나머지 5회는 취약한 테스트 환경의 예상 밖 경로를...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T22:45:20.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nodejs-2690-current",
+      "title": "Node.js 26.9.0 (Current)",
+      "url": "https://nodejs.org/en/blog/release/v26.9.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-16T18:17:42.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "when-css-could-run-javascript",
+      "title": "When CSS could run JavaScript",
+      "url": "https://frontendfoc.us/issues/758",
+      "summary": "🚀 Frontend Focus #​758 — September 16, 2026 | Read on the web CSS Curiosities of the Past — A wonderful tour of the non-standard CSS quirks developers used to make browsers behave, especially Internet Explorer. Covers t",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "stop-treating-css-container-queries-like-traditional-media-queries",
+      "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+      "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+      "summary": "Despite broad browser support, container queries remain surprisingly underused and frequently misunderstood. Let’s look at how they differ from media queries, when to reach for each, and how container queries help reusab",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "리더보드-1등-llm-토스에서도-1등일까-toss-benchmark-구축기",
+      "title": "리더보드 1등 LLM, 토스에서도 1등일까? - Toss Benchmark 구축기",
+      "url": "https://toss.tech/article/toss-benchmark",
+      "summary": "Toss의 AI 기반 서비스에 적합한 LLM이 무엇인지 평가하는 Toss Benchmark 구축기",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-16T05:37:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "the-end-of-verygoodsoftwarenotvirusru",
+      "title": "The end of verygoodsoftwarenotvirus.ru",
+      "url": "https://blog.verygoodsoftwarenotvirus.dev/posts/2026/09/12/the-end-of-verygoodsoftwarenotvirus-dot-ru/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T16:58:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "forgery-of-c2pa-on-a-pixel-10",
+      "title": "Forgery of C2PA on a Pixel 10",
+      "url": "https://www.hackerfactor.com/blog/index.php?/archives/1102-C2PA-and-Pixel-Glitter-Milk.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T13:24:31.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "cryptography"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "introducing-gnome-51",
+      "title": "Introducing GNOME 51",
+      "url": "https://release.gnome.org/51/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T18:05:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "linux",
+        "release"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-to-get-a-doi-for-your-blog-posts",
+      "title": "How to get a DOI for your blog posts",
+      "url": "https://shkspr.mobi/blog/2026/09/how-to-get-a-doi-for-your-blog-posts/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T15:59:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "build-an-spf-dkim-dmarc-checker-api-with-nodejs",
+      "title": "Build an SPF, DKIM & DMARC Checker API with Node.js",
+      "url": "https://dev.to/faraz_ahmad_f950367a09746/build-an-spf-dkim-dmarc-checker-api-with-nodejs-k9h",
+      "summary": "An SPF, DKIM and DMARC checker needs to do more than report whether three DNS records exist. A domain can publish SPF yet have no DMARC policy, sign mail with DKIM but use an unexpected selector, or have strong authentic",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:35:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "security",
+        "api"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "다시-초심으로-9-백엔드-101-backend-basics",
+      "title": "[다시 초심으로 9] 백엔드  101 - Backend Basics",
+      "url": "https://velog.io/@elin16/%EB%8B%A4%EC%8B%9C-%EC%B4%88%EC%8B%AC%EC%9C%BC%EB%A1%9C-9-%EB%B0%B1%EC%97%94%EB%93%9C-101-Backend-Basics",
+      "summary": "Note: Contents will be updated iteratively... (내용 계속 업뎃예정) 백엔드 Big Picture (App & Overall flow) User가 사용하는 deviceapp/web부터 server, database, infra까지 데이터가 흘러가는지 big picture를 이해하는 것이 매우 중요 클라이언트 종류와 차이점 Mobile App (Android",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T22:34:19.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "openai-eyes-12t-starlink-v3-zuckerberg-vs-anthropic",
+      "title": "OpenAI eyes $1.2T 👀, Starlink v3 🚀, Zuckerberg vs Anthropic 📝",
+      "url": "https://tldr.tech/tech/2026-09-16",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "the-system-lives-in-your-files-not-your-prompts",
+      "title": "The system lives in your files, not your prompts",
+      "url": "https://dev.to/derekwang85/the-system-lives-in-your-files-not-your-prompts-111k",
+      "summary": "AI Harness Engineering · Essay One · derek wang (derekwang85) Ask a senior engineer where \"the system\" lives and they'll point at the code, or the org chart. After shipping enough AI-governed projects, I'd point somewher",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:58:36.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "programming",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "diving-deeper-into-power-bi",
+      "title": "DIVING DEEPER INTO POWER BI",
+      "url": "https://dev.to/gideon_kiprono_bfdedde010/diving-deeper-into-power-bi-ih3",
+      "summary": "Introduction If you’ve ever packed a backpack for a long trip, you know that just throwing everything into one giant pocket makes a total mess. When you urgently need your passport, you have to dig past tangled headphone",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:58:27.000Z",
+      "contentType": "article",
+      "tags": [
+        "data",
+        "learning",
+        "software"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "your-readme-code-examples-are-silently-lying-i-built-a-cli-to-detect",
+      "title": "Your README code examples are silently lying — I built a CLI to detect documentation drift using only AST, no LLM",
+      "url": "https://dev.to/sunnydachs/your-readme-code-examples-are-silently-lying-i-built-a-cli-to-detect-documentation-drift-using-1blp",
+      "summary": "Your README code examples are silently lying — I built a CLI to detect documentation drift using only AST, no LLM \"Did you know? This README example doesn't work.\" Have you ever had a junior engineer tell you that? Or wo",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-16T23:58:15.000Z",
+      "contentType": "article",
+      "tags": [
+        "cli",
+        "documentation",
+        "softwaredevelopment"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "sk네트웍스-family-ai-캠프-32기-1팀-최종-프로젝트-13일차-회고록",
+      "title": "[SK네트웍스 Family AI 캠프] 32기 1팀 최종 프로젝트 13일차 회고록",
+      "url": "https://velog.io/@it_is_a_garden/SK%EB%84%A4%ED%8A%B8%EC%9B%8D%EC%8A%A4-Family-AI-%EC%BA%A0%ED%94%84-32%EA%B8%B0-1%ED%8C%80-%EC%B5%9C%EC%A2%85-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-13%EC%9D%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0%EB%A1%9D",
+      "summary": "2026-09-15 (입실 8:49) 📍 FACT (사실) 오전 프론트엔드 + 백엔드 연동 완료 오후 중간 발표 진행 💬 FEELING (감정) 좋았던 점 프론트 + 백엔드 연동이 생각보다 금방 이루어져서 다행이었음 중간 발표에서 다양한 피드백을 받아서 앞으로 나아갈 방향이 더 명확해진 느낌이었음 🔍 FINDING (교훈) 피드백은 성장의 재료다. 중간 발표에서 받은 피드백들을 바탕으로",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T23:58:00.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "코딩테스트-연습-정사각형으로-만들기-lv0",
+      "title": "코딩테스트 연습 - 정사각형으로 만들기 (LV.0)",
+      "url": "https://velog.io/@choihwanwoo/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%97%B0%EC%8A%B5-%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-LV.0",
+      "summary": "✍️ 풀이 1. 행과 열 중 큰 수가 정사각형의 한 변 길이다. 행이 더 많으면 행 수만큼 열을 만들고, 열이 더 많으면 열 수만큼 행을 만들어야 한다. 그래서 정사각형의 한 변 길이는 행 수와 열 수 중 큰 값이다. size = max(len(arr), len(arr[0])) ex) 4행 3열 → 4 × 4 정사각형 필요 2행 4열 → 4 × 4 정사각형 필요 2행 2열 → 이미 2 × 2",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T23:57:08.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "보안-인프라-운영-관리-12",
+      "title": "보안 인프라 운영 관리 (12)",
+      "url": "https://velog.io/@sang-woo02/%EB%B3%B4%EC%95%88-%EC%9D%B8%ED%94%84%EB%9D%BC-%EC%9A%B4%EC%98%81-%EA%B4%80%EB%A6%AC-12",
+      "summary": "",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-16T23:55:20.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "aside-내-계정으로-로그인해서-대신-일해주는-ai-브라우저",
+      "title": "Aside: 내 계정으로 로그인해서 대신 일해주는 AI 브라우저",
+      "url": "https://daleseo.com/aside/",
+      "summary": "YC 출신 팀이 만든 AI 브라우저 Aside를 살펴봅니다. 로그인된 사이트에서 직접 일하는 에이전트, 마크다운 메모리, 비밀번호를 AI에게 숨기는 Aside Vault, CLI와 MCP 연동까지 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
