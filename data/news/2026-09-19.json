@@ -1,0 +1,485 @@
+{
+  "date": "2026-09-19",
+  "collectedAt": "2026-09-18T23:47:06.196Z",
+  "items": [
+    {
+      "slug": "claude-code-now-reads-agentsmd-if-there-is-no-claudemd",
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "summary": "Hacker News 토론 147개 · 399 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T21:00:32.000Z",
+      "contentType": "discussion",
+      "engagement": 399,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "android-17-is-the-first-since-3x-to-add-new-apis-without-releasing-to",
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "summary": "Hacker News 토론 200개 · 422 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T19:03:09.000Z",
+      "contentType": "discussion",
+      "engagement": 422,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "cloudflare-quick-tunnels",
+      "title": "Cloudflare Quick Tunnels",
+      "url": "https://try.cloudflare.com/",
+      "summary": "Hacker News 토론 235개 · 525 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T14:18:41.000Z",
+      "contentType": "discussion",
+      "engagement": 525,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "affaan-mecc-javascript",
+      "title": "affaan-m/ECC (JavaScript)",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:47:03.878Z",
+      "contentType": "repo",
+      "engagement": 262039,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "fission-aiopenspec-typescript",
+      "title": "Fission-AI/OpenSpec (TypeScript)",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "summary": "Spec-driven development (SDD) for AI coding assistants.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:47:03.879Z",
+      "contentType": "repo",
+      "engagement": 69332,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "supermemoryaisupermemory-typescript",
+      "title": "supermemoryai/supermemory (TypeScript)",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "summary": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:47:03.879Z",
+      "contentType": "repo",
+      "engagement": 30256,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "openjev",
+      "title": "OpenJev",
+      "url": "https://openjev.com/",
+      "summary": "Hacker News 토론 239개 · 531 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T09:42:22.000Z",
+      "contentType": "discussion",
+      "engagement": 531,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "tencentbrowserskill-typescript",
+      "title": "Tencent/BrowserSkill (TypeScript)",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:47:03.878Z",
+      "contentType": "repo",
+      "engagement": 5273,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "ram-100tb-추가-절감",
+      "title": "RAM 100TB 추가 절감",
+      "url": "https://news.hada.io/topic?id=33915",
+      "summary": "Cloudflare가 내부 부하 분산 서비스 Pingora Backend Router(PBR) 의 일관된 해싱 구현을 최적화해 전 세계에서 100TB 이상의 RAM을 회수함 서버별 부하를 고르게 나누기 위한 해시, 저장 용량에 따른 가중치, 기능 조합별 별도 링이 겹치면서 해시 저장 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T23:42:19.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "국경-요원-영장이나-합리적-의심-없이-휴대전화-수색-가능",
+      "title": "국경 요원, 영장이나 합리적 의심 없이 휴대전화 수색 가능",
+      "url": "https://news.hada.io/topic?id=33914",
+      "summary": "미국 제2연방항소법원이 국경에서 여행자의 휴대전화 내용을 수동으로 살펴보는 수색에는 영장이나 합리적 의심이 필요하지 않다고 판결함 재판부는 휴대전화를 짐과 같은 소지품으로 보고, 국경에서 이루어지는 통상적 수색에는 별도의 의심이 필요하지 않다는 기...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T23:02:19.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "claude-code-이제-claudemd가-없으면-agentsmd를-읽음",
+      "title": "Claude Code, 이제 CLAUDE.md가 없으면 AGENTS.md를 읽음",
+      "url": "https://news.hada.io/topic?id=33913",
+      "summary": "프로젝트에 CLAUDE.md가 없으면 AGENTS.md를 대신 읽는 기능이 추가됨 해당 동작은 /config의 “Project instructions”에서 변경할 수 있으며, Bedrock, Vertex, Foundry에서는 아직 지원하지 않음 비대...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T22:52:19.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "북한-핵실험이-수년간-이어지는-지진을-촉발함",
+      "title": "북한 핵실험이 수년간 이어지는 지진을 촉발함",
+      "url": "https://news.hada.io/topic?id=33912",
+      "summary": "2017년 북한의 최대 규모 핵실험 이후 풍계리 주변의 지진 활동이 줄지 않고 2025년까지 증가했으며, 일부 지진은 실험장에서 20~30km 떨어진 곳에서도 발생함 중국과 한국에서 수집한 지진 기록을 분석해 지진 1,399건을 찾아냈으며, 대부분 규모 2 미만이지만 발...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T21:42:20.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "this-week-in-react-297",
+      "title": "This Week In React 297",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-297",
+      "summary": "DevTools, Motion, Apollo, React Router, Hook Form, shadcn lint | Shopify, Expo 58 beta, ExecuTorch, Screenmap, Voltra, SPM, Stim, Lynx, Metro, AI | pnpm, oj, Zod, Devframe, Safari, Webpack",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-18T08:10:14.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "사용자를-위해-일부러-어렵게-만드는-경험-어디까지-괜찮을까",
+      "title": "사용자를 위해 일부러 어렵게 만드는 경험, 어디까지 괜찮을까?",
+      "url": "https://toss.tech/article/lockbank",
+      "summary": "10대를 위한 잠금 저금통을 만들며 찾은 ‘좋은 불편함’의 기준을 공유합니다.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-18T03:41:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "typst-makes-big-strides",
+      "title": "Typst makes big strides",
+      "url": "https://lwn.net/Articles/1092993/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T13:14:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "a11y"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "i-dont-like-passkeys",
+      "title": "I don't like passkeys",
+      "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T12:52:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "theres-no-point-at-which-turning-your-brain-off-will-work",
+      "title": "There's no point at which turning your brain off will work",
+      "url": "https://danluu.com/brain-off/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T17:15:40.000Z",
+      "contentType": "article",
+      "tags": [
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "benchmarking-wild-vs-mold",
+      "title": "Benchmarking Wild vs Mold",
+      "url": "https://davidlattimore.github.io/posts/2026/09/18/benchmarking-wild-vs-mold.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T15:25:08.000Z",
+      "contentType": "article",
+      "tags": [
+        "compilers",
+        "performance"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "hom-nesto",
+      "title": "Hom Nesto",
+      "url": "https://velog.io/@homnesto/httpshomnesto.com",
+      "summary": "Hom Nesto is your trusted source for practical home improvement, DIY repair, and home maintenance advice. From plumbing and electrical basics to kitchen, bathroom, flooring, painting, and everyday home repairs, we provid",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T20:07:44.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "측정할-수-없으면-개선할-수-없다-ai-pick-추천-카드를-위한-sllm-정렬-학습기",
+      "title": "측정할 수 없으면 개선할 수 없다 - AI Pick 추천 카드를 위한 sLLM 정렬 학습기",
+      "url": "https://oliveyoung.tech/2026-09-18/oy_sllm_alignment/",
+      "summary": "안녕하세요! 😆 'ItemLM: 상품 정보 기반의 임베딩 생성기', 'T4 GPU 1장으로 일궈낸 올리브영의 Gemma 3 기반 sLLM…",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-18T15:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "llm에게-어디까지-맡길-것인가-ai-에이전트-기반-광고-분석-리포트-자동화",
+      "title": "LLM에게 어디까지 맡길 것인가: AI 에이전트 기반 광고 분석 리포트 자동화",
+      "url": "https://techblog.lycorp.co.jp/ko/ai-agent-ad-report-automation",
+      "summary": "들어가며안녕하세요. LINE Ads에서 데이터 분석 플랫폼을 개발하고 있는 이종우, 이운열입니다.광고 매출은 상품, 광고주, 캠페인 집행 변화에 따라 매일 움직입니다. 광고 KPI...",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-18T01:50:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "hacking-openai-claude-leads-rd-safari-mcp",
+      "title": "Hacking OpenAI 👨‍💻, Claude leads R&D 🤖, Safari MCP 🌍",
+      "url": "https://tldr.tech/tech/2026-09-18",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "vendor-concentration-risk-explained-through-warm-second-provider",
+      "title": "Vendor Concentration Risk Explained Through Warm Second Provider Invoice Reconciliation Drills",
+      "url": "https://dev.to/ferdinandblake3517/vendor-concentration-risk-explained-through-warm-second-provider-invoice-reconciliation-drills-234l",
+      "summary": "TL;DR: Keep a second usage-metering supplier warm by sending it a small, bounded stream of synthetic and replay-safe events, then reconcile both suppliers against an internal ledger. Put a hard spend ceiling on the exerc",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:36:39.000Z",
+      "contentType": "article",
+      "tags": [
+        "architecture",
+        "billing",
+        "risk"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "job-hunting-with-a-resume-that-doesnt-look-like-a-resume",
+      "title": "Job-Hunting With a Resume That Doesn't Look Like a Resume",
+      "url": "https://dev.to/mikachu/job-hunting-with-a-resume-that-doesnt-look-like-a-resume-4emi",
+      "summary": "My last article did numbers I didn't expect. A lot of the comments landed on the same line: \"okay but did it actually get you hired?\" No. Not yet. And I'm going to be honest about how that's been sitting with me, because",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:35:19.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "beginners",
+        "career"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "ive-just-published-an-article-exploring-whether-ai-coding-tools",
+      "title": "I’ve just published an article exploring whether AI coding tools actually make developers faster. The research surprised me: productivity gains are real in some settings, but not universal. Here’s what I discovered.",
+      "url": "https://dev.to/owusuaduomiflorencefl/ive-just-published-an-article-exploring-whether-ai-coding-tools-actually-make-developers-faster-1nc4",
+      "summary": "Do AI Coding Tools Actually Make Developers Faster? The Data Says It Depends Florence Owusu Aduomi Sep 18 #ai #webdev #programming #productivity 1 reaction Add Comment 4 min read",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:34:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "coding",
+        "developers"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "refuse-an-unentitled-caller-in-a-forge-resolver-and-prove-it-with-a",
+      "title": "Refuse an unentitled caller in a Forge resolver, and prove it with a test that goes red without the gate",
+      "url": "https://dev.to/mihai_leanzero/refuse-an-unentitled-caller-in-a-forge-resolver-and-prove-it-with-a-test-that-goes-red-without-the-4f3i",
+      "summary": "Refuse an unentitled caller in a Forge resolver, and prove it with a test that goes red without the gate Key takeaways END STATE: a resolver that refuses an unentitled caller, proven by a test suite that scores 1/6 again",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-18T23:30:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "sentinelvault",
+        "forge",
+        "confluence"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "jev가-뭐냐",
+      "title": "Jev가 뭐냐",
+      "url": "https://velog.io/@kyu_ios_dev/2609191",
+      "summary": "Jev가 뭐냐 판단만 빠르게 하는 AI가 나온 이유 최근 AI 모델은 점점 더 많은 일을 할 수 있게 됐습니다. 코드를 작성하고, 웹을 검색하고, Tool을 호출하고, 여러 단계를 거쳐 문제를 해결합니다. 그런데 실제 서비스를 만들다 보면 모든 문제에 이런 큰 모델이 필요한 것은 아닙니다. 예를 들어 이런 판단이 있습니다. 이 문의는 결제 문제인가? 이 요청을 검색으로 보낼까, DB 조회로 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T23:25:12.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai-코딩-에이전트를-병렬로-사용해보자-cmux-orca-실사용기",
+      "title": "AI 코딩 에이전트를 병렬로 사용해보자 - cmux & orca 실사용기",
+      "url": "https://velog.io/@joona95/AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC-%EB%B3%91%EB%A0%AC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-cmux-orca-%EC%8B%A4%EC%82%AC%EC%9A%A9%EA%B8%B0",
+      "summary": "이번 스터디에서 각자 AI 활용법을 공유하기로 했다. 평소에는 Claude Code나 Codex를 필요할 때 사용하는 정도라 딱히 공유할 만한 활용법이 떠오르지 않았다. 그러다 요즘 종종 보이던 cmux와 orca가 생각나서 이번 기회에 직접 설치해봤다. 둘 다 여러 AI 코딩 에이전트를 병렬로 사용할 때 도움을 주는 도구인데, cmux는 여러 에이전트의 세션을 관리하는 쪽, orca는 작업",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T23:00:10.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "하네스와-오케스트레이션",
+      "title": "하네스와 오케스트레이션",
+      "url": "https://velog.io/@prid1306/%ED%95%98%EB%84%A4%EC%8A%A4%EC%99%80-%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98",
+      "summary": "틀린 내용은 지적해주시면 감사하겠습니다. 개요 몇주 전에 GPT-6 Astra가 나오면서 친구들과 AI에 대한 대화를 자주 나눴는데, 대화마다 항상 나오는 단어가 '하네스'와 '오케스트레이션'이다. 두 단어 모두 대략적인 감각만 있었고 정확히 이게 어떤걸 정의하는건지는 몰랐다. 이참에 제대로 정리하고자 한다. 참고 문헌 https://en.wikipedia.org/wiki/Agent_harn",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-18T22:16:32.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "superlogical-ghostty-개발자가-만드는-모든-작업을-위한-멀티플렉서",
+      "title": "Superlogical: Ghostty 개발자가 만드는 모든 작업을 위한 멀티플렉서",
+      "url": "https://daleseo.com/superlogical/",
+      "summary": "Ghostty 개발자가 만드는 터미널 멀티플렉서 Superlogical을 소개합니다. 서버가 상태를 갖는 구조, SSH를 대체하는 원격 세션, 전부 조작하는 CLI, 에이전트 규모의 서버 최적화까지 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "ifkakao26에서-네트워킹하는-법",
+      "title": "if(kakao)26에서 네트워킹하는 법",
+      "url": "https://tech.kakao.com/posts/836",
+      "summary": "흥미로운 발표를 듣다 보면, 더 자세히 묻고 싶은 점이 생길 때가 있습니다. “우리 팀에도 적용할 수 있을까?”, “저 방법 말고 다른 선택지도 고민하셨을까?” 와 같은 질문들이죠. 생각해보면, 우리가 컨퍼런스에 모이는 이유도 여기에 있는 것 같습니다. 같은 공간에서 발표를 듣고, 비슷한 고민을 하는 사람을 만나고, 서로의 경험을 나누는 것. 잘 정리된 발표에서 배움을 얻기도 하지만, 그 뒤",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 26
+    }
+  ]
+}
