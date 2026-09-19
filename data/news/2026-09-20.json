@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-20",
+  "collectedAt": "2026-09-19T23:48:50.778Z",
+  "items": [
+    {
+      "slug": "zuodaotecheveryone-can-use-english-typescript",
+      "title": "ZuodaoTech/everyone-can-use-english (TypeScript)",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "summary": "人人都能用英语",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:48:48.183Z",
+      "contentType": "repo",
+      "engagement": 37771,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "i-built-non-autoregressive-decision-models-with-rl-a-year-ago",
+      "title": "I built non-autoregressive decision models with RL a year ago",
+      "url": "https://laya.convaiinnovations.com/",
+      "summary": "Hacker News 토론 243개 · 1051 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T10:46:58.000Z",
+      "contentType": "discussion",
+      "engagement": 1051,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "ai-generated-posters-dont-have-to-be-horrible",
+      "title": "AI-generated posters don’t have to be horrible",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "summary": "Hacker News 토론 730개 · 1315 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T09:20:58.000Z",
+      "contentType": "discussion",
+      "engagement": 1315,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "two-parallel-neural-ectoderm-progenitors-contribute-to-the-developing",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "summary": "Hacker News 토론 234개 · 603 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T05:48:50.000Z",
+      "contentType": "discussion",
+      "engagement": 603,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "gpt-6-astra-solves-a-wwi-german-radio-cipher",
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "summary": "Hacker News 토론 166개 · 360 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T06:41:44.000Z",
+      "contentType": "discussion",
+      "engagement": 360,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "docling-projectdocling-python",
+      "title": "docling-project/docling (Python)",
+      "url": "https://github.com/docling-project/docling",
+      "summary": "Get your documents ready for gen AI",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:48:48.182Z",
+      "contentType": "repo",
+      "engagement": 67025,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "ruanyfweekly",
+      "title": "ruanyf/weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "summary": "科技爱好者周刊，每周五发布",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:48:48.182Z",
+      "contentType": "repo",
+      "engagement": 103110,
+      "tags": [
+        "github"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "open-dev-societyopenstock-typescript",
+      "title": "Open-Dev-Society/OpenStock (TypeScript)",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "summary": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:48:48.181Z",
+      "contentType": "repo",
+      "engagement": 16017,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "playwright를-2배-빠르게-토큰-효율을-80-높게-만들었습니다",
+      "title": "Playwright를 2배 빠르게, 토큰 효율을 80% 높게 만들었습니다",
+      "url": "https://news.hada.io/topic?id=33959",
+      "summary": "Stagehand는 웹사이트 조작과 구조화된 데이터 추출을 위한 에이전트용 SDK로, TypeScript, Python, Go에서 Playwright 스타일 API와 자연어 명령을 함께 제공함 접근성 트리의 하이브리드 가지치기로 에이전트에 필요한 페이지 문맥만 전달하며, 브라우저 옆에서 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T22:52:25.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "미-제2연방항소법원-정부의-국경-전자기기-수색-허용",
+      "title": "미 제2연방항소법원, 정부의 국경 전자기기 수색 허용",
+      "url": "https://news.hada.io/topic?id=33958",
+      "summary": "미 제2연방항소법원이 국경 요원의 여행자 전자기기 수색에 아무런 혐의나 의심이 없어도 된다고 판결함 사건은 United States v. Alisigwe로, 정부가 국경에서 피고인의 휴대전화를 영장 없이 두 차례 수색해 확보한 증거를 형사재판에 사용함 K...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T22:52:24.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "alibaba-암을-포함한-약-150개-질환을-탐지하는-ai-모델-오픈소스로-공개",
+      "title": "Alibaba, 암을 포함한 약 150개 질환을 탐지하는 AI 모델 오픈소스로 공개",
+      "url": "https://news.hada.io/topic?id=33957",
+      "summary": "Alibaba 산하 연구기관 Damo Academy가 CT 영상에서 암을 포함한 약 150개 복부 질환을 식별하는 Damo Radar를 오픈소스로 공개함 비전 언어 모델로, 18개 복부 장기를 포함하는 조영증강 CT를 분석해 악성 종양 등 질환과 이상 소견을 찾아냄 CT 영상과 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T22:52:23.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "글쓰기를-ai에-거의-맡기지-말아야-하는-이유",
+      "title": "글쓰기를 AI에 거의 맡기지 말아야 하는 이유",
+      "url": "https://news.hada.io/topic?id=33956",
+      "summary": "아이디어, 논증, 분석을 전달하는 글에서는 글쓰기 자체가 사고 과정이므로, 상세한 메모를 주거나 결과물을 편집하더라도 AI에 집필을 맡기는 것은 거의 바람직하지 않음 AI가 쓴 문장을 읽고 동의하는 것과 직접 단어를 고르며 쓰는 것은 다름. 그럴듯한 문장을 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T22:52:22.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "dont-let-architecture-astronauts-scare-you-2001",
+      "title": "Don’t Let Architecture Astronauts Scare You (2001)",
+      "url": "https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T12:08:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming"
+      ],
+      "score": 45
+    },
+    {
+      "slug": "ai-is-an-elite-crime-spree",
+      "title": "AI Is an Elite Crime Spree",
+      "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T15:44:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "law"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier",
+      "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+      "url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T13:41:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "we-have-a-year-to-fix-security-everywhere",
+      "title": "we have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T19:27:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "stop-your-css-layout-from-breaking-understand-box-sizing",
+      "title": "Stop Your CSS Layout From Breaking: Understand `box-sizing",
+      "url": "https://dev.to/codeandseek/stop-your-css-layout-from-breaking-understand-box-sizing-3ac0",
+      "summary": "If you've ever set an element to width: 300px and wondered why it ends up wider than 300px, you're not alone. One of the most important CSS concepts for beginners is the box model. Understanding it can save you a lot of ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T22:45:28.000Z",
+      "contentType": "article",
+      "tags": [
+        "beginners",
+        "css",
+        "frontend"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "i-built-a-transport-independent-foundation-for-json-api-clients-in-perl",
+      "title": "I built a transport-independent foundation for JSON API clients in Perl",
+      "url": "https://dev.to/pannakoota/i-built-a-transport-independent-foundation-for-json-api-clients-in-perl-1od6",
+      "summary": "Writing a simple API client is easy. my $response = $http->get($url); Then the client starts being used in production. Suddenly, it needs to handle: query parameters JSON encoding and decoding structured errors retries a",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:37:59.000Z",
+      "contentType": "article",
+      "tags": [
+        "perl",
+        "api",
+        "opensource"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "a-2800-page-free-go-book-that-builds-a-living-simulated-world-written",
+      "title": "A 2,800-page free Go book that builds a living simulated world, written in 18 days with AI in the loop",
+      "url": "https://dev.to/kryotek/i-wrote-a-2800-page-free-go-book-that-builds-a-living-simulated-world-20pg",
+      "summary": "I've been writing a Go book that builds a simulated world from an empty directory, and I want to be upfront about how it came together, because the numbers look strange without the context. The repo started on 2026-05-25",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:36:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "go",
+        "gamedev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "jumia-product-analysis-withexcel-dashboards",
+      "title": "Jumia Product Analysis WithExcel Dashboards",
+      "url": "https://dev.to/alfred-otuko/jumia-product-analysis-withexcel-dashboards-1ha8",
+      "summary": "Introduction Big E-commerce organisation like Jumia handle large datasets that are vital in the day-to-day operations. The data needs to be evaluated to make good and decisive business decisions that will improve overal ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-19T23:27:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "datascience",
+        "analytics"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "투포인터의-증명",
+      "title": "투포인터의 증명",
+      "url": "https://velog.io/@kwt0124/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%9D%98-%EC%A6%9D%EB%AA%85",
+      "summary": "투포인터 증명 바깥쪽 인덱스를 이용해서 안쪽으로 왔을때, n의 시간복잡도를 가지고 타겟을 탐색할수 있다고 확신하는 이유.",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T23:27:43.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "브라우저-쿠키-전송-접근-조건-한판",
+      "title": "브라우저 쿠키 전송 · 접근 조건 한판",
+      "url": "https://velog.io/@samiehomie/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%BF%A0%ED%82%A4-%EC%A0%84%EC%86%A1-%EC%A0%91%EA%B7%BC-%EC%A1%B0%EA%B1%B4-%ED%95%9C%ED%8C%90",
+      "summary": "쿠키가 요청 Cookie 헤더에 포함되려면 두 단계를 통과해야 한다. fetch의 credentials 옵션으로 브라우저가 이 요청에 쿠키를 붙여도 되는지 결정 쿠키 자체의 속성 필터링(Domain, Path, SameSite, Secure)으로 어떤 쿠키가 실제로 포함될지 결정 1사·3사 쿠키의 구분, cross-site 쿠키 전송, 쿠키 기반 유저 추적이 위 두 단계의 조합으로 결정된다.",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T23:23:09.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "시간과-공간은-따로-최적화할-수-있는-대상이-아니다",
+      "title": "시간과 공간은 따로 최적화할 수 있는 대상이 아니다",
+      "url": "https://velog.io/@vxdeveloper/algorithm19",
+      "summary": "알고리즘을 처음 배울 때 시간 복잡도는 실행 횟수의 증가를 나타내고, 공간 복잡도는 추가로 사용하는 메모리의 증가를 나타낸다고 배운다. 게시물 목록에서 중복된 ID가 있는지 확인한다고 생각해보자. function hasDuplicatePost(posts) { const seen = new Set(); for (const post of posts) { if (seen.has(post.id)) ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T23:12:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "set-associative-cache",
+      "title": "Set Associative cache",
+      "url": "https://velog.io/@houston_guy2/Set-Associative-cache",
+      "summary": "Questions for Cache Hierarchy Q1: Where can a block be placed in the upper level? (Block placement) Q2: How is a block found if it is in the upper level? (Block identification) Q3: Which block should be replaced on a mis",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-19T23:11:15.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
