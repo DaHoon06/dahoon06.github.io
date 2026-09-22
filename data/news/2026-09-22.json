@@ -1,0 +1,482 @@
+{
+  "date": "2026-09-22",
+  "collectedAt": "2026-09-22T08:05:37.573Z",
+  "items": [
+    {
+      "slug": "mimo-v26",
+      "title": "MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "summary": "Hacker News 토론 378개 · 845 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T20:12:12.000Z",
+      "contentType": "discussion",
+      "engagement": 845,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "spymarks-not-watermarks",
+      "title": "Spymarks, Not Watermarks",
+      "url": "https://brand.io/article/spymarks/",
+      "summary": "Hacker News 토론 91개 · 383 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T23:03:49.000Z",
+      "contentType": "discussion",
+      "engagement": 383,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "i-dont-want-to-read-what-you-didnt-write",
+      "title": "I don't want to read what you didn't write",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "summary": "Hacker News 토론 220개 · 608 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T22:30:41.000Z",
+      "contentType": "discussion",
+      "engagement": 608,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "crosstalk-solutionsproject-nomad-typescript",
+      "title": "Crosstalk-Solutions/project-nomad (TypeScript)",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "summary": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:05:28.156Z",
+      "contentType": "repo",
+      "engagement": 38026,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "attention-is-all-you-have",
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "summary": "Hacker News 토론 223개 · 755 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T14:26:56.000Z",
+      "contentType": "discussion",
+      "engagement": 755,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "trycuacua-html",
+      "title": "trycua/cua (HTML)",
+      "url": "https://github.com/trycua/cua",
+      "summary": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:05:28.154Z",
+      "contentType": "repo",
+      "engagement": 25852,
+      "tags": [
+        "github",
+        "HTML"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "anthropicsfinancial-services-python",
+      "title": "anthropics/financial-services (Python)",
+      "url": "https://github.com/anthropics/financial-services",
+      "summary": "",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:05:28.155Z",
+      "contentType": "repo",
+      "engagement": 35969,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "builderioagent-native-typescript",
+      "title": "BuilderIO/agent-native (TypeScript)",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "summary": "A framework for building agentic apps",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:05:28.153Z",
+      "contentType": "repo",
+      "engagement": 6184,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "show-gn-routemind-인간의-개입은-rag-성능을-얼마나-바꿀까",
+      "title": "Show GN: RouteMind – 인간의 개입은 RAG 성능을 얼마나 바꿀까?",
+      "url": "https://news.hada.io/topic?id=34109",
+      "summary": "RouteMind라는 Agentic RAG 프로젝트를 만들고 있습니다. 일반적인 RAG가 문서를 chunking하고 embedding한 뒤 검색하는 방식이라면, RouteMind는 사람이 지식의 영역(Area)과 그 관계를 정의하고 Agent가 먼저 어디를 찾아야 하는지 routing한 뒤 해당 영역의 문서를 읽도록 합니다. <p",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T06:43:02.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "upcoming-nextjs-security-update-for-a-critical-upstream-issue",
+      "title": "Upcoming Next.js Security Update for a Critical Upstream Issue",
+      "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026",
+      "summary": "Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-21T20:00:00.000Z",
+      "contentType": "article",
+      "score": 50
+    },
+    {
+      "slug": "쉼-없이-도는-테스트-사람이-어디까지-돌봐야-할까요-토스닥터toss-doctor",
+      "title": "쉼 없이 도는 테스트, 사람이 어디까지 돌봐야 할까요? - 토스닥터(Toss Doctor)",
+      "url": "https://toss.tech/article/toss-doctor",
+      "summary": "스스로 만들고 고치는 자동화, 토스닥터 V2를 다시 만든 이야기",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-22T03:42:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "cgnat-환경에서-셀프-호스팅하기",
+      "title": "CGNAT 환경에서 셀프 호스팅하기",
+      "url": "https://news.hada.io/topic?id=34114",
+      "summary": "CGNAT 때문에 가정용 라우터의 포트 포워딩이 통하지 않는 환경에서도, 공인 인터넷에 연결된 VPS 브리지와 터널을 이용해 집의 서비스를 외부에 공개할 수 있음 집의 서버가 WireGuard 터널을 먼저 연결하므로 가정에 고정 전용 IP가 필요하지 않...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:02:25.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "800달러-이하-수입품에-대한-소액-면세de-minimis-행정상-면제-중단",
+      "title": "800달러 이하 수입품에 대한 소액 면세(de minimis) 행정상 면제 중단",
+      "url": "https://news.hada.io/topic?id=34113",
+      "summary": "800달러 이하 수입품에 대한 소액 면세(de minimis) 행정상 면제 중단",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T07:31:24.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-pocketpm-ai챗간-인수인계를-해주는-크롬확장",
+      "title": "Show GN: PocketPM - AI챗간 인수인계를 해주는 크롬확장",
+      "url": "https://news.hada.io/topic?id=34111",
+      "summary": "AI 대화중 첨부용량이 다하셨나요? PocketPM으로 스마트하게 우회하세요! 저는 여러가지 프로젝트를 진행하는 PM이라 AI챗을 이용할 때마다 첨부한도 때문에 곤란한 적이 많았는데, 각 AI를 서핑하듯 연결하는 서비스는 없더군요. 그래서 제가 크롬 확장서비스로 만들었습니다. [이런 분들이라면]",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T07:06:37.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "korean-fe-article-원샷으로-브라우저-api-만들기",
+      "title": "[Korean FE Article] 원샷으로 브라우저 API 만들기",
+      "url": "https://kofearticle.substack.com/p/korean-fe-article-api-1cb",
+      "summary": "글 링크: https://devowen.com/555",
+      "sourceId": "korean-fe-article",
+      "sourceName": "Korean FE Article",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T00:30:22.000Z",
+      "contentType": "article",
+      "score": 44
+    },
+    {
+      "slug": "도메인-지식-없는-디자이너가-팀의-기준을-바꾼-방법",
+      "title": "도메인 지식 없는 디자이너가 팀의 기준을 바꾼 방법",
+      "url": "https://toss.tech/article/remittance_transfer",
+      "summary": "은행 지식이 없던 디자이너가 규제가 가득한 도메인에서 어떻게 팀의 기준을 바꿨는지 이야기해 보려고 해요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-21T10:15:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "요즘it-x-노션-빌더나잇-로컬앱-자랑대회-참가-신청-open",
+      "title": "[요즘IT x 노션] 빌더나잇: 로컬앱 자랑대회 참가 신청 OPEN!",
+      "url": "https://yozm.wishket.com/magazine/detail/3960",
+      "summary": "여러분에게도 배포한 적은 없지만, 회사에서는 매일 쓰이는 도구가 있나요? 요즘IT는 두 번의 클코나잇을 진행하면서, AI로 직접 뭔가를 만들어 본 사람들의 이야기를 모아봤습니다. 그리고 그 결과물이 대부분 배포를 목적으로 하기보다, 자기 자신과 팀을 위해 만든 도구였다는 점을 알 수 있었죠. 그래서 클코나잇을 ‘빌더나잇’으로 바꾸고, 도구보다는 결과물에 집중해 보기로 했습니다. 다가오는 10",
+      "sourceId": "yozm-it",
+      "sourceName": "요즘IT",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:05:29.075Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "돈-걱정-않고-ai-쓴다면-월-30만-원부터-시작하는-ai-구독-가이드",
+      "title": "돈 걱정 않고 AI 쓴다면: 월 30만 원부터 시작하는 AI 구독 가이드",
+      "url": "https://yozm.wishket.com/magazine/detail/3959",
+      "summary": "월요일 오전부터 Claude Code가 “주간 한도에 도달했다”는 안내를 띄웁니다. 지난주에 리팩터링을 몰아서 시킨 대가죠. 따로 띄워둔 ChatGPT는 딥리서치를 몇 번 돌렸다고 리셋까지 기다리라고 합니다. 구독료 20달러가 아까워 무료 티어를 오가던 시절과는 다른 종류의 답답함입니다. 토큰 한도에 막혀 기다리다 보면 정말로 화가 훅훅 치솟고는 합니다. 앞서 무료 AI 편에서는 그럭저럭 필",
+      "sourceId": "yozm-it",
+      "sourceName": "요즘IT",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:05:29.075Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "두-명의-청중-앞에서-ai-강의를-해봤습니다",
+      "title": "두 명의 청중 앞에서 AI 강의를 해봤습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/3958",
+      "summary": "지금까지 나는 도구를 만든 이야기를 썼다. 서명 검사를 자동화한 이야기, 무엇을 자동화할지 고르는 기준, 왜 시작하게 됐는지, 그리고 두 문서를 대조하는 도구까지, 전부 나 혼자의 이야기였다. 이번 글은 그 다음 질문에 대한 것이다. 혼자 잘 쓰게 됐다면, 그 다음은 무엇인가. 도구가 열두 개가 되도록 그걸 쓰는 사람은 여전히 나 혼자였다. 이 글은 그 간격을 좁혀 보려고 한 첫 시도, 그러",
+      "sourceId": "yozm-it",
+      "sourceName": "요즘IT",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:05:29.075Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "내가-일부러-ai에게-맡기지-않은-것들",
+      "title": "내가 일부러 AI에게 맡기지 않은 것들",
+      "url": "https://yozm.wishket.com/magazine/detail/3957",
+      "summary": "제가 만든 AI 법률 분석 서비스는 승소를 약속하는 문장을 쓰지 않습니다. 찾아오는 분들이 가장 듣고 싶어 하는 말인데도, 일부러 쓰지 않기로 했죠. 요즘 기획서는 AI로 무엇을 더 할 수 있을지를 적지만, 실무에서 훨씬 자주 발목을 잡는 질문은 반대편에 있었습니다. AI에 무엇을 맡기지 않아야 하는가. 자율주행 UX 연구와 AI 법률 서비스, 헬스케어 서비스를 만들며 그어 온 인지적·언어적",
+      "sourceId": "yozm-it",
+      "sourceName": "요즘IT",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:05:29.075Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "named-and-optional-arguments-are-awesome",
+      "title": "Named and Optional Arguments are Awesome",
+      "url": "https://botahamec.dev/named-optional-args",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T21:16:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "evocation-call-forth-the-blue-green-flame-of-computation-from-the",
+      "title": "evocation - Call forth the blue-green flame of computation from the universe, weave its energies into a fabric, that we may share our blood with it",
+      "url": "https://code.irenes.space/evocation/tree/README.txt",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-21T21:51:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "plt",
+        "concatenative"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "i-said-no-and-apple-said-yes",
+      "title": "I said no and Apple said yes",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T07:27:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "privacy"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "why-0xcafebabe",
+      "title": "Why 0xCAFEBABE?",
+      "url": "https://www.artima.com/insidejvm/whyCAFEBABE.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T00:05:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "java",
+        "historical"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "llm-observability-evaluation-tools-a-practical-guide-for-small-teams",
+      "title": "LLM Observability & Evaluation Tools: A Practical Guide for Small Teams",
+      "url": "https://dev.to/julianros/llm-observability-evaluation-tools-a-practical-guide-for-small-teams-41d5",
+      "summary": "LLM Observability & Evaluation Tools: A Practical Guide for Small Teams You shipped the GPT-powered feature. Users are hitting it. And now you're flying blind. Latency spikes, unexpected token costs, prompt injections sl",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:01:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "llm",
+        "observability",
+        "devops"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "has-tokens-true-is-a-boolean-476-of-791-have-no-market-behind-them",
+      "title": "has_tokens: true is a boolean. 476 of 791 have no market behind them.",
+      "url": "https://dev.to/edycutjong/hastokens-true-is-a-boolean-476-of-791-have-no-market-behind-them-3666",
+      "summary": "A desk that sizes a tokenised-equity position on has_tokens: true finds out at the ticket that the one Morgan Stanley wrapper on CoinMarketCap has no price, no volume, and no market CoinMarketCap tracks. I built a small ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T08:00:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "showdev",
+        "python",
+        "api"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "deploying-snowflake-cortex-agent-and-knowledge-graph-with-servicenow",
+      "title": "Deploying Snowflake Cortex Agent and Knowledge Graph with ServiceNow MCP Server",
+      "url": "https://dev.to/shin_m_5c8fda95a8ffc03f70/deploying-snowflake-cortex-agent-and-knowledge-graph-with-servicenow-mcp-server-4lff",
+      "summary": "ServiceNow provides a feature called MCP Server. It allows various capabilities registered in ServiceNow, such as flows and knowledge graphs, to be exposed as callable tools that AI agents such as Claude Code can invoke ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T07:58:15.000Z",
+      "contentType": "article",
+      "tags": [
+        "agents",
+        "ai",
+        "cloud"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "anthropic-wet-lab-apple-home-device-senior-dev-death-spiral",
+      "title": "Anthropic wet lab 🧬, Apple home device 🏠, senior dev death spiral 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-21",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "jev-텍스트-대신-확률을-돌려주는-typesafe-ai의-결정-모델",
+      "title": "Jev: 텍스트 대신 확률을 돌려주는 TypeSafe AI의 결정 모델",
+      "url": "https://daleseo.com/jev/",
+      "summary": "TypeSafe AI가 공개한 첫 System One 모델 Jev를 소개합니다. 텍스트를 생성하지 않고 Choice, Score, Noul 세 질문에 보정된 확률로 답하는 모델을 코드 분기에 쓰는 법을 살펴봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "배달의민족-전자계약서-화면-개편기-ai에게-맡긴-것과-사람이-챙긴-것",
+      "title": "배달의민족 전자계약서 화면 개편기: AI에게 맡긴 것과 사람이 챙긴 것",
+      "url": "https://techblog.woowahan.com/27604/",
+      "summary": "들어가며 전자계약서는 파트너(사장님)가 배달의민족을 처음 시작할 때 작성하는 전자문서입니다. 영업 담당자가 파트너와 함께 작성하고, 계약 내용을 바꿀 때도 같은 문서를 씁니다. 이 문서를 쓰는 작성 화면은 사업자 정보, 가게 정보, 광고 정보 같은 섹션이 모여 계약서 한 장을 이루는 큰 폼입니다. 2026년 4월부터 6월까지 이 작성 화면을 개편했습니다. 작성자가 계약서를 더 편하게 쓸 수 ",
+      "sourceId": "woowahan-tech",
+      "sourceName": "우아한형제들",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-18T06:10:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "AI",
+        "Frontend"
+      ],
+      "score": 24
+    },
+    {
+      "slug": "claude-projects-일감을-던져두면-스레드로-나눠-일하는-클로드-코드",
+      "title": "Claude Projects: 일감을 던져두면 스레드로 나눠 일하는 클로드 코드",
+      "url": "https://daleseo.com/claude-projects/",
+      "summary": "2026년 9월 재설계된 Claude Projects를 살펴봅니다. 대화 하나에 일감을 던지면 클로드 코드 클라우드 세션인 스레드로 나눠 처리하는 구조와 프로젝트 메모리, 지침, 사용량, 제약을 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
