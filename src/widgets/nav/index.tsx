@@ -2,6 +2,7 @@ import { BottomNavigation } from "./BottomNavigation";
 import { Sidebar } from "./Sidebar";
 import { BlogSideNav } from "./BlogSideNav";
 import { NewsArchiveNav } from "./NewsArchiveNav";
+import { NewsArchiveStrip } from "./NewsArchiveStrip";
 import { ProfileCard } from "./ProfileCard";
 
 export {
@@ -9,5 +10,6 @@ export {
     Sidebar,
     BlogSideNav,
     NewsArchiveNav,
+    NewsArchiveStrip,
     ProfileCard,
 };

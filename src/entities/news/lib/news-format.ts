@@ -94,3 +94,21 @@ export const formatEngagement = (item: NewsItem): string | null => {
         return `★ ${item.engagement.toLocaleString()}`;
     return `▲ ${item.engagement.toLocaleString()}`;
 };
+
+/** `2026-09-15` → `9.15 (월)` — 모바일 날짜 칩처럼 폭이 좁은 자리용 */
+export const formatArchiveDateShort = (date: string): string => {
+    const parsed = new Date(`${date}T00:00:00+09:00`);
+    if (Number.isNaN(parsed.getTime())) return date;
+
+    const parts = new Intl.DateTimeFormat("ko-KR", {
+        month: "numeric",
+        day: "numeric",
+        weekday: "short",
+        timeZone: "Asia/Seoul",
+    }).formatToParts(parsed);
+
+    const pick = (type: Intl.DateTimeFormatPartTypes): string =>
+        parts.find((part) => part.type === type)?.value ?? "";
+
+    return `${pick("month")}.${pick("day")} (${pick("weekday")})`;
+};

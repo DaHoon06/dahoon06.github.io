@@ -8,7 +8,7 @@ import {
 import type { NewsArchive, NewsArchiveSummary } from "@entities/news";
 import { NewsDigest } from "@features/news/news-list";
 import { BaseLayout } from "@widgets/layouts";
-import { NewsArchiveNav } from "@widgets/nav";
+import { NewsArchiveNav, NewsArchiveStrip } from "@widgets/nav";
 
 interface NewsPageProps {
     archive: NewsArchive | null;
@@ -33,7 +33,15 @@ const NewsPage: NextPage<NewsPageProps> = ({ archive, summaries }) => {
                     />
                 }
             >
-                <NewsDigest archive={archive} />
+                <NewsDigest
+                    archive={archive}
+                    dateNav={
+                        <NewsArchiveStrip
+                            summaries={summaries}
+                            currentDate={archive?.date}
+                        />
+                    }
+                />
             </BaseLayout>
         </>
     );

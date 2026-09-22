@@ -9,6 +9,7 @@ export type {
 export {
     NEWS_GROUPS,
     formatArchiveDate,
+    formatArchiveDateShort,
     formatEngagement,
     formatPublishedAt,
     getGroupLabel,
