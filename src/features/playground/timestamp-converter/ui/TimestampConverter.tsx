@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { relativeTimeFromNow } from "../utils/relativeTimeFromNow";
 import { useToast } from "@shared/hooks";
+import {
+    formatIsoKst as formatIsoKorea,
+    formatKst as formatKorea,
+} from "@shared/lib/date";
 
 export default function PlaygroundPage() {
     const { toast } = useToast();
@@ -45,39 +49,6 @@ export default function PlaygroundPage() {
             return;
         }
         setDate(d);
-    }
-
-    function formatKorea(d: Date) {
-        return new Intl.DateTimeFormat("ko-KR", {
-            timeZone: "Asia/Seoul",
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-            second: "2-digit",
-            hour12: false,
-        }).format(d);
-    }
-
-    function formatIsoKorea(d: Date) {
-        const parts = new Intl.DateTimeFormat("ko-KR", {
-            timeZone: "Asia/Seoul",
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-            second: "2-digit",
-            hour12: false,
-        }).formatToParts(d);
-
-        const get = (type: string) =>
-            parts.find((p) => p.type === type)?.value ?? "";
-        return `${get("year")}-${get("month")}-${get("day")} ${get("hour")} : ${get("minute")} : ${get("second")}`.replace(
-            /\s*:\s*/g,
-            ":"
-        );
     }
 
     function formatGmt(d: Date) {

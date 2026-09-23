@@ -9,7 +9,12 @@ export const ROUTES = {
     NEWS: "/news",
     NEWS_DETAIL: (date: string) => `/news/${date}`,
     STOCKS: "/stocks",
-    TOOLS: "/tools/timestamp-converter",
+    TOOLS: "/tools",
+    TOOLS_TIMESTAMP: "/tools/timestamp-converter",
+    TOOLS_UUID: "/tools/uuid-generator",
+    TOOLS_JSON: "/tools/json-formatter",
+    TOOLS_JWT: "/tools/jwt-decoder",
+    TOOLS_BASE64: "/tools/base64-url",
     FOOD: "/food",
     ABOUT: "/about-me",
 } as const;
