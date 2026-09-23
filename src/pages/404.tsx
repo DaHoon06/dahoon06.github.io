@@ -1,7 +1,7 @@
 import React from "react";
 import { NextPageWithLayout } from "@shared/types";
 import { Emoji } from "@shared/ui/icons/Emoji";
-import CustomHead from "@shared/ui/heads/CustomHead";
+import SeoHead from "@shared/ui/heads/SeoHead";
 import Link from "next/link";
 import { ROUTES } from "@shared/routes";
 
@@ -43,21 +43,15 @@ const CustomError: React.FC<CustomErrorProps> = () => {
 };
 
 const NotFoundPage: NextPageWithLayout<Props> = () => {
-    return <CustomError />;
-};
-
-NotFoundPage.getLayout = (page) => {
     return (
         <>
-            <CustomHead
-                {...{
-                    title: "404",
-                    description: "404",
-                    type: "website",
-                    url: "",
-                }}
+            <SeoHead
+                title="페이지를 찾을 수 없습니다"
+                description="요청한 페이지가 없거나 주소가 바뀌었습니다. 전다훈 개발 블로그 홈에서 다른 글을 찾아보세요."
+                path="/404"
+                noindex
             />
-            {page}
+            <CustomError />
         </>
     );
 };

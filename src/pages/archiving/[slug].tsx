@@ -1,10 +1,11 @@
 import { CONFIG } from "@root/site.config";
 import { NextPageWithLayout } from "@shared/types";
-import CustomHead from "@shared/ui/heads/CustomHead";
+import SeoHead from "@shared/ui/heads/SeoHead";
 import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
 import { GetStaticProps } from "next";
 import { TableOfContents } from "@entities/blog";
+import { buildArticleSeo } from "@features/blog/post-detail/lib/article-seo";
 import { PostType, notionQueryKeys } from "@entities/notion";
 import {
     readCachedArchiving,
@@ -21,25 +22,14 @@ const ArchivingDetailPage: NextPageWithLayout = () => {
     const archiving: any = useArchivingQuery();
     if (!archiving) return <CustomError />;
 
-    const image =
-        archiving.thumbnail ??
-        CONFIG.ogImageGenerateURL ??
-        `${CONFIG.ogImageGenerateURL}/${encodeURIComponent(archiving.title)}.png`;
-
-    const date = archiving.date?.start_date || archiving.createdTime || "";
-
-    const meta = {
-        title: archiving.title,
-        date: new Date(date).toISOString(),
-        image,
-        description: archiving.summary || "",
-        type: archiving.type[0],
-        url: `${CONFIG.link}/${archiving.slug}`,
-    };
+    const seo = buildArticleSeo(archiving, {
+        basePath: "/archiving",
+        name: "아카이빙",
+    });
 
     return (
         <>
-            <CustomHead {...meta} />
+            <SeoHead {...seo} />
             <BaseLayout>
                 <ArchivingDetail />
                 <TableOfContents />

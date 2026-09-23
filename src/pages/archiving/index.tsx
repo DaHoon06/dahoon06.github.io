@@ -10,6 +10,8 @@ import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
 import { ArchivingListRenderer } from "@features/blog/post-list";
+import { PAGE_SEO } from "@shared/config/seo";
+import SeoHead from "@shared/ui/heads/SeoHead";
 
 interface ArchivingPageProps {
     dehydratedState: DehydratedState;
@@ -18,6 +20,7 @@ interface ArchivingPageProps {
 const ArchivingPage: NextPage<ArchivingPageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
+            <SeoHead {...PAGE_SEO.archiving} />
             <BaseLayout>
                 <ArchivingListRenderer />
             </BaseLayout>

@@ -10,7 +10,7 @@ import {
 import { CONFIG } from "@root/site.config";
 import { queryClient } from "@shared/lib/react-query";
 import { NextPageWithLayout } from "@shared/types";
-import CustomHead from "@shared/ui/heads/CustomHead";
+import SeoHead from "@shared/ui/heads/SeoHead";
 import { dehydrate } from "@tanstack/react-query";
 import { CustomError } from "@widgets/error";
 import { BaseLayout } from "@widgets/layouts";
@@ -18,6 +18,7 @@ import { GetStaticProps } from "next";
 import usePostQuery from "@features/blog/post-detail/model/use-post-query";
 import { PostDetail } from "@features/blog/post-detail/ui/PostDetail";
 import { TableOfContents } from "@entities/blog";
+import { buildArticleSeo } from "@features/blog/post-detail/lib/article-seo";
 
 const posts = readCachedPosts();
 
@@ -31,25 +32,11 @@ const BlogPostDetailPage: NextPageWithLayout = () => {
 
     if (!post) return <CustomError />;
 
-    const image =
-        post.thumbnail ??
-        CONFIG.ogImageGenerateURL ??
-        `${CONFIG.ogImageGenerateURL}/${encodeURIComponent(post.title)}.png`;
-
-    const date = post.date?.start_date || post.createdTime || "";
-
-    const meta = {
-        title: post.title,
-        date: new Date(date).toISOString(),
-        image,
-        description: post.summary || "",
-        type: post.type[0],
-        url: `${CONFIG.link}/${post.slug}`,
-    };
+    const seo = buildArticleSeo(post, { basePath: "/posts", name: "블로그" });
 
     return (
         <>
-            <CustomHead {...meta} />
+            <SeoHead {...seo} />
             <BaseLayout>
                 <PostDetail />
                 <TableOfContents />

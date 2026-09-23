@@ -14,6 +14,8 @@ import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
 import { BlogSideNav } from "@widgets/nav";
 import { PostListRenderer } from "@features/blog/post-list";
+import { PAGE_SEO } from "@shared/config/seo";
+import SeoHead from "@shared/ui/heads/SeoHead";
 
 interface PostsPageProps {
     dehydratedState: DehydratedState;
@@ -22,6 +24,7 @@ interface PostsPageProps {
 const PostsPage: NextPage<PostsPageProps> = ({ dehydratedState }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
+            <SeoHead {...PAGE_SEO.posts} />
             <BaseLayout aside={<BlogSideNav />}>
                 <PostListRenderer heading="블로그" />
             </BaseLayout>

@@ -1,4 +1,5 @@
-import CustomHead from "@shared/ui/heads/CustomHead";
+import { PAGE_SEO, personJsonLd } from "@shared/config/seo";
+import SeoHead from "@shared/ui/heads/SeoHead";
 import {
     CareerSection,
     ContactSection,
@@ -9,22 +10,20 @@ import {
 } from "@widgets/about-me";
 import { AboutLayout } from "@widgets/layouts";
 
+const aboutJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    name: PAGE_SEO.about.title,
+    description: PAGE_SEO.about.description,
+    inLanguage: "ko-KR",
+    mainEntity: personJsonLd,
+};
+
 export default function AboutMePage() {
-    const meta = {
-        title: "전다훈 | About Me :: 포트폴리오",
-        description: "프론트엔드 개발자 전다훈(Da-hoon Jeon)의 포트폴리오",
-        url: "https://blog.dahoon06.com/about-me",
-        image: "/images/dahoon06.jpg",
-        type: "website",
-        keywords:
-            "프론트엔드, 포트폴리오, 백엔드, 풀스택, 개발자, dahoon06, 훈다, 전다훈, dahoon226, dahoon06@gmail.com",
-        author: "Da-hoon Jeon (dahoon06)",
-        siteName: "전다훈 포트폴리오",
-    };
 
     return (
         <>
-            <CustomHead {...meta} />
+            <SeoHead {...PAGE_SEO.about} type="profile" jsonLd={aboutJsonLd} />
             <AboutLayout>
                 {/* 고정 히어로 (z-0) — 아래 main(z-10)이 스크롤과 함께 덮으며 올라온다 */}
                 <HeroSection />

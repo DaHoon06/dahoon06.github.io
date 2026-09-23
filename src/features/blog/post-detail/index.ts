@@ -4,3 +4,4 @@ export { ArchivingDetail } from "./ui/ArchivingDetail";
 
 // model
 export { default as usePostQuery } from "./model/use-post-query";
+export { buildArticleSeo } from "./lib/article-seo";

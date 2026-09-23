@@ -1,6 +1,4 @@
-import Head from "next/head";
 import { GetStaticProps, NextPage } from "next";
-import { CONFIG } from "@root/site.config";
 import {
     readLatestNewsArchive,
     readNewsArchiveSummaries,
@@ -9,6 +7,13 @@ import type { NewsArchive, NewsArchiveSummary } from "@entities/news";
 import { NewsDigest } from "@features/news/news-list";
 import { BaseLayout } from "@widgets/layouts";
 import { NewsArchiveNav, NewsArchiveStrip } from "@widgets/nav";
+import { PAGE_SEO, breadcrumbJsonLd } from "@shared/config/seo";
+import SeoHead from "@shared/ui/heads/SeoHead";
+
+const newsJsonLd = breadcrumbJsonLd([
+    { name: "홈", path: "/" },
+    { name: "개발 뉴스", path: PAGE_SEO.news.path },
+]);
 
 interface NewsPageProps {
     archive: NewsArchive | null;
@@ -18,13 +23,7 @@ interface NewsPageProps {
 const NewsPage: NextPage<NewsPageProps> = ({ archive, summaries }) => {
     return (
         <>
-            <Head>
-                <title>{`개발 뉴스 | ${CONFIG.blog.title}`}</title>
-                <meta
-                    name="description"
-                    content="RSS · Hacker News · GitHub Trending 에서 매일 자동 수집한 개발 소식"
-                />
-            </Head>
+            <SeoHead {...PAGE_SEO.news} jsonLd={newsJsonLd} />
             <BaseLayout
                 aside={
                     <NewsArchiveNav

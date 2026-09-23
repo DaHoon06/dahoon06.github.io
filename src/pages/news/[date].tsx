@@ -1,6 +1,4 @@
-import Head from "next/head";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import { CONFIG } from "@root/site.config";
 import {
     listNewsDates,
     readNewsArchive,
@@ -14,6 +12,8 @@ import {
 import { NewsDigest } from "@features/news/news-list";
 import { BaseLayout } from "@widgets/layouts";
 import { NewsArchiveNav, NewsArchiveStrip } from "@widgets/nav";
+import { PAGE_SEO, breadcrumbJsonLd } from "@shared/config/seo";
+import SeoHead from "@shared/ui/heads/SeoHead";
 
 interface NewsDatePageProps {
     archive: NewsArchive | null;
@@ -21,19 +21,37 @@ interface NewsDatePageProps {
 }
 
 const NewsDatePage: NextPage<NewsDatePageProps> = ({ archive, summaries }) => {
-    const title = archive
-        ? `${formatArchiveDate(archive.date)} 개발 뉴스`
-        : "개발 뉴스";
+    const dateLabel = archive ? formatArchiveDate(archive.date) : "";
+    const title = archive ? `${dateLabel} 개발 뉴스` : "개발 뉴스";
+    const path = archive ? `/news/${archive.date}` : PAGE_SEO.news.path;
+    // 상위 헤드라인 몇 개를 설명문에 넣어 날짜별 페이지가 서로 다른 설명을 갖게 한다
+    const headlines = (archive?.items ?? [])
+        .slice(0, 3)
+        .map((item) => item.title)
+        .join(", ");
+    const description = archive
+        ? `${dateLabel} 개발 뉴스 ${archive.items.length}건${headlines ? ` — ${headlines}` : ""}`
+        : PAGE_SEO.news.description;
 
     return (
         <>
-            <Head>
-                <title>{`${title} | ${CONFIG.blog.title}`}</title>
-                <meta
-                    name="description"
-                    content={`${title} — RSS · Hacker News · GitHub Trending 자동 수집`}
-                />
-            </Head>
+            <SeoHead
+                title={title}
+                description={description}
+                path={path}
+                keywords={[
+                    "개발 뉴스",
+                    "IT 뉴스",
+                    `${dateLabel} 뉴스`,
+                    "Hacker News",
+                    "GitHub Trending",
+                ]}
+                jsonLd={breadcrumbJsonLd([
+                    { name: "홈", path: "/" },
+                    { name: "개발 뉴스", path: PAGE_SEO.news.path },
+                    { name: title, path },
+                ])}
+            />
             <BaseLayout
                 aside={
                     <NewsArchiveNav
