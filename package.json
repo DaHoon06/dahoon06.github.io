@@ -7,7 +7,7 @@
         "dev": "next dev --port 3088",
         "notion:cache": "tsx ./src/@apps/scripts/fetchNotionCache.ts",
         "news:collect": "tsx ./src/@apps/news/collect.ts",
-        "postbuild": "next-sitemap --config ./src/next-sitemap.config.cjs",
+        "postbuild": "next-sitemap --config ./src/next-sitemap.config.cjs && node ./src/@apps/scripts/generateRss.cjs",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
