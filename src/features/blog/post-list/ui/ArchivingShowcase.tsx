@@ -96,7 +96,7 @@ export const ArchivingShowcase = (): ReactElement | null => {
                 <div
                     ref={trackRef}
                     onScroll={handleScroll}
-                    className="scrollbar-hide -mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-1"
+                    className="scrollbar-hide -mx-5 flex snap-x snap-mandatory scroll-px-5 gap-4 overflow-x-auto px-5 pb-1 sm:-mx-6 sm:scroll-px-6 sm:px-6"
                 >
                     {posts.map((post) => (
                         <Link

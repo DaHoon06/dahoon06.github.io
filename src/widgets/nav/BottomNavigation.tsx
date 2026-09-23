@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { motion } from "framer-motion";
 import { isNavItemActive, NAV_ITEMS } from "@shared/config/nav";
 import cn from "@shared/lib/cn";
 
@@ -13,6 +12,10 @@ import cn from "@shared/lib/cn";
  * 패딩은 홈 인디케이터를 피하는 용도로만 남긴다.
  *
  * 활성 표시는 상단 2px 잉크 바 — 헤더의 활성 표시(진한 글자색)와 같은 문법이다.
+ * 이 잉크 바에 framer-motion `layoutId`(공유 레이아웃)를 쓰면 안 된다: 탭 바가
+ * `_app`이 아니라 페이지별 레이아웃 안에 있어 라우팅마다 통째로 언마운트→마운트된다.
+ * 그러면 framer는 직전(스크롤된) 위치 스냅샷에서 `position: fixed`인 새 위치로
+ * 스프링 애니메이션을 걸어, 잉크 바가 화면 아래에서 튀어 올라오는 것처럼 보인다.
  */
 export const BottomNavigation = (): ReactElement => {
     const router = useRouter();
@@ -38,17 +41,13 @@ export const BottomNavigation = (): ReactElement => {
                                 : "text-zinc-400 hover:text-zinc-600"
                         )}
                     >
-                        {active && (
-                            <motion.span
-                                layoutId="bottom-nav-indicator"
-                                transition={{
-                                    type: "spring",
-                                    stiffness: 380,
-                                    damping: 30,
-                                }}
-                                className="absolute top-0 h-[2px] w-8 rounded-full bg-zinc-900"
-                            />
-                        )}
+                        <span
+                            aria-hidden
+                            className={cn(
+                                "absolute top-0 h-[2px] w-8 rounded-full bg-zinc-900 transition-opacity",
+                                active ? "opacity-100" : "opacity-0"
+                            )}
+                        />
                         <Icon size={19} strokeWidth={active ? 2.2 : 1.8} />
                         <span
                             className={cn(
