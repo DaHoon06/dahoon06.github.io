@@ -1,0 +1,455 @@
+{
+  "date": "2026-09-23",
+  "collectedAt": "2026-09-22T23:56:16.722Z",
+  "items": [
+    {
+      "slug": "gpt-6-sol-and-luna",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "summary": "Hacker News 토론 562개 · 1078 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "contentType": "discussion",
+      "engagement": 1078,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "claude-opus-55",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "Hacker News 토론 770개 · 1115 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T16:29:05.000Z",
+      "contentType": "discussion",
+      "engagement": 1115,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees",
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "summary": "Hacker News 토론 210개 · 319 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T17:46:02.000Z",
+      "contentType": "discussion",
+      "engagement": 319,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "openai-gpt6-astra-breaks-enigma-message-that-has-resisted-solution",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": "Hacker News 토론 354개 · 537 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T13:52:15.000Z",
+      "contentType": "discussion",
+      "engagement": 537,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "davila7claude-code-templates-python",
+      "title": "davila7/claude-code-templates (Python)",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "summary": "CLI tool for configuring and monitoring Claude Code",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:56:15.350Z",
+      "contentType": "repo",
+      "engagement": 31108,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "browser-usevideo-use-python",
+      "title": "browser-use/video-use (Python)",
+      "url": "https://github.com/browser-use/video-use",
+      "summary": "Edit videos with coding agents",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:56:15.352Z",
+      "contentType": "repo",
+      "engagement": 25822,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "dream-numuniver-typescript",
+      "title": "dream-num/univer (TypeScript)",
+      "url": "https://github.com/dream-num/univer",
+      "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:56:15.349Z",
+      "contentType": "repo",
+      "engagement": 15375,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "googleax-go",
+      "title": "google/ax (Go)",
+      "url": "https://github.com/google/ax",
+      "summary": "Google's open agentic orchestration runtime",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:56:15.351Z",
+      "contentType": "repo",
+      "engagement": 7552,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "nextjs-security-update-for-a-critical-upstream-issue",
+      "title": "Next.js Security Update for a Critical Upstream Issue",
+      "url": "https://nextjs.org/blog/nextjs-security-update-september-22-2026",
+      "summary": "The September 22, 2026 out-of-band security update for Next.js is now available",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-22T18:00:00.000Z",
+      "contentType": "article",
+      "score": 54
+    },
+    {
+      "slug": "claude-opus-55-추론-설정별-성능과-비용-비교",
+      "title": "Claude Opus 5.5, 추론 설정별 성능과 비용 비교",
+      "url": "https://news.hada.io/topic?id=34142",
+      "summary": "AAII에서 최대 추론 설정의 Opus 5.5 max는 지능 지수 58점을 기록했으며, 이전 Opus 5의 최고점 51점과 Fable 5.1의 53점을 넘어섬 추론 강도에 따라 medium 51점, high 54점, xhigh 56점, max 58점으로 성능이 올라가지만, 평가 과제당 비용도 함께 증가함 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T21:35:00.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "수학과-인공지능-자문그룹",
+      "title": "수학과 인공지능 자문그룹",
+      "url": "https://news.hada.io/topic?id=34144",
+      "summary": "AI 기업과 수학계의 소통, 수학 연구 결과의 책임 있는 발표와 공개를 자문하는 독립 그룹이 프린스턴의 Institute for Advanced Study를 거점으로 출범함 현재는 OpenAI가 내부 모델로 산출했다고 밝힌 다수의 중요한 수학 연구 결과를 어떻게 조율해 공개할지 자...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T23:33:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "우리가-fbi를-해킹했다-해커-그룹이-fbi-전체-직원의-정보-탈취-주장",
+      "title": "“우리가 FBI를 해킹했다”, 해커 그룹이 FBI 전체 직원의 정보 탈취 주장",
+      "url": "https://news.hada.io/topic?id=34143",
+      "summary": "해킹 그룹 ShinyHunters가 여러 FBI 관련 서비스에 침입해 모든 직원과 지원자의 데이터를 훔쳤다고 주장함. 요원의 이름, 집 주소, 전화번호, 배우자 정보가 포함됐다고 밝힘 404 Media가 확보한 직원 5,000명 규모의 샘플에서 일부 이름과 전화번호가 일치하고 미...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T22:33:11.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "2027년-grapheneos가-사전-설치된-기기가-판매될-가능성이-높음",
+      "title": "2027년 GrapheneOS가 사전 설치된 기기가 판매될 가능성이 높음",
+      "url": "https://news.hada.io/topic?id=34141",
+      "summary": "Motorola Mobility(Lenovo) 가 GrapheneOS와 공식 파트너십을 맺고, 향후 출시할 일부 기기에 GrapheneOS를 지원하기 위해 협력 중임 첫 GrapheneOS 지원 기기는 2027년 출시할 고급 플래그십으로 예정돼 있음 지원 대상은 다른 기기로도 확대할 계획이며...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T20:41:31.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "javascript-desktop-apps-in-under-10mb",
+      "title": "JavaScript desktop apps in under 10MB",
+      "url": "https://javascriptweekly.com/issues/803",
+      "summary": "#​803 — September 22, 2026 Read on the Web JavaScript Weekly tinyjs: Build JavaScript Desktop Apps in from outside\" with errors to steer agents back to your variants and tokens. shadcn Devframe: A Framework for Building ",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentType": "article",
+      "score": 44
+    },
+    {
+      "slug": "방해하지-않고-눈에-띌-수-있을까",
+      "title": "방해하지 않고, 눈에 띌 수 있을까",
+      "url": "https://toss.tech/article/asset_management",
+      "summary": "CVR을 3배 높이면서도 사용자 경험을 놓치지 않기 위해 고민한 과정을 들려드려요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-22T08:20:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "nodejs-26100-current",
+      "title": "Node.js 26.10.0 (Current)",
+      "url": "https://nodejs.org/en/blog/release/v26.10.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-22T09:03:49.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "plain-text-files-are-at-risk",
+      "title": "Plain-text files are at risk",
+      "url": "https://paste.sr.ht/~awal/b76caf6f213a96a634454fa7292c035a10035b49",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T17:14:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "editors"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "fearless-simd-v10-is-here",
+      "title": "Fearless SIMD v1.0 is here",
+      "url": "https://linebender.org/blog/fearless-simd-1-0/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T12:10:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "release",
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "that-about-wraps-it-up-for-stock-mac-ui",
+      "title": "That About Wraps It Up for Stock Mac UI",
+      "url": "https://inessential.com/2026/09/22/that-about-wraps-it-up-for.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T19:29:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "design",
+        "mac"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "jev-powered-autocorrection",
+      "title": "Jev-powered autocorrection",
+      "url": "https://levmiseri.com/nospace",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T18:55:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "show",
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "when-opas-bundle-loader-runs-past-a-manifest-typo",
+      "title": "When OPA's Bundle Loader Runs Past a `.manifest` Typo",
+      "url": "https://dev.to/whenitruns/when-opas-bundle-loader-runs-past-a-manifest-typo-1d57",
+      "summary": "In bundle mode, a one-character .manifest key typo (rego_verison for rego_version) draws no diagnostic that names the key; the failure can surface as rego_parse_error pointing at your .rego — OPA v1.20.1 When It Runs — R",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T22:53:25.000Z",
+      "contentType": "article",
+      "tags": [
+        "opa",
+        "rego",
+        "kubernetes"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "build-an-explainable-vendor-risk-gate-in-nodejs",
+      "title": "Build an Explainable Vendor-Risk Gate in Node.js",
+      "url": "https://dev.to/faraz_ahmad_f950367a09746/build-an-explainable-vendor-risk-gate-in-nodejs-313d",
+      "summary": "A vendor signs up with a company domain. Your application wants one fast answer: approve or reject? The network cannot give you that answer. It can give you evidence. In this tutorial, we will call a domain-intelligence ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T22:27:32.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "api",
+        "security"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "googlebooks-grok-47-google-infiltrates-hackers",
+      "title": "Googlebooks 💻, Grok 4.7 🤖, Google infiltrates hackers 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-22",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong",
+      "title": "14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose",
+      "url": "https://dev.to/bianliang/14913-kubernetes-dashboard-matches-why-the-management-ui-is-the-wrong-thing-to-expose-3h1i",
+      "summary": "14,913 Kubernetes Dashboard Matches: Why the Management UI Is the Wrong Thing to Expose A Kubernetes dashboard is an administrative interface. When one is reachable from the public internet, the exposure is qualitatively",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:20:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "zoomeye",
+        "kubernetes",
+        "exposure"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "why-does-your-ai-coding-agent-start-forgetting-what-it-was-doing",
+      "title": "Why Does Your AI Coding Agent Start Forgetting What It Was Doing?",
+      "url": "https://dev.to/daffa2555/why-does-your-ai-coding-agent-start-forgetting-what-it-was-doing-fpp",
+      "summary": "Why Does Your AI Coding Agent Start Forgetting What It Was Doing? I've been working with AI coding agents for quite a while, and there's one behavior that keeps bothering me. At first, everything looks fine. The agent un",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-22T23:19:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "fullstack-111",
+      "title": "Fullstack 111",
+      "url": "https://velog.io/@heo-hyuk/Fullstack-111",
+      "summary": "풀스택",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T23:50:08.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "공지를-찾았다고-전부-알릴-수는-없었다",
+      "title": "공지를 찾았다고 전부 알릴 수는 없었다",
+      "url": "https://velog.io/@snowballnote/%EA%B3%B5%EC%A7%80%EB%A5%BC-%EC%B0%BE%EC%95%98%EB%8B%A4%EA%B3%A0-%EC%A0%84%EB%B6%80-%EC%95%8C%EB%A6%B4-%EC%88%98%EB%8A%94-%EC%97%86%EC%97%88%EB%8B%A4",
+      "summary": "PIA 공지를 자동으로 수집하는 기능까지 만들었다. 이제 프로그램이 알아서 공지를 가져오고 새로 올라온 공지인지 기존 공지의 내용이 바뀐 것인지도 구분할 수 있었다. 그런데 여기서 끝내면 본부장님이 새 공지를 확인하려고 결국 Biz Assist 화면에 들어와야 한다. 처음에 원했던 건 PIA 관련 공지를 계속 확인할 수 있는 기능이었으니까 다음에는 알림이 필요했다. 바로 메일 발송부터 붙이려",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T23:45:48.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "그럼에도-나는-이-삶을-사랑하므로",
+      "title": "그럼에도 나는 이 삶을 사랑하므로",
+      "url": "https://velog.io/@cyox93/%EA%B7%B8%EB%9F%BC%EC%97%90%EB%8F%84-%EB%82%98%EB%8A%94-%EC%9D%B4-%EC%82%B6%EC%9D%84-%EC%82%AC%EB%9E%91%ED%95%98%EB%AF%80%EB%A1%9C",
+      "summary": "🗓 원본 작성일: 2026-09-18 08:40:06 그럼에도 나는 이 삶을 사랑하므로 쫓기는 영혼을 위한 헤세의 편지 헤르만 헤세 저/오웅석 역 | 더퀘스트 | 2025년 10월 29일",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T23:42:24.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "progressive-sizing",
+      "title": "Progressive Sizing",
+      "url": "https://velog.io/@houston_guy2/Progressive-Sizing",
+      "summary": "Progressive Sizing In VLSI, progressive sizing means making transistors in a series stack gradually larger depending on their position, instead of giving every transistor the same width. The goal is to reduce delay cause",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-22T23:40:35.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
