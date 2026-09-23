@@ -8,9 +8,10 @@ import "react-notion-x/src/styles.css";
 import "prismjs/themes/prism-tomorrow.css";
 import "katex/dist/katex.min.css";
 
-const _NotionRenderer = dynamic(
-    () => import("react-notion-x").then((m) => m.NotionRenderer),
-    { ssr: false }
+// 본문은 반드시 SSR 한다 — 정적 HTML 에 글 내용이 있어야 네이버처럼 JS 를 실행하지 않는
+// 검색 로봇도 본문을 수집한다. (코드 분할을 위해 dynamic 은 유지)
+const _NotionRenderer = dynamic(() =>
+    import("react-notion-x").then((m) => m.NotionRenderer)
 );
 
 const Code = dynamic(() => import("./NotionCodeBlock"));
