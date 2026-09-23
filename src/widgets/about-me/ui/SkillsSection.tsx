@@ -1,87 +1,91 @@
-import cn from "@shared/lib/cn";
-import { skillsData } from "../model";
-import { Reveal, SectionHeading } from "./motion";
+import { skillsData, stackRatioData } from "../model";
+import { Reveal } from "./motion";
 
-/**
- * 무한 마퀴 한 줄. 트랙에 동일 콘텐츠 2벌을 두고 절반만큼 이동시켜 루프를 잇는다.
- * 호버 시 일시정지, 모션 축소 설정에선 애니메이션 자체를 끈다.
- */
-const MarqueeRow = ({
-    label,
-    items,
-    reverse,
-    duration,
-}: {
-    label: string;
-    items: readonly string[];
-    reverse?: boolean;
-    duration: number;
-}) => {
-    const copy = (
-        <div aria-hidden={reverse} className="flex items-center gap-10 pr-10">
-            {items.map((item, i) => (
-                <span key={item} className="flex items-center gap-10">
-                    <span
-                        className={cn(
-                            "whitespace-nowrap text-4xl font-black tracking-tight md:text-6xl",
-                            i % 2 === 0
-                                ? "text-white"
-                                : "text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.45)]"
-                        )}
-                    >
-                        {item}
-                    </span>
-                    <span className="text-xl text-[#c9cbf8]">✦</span>
-                </span>
+const RATIO_TONES = ["bg-zinc-200", "bg-zinc-500", "bg-zinc-700"];
+const RATIO_TEXT = ["text-black", "text-white", "text-white"];
+
+/** 영역별 활용 비중 막대 + 범례 */
+const StackRatioBar = () => (
+    <div>
+        <div className="flex justify-between text-xs text-zinc-500">
+            <span>기술 스택 활용 비중</span>
+            <span>100%</span>
+        </div>
+        <div className="mt-3 flex h-14 overflow-hidden rounded-lg bg-white/[0.04]">
+            {stackRatioData.map((r, i) => (
+                <div
+                    key={r.label}
+                    style={{ width: `${r.percent}%` }}
+                    className={`flex flex-col items-center justify-center border-r border-[#161616] last:border-r-0 ${RATIO_TONES[i]} ${RATIO_TEXT[i]}`}
+                >
+                    {r.percent >= 20 && (
+                        <>
+                            <span className="text-xs font-medium">
+                                {r.label}
+                            </span>
+                            <span className="text-[10px] font-bold">
+                                {r.percent}%
+                            </span>
+                        </>
+                    )}
+                </div>
             ))}
         </div>
-    );
-
-    return (
-        <Reveal>
-            <div className="border-t border-white/10 py-8 md:py-10">
-                <p className="mb-5 px-6 text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500 md:px-10">
-                    {label}
-                </p>
-                <div className="group flex overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_6%,black_94%,transparent)]">
-                    <div
-                        className="flex w-max group-hover:[animation-play-state:paused] motion-reduce:[animation:none]"
-                        style={{
-                            animation: `${reverse ? "pf-marquee-reverse" : "pf-marquee"} ${duration}s linear infinite`,
-                        }}
-                    >
-                        {copy}
-                        {copy}
-                    </div>
-                </div>
-            </div>
-        </Reveal>
-    );
-};
-
-/** 카테고리별 대형 타이포 마퀴로 기술 스택을 훑는 섹션 */
-export const SkillsSection = () => {
-    return (
-        <section className="w-full py-28 md:py-40">
-            <div className="mx-auto w-full max-w-[1200px] px-6 md:px-10">
-                <SectionHeading
-                    index="02"
-                    title="Skills"
-                    sub="자주 쓰고, 깊게 파고드는 도구들. 줄 위에 올려 두고 계속 갈아 끼웁니다."
-                />
-            </div>
-
-            <div className="border-b border-white/10">
-                {skillsData.map((category, i) => (
-                    <MarqueeRow
-                        key={category.category}
-                        label={category.category}
-                        items={category.items}
-                        reverse={i % 2 === 1}
-                        duration={36 + i * 6}
+        <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-1.5">
+            {stackRatioData.map((r, i) => (
+                <li
+                    key={r.label}
+                    className="flex items-center gap-2 text-xs text-zinc-300"
+                >
+                    <span
+                        className={`h-2.5 w-2.5 rounded-full ${RATIO_TONES[i]}`}
                     />
-                ))}
-            </div>
-        </section>
-    );
-};
+                    {r.label} {r.percent}%
+                    <span className="text-zinc-500">({r.note})</span>
+                </li>
+            ))}
+        </ul>
+    </div>
+);
+
+/** 기술 스택 — 비중 막대 + 카테고리별 설명·칩 */
+export const SkillsSection = () => (
+    <div id="stack" className="scroll-mt-24 pt-28 md:pt-40">
+        <Reveal>
+            <h2 className="text-4xl font-bold tracking-tight text-white">
+                Stack
+            </h2>
+            <p className="mt-5 text-[15px] leading-relaxed text-zinc-400 md:text-base">
+                프론트엔드를 중심으로 구조적인 설계와 렌더링 최적화에 집중하고,
+                서비스 전체를 이해하기 위해 백엔드와 인프라까지 직접 다룹니다.
+            </p>
+        </Reveal>
+
+        <Reveal className="mt-10">
+            <StackRatioBar />
+        </Reveal>
+
+        <div className="mt-16 space-y-14 md:mt-20 md:space-y-16">
+            {skillsData.map((category) => (
+                <Reveal key={category.category}>
+                    <h3 className="text-xl font-bold text-white md:text-2xl">
+                        {category.category}
+                    </h3>
+                    <p className="mt-3 max-w-xl text-sm leading-relaxed text-zinc-400">
+                        {category.description}
+                    </p>
+                    <ul className="mt-5 flex flex-wrap gap-2">
+                        {category.items.map((item) => (
+                            <li
+                                key={item}
+                                className="rounded-lg bg-white/[0.06] px-3 py-1.5 text-[13px] text-zinc-200"
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </Reveal>
+            ))}
+        </div>
+    </div>
+);
