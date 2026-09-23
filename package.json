@@ -2,6 +2,10 @@
     "name": "dahoon06.github.io",
     "version": "0.3.1",
     "private": true,
+    "sideEffects": [
+        "*.css",
+        "*.scss"
+    ],
     "homepage": "https://blog.dahoon06.com/",
     "scripts": {
         "dev": "next dev --port 3088",

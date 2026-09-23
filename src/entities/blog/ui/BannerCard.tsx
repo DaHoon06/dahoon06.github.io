@@ -16,7 +16,7 @@ export const BannerCard = ({ post }: BannerCardProps) => {
                 {/* Thumbnail */}
                 <div className="relative h-52 md:h-auto md:col-span-2 overflow-hidden bg-zinc-100">
                     <Image
-                        src={post.thumbnail || "/images/default.png"}
+                        src={post.thumbnail || "/images/default.jpg"}
                         alt={post.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"

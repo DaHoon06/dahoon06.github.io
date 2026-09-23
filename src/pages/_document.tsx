@@ -11,21 +11,16 @@ class Dahoon06Document extends Document {
         return (
             <Html lang="ko">
                 <Head>
+                    {/* 본문 폰트 — 필요한 글자 조각(woff2)만 받는 dynamic subset */}
                     <link
-                        rel="stylesheet"
-                        type="text/css"
-                        href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css"
-                        crossOrigin={"anonymous"}
+                        rel="preconnect"
+                        href="https://cdn.jsdelivr.net"
+                        crossOrigin="anonymous"
                     />
                     <link
                         rel="stylesheet"
-                        type="text/css"
-                        href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css"
-                        crossOrigin={"anonymous"}
-                    />
-                    <link
                         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
-                        rel="stylesheet"
+                        crossOrigin="anonymous"
                     />
 
                     <meta

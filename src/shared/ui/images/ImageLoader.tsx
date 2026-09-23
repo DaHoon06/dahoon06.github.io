@@ -16,7 +16,7 @@ export const ImageLoader = ({
     style,
     ...props
 }: ImageLoaderProps) => {
-    const resolvedSrc = src || fallbackImage || "/images/default.png";
+    const resolvedSrc = src || fallbackImage || "/images/default.jpg";
     const isFill = props.fill === true;
 
     return (

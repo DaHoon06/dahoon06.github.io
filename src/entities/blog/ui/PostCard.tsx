@@ -18,7 +18,7 @@ export const PostCard = ({ post }: PostCardProps): ReactElement => {
             {/* Thumbnail */}
             <div className="relative h-44 overflow-hidden bg-zinc-100 shrink-0">
                 <ImageLoader
-                    src={post.thumbnail || "/images/default.png"}
+                    src={post.thumbnail || "/images/default.jpg"}
                     alt={post.title}
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     fill

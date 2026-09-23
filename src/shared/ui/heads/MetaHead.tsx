@@ -10,7 +10,7 @@ const MetaHead = () => {
             <meta
                 key="viewport"
                 name="viewport"
-                content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=0"
+                content="width=device-width, initial-scale=1, viewport-fit=cover"
             />
             {/* 홈 화면에 추가했을 때 앱처럼 전체 화면으로 뜬다 */}
             <meta name="mobile-web-app-capable" content="yes" />

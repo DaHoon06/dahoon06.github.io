@@ -10,7 +10,7 @@ export const Author = ({ profileImage, name }: AuthorProps): ReactElement => {
     return (
         <div className="flex items-center gap-2">
             <Image
-                src={profileImage || "/images/profile.png"}
+                src={profileImage || "/images/profile.webp"}
                 alt={name}
                 width={24}
                 height={24}

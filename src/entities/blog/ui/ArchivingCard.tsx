@@ -16,7 +16,7 @@ export const ArchivingCard = ({ post }: ArchivingCardProps): ReactElement => {
             <div className="overflow-hidden bg-zinc-100">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                    src={post.thumbnail || "/images/default.png"}
+                    src={post.thumbnail || "/images/default.jpg"}
                     alt={post.title}
                     loading="lazy"
                     className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"

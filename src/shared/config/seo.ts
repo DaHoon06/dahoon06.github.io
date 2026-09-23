@@ -14,9 +14,9 @@ export const SITE = {
     titleSuffix: "전다훈 블로그",
     author: "전다훈 (Da-hoon Jeon)",
     locale: "ko_KR",
-    defaultImage: "/images/default.png",
-    defaultImageWidth: 1536,
-    defaultImageHeight: 1024,
+    defaultImage: "/images/default.jpg",
+    defaultImageWidth: 1200,
+    defaultImageHeight: 800,
     sameAs: [
         "https://github.com/dahoon06",
         `https://www.linkedin.com/in/${encodeURIComponent(CONFIG.profile.linkedin)}`,
