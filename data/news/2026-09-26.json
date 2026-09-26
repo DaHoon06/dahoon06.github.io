@@ -1,0 +1,582 @@
+{
+  "date": "2026-09-26",
+  "collectedAt": "2026-09-26T00:17:40.343Z",
+  "items": [
+    {
+      "slug": "ollaya-ollama-for-open-source-jev-style-decision-models",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "summary": "Hacker News 토론 90개 · 309 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T18:33:50.000Z",
+      "contentType": "discussion",
+      "engagement": 309,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "us-appeals-court-upholds-designation-of-anthropic-as-supply-chain-risk",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "summary": "Hacker News 토론 671개 · 363 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T15:29:25.000Z",
+      "contentType": "discussion",
+      "engagement": 363,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "factorio-that-you-can-touch",
+      "title": "Factorio that you can touch",
+      "url": "https://factorio.com/blog/post/fff-447",
+      "summary": "Hacker News 토론 98개 · 312 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T14:24:42.000Z",
+      "contentType": "discussion",
+      "engagement": 312,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "paperclipaipaperclip-typescript",
+      "title": "paperclipai/paperclip (TypeScript)",
+      "url": "https://github.com/paperclipai/paperclip",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:17:38.125Z",
+      "contentType": "repo",
+      "engagement": 84909,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "platform-independent-simd-in-go",
+      "title": "Platform-independent SIMD in Go",
+      "url": "https://go.dev/blog/simd-experiment",
+      "summary": "Hacker News 토론 132개 · 347 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T11:47:06.000Z",
+      "contentType": "discussion",
+      "engagement": 347,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "anthropicsclaude-plugins-official-python",
+      "title": "anthropics/claude-plugins-official (Python)",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:17:38.125Z",
+      "contentType": "repo",
+      "engagement": 36927,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "vectorize-iohindsight-python",
+      "title": "vectorize-io/hindsight (Python)",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "Hindsight: Agent Memory That Learns",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:17:38.126Z",
+      "contentType": "repo",
+      "engagement": 29777,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "obrasuperpowers-shell",
+      "title": "obra/superpowers (Shell)",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:17:38.126Z",
+      "contentType": "repo",
+      "engagement": 291658,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "virtio-nvgpu-kvm-가상-머신에서-nvidia-gpu를-네이티브에-가까운-성능으로-공유",
+      "title": "Virtio-nvgpu - KVM 가상 머신에서 NVIDIA GPU를 네이티브에 가까운 성능으로 공유",
+      "url": "https://news.hada.io/topic?id=34274",
+      "summary": "GPU 한 장을 가상 머신 하나에 통째로 넘기는 대신, 호스트가 GPU를 유지하면서 여러 KVM 가상 머신이 함께 사용하도록 하는 실험적 프로젝트 모니터 없이 화면을 만들어 전송하는 헤드리스 스트리밍을 목표로, 게스트 안에서 GPU 렌더링, 합성, 인코딩을 수행하고...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T16:54:39.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "this-week-in-react-298",
+      "title": "This Week In React 298",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-298",
+      "summary": "Astro, Redux, img, Hotkeys, R3F, Next.js, AI, Redact | Reanimated, Worklets, Helix, Screens, SecondaryRuntime, Arrangement View, View Shot | TC39, Node, pnpm, Turborepo, jsdom, responsive iframe",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-25T12:57:54.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "lobsters-vibecoding을-llms로-바꾸는-greasemonkey-스크립트",
+      "title": "Lobsters: vibecoding을 llms로 바꾸는 Greasemonkey 스크립트",
+      "url": "https://news.hada.io/topic?id=34289",
+      "summary": "Lobsters의 vibecoding 태그를 llms로 표시하는 사용자 스크립트임 Greasemonkey 스크립트임 구현 언어는 JavaScript임 목록에 표시된 일일 설치 수와 전체 설치 수는 각각...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-26T00:01:24.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ollaya-오픈소스-jev-스타일-의사결정-모델을-위한-ollama",
+      "title": "Ollaya - 오픈소스 Jev 스타일 의사결정 모델을 위한 Ollama",
+      "url": "https://news.hada.io/topic?id=34288",
+      "summary": "Ollaya는 텍스트나 JSON에 타입이 지정된 질문을 하고, 보정된 답을 로컬 하드웨어에서 얻는 오픈소스 의사결정 모델 실행 도구임 토큰을 순차 생성하지 않고 한 번의 순전파로 답하며, RTX 4090에서 Laya로 질문 5개를 처리하는 HTTP API 요청의 전체 소요 시간은...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T21:32:54.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "oracle-데이터센터에-전력이-공급되지-않아도-투자자에게-대금-지급-의무",
+      "title": "Oracle, 데이터센터에 전력이 공급되지 않아도 투자자에게 대금 지급 의무",
+      "url": "https://news.hada.io/topic?id=34287",
+      "summary": "Oracle, 데이터센터에 전력이 공급되지 않아도 투자자에게 대금 지급 의무",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T20:43:27.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "a-type-stronger-than-the-sum-of-its-components",
+      "title": "A Type Stronger than the Sum of its Components",
+      "url": "https://www.schneems.com/2026/09/24/a-type-stronger-than-the-sum-of-its-components/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T15:23:16.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 45
+    },
+    {
+      "slug": "what-about-rails",
+      "title": "What About Rails?",
+      "url": "https://jardo.dev/what-about-rails",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T14:44:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "ruby",
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "commodified-intelligence",
+      "title": "Commodified Intelligence",
+      "url": "https://herecomesthemoon.net/2026/09/commodified-intelligence/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T18:24:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "vibecoding"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "this-month-in-redox-august-2026",
+      "title": "This Month in Redox - August 2026",
+      "url": "https://www.redox-os.org/news/this-month-260831/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-25T15:59:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "osdev"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "upcoming-nextjs-september-security-release",
+      "title": "Upcoming Next.js September Security Release",
+      "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026",
+      "summary": "Next.js is preparing a scheduled September security release for September 30, 2026.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "offensive-coding-exploiting-javascripts-tiny-door",
+      "title": "Offensive Coding: Exploiting JavaScript's Tiny Door",
+      "url": "https://dev.to/one_user_4e8b9b04ce8/offensive-coding-exploiting-javascripts-tiny-door-58fn",
+      "summary": "Offensive Coding: The Four-Line Function TypeScript Says Is Broken And Isn't The one line Every dev writes this without thinking: function readValue (s: T | undefined): Promise { return s ? s : undefined } The : Promise ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:05:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "productivity",
+        "typescript"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "your-agent-keeps-guessing-your-conventions-write-the-file-it-actually",
+      "title": "Your agent keeps guessing your conventions. Write the file it actually reads.",
+      "url": "https://dev.to/lixingliangsy/your-agent-keeps-guessing-your-conventions-write-the-file-it-actually-reads-167n",
+      "summary": "Every team I have watched adopt Cursor, Claude Code or Codex hits the same wall in week two. The agent writes plausible code that does not fit the repo. It invents a test command. It puts a src/components/ when everythin",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:06:23.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "programming",
+        "tooling"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "navboost-seo-claims-what-businesses-can-reliably-act-on-from-a-limited",
+      "title": "NavBoost SEO Claims: What Businesses Can Reliably Act On From a Limited Signal",
+      "url": "https://dev.to/alifar/navboost-seo-claims-what-businesses-can-reliably-act-on-from-a-limited-signal-3l81",
+      "summary": "The available signal raises a useful SEO question: could a page that ranks first still disappoint searchers enough to weaken its long-term visibility? It connects return-to-results behavior with a term, NavBoost, but it ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:04:31.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "automation",
+        "tools"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "compute-and-retention-costs-of-pdf-print-layout-rendering-for-180000",
+      "title": "Compute and Retention Costs of PDF Print Layout Rendering for 180,000 Watermarked Copies",
+      "url": "https://dev.to/loganpierce2073/compute-and-retention-costs-of-pdf-print-layout-rendering-for-180000-watermarked-copies-51m9",
+      "summary": "If the job is to watermark 30,000 documents before an external-sharing window closes, use the cheapest operation that still produces a correct page: draw the mark onto an already-typeset PDF, and stop re-running HTML lay",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-26T00:02:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "pdf",
+        "architecture",
+        "performance"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "두산에너빌리티",
+      "title": "두산에너빌리티",
+      "url": "https://velog.io/@humanqp/%EB%91%90%EC%82%B0%EC%97%90%EB%84%88%EB%B9%8C%EB%A6%AC%ED%8B%B0",
+      "summary": "두산에너빌리티! 최근 SMR로 뜨거웠던 놈입니다 SMR이 뭐냐? Small Modular Reactor. - 즉, 소형모듈원전을 뜻합니다 소형이면, 아이언맨의 아크 원자로 크기만큼 작나 하는 생각이 듭니다 하지만, 높이 약25m, 폭 약4.6m 정도 가슴에 달고 다닐 수는 없는 크기입니다 근데, 왜 갑자기 SMR이 이슈가 되었을까요? AI가 발전하면서 데이터센터 전력 수요가 폭발하고 있고, ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T23:27:59.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "파트-2-1-과제-비주얼-정리",
+      "title": "파트 2-1 과제 비주얼 정리",
+      "url": "https://velog.io/@dbrztmy22/%ED%8C%8C%ED%8A%B8-2-1-%EA%B3%BC%EC%A0%9C-%EB%B9%84%EC%A3%BC%EC%96%BC-%EC%A0%95%EB%A6%AC",
+      "summary": "",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T23:14:46.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "3주차-260919-sql-문법-심화반",
+      "title": "[3주차] 260919 SQL 문법 심화반",
+      "url": "https://velog.io/@smfqh0119/3%EC%A3%BC%EC%B0%A8-260919-SQL-%EB%AC%B8%EB%B2%95-%EC%8B%AC%ED%99%94%EB%B0%98",
+      "summary": "3주차 수업 내용 리뷰 - SQL 문법 심화반 문자열 연결: CONCAT vs CONCAT_WS CONCAT(a, b) CONCAT_WS(', ', a, b, c) → CONCAT = 하나라도 NULL이면 결과 전체가 NULL → CONCAT_WS = 구분자를 넣어 연결하며 NULL은 건너뜀 (단, 빈 문자열 ''은 NULL이 아니므로 건너뛰지 않음) LENGTH vs CHAR_LENGTH ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T23:04:37.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "31-퍼셉트론-perceptron",
+      "title": "3.1 퍼셉트론 (Perceptron)",
+      "url": "https://velog.io/@antter5/3.1-%ED%8D%BC%EC%85%89%ED%8A%B8%EB%A1%A0-Perceptron",
+      "summary": "교재 6-2장의 내용을 공부하고 정리한 포스트입니다. https://wikidocs.net/book/2788 - 교재 https://github.com/ukairia777/pytorch-nlp-tutorial - 깃허브 퍼셉트론(Perceptron)을 공부해보자. 인공신경망의 기본이다. 1. 퍼셉트론(Perceptron) 퍼셉트론은 뇌의 신경세포 구조를 본딴 것이다. $x$는 입력값을 의미하",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-25T22:56:54.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "연-300시간을-아낀-ai-상담-서비스",
+      "title": "연 300시간을 아낀 AI 상담 서비스",
+      "url": "https://toss.tech/article/AI_chatbot",
+      "summary": "전화 문의를 줄이려다 사용자의 경험에서 답을 찾은 이야기예요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-23T06:39:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "애매한-문제를-제대로-정의한다는-것",
+      "title": "애매한 문제를 제대로 정의한다는 것",
+      "url": "https://evan-moon.github.io/2026/09/24/defining-ambiguous-problems/",
+      "summary": "이번 포스팅에서는 현실에 존재하는 애매모호한 문제들을 해결하는 방법에 대해서 이야기해보려고 한다. 본론에 들어가기 앞서, 한번 여러분이 지난 분기에 가장 공들여서 한 일을 하나 떠올려보자. 몇 주를 들인 리팩토링일 수도 있고, 팀에 새로 들인 도구일 수도 있고, 야심 차게 시작한 개선 프로젝트일 수도 있다. 그 일을 떠올린 채로 이 질문에 답해보자. 그 일로 풀려고 했던 문제는 정확히 무엇이",
+      "sourceId": "blog-evan-moon",
+      "sourceName": "Evan Moon",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-24T07:52:16.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "on-properly-defining-ambiguous-problems",
+      "title": "On Properly Defining Ambiguous Problems",
+      "url": "https://evan-moon.github.io/2026/09/24/defining-ambiguous-problems/en/",
+      "summary": "In this post, I want to talk about how to solve the vague, fuzzy problems that show up in real work. Before we get into it, try recalling the one piece of work you put the most effort into last quarter. Maybe it was a re",
+      "sourceId": "blog-evan-moon",
+      "sourceName": "Evan Moon",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-24T07:52:16.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "googles-space-datacenter-bezos-30b-bet-cpu-shortage",
+      "title": "Google's space datacenter 🛰️, Bezos $30B bet 🚀, CPU shortage 💻",
+      "url": "https://tldr.tech/tech/2026-09-25",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "nodejs-22233-lts",
+      "title": "Node.js 22.23.3 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v22.23.3",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-23T18:22:40.000Z",
+      "contentType": "article",
+      "score": 30
+    },
+    {
+      "slug": "12-css-features-that-can-retire-your-dependencies",
+      "title": "12 CSS features that can retire your dependencies",
+      "url": "https://frontendfoc.us/issues/759",
+      "summary": "🚀 Frontend Focus #​759 — September 23, 2026 | Read on the web 🧭 WebKit Features for Safari 27.0 — An epic set of release notes covers Safari 27's enhancements, including its new MCP server (let agents debug your work),",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "contentType": "article",
+      "score": 30
+    },
+    {
+      "slug": "12-node-built-ins-that-replace-npm-packages",
+      "title": "12 Node built-ins that replace npm packages",
+      "url": "https://nodeweekly.com/issues/642",
+      "summary": "#​642 — September 24, 2026 Read on the Web ⚠️ We're taking a week off next week, so we'll be back on Thursday, October 8. __ Your editor, Peter Cooper Node.js Built-ins That Replaced npm Packages — A practical tour of 12",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "contentType": "article",
+      "score": 27
+    },
+    {
+      "slug": "개인화-추천을-위한-랭킹-모델-개발기",
+      "title": "개인화 추천을 위한 랭킹 모델 개발기",
+      "url": "https://tech.kakao.com/posts/837",
+      "summary": "안녕하세요! 카카오에서 유저 편의성을 높이는 데 관심이 많은 토리입니다. 카카오에는 정말 다양한 서비스와 그 안에 쌓이는 방대한 데이터가 있습니다. 이 많은 콘텐츠와 유저를 잘 이어주는 역할을 하는 것이 바로 추천이고, 그중에서도 \"얼마나 이 유저에게 맞는 콘텐츠를 보여주는가\"는 서비스 체류시간과 만족도에 직결되는 핵심 문제입니다. 그래서 세그먼트 단위로 동작하던 추천 로직을, 유저 개인의 ",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-22T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "meta-vr-headset-anthropic-finds-enzyme-code-ownership",
+      "title": "Meta VR headset 😎, Anthropic finds enzyme 🧬, code ownership 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-24",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "opus-55-gpt-6-apple-fitness-tracker-bug-blindness",
+      "title": "Opus 5.5 + GPT-6 🤖, Apple fitness tracker ⌚, bug blindness 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-23",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "고객의-취소할-권리를-보장하다",
+      "title": "고객의 취소할 권리를 보장하다",
+      "url": "https://oliveyoung.tech/2026-09-23/order-cancellation-shipping-ready/",
+      "summary": "안녕하세요, 올리브영에서 주문·배송 도메인의 백엔드 개발을 담당하고 있는 데이먼입니다. 오늘은 '배송준비중'이라는 이유로 막혀 있던 주문 취소를, 고객이 앱에서 직접 할 수 있게 바꾼 이야기를 해 보려 합니다. 밤 11시, 한 고객이 결제를 마치고…",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    },
+    {
+      "slug": "때로는-오버엔지니어링이-필요합니다",
+      "title": "때로는 오버엔지니어링이 필요합니다",
+      "url": "https://oliveyoung.tech/2026-09-23/overengineering-message-system/",
+      "summary": "…",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
