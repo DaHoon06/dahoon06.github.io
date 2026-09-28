@@ -1,0 +1,387 @@
+{
+  "date": "2026-09-28",
+  "collectedAt": "2026-09-28T00:10:14.523Z",
+  "items": [
+    {
+      "slug": "when-did-google-get-so-weird",
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "summary": "Hacker News 토론 340개 · 629 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T20:12:54.000Z",
+      "contentType": "discussion",
+      "engagement": 629,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ember-1",
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "summary": "Hacker News 토론 168개 · 315 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T17:31:53.000Z",
+      "contentType": "discussion",
+      "engagement": 315,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "on-caring-for-user-data-neovim-caused-vim-undo-files-to-be-deleted",
+      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "summary": "Hacker News 토론 305개 · 344 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T14:45:07.000Z",
+      "contentType": "discussion",
+      "engagement": 344,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "rohitg00ai-engineering-from-scratch-python",
+      "title": "rohitg00/ai-engineering-from-scratch (Python)",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "summary": "Learn it. Build it. Ship it for others.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:10:11.678Z",
+      "contentType": "repo",
+      "engagement": 59250,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "in-an-80-motel-room-a-discovery-to-shed-light-on-the-origins-of-life",
+      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "summary": "Hacker News 토론 79개 · 194 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T14:30:55.000Z",
+      "contentType": "discussion",
+      "engagement": 194,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "vercel-labsscriptc-typescript",
+      "title": "vercel-labs/scriptc (TypeScript)",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "summary": "TypeScript-to-Native Compiler",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:10:11.679Z",
+      "contentType": "repo",
+      "engagement": 5391,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "infinityloop1308pipepipe-shell",
+      "title": "InfinityLoop1308/PipePipe (Shell)",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "summary": "An open-source Android app to let you browse YouTube and other services freely.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:10:11.679Z",
+      "contentType": "repo",
+      "engagement": 6562,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "mvschwarzopenrig-typescript",
+      "title": "mvschwarz/openrig (TypeScript)",
+      "url": "https://github.com/mvschwarz/openrig",
+      "summary": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:10:11.679Z",
+      "contentType": "repo",
+      "engagement": 951,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 51
+    },
+    {
+      "slug": "ember-1-kimi-k3의-성능을-유지하며-토큰-사용량-40-절감",
+      "title": "Ember-1, Kimi K3의 성능을 유지하며 토큰 사용량 40% 절감",
+      "url": "https://news.hada.io/topic?id=34379",
+      "summary": "Fireworks Research가 Kimi K3를 기반으로 추가 학습한 모델로, 자체 평가에서 비슷한 품질을 유지하면서 토큰 사용량을 약 40% 줄임 추론 강도만 낮추면 성능이 떨어지는 문제를 해결하기 위해, 오류를 바로잡는 재검토는 유지하고 불필요한 추론과 반복은 줄이도록",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-27T19:43:22.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "이게-씨발-현대적인-웹사이트다",
+      "title": "이게 씨발 현대적인 웹사이트다",
+      "url": "https://news.hada.io/topic?id=34391",
+      "summary": "블로그나 문서 사이트의 접근성, SEO, 소셜 카드, 성능 최적화는 복잡한 프레임워크 없이도 HTML과 브라우저 기본 기능으로 구현할 수 있음 시맨틱 HTML과 기본 UI 요소를 쓰면 별도 라이브러리 없이 문서 구조를 전달하고, 키보드와 스크린 리더를 지원하는 인터페...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-28T00:05:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-hn-tinyaiarena-ai-에이전트들의-대결을-관전하는-서비스",
+      "title": "Show HN: TinyAIArena, AI 에이전트들의 대결을 관전하는 서비스",
+      "url": "https://news.hada.io/topic?id=34390",
+      "summary": "TinyAIArena는 AI 에이전트의 대결 순위와 경기 기록을 제공하며, 기록에서 경기를 클릭해 관전할 수 있음 순위는 완료된 경기의 Elo로 계산하며, 모든 참가 모델은 1000점에서 시작함 제공된 화면 기준 43경기 모두 종료됐으며, 경기당...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-27T23:37:34.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "go-코드를-github에-결합하지-말자",
+      "title": "Go 코드를 GitHub에 결합하지 말자",
+      "url": "https://news.hada.io/topic?id=34389",
+      "summary": "Go는 코드를 가져올 위치를 네임스페이스로 사용해 중앙 패키지 관리 시스템 없이 라이브러리를 배포하고 가져올 수 있지만, 호스팅 주소를 그대로 쓰면 코드가 해당 제공업체에 결합됨 GitHub에서 GitLab으로 저장소를 옮길 때 코드의 기존 경로를 수정해야 하며,...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-27T23:34:34.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "one-reactvite-product-across-pwa-and-tauriwithout-pretending-they-are",
+      "title": "One React/Vite product across PWA and Tauri—without pretending they are identical",
+      "url": "https://dev.to/qnbs/one-reactvite-product-across-pwa-and-tauri-without-pretending-they-are-identical-17ld",
+      "summary": "One React/Vite codebase can power a GitHub Pages site, an installed PWA, an edge-hosted deployment, and a Tauri desktop app. That does not make those surfaces interchangeable. This distinction matters whenever an applica",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T23:32:35.000Z",
+      "contentType": "article",
+      "tags": [
+        "architecture",
+        "react",
+        "pwa"
+      ],
+      "score": 43
+    },
+    {
+      "slug": "postmarketos-rebrands-as-nura",
+      "title": "postmarketOS rebrands as Nura",
+      "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T17:34:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "linux"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ten-lines-of-code-that-changed-my-world",
+      "title": "Ten Lines Of Code That Changed My World",
+      "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T13:05:28.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "luarocks-security-incident-september-2026",
+      "title": "LuaRocks Security Incident September 2026",
+      "url": "https://luarocks.org/security-incident-september-2026",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T13:58:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "lua",
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "reverse-engineering-the-ipod-classics-undocumented-mikey-chip",
+      "title": "Reverse Engineering the iPod Classic's Undocumented Mikey Chip",
+      "url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T19:58:31.000Z",
+      "contentType": "article",
+      "tags": [
+        "reversing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "javascript-concepts-i-wish-i-understood-earlier-event-bubbling-event",
+      "title": "JavaScript Concepts I Wish I Understood Earlier: Event Bubbling & Event Delegation",
+      "url": "https://dev.to/osaaroh/javascript-concepts-i-wish-i-understood-earlier-event-bubbling-event-delegation-28k9",
+      "summary": "\"With AI writing the code, maybe it's time we finally understand what the code is doing.\" 😅 The rise of AI has made writing code easier than ever. It has also made one thing increasingly important for me: actually under",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-27T23:38:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "webdev",
+        "programming"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "prompt-injection-is-the-new-sql-injection-building-resilient-aipowered",
+      "title": "Prompt Injection Is the New SQL Injection: Building Resilient AI‑Powered Applications",
+      "url": "https://dev.to/tamizuddin/prompt-injection-is-the-new-sql-injection-building-resilient-ai-powered-applications-2di7",
+      "summary": "Originally published on tamiz.pro. The rapid adoption of Large Language Models (LLMs) has introduced a new class of vulnerabilities that directly mirrors the legacy threats of the early web. Prompt injection—the maliciou",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:01:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "machine",
+        "learning"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "disinformation-response-is-an-incident-handling-problem",
+      "title": "# Disinformation Response Is an Incident-Handling Problem",
+      "url": "https://dev.to/marek_builds/-disinformation-response-is-an-incident-handling-problem-d01",
+      "summary": "Disinformation Response Is an Incident-Handling Problem Organized disinformation gains room to spread when responders cannot quickly distinguish a coordinated pattern from a collection of unrelated posts. The answer is n",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:00:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "devops",
+        "security",
+        "sre"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "뷰포트-쿼리와-경량-핀-분리로-supabase-egress-21gb를-2gb로-줄이기",
+      "title": "뷰포트 쿼리와 경량 핀 분리로 Supabase Egress 21GB를 2GB로 줄이기",
+      "url": "https://velog.io/@y10b/%EB%B7%B0%ED%8F%AC%ED%8A%B8-%EC%BF%BC%EB%A6%AC%EC%99%80-%EA%B2%BD%EB%9F%89-%ED%95%80-%EB%B6%84%EB%A6%AC%EB%A1%9C-Supabase-Egress-21GB%EB%A5%BC-2GB%EB%A1%9C-%EC%A4%84%EC%9D%B4%EA%B8%B0",
+      "summary": "1. 서비스 소개 '샥(syak)'은 뷰티 매장의 빈자리와 취소석을 실시간으로 확인하고 네이버 예약 등으로 연결해 주는 빈자리 취소석 자동 매칭 서비스다. 사용자는 지도와 지역 필터로 매장을 탐색하고, 특정 매장의 남은 시간 슬롯을 확인해 예약 플랫폼으로 이동한다. 2. 문제: 전체 로딩으로 인한 트래픽 폭발과 수집 배치 타임아웃 서비스 지역을 서울에서 경기, 부산, 대구 등으로 확장하면서 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-28T00:08:27.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "supabase-egress-402-정지에서-벗어나기-이벤트-분석을-ga4로-코어-데이터를-rds로-이관한-기록",
+      "title": "Supabase Egress 402 정지에서 벗어나기: 이벤트 분석을 GA4로, 코어 데이터를 RDS로 이관한 기록",
+      "url": "https://velog.io/@y10b/Supabase-Egress-402-%EC%A0%95%EC%A7%80%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B6%84%EC%84%9D%EC%9D%84-GA4%EB%A1%9C-%EC%BD%94%EC%96%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-RDS%EB%A1%9C-%EC%9D%B4%EA%B4%80%ED%95%9C-%EA%B8%B0%EB%A1%9D",
+      "summary": "1. 빈자리 취소석 자동 매칭 서비스, 샥 '샥(syak)'은 뷰티샵의 빈자리 및 취소석을 자동으로 매칭해 주는 서비스다. 이용자는 지역, 시간, 시술 분야별로 실시간 예약 가능한 매장을 지도에서 탐색하고 상세 정보와 가격을 확인한 뒤 바로 예약으로 넘어갈 수 있다. 매장 사장님은 갑작스럽게 비어버린 시간대를 빈자리로 등록해 대기 중인 고객에게 취소석 알림을 발송하고 예약을 유치할 수 있다.",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-28T00:08:25.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "20260927-1일-1로그",
+      "title": "2026.09.27 1일 1로그",
+      "url": "https://velog.io/@j8rl_chik/2026.09.28-1%EC%9D%BC-1%EB%A1%9C%EA%B7%B8",
+      "summary": "본 문서는 Claude를 사용해 정리했습니다. 『실무로 통하는 타입스크립트』 함수 밖에서 인수/반환 타입 재사용하기 — Parameters와 ReturnType 상황: 함수 안에서는 인수 타입과 반환 타입을 알 수 있지만, 그 타입을 함수 정의 바깥에서도 써야 할 때가 있다. 해결: 내장 헬퍼 타입 Parameters 와 ReturnType 를 쓴다. defer — 함수 호출을 나중으로 미루",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-28T00:06:05.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "restful-api",
+      "title": "RESTful API",
+      "url": "https://velog.io/@cycling-lion-cub/RESTful-API",
+      "summary": "REST란 무엇일까? Representational State Transfer(REST)는 API 작동 방식에 대한 조건을 부여하는 소프트웨어 아키텍처. 즉 클라이언트와 서버가 데이터를 주고받는 방식을 설계하는 하나의 원칙이자 스타일이에요. RESTful API는 이 REST 원칙을 잘 따르는 API를 말해요. REST의 핵심 아이디어 : 자원(Resource)을 URL로 표현 REST의 가",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-28T00:04:54.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
