@@ -1,8 +1,9 @@
 export {
     HeroSection,
     IntroSection,
-    SkillsSection,
     CareerSection,
     ProjectSection,
+    WritingSection,
     ContactSection,
+    SocialLinks,
 } from "./ui";

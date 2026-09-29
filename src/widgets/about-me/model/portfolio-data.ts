@@ -28,7 +28,14 @@ export interface Project {
 
 export interface SkillCategory {
     category: string;
+    description: string;
     items: string[];
+}
+
+export interface StackRatio {
+    label: string;
+    note: string;
+    percent: number;
 }
 
 export const profileData = {
@@ -52,6 +59,8 @@ export const profileData = {
 export const skillsData: SkillCategory[] = [
     {
         category: "Frontend",
+        description:
+            "컴포넌트 구조 설계와 서버 상태 관리, 렌더링 최적화에 집중하며 주력으로 다루는 영역입니다.",
         items: [
             "Next.js",
             "React",
@@ -65,6 +74,8 @@ export const skillsData: SkillCategory[] = [
     },
     {
         category: "Backend",
+        description:
+            "API 설계부터 크롤러·비동기 작업까지 직접 구현하며, 프론트엔드와 맞닿는 데이터 흐름을 이해하고 개발합니다.",
         items: [
             "Django",
             "NestJS",
@@ -78,6 +89,8 @@ export const skillsData: SkillCategory[] = [
     },
     {
         category: "DevOps & Tools",
+        description:
+            "컨테이너 기반 배포와 CDN·모니터링 환경을 운영하며 안정적인 서비스 운영을 경험했습니다.",
         items: [
             "Docker",
             "AWS",
@@ -89,6 +102,12 @@ export const skillsData: SkillCategory[] = [
             "Sentry",
         ],
     },
+];
+
+export const stackRatioData: StackRatio[] = [
+    { label: "Front-end", note: "주력 분야", percent: 70 },
+    { label: "Back-end", note: "API·크롤러 개발", percent: 20 },
+    { label: "Infra", note: "배포·운영 경험", percent: 10 },
 ];
 
 export const careerData: CareerItem[] = [

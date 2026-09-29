@@ -1,115 +1,76 @@
-import { FaEnvelope, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import Link from "next/link";
 import { ROUTES } from "@shared/routes";
 import { profileData } from "../model";
-import { Magnetic, Reveal } from "./motion";
+import { Container, Headline, OutlineButton } from "./layout";
+import { Reveal } from "./motion";
 
-const MARQUEE_TEXT = Array.from({ length: 6 }, () => "LET'S WORK TOGETHER");
+/** 연락처 + 푸터 */
+export const ContactSection = () => (
+    <section
+        id="contact"
+        className="relative scroll-mt-16 overflow-hidden pt-28 md:pt-40"
+    >
+        <div
+            aria-hidden
+            className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_40%_40%,rgba(255,255,255,0.06),transparent_70%)]"
+        />
 
-/** 대형 마퀴 + 마그네틱 CTA로 마무리하는 컨택트 푸터 */
-export const ContactSection = () => {
-    return (
-        <section className="w-full overflow-hidden pb-16 pt-28 md:pt-40">
-            {/* 대형 마퀴 스트립 */}
-            <div className="flex overflow-hidden border-y border-white/10 py-6 md:py-8">
-                <div className="flex w-max motion-reduce:[animation:none] [animation:pf-marquee_28s_linear_infinite]">
-                    {[0, 1].map((copy) => (
-                        <div
-                            key={copy}
-                            aria-hidden={copy === 1}
-                            className="flex items-center gap-8 pr-8"
+        <Container className="relative">
+            <Reveal>
+                <Headline>
+                    새로운 도전을
+                    <br />
+                    함께 완성해 나갈 동료가 되겠습니다
+                </Headline>
+                <p className="mt-8 max-w-lg text-[15px] leading-relaxed text-zinc-400">
+                    코드를 작성하는 것을 넘어, 제품이 사용자에게 주는 가치를
+                    함께 고민하는 동료를 찾으신다면 편하게 연락 주세요.
+                </p>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+                <ul className="mt-10 space-y-1.5 border-l border-white/20 pl-5 text-sm">
+                    <li>
+                        <a
+                            href={`mailto:${profileData.email}`}
+                            className="text-zinc-200 transition-colors hover:text-white hover:underline"
                         >
-                            {MARQUEE_TEXT.map((text, i) => (
-                                <span
-                                    key={i}
-                                    className="flex items-center gap-8 whitespace-nowrap"
-                                >
-                                    <span
-                                        className={
-                                            i % 2 === 0
-                                                ? "text-5xl font-black tracking-tight text-white md:text-7xl"
-                                                : "text-5xl font-black tracking-tight text-transparent [-webkit-text-stroke:1px_rgba(201,203,248,0.7)] md:text-7xl"
-                                        }
-                                    >
-                                        {text}
-                                    </span>
-                                    <span className="text-2xl text-[#c9cbf8]">
-                                        ✦
-                                    </span>
-                                </span>
-                            ))}
-                        </div>
-                    ))}
-                </div>
-            </div>
-
-            <div className="mx-auto w-full max-w-[1200px] px-6 md:px-10">
-                <div className="flex flex-col items-center gap-10 py-24 text-center md:py-32">
-                    <Reveal>
-                        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
-                            (05) — Contact
-                        </p>
-                        <h2 className="mt-6 text-4xl font-black leading-tight tracking-tight text-white md:text-6xl">
-                            새로운 도전을
-                            <br />
-                            함께할 준비가 되어 있어요
-                        </h2>
-                    </Reveal>
-
-                    <Reveal delay={0.15}>
-                        <Magnetic strength={0.4}>
-                            <a
-                                href={`mailto:${profileData.email}`}
-                                className="group flex h-36 w-36 flex-col items-center justify-center gap-1 rounded-full bg-[#c9cbf8] text-black transition-colors duration-300 hover:bg-white md:h-44 md:w-44"
-                            >
-                                <FaEnvelope
-                                    size={20}
-                                    className="transition-transform duration-300 group-hover:-translate-y-0.5"
-                                />
-                                <span className="text-sm font-bold tracking-widest">
-                                    SAY HELLO
-                                </span>
-                            </a>
-                        </Magnetic>
-                    </Reveal>
-
-                    <Reveal delay={0.25}>
-                        <div className="flex items-center gap-4">
-                            <a
-                                href={profileData.github}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="GitHub"
-                                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-zinc-400 transition-colors hover:border-[#c9cbf8] hover:text-[#c9cbf8]"
-                            >
-                                <FaGithub size={16} />
-                            </a>
-                            <a
-                                href={profileData.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="LinkedIn"
-                                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-zinc-400 transition-colors hover:border-[#c9cbf8] hover:text-[#c9cbf8]"
-                            >
-                                <FaLinkedinIn size={16} />
-                            </a>
-                        </div>
-                    </Reveal>
-                </div>
-
-                <footer className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-zinc-600 md:flex-row">
-                    <p>
-                        © {new Date().getFullYear()}. {profileData.name}. All
-                        rights reserved.
-                    </p>
-                    <Link
-                        href={ROUTES.HOME}
-                        className="font-semibold text-zinc-400 transition-colors hover:text-[#c9cbf8]"
+                            {profileData.email}
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href={profileData.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-zinc-200 transition-colors hover:text-white hover:underline"
+                        >
+                            {profileData.github.replace("https://", "")}
+                        </a>
+                    </li>
+                </ul>
+                <div className="mt-10">
+                    <OutlineButton
+                        href={`mailto:${profileData.email}`}
+                        external
                     >
-                        ← 블로그로 돌아가기
-                    </Link>
-                </footer>
-            </div>
-        </section>
-    );
-};
+                        메일 보내기
+                    </OutlineButton>
+                </div>
+            </Reveal>
+
+            <footer className="mt-32 flex flex-col gap-4 border-t border-white/10 py-10 text-xs text-zinc-500 md:mt-40 md:flex-row md:items-center md:justify-between">
+                <p>
+                    Copyright © {new Date().getFullYear()} {profileData.nameEn}
+                    . All rights reserved.
+                </p>
+                <Link
+                    href={ROUTES.HOME}
+                    className="text-zinc-400 transition-colors hover:text-white"
+                >
+                    ← 블로그로 돌아가기
+                </Link>
+            </footer>
+        </Container>
+    </section>
+);
