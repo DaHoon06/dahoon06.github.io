@@ -5,3 +5,4 @@ export { ProjectSection } from "./ProjectSection";
 export { WritingSection } from "./WritingSection";
 export { ContactSection } from "./ContactSection";
 export { SocialLinks } from "./SocialLinks";
+export { ProjectDetail } from "./ProjectDetail";

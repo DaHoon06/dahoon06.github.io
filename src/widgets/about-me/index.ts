@@ -6,4 +6,6 @@ export {
     WritingSection,
     ContactSection,
     SocialLinks,
+    ProjectDetail,
 } from "./ui";
+export { projectsData, getProjectDetail } from "./model";

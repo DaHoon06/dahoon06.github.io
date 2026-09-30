@@ -13,3 +13,10 @@ export type {
     StackRatio,
     TechGroup,
 } from "./portfolio-data";
+export { projectDetailMock, getProjectDetail } from "./project-detail.mock";
+export type {
+    ProjectDetail,
+    ProjectMetric,
+    ProjectHighlight,
+    ProjectChallenge,
+} from "./project-detail.mock";

@@ -15,6 +15,8 @@ export interface TechGroup {
 }
 
 export interface Project {
+    /** 상세 페이지 경로 — /about-me/projects/[slug] */
+    slug: string;
     title: string;
     description: string;
     role?: string;
@@ -147,6 +149,7 @@ export const careerData: CareerItem[] = [
 
 export const projectsData: Project[] = [
     {
+        slug: "ichart",
         title: "아이차트(iChart)",
         description:
             "실시간 음원 데이터를 수집·정제하여 차트로 시각화하는 서비스. 멜론·지니·플로 등 주요 플랫폼 데이터를 Scrapy로 크롤링하고, Chart.js로 트렌드를 시각화합니다.",
@@ -191,6 +194,7 @@ export const projectsData: Project[] = [
         images: [],
     },
     {
+        slug: "unisurvey",
         title: "유니서베이(Unisurvey)",
         description:
             "누구나 손쉽게 설문을 만들고 관리·배포할 수 있는 B2B/B2C 기반 설문 제작 플랫폼. 수집된 응답 데이터를 차트로 시각화하고, Socket.io를 통한 실시간 응답 현황 모니터링을 지원합니다.",
@@ -225,6 +229,7 @@ export const projectsData: Project[] = [
         link: "https://unisurvey.co.kr",
     },
     {
+        slug: "backoffice",
         title: "백오피스 관리 시스템",
         description:
             "설문 템플릿 기반 관리 시스템 구축. 다양한 설문 타입을 통합 관리하고, 운영 효율을 높이는 어드민 플랫폼입니다. 권한별 접근 제어와 대시보드 통계 기능을 포함합니다.",

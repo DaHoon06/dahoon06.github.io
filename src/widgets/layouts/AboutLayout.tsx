@@ -23,7 +23,14 @@ const NAV_ITEMS = [
  * 블랙 & 화이트 모노톤 + Lenis 스무스 스크롤 + 섹션 앵커 헤더로 구성한다.
  * 모바일 하단 탭은 사이트 공통 내비게이션이므로 유지한다.
  */
-export const AboutLayout = ({ children }: { children: ReactNode }) => {
+export const AboutLayout = ({
+    children,
+    sectionNav = true,
+}: {
+    children: ReactNode;
+    /** 섹션 앵커 메뉴 노출 — about-me 본문이 아닌 하위 페이지에선 끈다 */
+    sectionNav?: boolean;
+}) => {
     const lenisRef = useRef<Lenis | null>(null);
     const [scrolled, setScrolled] = useState(false);
 
@@ -76,17 +83,19 @@ export const AboutLayout = ({ children }: { children: ReactNode }) => {
                         >
                             Dahoon&apos;s Portfolio
                         </Link>
-                        <nav className="hidden items-center gap-8 md:flex">
-                            {NAV_ITEMS.map((item) => (
-                                <a
-                                    key={item.href}
-                                    href={item.href}
-                                    className="text-sm text-zinc-400 transition-colors hover:text-white"
-                                >
-                                    {item.label}
-                                </a>
-                            ))}
-                        </nav>
+                        {sectionNav && (
+                            <nav className="hidden items-center gap-8 md:flex">
+                                {NAV_ITEMS.map((item) => (
+                                    <a
+                                        key={item.href}
+                                        href={item.href}
+                                        className="text-sm text-zinc-400 transition-colors hover:text-white"
+                                    >
+                                        {item.label}
+                                    </a>
+                                ))}
+                            </nav>
+                        )}
                     </div>
                     <SocialLinks />
                 </div>
