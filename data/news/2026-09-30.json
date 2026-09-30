@@ -1,0 +1,431 @@
+{
+  "date": "2026-09-30",
+  "collectedAt": "2026-09-30T00:55:57.335Z",
+  "items": [
+    {
+      "slug": "gpt-61-sol-near-astra-intelligence-for-a-fifth-of-the-price",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "summary": "Hacker News 토론 710개 · 767 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T17:06:45.000Z",
+      "contentType": "discussion",
+      "engagement": 767,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "americagov",
+      "title": "America.gov",
+      "url": "https://america.gov/",
+      "summary": "Hacker News 토론 263개 · 324 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T14:04:57.000Z",
+      "contentType": "discussion",
+      "engagement": 324,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "dots-always-on-agents",
+      "title": "Dots: Always-on agents",
+      "url": "https://openai.com/index/introducing-dots/",
+      "summary": "Hacker News 토론 348개 · 459 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T17:07:57.000Z",
+      "contentType": "discussion",
+      "engagement": 459,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "how-delhi-cut-electricity-loss-from-50-to-5-percent",
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "summary": "Hacker News 토론 250개 · 431 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T12:43:29.000Z",
+      "contentType": "discussion",
+      "engagement": 431,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "t8y2dbx-rust",
+      "title": "t8y2/dbx (Rust)",
+      "url": "https://github.com/t8y2/dbx",
+      "summary": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:55:54.965Z",
+      "contentType": "repo",
+      "engagement": 22004,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "vectifyaipageindex-python",
+      "title": "VectifyAI/PageIndex (Python)",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "summary": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:55:54.968Z",
+      "contentType": "repo",
+      "engagement": 37376,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "oblienopenship-typescript",
+      "title": "oblien/openship (TypeScript)",
+      "url": "https://github.com/oblien/openship",
+      "summary": "Self-hosted deployment platform",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:55:54.966Z",
+      "contentType": "repo",
+      "engagement": 13827,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "nvidiaopenshell-rust",
+      "title": "NVIDIA/OpenShell (Rust)",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:55:54.963Z",
+      "contentType": "repo",
+      "engagement": 10611,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "latticedb-그래프-벡터-전문-검색을-한-파일에-담는-임베디드-db",
+      "title": "LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB",
+      "url": "https://news.hada.io/topic?id=34517",
+      "summary": "데이터 사이의 관계 탐색, 의미가 비슷한 문서 검색, 키워드 검색을 하나의 로컬 DB 파일에서 처리하는 오픈소스 데이터베이스 별도 서버나 설정 없이 애플리케이션 안에서 실행하며, 데이터베이스를 단일 파일로 보관하고 이동 가능 벡터 검색으로 비슷한 문서 조...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "spa-자동화-테스트를-작성한-경험",
+      "title": "SPA 자동화 테스트를 작성한 경험",
+      "url": "https://news.hada.io/topic?id=34516",
+      "summary": "React 기반 오디오 플레이어를 Playwright와 실제 브라우저로 테스트하며, 개별 동작보다 가입부터 주요 기능 사용까지 이어지는 전체 사용자 여정을 중시함 테스트마다 서버와 DB를 따로 띄우는 대신 같은 DB에서 각자 데이터를 생성하고, 다른 테스트의 데이터는...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:08:06.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "cow-wayland용-스태킹-윈도-매니저",
+      "title": "CoW - Wayland용 스태킹 윈도 매니저",
+      "url": "https://news.hada.io/topic?id=34515",
+      "summary": "CoW는 River를 컴포지터로 사용하는 Wayland용 스태킹 윈도 매니저임 FVWM과 MWM의 1990년대 룩앤필을 재현하면서 현대적인 스타일도 허용하는 것을 목표로 함 직접 실행하는 명령과 설정 파일의 명령이 같으며, 외부 애플리케이션에서 IPC 스크립...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:05:06.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "스태프-엔지니어를-위한-일감-발굴-가이드",
+      "title": "스태프 엔지니어를 위한 일감 발굴 가이드",
+      "url": "https://news.hada.io/topic?id=34513",
+      "summary": "엔지니어링 주도 플랫폼 팀에서는 다음에 무엇을 만들지 스스로 찾아야 하며, 시스템, 사용자, 조직, 업계에서 개선할 일의 단서를 얻을 수 있음 장애, 비용, 반복적인 운영 작업은 개선 대상을 드러내지만, 가장 시끄럽고 최근에 발생한 문제가 가장 큰 기회는 아...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-29T23:41:59.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "i-built-a-react-link-component-that-prefetches-before-you-click",
+      "title": "I built a React Link component that prefetches before you click",
+      "url": "https://dev.to/psrockstar098/i-built-a-react-link-component-that-prefetches-before-you-click-28bj",
+      "summary": "Your app's navigation is only as fast as your Link component. The default one just... navigates. I wanted more, so I built rockzy-link. Smart prefetching — analyzes and preloads routes users are likely to visit next, ins",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:48:39.000Z",
+      "contentType": "article",
+      "tags": [
+        "react",
+        "javascript",
+        "webdev"
+      ],
+      "score": 43
+    },
+    {
+      "slug": "7635개-뷰티샵을-지도에-그리며-마주한-성능-병목-react를-걷어내고-gpu-가속을-입히기까지",
+      "title": "7,635개 뷰티샵을 지도에 그리며 마주한 성능 병목: React를 걷어내고 GPU 가속을 입히기까지",
+      "url": "https://velog.io/@y10b/7-635%EA%B0%9C-%EB%B7%B0%ED%8B%B0%EC%83%B5%EC%9D%84-%EC%A7%80%EB%8F%84%EC%97%90-%EA%B7%B8%EB%A6%AC%EB%A9%B0-%EB%A7%88%EC%A3%BC%ED%95%9C-%EC%84%B1%EB%8A%A5-%EB%B3%91%EB%AA%A9-React%EB%A5%BC-%EA%B1%B7%EC%96%B4%EB%82%B4%EA%B3%A0-GPU-%EA%B0%80%EC%86%8D%EC%9D%84-%EC%9E%85%ED%9E%88%EA%B8%B0%EA%B9%8C%EC%A7%80",
+      "summary": "\"샥(syak) 2.0\"은 서울의 7,635개 뷰티샵 위치와 취소석 빈자리 정보를 빠르게 탐색하고 예약으로 연결해 주는 토스 미니앱(Apps-in-Toss) 서비스다. DDD-lite, 헥사고날 아키텍처, CQRS-lite를 도입하여 도메인 간 결합도를 낮추고, 정적 읽기 모델(Read Model)을 JSON 파일로 샤딩해 관리하는 설계를 채택했다. 그러나 설계가 아무리 깔끔해도 실제 클라이",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:54:59.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "pining-for-arc-downcasting-in-rust",
+      "title": "Pining for Arc Downcasting in Rust",
+      "url": "https://wolfgirl.dev/blog/2026-09-29-pining-for-arc-downcasting-in-rust/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T15:35:14.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "aho-corasick-algorithm",
+      "title": "Aho-Corasick Algorithm",
+      "url": "https://compiler.club/aho-corasick/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T14:49:08.000Z",
+      "contentType": "article",
+      "tags": [
+        "compsci"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nura-postmarketos-the-road-to-daily-drivable-mainline-phones",
+      "title": "Nura (postmarketOS): The road to daily-drivable mainline phones",
+      "url": "https://postmarketos.org/blog/2026/09/29/road-to-main-category/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T19:20:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "mobile",
+        "linux"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-shell-email",
+      "title": "The Shell & Email",
+      "url": "https://www.machtiani.chat/blogs/the-shell",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-29T20:14:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "show",
+        "vcs",
+        "email"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nemo-guardrails-vs-guardrails-ai-the-production-latency-benchmark-we",
+      "title": "NeMo Guardrails vs Guardrails AI: The Production Latency Benchmark We Could Not Honestly Complete",
+      "url": "https://dev.to/jangwook_kim_e31e7291ad98/nemo-guardrails-vs-guardrails-ai-the-production-latency-benchmark-we-could-not-honestly-complete-3e48",
+      "summary": "Why We Evaluated NeMo Guardrails and Guardrails AI Runtime guardrails create an uncomfortable production trade-off. Every additional policy check can prevent an incident, but it can also add another model call, another n",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:38:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "llmguardrails",
+        "aisafety",
+        "latency"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "a-has-take-on-me-recreated-in-pure-javascript",
+      "title": "A-ha's Take on Me, recreated in pure JavaScript",
+      "url": "https://javascriptweekly.com/issues/804",
+      "summary": "#​804 — September 29, 2026 Read on the Web JavaScript Weekly How Anthropic Made Claude's Apps 3x Faster in Two Weeks — A grab bag of performance lessons from a sprint that cut p75 'time-to-typeable' from 3.1s to 0.55s. E",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "hive는-잊으려-했지만-spark는-기억하고-있었다-사라진-get-table-rpc-복원기",
+      "title": "Hive는 잊으려 했지만, Spark는 기억하고 있었다: 사라진 get_table RPC 복원기",
+      "url": "https://d2.naver.com/helloworld/7314597",
+      "summary": "TApplicationException · UNKNOWN_METHOD Invalid method name: 'get_table' 이 글은 네이버의 Hadoop 플랫폼인 C3의 Metastore를 Apache Hive 4.2로 올리는 과정에서 Spark 잡(job)이 실패한 현상과 그 원인을 추적해, Metastore Thrift 인터페이스에서 조용히 사라졌던 RPC 하나를 복원하기까지의 과정",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-29T08:39:50.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "autonomous-ai-agents-develop-unpredictable-behaviors-in-simulated",
+      "title": "Autonomous AI Agents Develop Unpredictable Behaviors in Simulated Environments: New Safety Measures Needed",
+      "url": "https://dev.to/natcher/autonomous-ai-agents-develop-unpredictable-behaviors-in-simulated-environments-new-safety-measures-5bae",
+      "summary": "Technical Reconstruction of Autonomous AI Agent Behaviors in Simulated Environments System Mechanisms The experimental framework consists of autonomous AI agents operating within a simulated environment, governed by pred",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:50:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "safety",
+        "emergent"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-i-choose-a-chart-for-a-small-spreadsheet",
+      "title": "How I Choose a Chart for a Small Spreadsheet",
+      "url": "https://dev.to/selahsco/how-i-choose-a-chart-for-a-small-spreadsheet-4h4a",
+      "summary": "Making a chart is often easier than deciding which chart answers the question. A small spreadsheet rarely needs a full dashboard, but choosing the first chart in a menu can hide the story in the data. Here is the short d",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:50:48.000Z",
+      "contentType": "article",
+      "tags": [
+        "tutorial",
+        "beginners",
+        "datascience"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "gcp-agent-registry의-add-mcp-server와-add-endpoint-차이-정리",
+      "title": "[GCP] Agent Registry의 Add MCP Server와 Add Endpoint 차이 정리",
+      "url": "https://velog.io/@rjqlrl30/GCP-Agent-Registry%EC%9D%98-Add-MCP-Server%EC%99%80-Add-Endpoint-%EC%B0%A8%EC%9D%B4-%EC%A0%95%EB%A6%AC",
+      "summary": "Gemini Enterprise에서 Agent에 외부 Tool을 연결하는 구조를 다시 살펴보던 중 이전과 달라진 부분이 눈에 들어왔다. 기존에 실습했을 때는 Gemini Enterprise에서 Custom MCP Server를 직접 연결해 사용하는 흐름을 주로 사용했는데, 최근 Gemini Enterprise Agent Platform에서는 Agent Registry를 통해 Agent, MC",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:54:56.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "쿼리를-합쳤는데-왜-안-빨라졌을까",
+      "title": "쿼리를 합쳤는데, 왜 안 빨라졌을까",
+      "url": "https://velog.io/@quill_kim/%EC%BF%BC%EB%A6%AC%EB%A5%BC-%ED%95%A9%EC%B3%A4%EB%8A%94%EB%8D%B0-%EC%99%9C-%EC%95%88-%EB%B9%A8%EB%9D%BC%EC%A1%8C%EC%9D%84%EA%B9%8C",
+      "summary": "DB 조회 4번을 2번으로 줄였다. 당연히 빨라졌을 줄 알았다. 실제로 재 보니 작은 현장은 빨라졌는데 큰 현장은 그대로였다. 범인은 조회 횟수가 아니라 인덱스였다. 어떤 서버냐면 건설 현장 출입구에 얼굴 인식 단말기가 있다. 근로자가 얼굴을 인식하면 단말기가 \"누가, 언제 인증했는지\"를 서버로 보내고, 서버는 그걸 DB에 저장한다. 하루에 4만 건 넘게 들어온다. 그런데 단말기는 근로자를 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:49:36.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "스택은-마지막-데이터를-먼저-꺼내는-구조가-아니다",
+      "title": "스택은 마지막 데이터를 먼저 꺼내는 구조가 아니다",
+      "url": "https://velog.io/@vxdeveloper/algorithm25",
+      "summary": "스택을 처음 배우면 나중에 넣은 데이터를 먼저 꺼내는 자료구조라고 설명한다. const stack: string[] = []; stack.push(\"A\"); stack.push(\"B\"); const value = stack.pop(); // \"B\" push()로 데이터를 쌓고 pop()으로 가장 최근 데이터를 꺼낸다. 접시를 위로 쌓았다가 위에서부터 꺼내는 모습으로 이해하면 LIFO(Last",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-09-30T00:46:38.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "spacex-reaches-orbit-meta-poaches-mongodb-ceo-unread-code",
+      "title": "SpaceX reaches orbit 🚀, Meta poaches MongoDB CEO 💼, unread code 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-09-29",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 35
+    }
+  ]
+}
