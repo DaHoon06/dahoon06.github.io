@@ -38,7 +38,7 @@ export const ProfileCard = (): ReactElement => {
     return (
         <section className="overflow-hidden rounded-2xl border border-zinc-200 bg-white">
             {/* 배너 — 아바타가 걸치면서 카드 상단 섹션을 구분한다 */}
-            <div className="h-14 bg-gradient-to-br from-primary-000/60 via-primary-000/20 to-zinc-50" />
+            <div className="h-14 bg-gradient-to-br from-primary-000 via-primary-000/60 to-primary-50" />
 
             <div className="-mt-9 flex flex-col items-center px-5 pb-5">
                 <Image
