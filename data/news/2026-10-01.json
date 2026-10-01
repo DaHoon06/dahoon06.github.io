@@ -1,0 +1,500 @@
+{
+  "date": "2026-10-01",
+  "collectedAt": "2026-10-01T00:56:59.540Z",
+  "items": [
+    {
+      "slug": "gemini-4-argon",
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "summary": "Hacker News 토론 634개 · 921 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T20:04:37.000Z",
+      "contentType": "discussion",
+      "engagement": 921,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "mksglucontext-mode-typescript",
+      "title": "mksglu/context-mode (TypeScript)",
+      "url": "https://github.com/mksglu/context-mode",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:56:57.688Z",
+      "contentType": "repo",
+      "engagement": 24492,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "dietrichgebertponytail-javascript",
+      "title": "DietrichGebert/ponytail (JavaScript)",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:56:57.688Z",
+      "contentType": "repo",
+      "engagement": 149185,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "openclawopenclaw-typescript",
+      "title": "openclaw/openclaw (TypeScript)",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:56:57.689Z",
+      "contentType": "repo",
+      "engagement": 390991,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "heygen-comhyperframes-typescript",
+      "title": "heygen-com/hyperframes (TypeScript)",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:56:57.690Z",
+      "contentType": "repo",
+      "engagement": 54736,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "you-said-no-mcp",
+      "title": "You said no MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "summary": "Hacker News 토론 340개 · 610 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T09:55:23.000Z",
+      "contentType": "discussion",
+      "engagement": 610,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "a-brief-history-of-the-bloomberg-terminal",
+      "title": "A brief history of the Bloomberg terminal",
+      "url": "https://spectrum.ieee.org/bloomberg-terminal",
+      "summary": "Hacker News 토론 87개 · 221 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T14:34:07.000Z",
+      "contentType": "discussion",
+      "engagement": 221,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "the-last-time-my-family-was-replaced-by-technology",
+      "title": "The last time my family was replaced by technology",
+      "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+      "summary": "Hacker News 토론 406개 · 176 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T13:06:11.000Z",
+      "contentType": "discussion",
+      "engagement": 176,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "september-2026-security-release",
+      "title": "September 2026 Security Release",
+      "url": "https://nextjs.org/blog/september-2026-security-release",
+      "summary": "The September 2026 security release for Next.js is now available",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-09-30T18:00:00.000Z",
+      "contentType": "article",
+      "score": 50
+    },
+    {
+      "slug": "edg-c-프런트엔드-소스-공개",
+      "title": "EDG C++ 프런트엔드 소스 공개",
+      "url": "https://news.hada.io/topic?id=34577",
+      "summary": "EDG C++ 프런트엔드가 2026년 9월 30일 소스를 공개하고, 비영리 조직 The C++ Alliance를 새 운영 기반으로 삼음 이번 전환은 관리 주체와 자금 조달 방식의 변경이며, 기존 엔진과 구현 표준, 전문적인 유지보수는 그대로 이어짐 개발...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:38:30.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "싱가포르-정부-데이팅-앱-gale-shapley-안정-결혼-알고리듬-사용",
+      "title": "싱가포르 정부 데이팅 앱, Gale-Shapley 안정 결혼 알고리듬 사용",
+      "url": "https://news.hada.io/topic?id=34576",
+      "summary": "싱가포르 정부의 데이팅 앱 FirstDate는 이용자의 선호와 수용 불가 조건으로 순위를 만들고, Gale-Shapley 알고리듬으로 상대를 매칭함 제안자는 가장 선호하는 상대에게 제안하고, 수신자는 최선의 제안만 보류하며 나머지를 거절하는 과정을 반복해 안정...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:35:30.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "traycer-여러-코딩-에이전트의-문맥과-협업을-한곳에서-관리",
+      "title": "Traycer - 여러 코딩 에이전트의 문맥과 협업을 한곳에서 관리",
+      "url": "https://news.hada.io/topic?id=34575",
+      "summary": "여러 코딩 에이전트를 병렬로 실행하고 모델과 제공자가 달라도 작업 문맥을 공유하는 오픈소스 오케스트레이션 앱 Claude Code, Codex, Cursor, OpenCode 등 기존에 사용하는 에이전트와 구독을 연결하거나 Traycer 자체 추론 서비스를 이용 같은 에이전...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "뻐꾸기의-알",
+      "title": "뻐꾸기의 알",
+      "url": "https://news.hada.io/topic?id=34573",
+      "summary": "Clifford Stoll의 1989년 논픽션으로, 연구소 컴퓨터 사용료의 75센트 오차에서 시작해 소련 KGB에 정보를 팔던 해커를 추적한 과정을 1인칭으로 기록함 침입자는 GNU Emacs의 movemail 취약점으로 연구소 시스템의 최고 관리자 권한을 얻었으며,...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:03:27.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "9인조-다람쥐-아이돌을-데뷔시켰습니다",
+      "title": "9인조 다람쥐 아이돌을 데뷔시켰습니다",
+      "url": "https://toss.tech/article/chipmunk",
+      "summary": "가입하고 한 번도 열어보지 않던 적금을, 매일 열어보게 만들었어요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-30T01:29:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "live-game-react-frontend-error-tracking-a-backend-collector-example",
+      "title": "Live-Game React Frontend Error Tracking — A Backend Collector Example",
+      "url": "https://dev.to/kiernanberg3867/live-game-react-frontend-error-tracking-a-backend-collector-example-29gf",
+      "summary": "A live game creates plenty of browser noise: extensions throw, stale tabs linger, and one broken asset can generate thousands of copies of the same exception. The operational constraint changes the design. Short answer: ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:45:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "observability",
+        "react",
+        "typescript"
+      ],
+      "score": 43
+    },
+    {
+      "slug": "hanami-why-introductions",
+      "title": "Hanami, Why?: Introductions",
+      "url": "https://aaronmallen.me/writing/hanami-why-introductions",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T15:55:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "ruby"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "tcltk-91",
+      "title": "Tcl/Tk 9.1",
+      "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T15:27:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "release"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "edg-cc-compiler-project",
+      "title": "EDG C/C++ Compiler Project",
+      "url": "https://github.com/edgcpp/compiler",
+      "summary": "During the 2025 November C++ ISO meeting Edison Design Group announced that they would be winding down and that they will open-source their front end. This is the repo containing said front end along with some other comp",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T22:06:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "c",
+        "compilers",
+        "c++"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "finding-bugs",
+      "title": "Finding Bugs",
+      "url": "https://matklad.github.io/2026/09/19/finding-bugs.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-09-30T19:57:54.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "under-autumns-spell-october-2026-wallpapers-edition",
+      "title": "Under Autumn’s Spell (October 2026 Wallpapers Edition)",
+      "url": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
+      "summary": "October is just around the corner, which means it’s time for some new desktop wallpapers! Designed by the community for the community, they’re here to brighten your screens, and maybe spark some creativity along the way.",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-30T13:30:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "에이전트-개념부터-같이-정리해봐요-워크플로우-하네스-contextmemory-mcpa2a",
+      "title": "에이전트, 개념부터 같이 정리해봐요 - 워크플로우 · 하네스 · Context/Memory · MCP/A2A",
+      "url": "https://d2.naver.com/helloworld/8118359",
+      "summary": "네이버 사내 Tech Meetup에서 발표되었던 인기 세션을 공유합니다. ​ 에이전트를 개발하다 보면 같은 개념을 서로 다른 뜻으로 쓰고 있어서 논의가 겉도는 경험, 한 번쯤 해보셨을 것 같습니다. ​ \"이거 에이전트인가요?\" \"하네스를 만들어야죠\" — 그런데 하네스가 정확히 무엇인가요? \"Context 에 넣어두면 되죠\" \"그건 Memory 아닌가요?\" \"그건 MCP 인가요 A2A 인가요?",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-30T03:51:11.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "당근-동네걷기-위에서-동시에-쏟아지는-오버레이들을-우아하게-제어하기",
+      "title": "당근 동네걷기 위에서 동시에 쏟아지는 오버레이들을 우아하게 제어하기",
+      "url": "https://medium.com/daangn/%EB%8B%B9%EA%B7%BC-%EB%8F%99%EB%84%A4%EA%B1%B7%EA%B8%B0-%EC%9C%84%EC%97%90%EC%84%9C-%EB%8F%99%EC%8B%9C%EC%97%90-%EC%8F%9F%EC%95%84%EC%A7%80%EB%8A%94-%EC%98%A4%EB%B2%84%EB%A0%88%EC%9D%B4%EB%93%A4%EC%9D%84-%EC%9A%B0%EC%95%84%ED%95%98%EA%B2%8C-%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0-097551289b2a?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-30T03:32:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "engineering",
+        "frontend-engineering"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "customer-support-admin-analytics-2026-metrics-dashboard-signals-logs",
+      "title": "Customer Support Admin Analytics 2026: Metrics Dashboard Signals, Logs Search Proves Reversal",
+      "url": "https://dev.to/mitchellcross2134/customer-support-admin-analytics-2026-metrics-dashboard-signals-logs-search-proves-reversal-5g57",
+      "summary": "For a nightly customer-support data pipeline, use a metrics dashboard to detect that a run is unhealthy, but keep structured logs as the admin's investigation and rollback evidence. Rollback safety is the deciding constr",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:49:20.000Z",
+      "contentType": "article",
+      "tags": [
+        "observability",
+        "metrics",
+        "logs"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-to-build-a-practical-ai-learning-roadmap-when-youre-starting-from",
+      "title": "How to Build a Practical AI Learning Roadmap When You're Starting From Scratch",
+      "url": "https://dev.to/jameshammer/how-to-build-a-practical-ai-learning-roadmap-when-youre-starting-from-scratch-268o",
+      "summary": "Artificial intelligence has never been easier to access—or more confusing to learn. A beginner can find thousands of AI tutorials, courses, documentation pages, YouTube videos, GitHub repositories, newsletters, and frame",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:46:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "learning",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "openais-dots-need-acceptance-criteria-not-just-custom-rules",
+      "title": "OpenAI's dots need acceptance criteria, not just Custom Rules",
+      "url": "https://dev.to/ascotlan/openais-dots-need-acceptance-criteria-not-just-custom-rules-38da",
+      "summary": "On September 29, OpenAI introduced dots: always-on agents, powered by GPT-6 Astra, that keep working on your goals after you close the chat. Most of the coverage focused on the capability list and the plush, colourful av",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:46:34.000Z",
+      "contentType": "article",
+      "tags": [
+        "agents",
+        "evals",
+        "openai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "배포-파이프라인의-헬스체크-구멍을-메우고-슬롯-검색의-정합성을-높이다",
+      "title": "배포 파이프라인의 헬스체크 구멍을 메우고 슬롯 검색의 정합성을 높이다",
+      "url": "https://velog.io/@y10b/%EB%B0%B0%ED%8F%AC-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8%EC%9D%98-%ED%97%AC%EC%8A%A4%EC%B2%B4%ED%81%AC-%EA%B5%AC%EB%A9%8D%EC%9D%84-%EB%A9%94%EC%9A%B0%EA%B3%A0-%EC%8A%AC%EB%A1%AF-%EA%B2%80%EC%83%89%EC%9D%98-%EC%A0%95%ED%95%A9%EC%84%B1%EC%9D%84-%EB%86%92%EC%9D%B4%EB%8B%A4",
+      "summary": "1. 서비스 소개 '샥(syak)'은 뷰티·미용 매장의 빈자리 취소석을 자동으로 매칭하고 사용자에게 알림을 보내주는 서비스다. 네일, 헤어, 왁싱, 반영구, 속눈썹, 마사지, 피부, 태닝 등 8개 카테고리의 샵을 대상으로 사용자가 원하는 날짜와 시간대에 발생한 취소 슬롯을 실시간으로 확인하고 예약으로 연결해 준다. 백엔드는 사용자 데이터와 활동 이벤트를 다루는 RDS(PostgreSQL), ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:55:57.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "making-mutation-arcade-15-아케이드-화면-밖으로-나오고-싶어졌다",
+      "title": "[Making Mutation Arcade #15] 아케이드 화면 밖으로 나오고 싶어졌다",
+      "url": "https://velog.io/@ms_moon/Making-Mutation-Arcade-15-%EC%95%84%EC%BC%80%EC%9D%B4%EB%93%9C-%ED%99%94%EB%A9%B4-%EB%B0%96%EC%9C%BC%EB%A1%9C-%EB%82%98%EC%98%A4%EA%B3%A0-%EC%8B%B6%EC%96%B4%EC%A1%8C%EB%8B%A4",
+      "summary": "Web Beta까지 만든 Mutation Arcade의 구조는 단순했습니다. 여러 개의 아케이드 게임이 있고, 플레이어는 그중 하나를 선택해서 플레이합니다. 게임이 끝나면 점수를 남기고, 다른 게임을 선택하거나 다시 도전합니다. 이 구조만 놓고 보면 Mutation Arcade는 이미 하나의 웹게임 컬렉션으로 완성돼 있었습니다. 하지만 다음 단계를 생각하면서 한 가지 아쉬움이 생겼습니다. 아",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:55:42.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "rds-걷어내고-서버-안-mariadb로-합치기-덤프에서-931mb-빼고-해시로-확인한-4단계",
+      "title": "RDS 걷어내고 서버 안 MariaDB로 합치기, 덤프에서 931MB 빼고 해시로 확인한 4단계",
+      "url": "https://velog.io/@wonizz/RDS-%EA%B1%B7%EC%96%B4%EB%82%B4%EA%B3%A0-%EC%84%9C%EB%B2%84-%EC%95%88-MariaDB%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0-%EB%8D%A4%ED%94%84%EC%97%90%EC%84%9C-931MB-%EB%B9%BC%EA%B3%A0-%ED%95%B4%EC%8B%9C%EB%A1%9C-%ED%99%95%EC%9D%B8%ED%95%9C-4%EB%8B%A8%EA%B3%84",
+      "summary": "개인 워드프레스 블로그 한 대에서 RDS를 걷어내고 애플리케이션 서버에 이미 깔려 있던 MariaDB로 합쳤습니다. 원글에 단계별 확인 기록과 표를 모두 적었고, 여기에는 순서와 다시 쓸 만한 명령만 옮깁니다. 먼저 볼 것: 관리형이 주는 기능을 쓰고 있나요 트래픽이 작은 단일 서버 사이트에서 RDS 비용의 대부분은 인스턴스 시간 요금입니다. 트래픽이 0이어도 나옵니다. 다중 가용 영역이나 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:54:19.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "프로그래밍-언어-만들기-1일차",
+      "title": "프로그래밍 언어 만들기 1일차",
+      "url": "https://velog.io/@init0429/lize-1",
+      "summary": "프로그래밍 언어를 직접 만들어 보겠습니다. 이름은 Lize로 정했습니다. 사용 툴은 x86_64 환경의 Ubuntu(macOS 환경에서 Docker를 이용), nasm, ld, Makefile 등입니다. 컴파일 언어를 만들기로 계획했고, 컴파일 명령어는 lzc filename 형식입니다. 프로젝트 구성은 다음과 같습니다. |-- Makefile |-- compiler | |-- main.as",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-01T00:53:40.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "why-github-now-ships-more-css-not-less",
+      "title": "Why GitHub now ships more CSS, not less",
+      "url": "https://frontendfoc.us/issues/760",
+      "summary": "🚀 Frontend Focus #​760 — September 30, 2026 | Read on the web Improving Site Performance by Shipping More CSS — GitHub details how it spent three years purging styled-components and 'CSS-in-JS' from github․com in favor ",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "java-디컴파일러로-운영-서버와-형상관리-소스의-불일치를-해소하다",
+      "title": "Java 디컴파일러로 운영 서버와 형상관리 소스의 불일치를 해소하다",
+      "url": "https://oliveyoung.tech/2026-09-30/decompiler_ai/",
+      "summary": "안녕하세요, 올리브영에서 백오피스 시스템 개발을 담당하고 있는 찬입니다. 형상관리 시스템에 커밋하고 배포까지 마쳤는데, 운영 서버의 동작이 로컬 환경과 다르게 나타난 적이 있으신가요? Single Source of Truth…",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "contentType": "article",
+      "score": 34
+    },
+    {
+      "slug": "openai-devday-apples-reorg-data-is-the-app",
+      "title": "OpenAI DevDay 👨‍💻, Apple's reorg 💼, data is the app 📊",
+      "url": "https://tldr.tech/tech/2026-09-30",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
