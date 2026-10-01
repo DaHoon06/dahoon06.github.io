@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import { ROUTES } from "@shared/routes";
-import { PageTurnLink } from "@shared/ui/page-turn";
 import { type Project, type ProjectDetail as Detail } from "../model";
 import { Container, Eyebrow, SplitLayout } from "./layout";
 import { Reveal } from "./motion";
@@ -44,11 +44,6 @@ const DetailBlock = ({
     </Reveal>
 );
 
-const pageLabel = (project: Project, index: number) => ({
-    eyebrow: `${String(index + 1).padStart(2, "0")} — ${project.company}`,
-    title: project.title,
-});
-
 /** 프로젝트 상세 — 히어로 · 지표 · 개요 · 주요 기여 · 문제 해결 · 기술 · 회고 · 이전/다음 */
 export const ProjectDetail = ({
     project,
@@ -60,10 +55,8 @@ export const ProjectDetail = ({
 }: ProjectDetailProps) => (
     <main className="pt-28 md:pt-36">
         <Container>
-            <PageTurnLink
+            <Link
                 href={ROUTES.ABOUT_PROJECTS}
-                direction="backward"
-                label={{ eyebrow: "About Me", title: "Projects" }}
                 className="group inline-flex items-center gap-2 text-sm text-zinc-400 transition-colors hover:text-white"
             >
                 <ArrowLeft
@@ -71,7 +64,7 @@ export const ProjectDetail = ({
                     className="transition-transform group-hover:-translate-x-0.5"
                 />
                 Projects
-            </PageTurnLink>
+            </Link>
 
             {/* 히어로 */}
             <Reveal delay={0.1}>
@@ -238,10 +231,8 @@ export const ProjectDetail = ({
             {/* 이전 / 다음 프로젝트 — 앞 장은 되돌려 넘기고, 뒷 장은 앞으로 넘긴다 */}
             <nav className="grid grid-cols-1 gap-px border-y border-white/10 bg-white/10 sm:grid-cols-2">
                 {prev ? (
-                    <PageTurnLink
+                    <Link
                         href={ROUTES.ABOUT_PROJECT(prev.slug)}
-                        direction="backward"
-                        label={pageLabel(prev, index - 1)}
                         className="group bg-[#161616] py-10 sm:pr-8"
                     >
                         <span className="inline-flex items-center gap-2 text-sm text-zinc-500">
@@ -250,14 +241,13 @@ export const ProjectDetail = ({
                         <p className="mt-3 text-xl font-bold text-white transition-opacity group-hover:opacity-70 md:text-2xl">
                             {prev.title}
                         </p>
-                    </PageTurnLink>
+                    </Link>
                 ) : (
                     <div className="hidden bg-[#161616] sm:block" />
                 )}
                 {next && (
-                    <PageTurnLink
+                    <Link
                         href={ROUTES.ABOUT_PROJECT(next.slug)}
-                        label={pageLabel(next, index + 1)}
                         className="group bg-[#161616] py-10 text-right sm:pl-8"
                     >
                         <span className="inline-flex items-center gap-2 text-sm text-zinc-500">
@@ -266,7 +256,7 @@ export const ProjectDetail = ({
                         <p className="mt-3 text-xl font-bold text-white transition-opacity group-hover:opacity-70 md:text-2xl">
                             {next.title}
                         </p>
-                    </PageTurnLink>
+                    </Link>
                 )}
             </nav>
             <div className="h-24 md:h-40" />

@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { ROUTES } from "@shared/routes";
-import { PageTurnLink, type PageTurnLabel } from "@shared/ui/page-turn";
 import { type Project, projectsData } from "../model";
 import { ProjectPreview } from "./ProjectPreview";
 import { Container, SectionTitle } from "./layout";
@@ -15,17 +15,12 @@ const ProjectRow = ({
     index: number;
 }) => {
     const href = ROUTES.ABOUT_PROJECT(project.slug);
-    const label: PageTurnLabel = {
-        eyebrow: `${String(index + 1).padStart(2, "0")} — ${project.company}`,
-        title: project.title,
-    };
 
     return (
         <article className="grid grid-cols-1 gap-8 md:grid-cols-[1.1fr_1fr] md:gap-12">
             <div>
-                <PageTurnLink
+                <Link
                     href={href}
-                    label={label}
                     aria-label={`${project.title} 상세 보기`}
                     className="group block"
                 >
@@ -33,7 +28,7 @@ const ProjectRow = ({
                         project={project}
                         className="transition-transform duration-500 group-hover:scale-[0.985]"
                     />
-                </PageTurnLink>
+                </Link>
                 <p className="mt-4 text-sm text-zinc-500">
                     <span className="text-2xl text-white">{index + 1}</span> /{" "}
                     {projectsData.length}
@@ -43,13 +38,12 @@ const ProjectRow = ({
             <div className="md:pt-6">
                 <p className="text-sm text-zinc-400">{project.company}</p>
                 <h3 className="mt-2 text-3xl font-bold tracking-tight text-white">
-                    <PageTurnLink
+                    <Link
                         href={href}
-                        label={label}
                         className="transition-opacity hover:opacity-70"
                     >
                         {project.title}
-                    </PageTurnLink>
+                    </Link>
                 </h3>
                 <p className="mt-5 text-[15px] leading-relaxed text-zinc-300">
                     {project.description}
@@ -88,9 +82,8 @@ const ProjectRow = ({
                 </div>
 
                 <div className="mt-8 flex flex-wrap items-center gap-6">
-                    <PageTurnLink
+                    <Link
                         href={href}
-                        label={label}
                         className="group inline-flex items-center gap-2 border border-white/20 px-5 py-3 text-sm text-white transition-colors hover:border-white hover:bg-white hover:text-black"
                     >
                         자세히 보기
@@ -98,7 +91,7 @@ const ProjectRow = ({
                             size={14}
                             className="transition-transform group-hover:translate-x-0.5"
                         />
-                    </PageTurnLink>
+                    </Link>
                     {project.link && (
                         <a
                             href={project.link}
