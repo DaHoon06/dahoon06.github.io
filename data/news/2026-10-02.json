@@ -1,0 +1,419 @@
+{
+  "date": "2026-10-02",
+  "collectedAt": "2026-10-02T01:13:17.961Z",
+  "items": [
+    {
+      "slug": "pi-10",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "summary": "Hacker News 토론 248개 · 723 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T19:33:05.000Z",
+      "contentType": "discussion",
+      "engagement": 723,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "clef-open-weight-decision-models-and-new-rl-fine-tuning-platform",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "summary": "Hacker News 토론 158개 · 424 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T16:18:57.000Z",
+      "contentType": "discussion",
+      "engagement": 424,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "earendil-workspi-typescript",
+      "title": "earendil-works/pi (TypeScript)",
+      "url": "https://github.com/earendil-works/pi",
+      "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:13:15.724Z",
+      "contentType": "repo",
+      "engagement": 111231,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "streetcomplete-on-ios-is-now-in-public-beta",
+      "title": "StreetComplete on iOS is now in public beta",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "summary": "Hacker News 토론 126개 · 520 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T10:59:57.000Z",
+      "contentType": "discussion",
+      "engagement": 520,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "mattpocockskills-shell",
+      "title": "mattpocock/skills (Shell)",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:13:15.721Z",
+      "contentType": "repo",
+      "engagement": 273913,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "pi-durable",
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "summary": "Hacker News 토론 23개 · 212 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T19:24:08.000Z",
+      "contentType": "discussion",
+      "engagement": 212,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "cursorplugins-typescript",
+      "title": "cursor/plugins (TypeScript)",
+      "url": "https://github.com/cursor/plugins",
+      "summary": "Cursor plugin specification and official plugins",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:13:15.723Z",
+      "contentType": "repo",
+      "engagement": 9323,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "firebasefirebase-ios-sdk-c",
+      "title": "firebase/firebase-ios-sdk (C++)",
+      "url": "https://github.com/firebase/firebase-ios-sdk",
+      "summary": "Firebase SDK for Apple App Development",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:13:15.722Z",
+      "contentType": "repo",
+      "engagement": 6861,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "show-gn-oh-my-jev-jev-style-판단-모델을-벤치마크하고-테스트하고-직접-파인튜닝까지-가능한-오픈소스-도구",
+      "title": "Show GN: oh-my-jev - Jev-Style 판단 모델을 벤치마크하고 테스트하고 직접 파인튜닝까지 가능한 오픈소스 도구",
+      "url": "https://news.hada.io/topic?id=34649",
+      "summary": "소개 판단 모델이란 \"어느 팀으로 보낼까\", \"규정 위반인가\" 같은 정해진 질문에 문장 대신 선택지별 확률로 답하는 모델임. TypeSafe의 Jev가 대표적이고, 공개 이후 오픈 복제 모델이 빠르게 늘어남 oh-my-jev는 이런 모델을 한곳에서 서빙, 비교, 학습하는 CLI와 웹 UI",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T00:56:22.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "racketcon이-토요일에-열림",
+      "title": "RacketCon이 토요일에 열림",
+      "url": "https://news.hada.io/topic?id=34648",
+      "summary": "제16회 RacketCon이 2026년 10월 3~4일 미국 캘리포니아주 Oakland에서 열리며, Racket에 관심 있는 누구나 참여할 수 있음 등록이 시작됐으며 9월 13일 이전에는 조기 등록 할인을 받을 수 있음 토요일에는 타입 추론, 저수준 프로그래밍, 매크로...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T00:41:54.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "웹-개발-교육의-죽음",
+      "title": "웹 개발 교육의 죽음",
+      "url": "https://news.hada.io/topic?id=34647",
+      "summary": "생성형 AI로 학습 수요가 이동하면서 웹 개발 강좌, 전자책, 튜토리얼로 생계를 이어온 독립 교육자들이 매출 급감과 사업 중단을 겪고 있음 교육 콘텐츠의 수익 기반이 무너져 Axel Rauschmayer의 도서 판매 수입은 0으로 떨어졌고, Josh W. Comeau와 동료 강좌 제...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T00:38:54.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai-infra-guard-ai-인프라와-에이전트를-점검하는-오픈소스-레드팀-플랫폼",
+      "title": "AI-Infra-Guard - AI 인프라와 에이전트를 점검하는 오픈소스 레드팀 플랫폼",
+      "url": "https://news.hada.io/topic?id=34645",
+      "summary": "Tencent가 개발한 AI 보안 점검 플랫폼으로, 서버의 알려진 취약점부터 에이전트의 도구 오용·정보 유출, LLM 탈옥 공격까지 검사 실행 중인 Ollama, ComfyUI, vLLM, n8n 등의 서비스 주소를 입력하면 구성요소와 버전을 식별하고 알려진 취약점을 탐지 v...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "추천-후보는-많을수록-좋을까-topk를-최적화해-전환율을-높인-방법",
+      "title": "추천 후보는 많을수록 좋을까? TopK를 최적화해 전환율을 높인 방법",
+      "url": "https://toss.tech/article/53545",
+      "summary": "TopK를 감이 아닌 최적화로 정한 이야기",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-01T01:26:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "pidgin-30-alpha-3-2970-has-been-released",
+      "title": "Pidgin 3.0 Alpha 3 2.97.0 has been released",
+      "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-3-2-97-0-has-been-released/436",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T16:47:42.000Z",
+      "contentType": "article",
+      "tags": [
+        "release"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "outis-fight-ai-spam-by-generating-and-sending-a-fake-user-unknown",
+      "title": "outis: Fight AI spam by generating and sending a fake \"user unknown\" bounce emails",
+      "url": "https://github.com/dtonon/outis",
+      "summary": "Outis fights spam generating and sends a fake \"user unknown\" bounce for an email you received, so the sender believes your address does not exist. This isn't a new idea: I created a similar program back in 1998–1999, but",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T15:54:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "privacy",
+        "show",
+        "email"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-second-golden-spike-memory-safety-across-the-valenrust-boundary",
+      "title": "The Second Golden Spike: Memory Safety Across the Valen/Rust Boundary",
+      "url": "https://verdagon.dev/blog/boundary-memory-safety",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T14:12:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "compilers",
+        "performance"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "lists-that-keep-track-of-their-reversal",
+      "title": "Lists that keep track of their reversal",
+      "url": "https://grim.cargocut.org/a/rev-list.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-01T16:29:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "ml"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "안아수달-백엔드-월-94달러-인프라를-24달러로-안전하고-쉬운-배포-구축기",
+      "title": "안아수달 백엔드: 월 94달러 인프라를 24달러로, 안전하고 쉬운 배포 구축기",
+      "url": "https://velog.io/@y10b/%EC%95%88%EC%95%84%EC%88%98%EB%8B%AC-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%9B%94-94%EB%8B%AC%EB%9F%AC-%EC%9D%B8%ED%94%84%EB%9D%BC%EB%A5%BC-24%EB%8B%AC%EB%9F%AC%EB%A1%9C-%EC%95%88%EC%A0%84%ED%95%98%EA%B3%A0-%EC%89%AC%EC%9A%B4-%EB%B0%B0%ED%8F%AC-%EA%B5%AC%EC%B6%95%EA%B8%B0",
+      "summary": "이번 한 주간 \"안아수달\" 프로젝트 백엔드(anasudal_BE)와 프론트엔드(anasudal_FE)는 서비스의 핵심 기능 개발과 인프라 안정화에 집중했다. 특히 백엔드는 초기 인프라 비용을 대폭 절감하고, 배포 과정을 간소화하며, Gemini API의 안정성을 높이는 데 주력했다. 안아수달 서비스 소개 안아수달은 아이 발달이 걱정될 때, 검증된 공공 자료로만 확인해볼 영역을 찾아주고 가까운",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T01:12:35.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "오라클-성능-고도화-원리와-해법-1-트랜잭션과-lock-day6",
+      "title": "오라클 성능 고도화 원리와 해법 1 - 트랜잭션과 Lock_Day6",
+      "url": "https://velog.io/@qkdnf325/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%84%B1%EB%8A%A5-%EA%B3%A0%EB%8F%84%ED%99%94-%EC%9B%90%EB%A6%AC%EC%99%80-%ED%95%B4%EB%B2%95-1-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EA%B3%BC-LockDay6",
+      "summary": "4. 동시성 구현 사례 일련번호 채번 시 MAX(번호) + 1 방식을 사용할 경우, 두 트랜잭션이 동시에 동일한 MAX 값을 조회했을 때 발생할 수 있는 문제를 설명하시오. 두 트랜잭션이 동시에 동일한 MAX 값을 조회하면, 둘 다 같은 다음 번호를 생성할 수 있다. 이후 동일한 키 값으로 INSERT를 시도하면 PK 제약조건 위반 오류가 발생한다. 채번 테이블을 사용할 때, 현재 채번 값을",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T01:12:17.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "what-jev-got-right-judgment-as-an-interface-not-a-paragraph",
+      "title": "What Jev Got Right: Judgment as an Interface, Not a Paragraph",
+      "url": "https://dev.to/turingcorp/what-jev-got-right-judgment-as-an-interface-not-a-paragraph-19pj",
+      "summary": "What Jev Got Right: Judgment as an Interface, Not a Paragraph For as long as software has been able to ask a model a question, almost every answer has come back as prose. Ask whether a support ticket is billing or accoun",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:10:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "llm",
+        "tools"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "test-planning-before-i-start-testing",
+      "title": "Test Planning: Before I Start Testing",
+      "url": "https://dev.to/dev-dinakajoy/test-planning-before-i-start-testing-1onb",
+      "summary": "So far, I have learned how to: Understand requirements Design tests Write test cases Execute tests Report bugs Document results But before all of that, there is an important question: What exactly are we going to test, a",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:06:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "qa",
+        "testing",
+        "beginners"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "the-eus-cra-guidance-is-84-pages-long-and-never-says-sbom-a-field-report",
+      "title": "The EU's CRA guidance is 84 pages long and never says \"SBOM\" — a field report",
+      "url": "https://dev.to/pennyforgehq/the-eus-cra-guidance-is-84-pages-long-and-never-says-sbom-a-field-report-43jp",
+      "summary": "Date: 2026-10-02 · Method: primary sources only (EUR-Lex + European Commission, both retrieved 2026-10-02) · Framing: what a 5-person connected-device firm actually finds when it \"follows the guidance\" The Cyber Resilien",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:05:38.000Z",
+      "contentType": "article",
+      "tags": [
+        "showdev",
+        "eu",
+        "cybersecurity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-to-use-nanobanana-mcp-in-cursor-for-practical-image-editing",
+      "title": "How to Use NanoBanana MCP in Cursor for Practical Image Editing Workflows",
+      "url": "https://dev.to/germey/how-to-use-nanobanana-mcp-in-cursor-for-practical-image-editing-workflows-3fdc",
+      "summary": "Long URLs are easy to copy once and surprisingly annoying to manage when a release, newsletter, or launch note contains five of them; this guide shows how to let Codex CLI shorten them without leaving the terminal. The s",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-02T01:05:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "devtools",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "로컬에선-통과하던-테스트가-docker-빌드에서만-깨진-이유",
+      "title": "로컬에선 통과하던 테스트가 Docker 빌드에서만 깨진 이유",
+      "url": "https://velog.io/@ysop/%EB%A1%9C%EC%BB%AC%EC%97%90%EC%84%A0-%ED%86%B5%EA%B3%BC%ED%95%98%EB%8D%98-%ED%85%8C%EC%8A%A4%ED%8A%B8%EA%B0%80-Docker-%EB%B9%8C%EB%93%9C%EC%97%90%EC%84%9C%EB%A7%8C-%EA%B9%A8%EC%A7%84-%EC%9D%B4%EC%9C%A0",
+      "summary": "TL;DR 테스트가 ../../fixtures/...처럼 프로젝트 폴더 밖의 파일을 읽고 있었다. 상대경로는 코드 파일의 위치가 아니라 프로세스의 현재 작업 디렉터리(cwd) 를 기준으로 해석된다. 로컬과 Docker 컨테이너의 cwd와 디렉터리 구조가 달라 같은 코드가 서로 다른 경로를 가리켰다. Docker 이미지에는 호스트의 파일이 자동으로 들어가지 않는다. 필요한 파일은 COPY 등으",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T01:13:05.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "일본인-해외여행-4명-중-1명은-한국을-찾는다-여행음식-5가지-숫자",
+      "title": "일본인 해외여행 4명 중 1명은 한국을 찾는다 — 여행·음식 5가지 숫자",
+      "url": "https://velog.io/@aureliocrosskr/%EC%9D%BC%EB%B3%B8%EC%9D%B8-%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89-4%EB%AA%85-%EC%A4%91-1%EB%AA%85%EC%9D%80-%ED%95%9C%EA%B5%AD%EC%9D%84-%EC%B0%BE%EB%8A%94%EB%8B%A4-%EC%97%AC%ED%96%89-%EC%9D%8C%EC%8B%9D-5%EA%B0%80%EC%A7%80-%EC%88%AB%EC%9E%90",
+      "summary": "한국과 일본은 지리적으로도 가깝고, 한류 콘텐츠를 오래 나눠 온 이웃이다. 그런데 최근 일본인들의 한국 방문이 단순한 '가까워서'를 넘어선, 뚜렷한 흐름으로 자리 잡고 있다. 일본의 공공 데이터와 한국 관광 당국의 조사를 바탕으로, \"일본인이 한국을 찾는 이유\"를 5가지 숫자로 정리해 봤다. 1. 일본인 해외여행 4명 중 1명 이상이 한국을 찾는다 문화체육관광부와 한국관광공사에 따르면, 올해",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-02T01:08:45.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "gemini-4-apple-smart-home-workspace-comments-api",
+      "title": "Gemini 4 🤖, Apple smart home 🏠, Workspace Comments API 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-01",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
