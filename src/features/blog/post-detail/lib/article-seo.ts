@@ -60,6 +60,8 @@ export const buildArticleSeo = (
 
     return {
         title: post.title,
+        // 상세 글은 사이트명 없이 글 제목만 노출한다
+        rawTitle: true,
         description,
         path,
         keywords,
