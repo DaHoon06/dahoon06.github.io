@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 
 /**
  * _document 의 Head 는 next/head 가 덮어쓸 수 없다.
- * 그래서 여기엔 모든 페이지에 똑같이 들어가야 하는 것(폰트·아이콘·검색엔진 소유 확인·RSS)만 둔다.
+ * 그래서 여기엔 모든 페이지에 똑같이 들어가야 하는 것(폰트·아이콘·검색엔진 소유 확인·AdSense·RSS)만 둔다.
  * title·description·OG 등 페이지별 메타는 각 페이지의 SeoHead 에서 설정한다.
  */
 class Dahoon06Document extends Document {
@@ -30,6 +30,13 @@ class Dahoon06Document extends Document {
                     <meta
                         name="naver-site-verification"
                         content="1a5e498298290f51a81ed75b9096df52e9042c0f"
+                    />
+
+                    {/* Google AdSense — 사이트 소유 확인을 위해 정적 HTML 에 직접 둔다 */}
+                    <script
+                        async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9259748218576901"
+                        crossOrigin="anonymous"
                     />
 
                     <link
