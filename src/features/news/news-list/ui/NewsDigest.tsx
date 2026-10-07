@@ -1,6 +1,7 @@
 import { ReactElement, ReactNode } from "react";
 import { formatArchiveDate, type NewsArchive } from "@entities/news";
 import { EmptyState } from "@shared/ui/empty-state";
+import { DisplayAd } from "@shared/ui/ads";
 import { NewsListRenderer } from "./NewsListRenderer";
 
 interface NewsDigestProps {
@@ -31,6 +32,7 @@ export const NewsDigest = ({
             <NewsHeading date={archive.date} count={archive.items.length} />
             {dateNav}
             <NewsListRenderer items={archive.items} />
+            <DisplayAd className="mt-10" />
         </div>
     );
 };

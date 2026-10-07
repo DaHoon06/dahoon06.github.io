@@ -1,5 +1,6 @@
 import { CONFIG } from "@root/site.config";
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { ADSENSE_CLIENT, ADSENSE_SCRIPT_SRC } from "@shared/config/ads";
 
 /**
  * _document 의 Head 는 next/head 가 덮어쓸 수 없다.
@@ -27,7 +28,10 @@ class Dahoon06Document extends Document {
                         name="google-site-verification"
                         content="DKXaK73vI5S3vLqgQOayghfbLqkHd2xlVIir_4D6X_g"
                     />
-                    <meta name="google-adsense-account" content="ca-pub-9259748218576901"></meta>
+                    <meta
+                        name="google-adsense-account"
+                        content={ADSENSE_CLIENT}
+                    />
                     <meta
                         name="naver-site-verification"
                         content="1a5e498298290f51a81ed75b9096df52e9042c0f"
@@ -36,7 +40,7 @@ class Dahoon06Document extends Document {
                     {/* Google AdSense — 사이트 소유 확인을 위해 정적 HTML 에 직접 둔다 */}
                     <script
                         async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9259748218576901"
+                        src={ADSENSE_SCRIPT_SRC}
                         crossOrigin="anonymous"
                     />
 

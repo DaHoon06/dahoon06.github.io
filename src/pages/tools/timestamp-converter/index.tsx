@@ -10,6 +10,7 @@ import {
 } from "@shared/config/seo";
 import SeoHead from "@shared/ui/heads/SeoHead";
 import { BaseLayout } from "@widgets/layouts";
+import { DisplayAd } from "@shared/ui/ads";
 import { useEffect, useState } from "react";
 
 const seo = PAGE_SEO.timestampConverter;
@@ -83,6 +84,8 @@ export default function TimestampConverterPage() {
                             <TimestampConverter />
                         </div>
                     </section>
+
+                    <DisplayAd className="mt-10" />
                 </div>
             </BaseLayout>
         </>

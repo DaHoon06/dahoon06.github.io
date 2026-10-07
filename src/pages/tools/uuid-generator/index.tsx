@@ -10,6 +10,7 @@ import {
 } from "@shared/config/seo";
 import SeoHead from "@shared/ui/heads/SeoHead";
 import { BaseLayout } from "@widgets/layouts";
+import { DisplayAd } from "@shared/ui/ads";
 
 const seo = PAGE_SEO.uuidGenerator;
 
@@ -48,6 +49,8 @@ const UuidGeneratorPage: NextPage = () => {
                 <section className="rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6">
                     <UuidGenerator />
                 </section>
+
+                <DisplayAd className="mt-10" />
             </BaseLayout>
         </>
     );
