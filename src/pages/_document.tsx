@@ -27,6 +27,7 @@ class Dahoon06Document extends Document {
                         name="google-site-verification"
                         content="DKXaK73vI5S3vLqgQOayghfbLqkHd2xlVIir_4D6X_g"
                     />
+                    <meta name="google-adsense-account" content="ca-pub-9259748218576901"></meta>
                     <meta
                         name="naver-site-verification"
                         content="1a5e498298290f51a81ed75b9096df52e9042c0f"
