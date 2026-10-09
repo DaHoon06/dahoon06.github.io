@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-09",
+  "collectedAt": "2026-10-09T01:36:36.370Z",
+  "items": [
+    {
+      "slug": "whistle-speech-to-text-in-169-mb",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "summary": "Hacker News 토론 119개 · 529 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T16:59:39.000Z",
+      "contentType": "discussion",
+      "engagement": 529,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "morlutorea-typescript",
+      "title": "morluto/rea (TypeScript)",
+      "url": "https://github.com/morluto/rea",
+      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:36:34.270Z",
+      "contentType": "repo",
+      "engagement": 27036,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "i-gave-opus-55-one-prompt-and-six-hours-to-visualize-invisible-cities",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "summary": "Hacker News 토론 180개 · 355 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:20.000Z",
+      "contentType": "discussion",
+      "engagement": 355,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "cathrynlaverydiagram-design-html",
+      "title": "cathrynlavery/diagram-design (HTML)",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:36:34.269Z",
+      "contentType": "repo",
+      "engagement": 46410,
+      "tags": [
+        "github",
+        "HTML"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "liquidslrsystem-design-notes",
+      "title": "liquidslr/system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "summary": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:36:34.272Z",
+      "contentType": "repo",
+      "engagement": 24647,
+      "tags": [
+        "github"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "theranosworld",
+      "title": "Theranos.world",
+      "url": "https://www.theranos.world/",
+      "summary": "Hacker News 토론 114개 · 271 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T17:51:49.000Z",
+      "contentType": "discussion",
+      "engagement": 271,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "adhd-as-a-circadian-rhythm-disorder-evidence-and-implications-for",
+      "title": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
+      "summary": "Hacker News 토론 123개 · 163 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T20:42:16.000Z",
+      "contentType": "discussion",
+      "engagement": 163,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "boykopovaranyps5-c",
+      "title": "boykopovar/AnyPS5 (C++)",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "summary": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:36:34.268Z",
+      "contentType": "repo",
+      "engagement": 15916,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "upcoming-nextjs-security-update-for-upstream-vulnerabilities",
+      "title": "Upcoming Next.js Security Update for Upstream Vulnerabilities",
+      "url": "https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026",
+      "summary": "Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-08T18:00:00.000Z",
+      "contentType": "article",
+      "score": 54
+    },
+    {
+      "slug": "tinyjs-javascript로-약-6mb-데스크톱-앱을-만드는-경량-프레임워크",
+      "title": "tinyjs - JavaScript로 약 6MB 데스크톱 앱을 만드는 경량 프레임워크",
+      "url": "https://news.hada.io/topic?id=35038",
+      "summary": "프런트엔드와 백엔드를 모두 JavaScript로 작성하는 데스크톱 앱 프레임워크로, 배포 크기는 약 6MB Electron·Node.js·Chromium을 앱에 포함하지 않고, txiki.js 백엔드와 운영체제의 WebView를 조합 macOS는 WebKit, Windows는 WebView...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T00:30:02.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "시스템으로-사고하고-반복-루프로-출시하기",
+      "title": "시스템으로 사고하고, 반복 루프로 출시하기",
+      "url": "https://news.hada.io/topic?id=35043",
+      "summary": "소프트웨어 엔지니어링의 중심이 직접 코드를 작성하는 일에서 AI가 대규모로 올바른 코드를 작성하도록 시스템을 설계하는 일로 옮겨감 Artemis는 플랫폼의 모든 코드를 에이전트가 작성하며, 엔지니어는 시스템 설계·제약 설정·결과 검토를 맡음 Grok 팀...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:25:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai는-디자인을-어떻게-바꾸고-있는가",
+      "title": "AI는 디자인을 어떻게 바꾸고 있는가?",
+      "url": "https://news.hada.io/topic?id=35042",
+      "summary": "현업 디자이너들과의 대화에서 AI는 제작 속도와 탐색 범위를 늘렸지만, 작업 품질이 좋아졌다고 답한 사람은 없었음 원하는 결과가 명확할수록 AI를 다루기 어려워지는 역설이 나타남. 열린 탐색에는 유용하지만, 숙련자가 가진 정밀한 의도를 구현할 때는 오히려...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:15:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai-시대에-saas-기업을-피벗하는-방법",
+      "title": "AI 시대에 SaaS 기업을 피벗하는 방법",
+      "url": "https://news.hada.io/topic?id=35041",
+      "summary": "AI 코딩 도구로 기능 개발과 복제가 저렴해지면서, 경쟁사와 같은 기능에 몇 가지를 더하는 전략만으로는 SaaS의 경쟁력을 유지하기 어려워짐 코드보다 안정적인 운영 역량이 중요한 인프라와, 기존 고객·뉴스레터·커뮤니티 같은 고객에게 도달할 기반",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:05:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "navier-stokes-lost-in-translation-why-lean-verification-of-ai",
+      "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "summary": "Autoformalisation is increasingly used to verify mathematical texts, including those generated by AI, as in OpenAI's announced proof of blow-up of solutions to the Navier-Stokes equations. In this process, an AI system t",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T17:16:42.000Z",
+      "contentType": "article",
+      "tags": [
+        "pdf",
+        "reversing",
+        "math"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-missing-piece-in-rust-error-handling",
+      "title": "The Missing Piece in Rust Error Handling",
+      "url": "https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T14:43:19.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "bevy-020",
+      "title": "Bevy 0.20",
+      "url": "https://bevy.org/news/bevy-0-20/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T23:21:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "release",
+        "games",
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "64-day-certificate-lifetimes-coming-feb-2027",
+      "title": "64-Day Certificate Lifetimes Coming Feb 2027",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-08T19:06:25.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "devops"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nextjs-164",
+      "title": "Next.js 16.4",
+      "url": "https://nextjs.org/blog/next-16-4",
+      "summary": "Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-06T20:00:00.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "i-compared-7-ai-search-visibility-tools-with-real-pricing-heres-the",
+      "title": "I Compared 7 AI Search Visibility Tools (With Real Pricing). Here's the Honest Breakdown",
+      "url": "https://dev.to/reacherwu/i-compared-7-ai-search-visibility-tools-with-real-pricing-heres-the-honest-breakdown-13cc",
+      "summary": "I Compared 7 AI Search Visibility Tools (With Real Pricing). Here's the Honest Breakdown Disclosure: I'm the maker of Quotalis (one of the tools below). I tried to make this comparison fair — every fact about competitors",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:29:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "seo",
+        "marketing"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "python의-gc가-멀티프로세싱과-만나면-생기는-일-python과-airflow-그리고-관련된-문제-해결기-2편",
+      "title": "Python의 GC가 멀티프로세싱과 만나면 생기는 일 - Python과 Airflow, 그리고 관련된 문제 해결기 2편",
+      "url": "https://d2.naver.com/helloworld/4149925",
+      "summary": "Python의 멀티프로세싱과 Airflow의 task 동작 방식 - Python과 Airflow, 그리고 관련된 문제 해결기 1편에서는 Airflow가 task를 실행할 때 요구되는 병렬성과 격리성을 살펴보고, 이를 만족하기 위해 Airflow가 task마다 만들었다 버리는 단기 프로세스와 만들어 두고 재사용하는 장기 프로세스를 모두 fork 방식으로 생성한다는 점을 확인했습니다. fork는",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-08T06:44:57.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "python의-멀티프로세싱과-airflow의-task-동작-방식-python과-airflow-그리고-관련된-문제-해결기-1편",
+      "title": "Python의 멀티프로세싱과 Airflow의 task 동작 방식 - Python과 Airflow, 그리고 관련된 문제 해결기 1편",
+      "url": "https://d2.naver.com/helloworld/4452165",
+      "summary": "저희 팀은 데이터 입수 플랫폼의 배치 워크플로를 Airflow 2.10.2로 운영하고 있습니다. 2025년 4월 Airflow 3.0이 릴리스되었고, UI 개선과 다양한 신규 기능이 포함되었습니다. 이 변화가 저희 운영 환경에 필요하다고 판단했고 도입을 위한 PoC(Proof of Concept)를 진행했습니다. 이 글은 그 PoC 과정에서 Python의 멀티프로세싱 방식 중 하나인 fork",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-08T06:43:18.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "nodejs-26111-current",
+      "title": "Node.js 26.11.1 (Current)",
+      "url": "https://nodejs.org/en/blog/release/v26.11.1",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-07T23:56:26.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "nodejs-26110-current",
+      "title": "Node.js 26.11.0 (Current)",
+      "url": "https://nodejs.org/en/blog/release/v26.11.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-07T14:45:09.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "matchboil-uac-0099-targets-ukrainian-organizations-with-two-minute-c2",
+      "title": "MATCHBOIL: UAC-0099 Targets Ukrainian Organizations with Two-Minute C2 Polling and Sandbox Evasion",
+      "url": "https://dev.to/anoymask/matchboil-uac-0099-targets-ukrainian-organizations-with-two-minute-c2-polling-and-sandbox-evasion-2mo6",
+      "summary": "1. Overview Article Title: MATCHBOIL: New tricks, same old evil intentions Publisher: ESET Research Publication Date: 2026-10-08 Original Source: ESET Research Related Source: The Record Related Malware and Threat Groups",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:28:25.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "threatintel"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "your-asset-list-needs-a-jurisdiction-column-modeling-esmas-exit-only",
+      "title": "Your Asset List Needs a Jurisdiction Column: Modeling ESMA's Exit-Only Stablecoin Rules",
+      "url": "https://dev.to/nefiswap/your-asset-list-needs-a-jurisdiction-column-modeling-esmas-exit-only-stablecoin-rules-37hm",
+      "summary": "On October 8, 2026, ESMA published an opinion telling MiCA-authorised crypto service providers to stop offering services for non-MiCA-compliant stablecoins to EU clients, and to remediate existing exposure within three m",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:26:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "fintech"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "theres-no-fall-foliage-in-phnom-penh-so-i-built-an-offline-ai-that",
+      "title": "There's no fall foliage in Phnom Penh, so I built an offline AI that sends me out to flip buckets",
+      "url": "https://dev.to/chintey/theres-no-fall-foliage-in-phnom-penh-so-i-built-an-offline-ai-that-sends-me-out-to-flip-buckets-m22",
+      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass Pick any October afternoon in Phnom Penh. Around four or five o'clock the sky dumps what feels like a month of rain in twenty minute",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-09T01:25:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "2026111759",
+      "title": "フリーライド・ウィンドサーフィンセイル市場規模レポート2026：1117百万米ドル到達予測、年平均成長率5.9%で拡大",
+      "url": "https://velog.io/@nekoneko/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%89%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%B5%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%BB%E3%82%A4%E3%83%AB%E5%B8%82%E5%A0%B4%E8%A6%8F%E6%A8%A1%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%882026%EF%BC%9A1117%E7%99%BE%E4%B8%87%E7%B1%B3%E3%83%89%E3%83%AB%E5%88%B0%E9%81%94%E4%BA%88%E6%B8%AC%E3%80%81%E5%B9%B4%E5%B9%B3%E5%9D%87%E6%88%90%E9%95%B7%E7%8E%875.9%E3%81%A7%E6%8B%A1%E5%A4%A7-t6vkjmc3",
+      "summary": "2026年10月9日に、QY Research株式会社（所在地：東京都中央区）は「フリーライド・ウィンドサーフィンセイル―グローバル市場シェアとランキング、全体の売上と需要予測、2026～2032」の最新調査資料を発行しました。本報告書では、世界のフリーライド・ウィンドサーフィンセイル市場の規模、動向及び成長予測を詳細に分析し、将来の市場変化と発展方向について展望しております。製品タイプ、応用分野及び地域別にフリーライド・ウィンドサーフ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:36:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "450-지속성재침투-지속성재침투-징후-종합-정리",
+      "title": "450. 지속성·재침투 — 지속성·재침투 징후 종합 정리",
+      "url": "https://velog.io/@cs_security/syssec-i50",
+      "summary": "시스템 보안 · 취약점 › I. 지속성 · 재침투 징후 · 50/50편 (전체 450/450) 학습 단계: 실전 시나리오·종합 실습 표기: 이 글의 명령어·출력·로그는 로컬 VMware 테스트 VM(Rocky Linux 9 / Ubuntu 22.04) 기준의 「실습 예시」이며, IP·계정·호스트명은 가상의 값입니다. 선행 학습 449. 지속성·재침투 — 실전 시나리오 — 침투부터 지속성 설치",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:18:47.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "449-지속성재침투-실전-시나리오-침투부터-지속성-설치재침투까지",
+      "title": "449. 지속성·재침투 — 실전 시나리오 — 침투부터 지속성 설치·재침투까지",
+      "url": "https://velog.io/@cs_security/syssec-i49",
+      "summary": "시스템 보안 · 취약점 › I. 지속성 · 재침투 징후 · 49/50편 (전체 449/450) 학습 단계: 실전 시나리오·종합 실습 표기: 이 글의 명령어·출력·로그는 로컬 VMware 테스트 VM(Rocky Linux 9 / Ubuntu 22.04) 기준의 「실습 예시」이며, IP·계정·호스트명은 가상의 값입니다. 선행 학습 448. 지속성·재침투 — 지속성·재침투 탐지 규칙 모음 399.",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:18:46.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "448-지속성재침투-지속성재침투-탐지-규칙-모음",
+      "title": "448. 지속성·재침투 — 지속성·재침투 탐지 규칙 모음",
+      "url": "https://velog.io/@cs_security/syssec-i48",
+      "summary": "시스템 보안 · 취약점 › I. 지속성 · 재침투 징후 · 48/50편 (전체 448/450) 학습 단계: SOC 탐지 연계 실습 표기: 이 글의 명령어·출력·로그는 로컬 VMware 테스트 VM(Rocky Linux 9 / Ubuntu 22.04) 기준의 「실습 예시」이며, IP·계정·호스트명은 가상의 값입니다. 선행 학습 447. 지속성·재침투 — 지속성·재침투 Alert 대응 절차 39",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-09T01:18:44.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "when-worker-threads-beat-processes-for-node-efficiency",
+      "title": "When worker threads beat processes for Node efficiency",
+      "url": "https://nodeweekly.com/issues/643",
+      "summary": "#​643 — October 8, 2026 Read on the Web 📝 We're back after taking last week off – you didn't miss an issue :-) If you want one neat thing to check out today, look for the voice synth package below, it's a fun way to rel",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "fe-news-26년-10월-소식을-전해드립니다",
+      "title": "FE News 26년 10월 소식을 전해드립니다.",
+      "url": "https://d2.naver.com/news/8711937",
+      "summary": "주요소식 ​ The Story of VS Code Visual Studio Code 공식 채널이 공개한 약 1시간 38분 분량의 다큐멘터리로, Erich Gamma가 이끈 취리히 팀이 브라우저용 편집기 컴포넌트 Monaco Editor를 만들던 시기부터 데스크톱 VS Code 발표와 오픈 소스 전환까지의 과정을 30여 명의 관계자 인터뷰로 보여 준다. 확장을 별도 프로세스에서 실행하고 한번 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-07T08:43:28.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "d2coding-폰트-140-릴리즈-소식을-전합니다",
+      "title": "D2Coding 폰트 1.4.0 릴리즈 소식을 전합니다.",
+      "url": "https://d2.naver.com/news/7193556",
+      "summary": "D2 Coding은 한글과 영문, 숫자, 기호가 함께 있는 코드에서도 일정한 간격과 높은 가독성을 유지하도록 만든 코딩 전용 글꼴입니다. ​ 이번 1.4.0에서는 기존의 빗금이 들어간 숫자 0 대신 점이 들어간 0을 선택해서 사용할 수 있는 기능을 추가했습니다. 일부 크기에서 글자가 기준선보다 한 픽셀 위에 표시되던 문제도 수정했으며, 마침표의 의미를 다르게 보이게 할 수 있었던 리거처 네 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-07T08:47:28.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "claude-haiku-55-mathpocalypse-designer-influence",
+      "title": "Claude Haiku 5.5 🤖, mathpocalypse 🧮, designer influence 👩🏻‍🎨",
+      "url": "https://tldr.tech/tech/2026-10-08",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "why-dont-more-developers-use-the-platform",
+      "title": "Why don't more developers 'use the platform'?",
+      "url": "https://javascriptweekly.com/issues/805",
+      "summary": "#​805 — October 6, 2026 Read on the Web JavaScript Weekly Why Don't More Developers 'Use the Platform'? — A thoughtful look at why we often rebuild what browsers already offer, from someone usually on the platform's side",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "contentType": "article",
+      "score": 29
+    },
+    {
+      "slug": "aurora-mysql-인덱스-ddl이-reader-버퍼풀을-비운다",
+      "title": "Aurora MySQL 인덱스 DDL이 Reader 버퍼풀을 비운다?",
+      "url": "https://medium.com/daangn/aurora-mysql-%EC%9D%B8%EB%8D%B1%EC%8A%A4-ddl%EC%9D%B4-reader-%EB%B2%84%ED%8D%BC%ED%92%80%EC%9D%84-%EB%B9%84%EC%9A%B4%EB%8B%A4-16c6328dea50?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-06T10:41:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "data"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "한-문장으로-앱을-테스트하기까지",
+      "title": "한 문장으로 앱을 테스트하기까지",
+      "url": "https://medium.com/daangn/%ED%95%9C-%EB%AC%B8%EC%9E%A5%EC%9C%BC%EB%A1%9C-%EC%95%B1%EC%9D%84-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0%EA%B9%8C%EC%A7%80-5340546886b5?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-06T02:55:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "engineering"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "jpeg-xl-finally-ships-in-chrome",
+      "title": "JPEG XL finally ships in Chrome",
+      "url": "https://frontendfoc.us/issues/761",
+      "summary": "🚀 Frontend Focus #​761 — October 7, 2026 | Read on the web How Fast is the Web? Exploring Billions of Real-User Measurements — A new free BigQuery dataset of anonymized real user Core Web Vitals from 10,000 large Cloudf",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "a-practical-guide-to-naming-things",
+      "title": "A Practical Guide To Naming Things",
+      "url": "https://smashingmagazine.com/2026/10/how-name-things/",
+      "summary": "A practical guide to naming UI components, with useful resources, naming conventions, and structures. You’ll find more [useful guides](https://www.smashingmagazine.com/category/guides/) and [online workshops](https://sma",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "apples-home-ecosystem-openai-math-state-of-tech",
+      "title": "Apple's home ecosystem 🏠, OpenAI math 🧮, state of tech 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-07",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    }
+  ]
+}
