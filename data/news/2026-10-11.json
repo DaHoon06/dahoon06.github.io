@@ -1,0 +1,457 @@
+{
+  "date": "2026-10-11",
+  "collectedAt": "2026-10-11T00:37:09.672Z",
+  "items": [
+    {
+      "slug": "bitwarden-dual-license-model",
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "summary": "Hacker News 토론 244개 · 338 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T14:32:50.000Z",
+      "contentType": "discussion",
+      "engagement": 338,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "telegram-desktop-vulnerability-allowed-any-users-file-to-be-stolen",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "summary": "Hacker News 토론 261개 · 406 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T03:02:47.000Z",
+      "contentType": "discussion",
+      "engagement": 406,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "flutterflutter-dart",
+      "title": "flutter/flutter (Dart)",
+      "url": "https://github.com/flutter/flutter",
+      "summary": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:37:08.351Z",
+      "contentType": "repo",
+      "engagement": 179518,
+      "tags": [
+        "github",
+        "Dart"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "tensorflowtensorflow-c",
+      "title": "tensorflow/tensorflow (C++)",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "summary": "An Open Source Machine Learning Framework for Everyone",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:37:08.351Z",
+      "contentType": "repo",
+      "engagement": 200726,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "hugohe3ppt-master-python",
+      "title": "hugohe3/ppt-master (Python)",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx ",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:37:08.352Z",
+      "contentType": "repo",
+      "engagement": 59439,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "pytorchpytorch-python",
+      "title": "pytorch/pytorch (Python)",
+      "url": "https://github.com/pytorch/pytorch",
+      "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:37:08.352Z",
+      "contentType": "repo",
+      "engagement": 104140,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall",
+      "title": "I would like the value of my home to rise, while my property taxes fall",
+      "url": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
+      "summary": "Hacker News 토론 494개 · 206 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T13:29:03.000Z",
+      "contentType": "discussion",
+      "engagement": 206,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "rea-reverse-engineer-anything",
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
+      "summary": "Hacker News 토론 302개 · 691 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T00:37:07.000Z",
+      "contentType": "discussion",
+      "engagement": 691,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "knuth의-오류-발견-보상-수표",
+      "title": "Knuth의 오류 발견 보상 수표",
+      "url": "https://news.hada.io/topic?id=35142",
+      "summary": "Donald Knuth가 책의 오류 제보를 확인하고 보상 수표를 보낸 지 20년이 지난 시점의 회고임 발견한 오류는 Computer Modern Typefaces에서 아라비아 숫자로 표시된 1쪽, 첫 문단의 첫 단어에 있었음 제보자는 수많은 사람이 이미 검토한 책에서 오류를 찾...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:35:21.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "도시는-당신이-짓지-않길-바라는-도시-건설-게임",
+      "title": "도시는 당신이 짓지 않길 바라는 도시 건설 게임",
+      "url": "https://news.hada.io/topic?id=35141",
+      "summary": "Discretionary Review는 기술 산업 호황 속 주택이 부족한 샌프란시스코에서 개발업자가 되어 주택 건설을 추진하는 시뮬레이션 게임임 부지를 골라 계획을 세운 뒤 환경 검토, 위원회 심의, 이의 제기, 소송, 허가 절차를 거쳐야 하며, 이후에도 사업성이 남아 있...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:32:20.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "eve-디렉터리-하나로-ai-에이전트를-정의하고-배포하는-vercel-프레임워크",
+      "title": "Eve - 디렉터리 하나로 AI 에이전트를 정의하고 배포하는 Vercel 프레임워크",
+      "url": "https://news.hada.io/topic?id=35140",
+      "summary": "에이전트 개발자가 Markdown과 TypeScript 파일만으로 에이전트를 실행하거나 배포할 수 있는 프레임워크 지침, 도구, 채널을 정의하고 상태를 유지하며, 웹 개발의 Next.js처럼 파일 구조와 실행 인프라를 함께 제공 instructions.md에 역할과 기본 지침을 작성하면 최소 에이...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "아-표준-c에서는-문자열의-부동소수점-변환-오류를-이식성-있게-검사할-수-없는-모양이다",
+      "title": "아, 표준 C에서는 문자열의 부동소수점 변환 오류를 이식성 있게 검사할 수 없는 모양이다",
+      "url": "https://news.hada.io/topic?id=35139",
+      "summary": "표준 C의 문자열→부동소수점 변환 함수는 math_errhandling에 따라 오류 보고 방식이 달라지며, 언더플로 보고는 선택 사항이라 모든 구현에서 검출을 보장할 수 없음 POSIX는 표준 C와 달리 오버플로와 언더플로 발생 시 ma...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:04:54.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "does-adopting-ai-really-make-teams-faster",
+      "title": "Does Adopting AI Really Make Teams Faster?",
+      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster/en/",
+      "summary": "Lately, many organizations have been adopting AI almost as if it were a race. At Cloud Next in April 2026, Google announced that 75% of all new code at Google is now generated by AI and approved by engineers. Just a year",
+      "sourceId": "blog-evan-moon",
+      "sourceName": "Evan Moon",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-12T08:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "ai를-도입하면-팀은-정말-빨라질까",
+      "title": "AI를 도입하면 팀은 정말 빨라질까",
+      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster/",
+      "summary": "최근 많은 조직에서 마치 경쟁하듯이 AI를 도입하고 있다. 구글은 2026년 4월 클라우드 넥스트에서 새로 작성되는 코드의 75%가 AI로 생성되고 엔지니어의 승인을 거친다고 발표했는데, 불과 1년 반 전인 2024년 10월 실적 발표에서는 그 숫자가 4분의 1을 조금 넘는 수준이었다. 아무래도 이런 숫자가 매 분기 뉴스에 나오다 보니 다른 조직들도 가만히 있을 수가 없고, 사내 AI 코딩 ",
+      "sourceId": "blog-evan-moon",
+      "sourceName": "Evan Moon",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-12T08:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "iframes-that-finally-fit-their-content",
+      "title": "Iframes that finally fit their content",
+      "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T12:54:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "web",
+        "css"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "kiesel-devlog-15-release-040",
+      "title": "Kiesel Devlog #15: Release 0.4.0",
+      "url": "https://linus.dev/posts/kiesel-devlog-15/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T17:55:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "zig"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "sntpings-draw-on-a-canvas-using-icmpv6",
+      "title": "SNTPings, draw on a canvas using ICMPv6",
+      "url": "https://pings.utwente.io/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T17:05:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "networking",
+        "education"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "why-externalized-proofs-of-cyclic-trait-impls-does-not-work",
+      "title": "Why 'externalized' proofs of cyclic trait impls does not work",
+      "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-10T16:56:48.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "this-week-in-react-300",
+      "title": "This Week In React 300",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-300",
+      "summary": "Next.js, TanStack, React Foundation, Compiler, Ink, Streamdown, Shaders | Skia, Live Activities, Lucent, Voltra, Apex, Coinbase, Stim Desktop, Unistyles | TC39, e2e, Effect, Remix, h3, SvelteKit, Type",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-09T12:44:32.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "nextjs-2주차-스터디4장5장",
+      "title": "Next.js 2주차 스터디(4장~5장)",
+      "url": "https://velog.io/@daniel1106-cloud/Next.js-2%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%944%EC%9E%A55%EC%9E%A5",
+      "summary": "4장. 레이아웃과 페이지 Next.js는 파일 시스템 라우팅을 쓴다. 주소를 코드로 등록하는 게 아니라 폴더 구조가 그대로 주소가 된다. 폴더 하나 = 라우트 세그먼트 하나 = URL의 한 조각 그 폴더 안의 page.tsx = 그 주소에서 보여 줄 화면 app/dashboard/customers/page.tsx를 만들면 /dashboard/customers가 생긴다. 세그먼트는 폴더고 pa",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-10T21:57:48.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "고성능-llm과-음성-프롬프팅을-활용한-실시간-웹-게임-개발-워크플로",
+      "title": "고성능 LLM과 음성 프롬프팅을 활용한 실시간 웹 게임 개발 워크플로",
+      "url": "https://velog.io/@sdm77/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C-%EC%84%A4%EA%B3%84-2026-10-11",
+      "summary": "고성능 대규모 언어 모델(LLM)의 코딩 능력이 비약적으로 상승함에 따라, 시스템 기획부터 인프라 설정 및 퍼블릭 배포에 이르는 소프트웨어 개발 전체 과정의 장벽이 극도로 낮아졌습니다. 특히 음성 기반 프롬프팅, multi-agent 터미널 환경, 최신 컨텍스트 캐싱 기법을 조합하면 1인 개발자가 한 시간 남짓한 짧은 시간 안에 복잡한 물리 엔진과 네트워킹을 갖춘 멀티플레이어 웹 게임을 완성",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-10T20:09:53.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "merging-two-messy-csvs-the-key-problems-excel-formulas-hide-from-you",
+      "title": "Merging Two Messy CSVs: The Key Problems Excel Formulas Hide From You",
+      "url": "https://dev.to/yuhehe/merging-two-messy-csvs-the-key-problems-excel-formulas-hide-from-you-1loj",
+      "summary": "Merging Two Messy CSVs: The Key Problems Excel Formulas Hide From You You have two spreadsheets. One is your export, one is the client's. Someone says \"just merge them on the ID column.\" That sentence has caused more qui",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:36:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "data",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "rmt-explained-how-iab-redefining-media-types-classifies-openrtb",
+      "title": "RMT Explained: How IAB Redefining Media Types Classifies OpenRTB Impressions",
+      "url": "https://dev.to/aleksuix/rmt-explained-how-iab-redefining-media-types-classifies-openrtb-impressions-45dg",
+      "summary": "On September 16, 2026, IAB Tech Lab opened Programmatic Standard Practices v1 for public comment through October 16. The council's pitch is familiar and worth taking seriously: stop inventing new pipes and align on how e",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:35:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "openrtb",
+        "adtech",
+        "video"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "deepseek-harness-ai-94",
+      "title": "DeepSeek Harness สองเดือนให้หลัง: ช่องโหว่ AI 9.4 บอกอะไรเรื่องกำแพงที่ไม่มี?",
+      "url": "https://dev.to/sarantoon/deepseek-harness-sngeduuenaihhlang-chngohw-ai-94-bkaaireruuengkamaephngthiiaimmii-271k",
+      "summary": "DeepSeek Harness สองเดือนให้หลัง: ช่องโหว่ AI 9.4 บอกอะไรเรื่องกำแพงที่ไม่มี? โดย Nokka (นก-กา) | 10 ตุลาคม 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ · Nok",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:30:37.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "security",
+        "opensource"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "protocol-upgrade-compatibility-review-usdt0",
+      "title": "Protocol Upgrade Compatibility Review: USDT0",
+      "url": "https://dev.to/dannydoes_2abdf9c/protocol-upgrade-compatibility-review-usdt0-4jof",
+      "summary": "Protocol Upgrade Compatibility Review: USDT0 Target Protocol: USDT0 (TVL: $3300.9M) TVL: ≈ $3.30 B (Ethereum + L2) Date of Review: 11 Oct 2026 Prepared by: [Your Firm] – Senior DeFi Security Research & Auditing Team USDT",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-11T00:28:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "web3",
+        "security",
+        "ethereum"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "61일차",
+      "title": "61일차",
+      "url": "https://velog.io/@ik_e/61%EC%9D%BC%EC%B0%A8",
+      "summary": "61일차 3일 프로젝트 1일차 *3일 묶어서 적고 싶은데 주말을 끼고 있어서 주간 회고를 위해서 적는다. 주제는 멀티 에이전트 오토힐링 시스템이다. 전에 했던 1,2차와 달리 실질적으로 회의를 할 시간이나 협업할 시간이 적어서 최대한 개발을 빨리할 수 있는 방법으로 프로젝트 관리 방향을 잡았다. 다행히 세부 주제에 대해 미리 생각할 시간이 있어서 간단하게 회의를 마무리하고 프로젝트를 진행할 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:35:55.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "3주-박스-끝-1틱-돌파로-들어간-ai-인프라-토큰",
+      "title": "3주 박스 끝, 1틱 돌파로 들어간 AI 인프라 토큰",
+      "url": "https://velog.io/@poevdy/trading-journal-2026-10-10",
+      "summary": "3주 박스 끝, 1틱 돌파로 들어간 AI 인프라 토큰 같은 11시 19분 돌파가 \"리스크 한도 초과\"와 \"포지션 오픈\"으로 동시에 기록된 날. 포트폴리오 현황 항목 값 USDT 잔고 69.92 활성 포지션 AVAX(148), SHIB(0), APT(69), PEPE(0), MUBARAK(161), BROCCOLI714(54), OPG(61), TSLAB(166) 미실현 P&L +112.99 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-11T00:32:03.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "클로드-코드-mods-typescript로-화면과-동작-바꾸기",
+      "title": "클로드 코드 Mods: TypeScript로 화면과 동작 바꾸기",
+      "url": "https://daleseo.com/claude-code-mods/",
+      "summary": "클로드 코드 mod로 스피너에 숫자를 붙이고, 프롬프트 위에 Git 상태를 띄우고, .env 수정을 막고, 옆 패널에 마크다운을 띄워 봅니다. 실제 화면과 함께 훅 작성법, 핫 리로드, 검증, 보안까지 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "contentType": "article",
+      "score": 27
+    },
+    {
+      "slug": "spacex-mobile-touchscreen-macbook-claude-code-mods",
+      "title": "SpaceX mobile 🛰️, Touchscreen MacBook 💻, Claude Code mods 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-09",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    }
+  ]
+}
