@@ -1,8 +1,6 @@
 import { ReactElement } from "react";
-import Link from "next/link";
-import { formatArchiveDate, type NewsArchiveSummary } from "@entities/news";
-import { ROUTES } from "@shared/routes";
-import cn from "@shared/lib/cn";
+import type { NewsArchiveSummary } from "@entities/news";
+import { NewsArchiveCalendar } from "./NewsArchiveCalendar";
 
 interface NewsArchiveNavProps {
     summaries: NewsArchiveSummary[];
@@ -22,29 +20,10 @@ export const NewsArchiveNav = ({
                 <h2 className="mb-3 text-[13px] font-semibold tracking-tight text-zinc-900">
                     지난 소식
                 </h2>
-                <ol className="space-y-1">
-                    {summaries.map(({ date, count }) => {
-                        const isActive = date === currentDate;
-                        return (
-                            <li key={date}>
-                                <Link
-                                    href={ROUTES.NEWS_DETAIL(date)}
-                                    className={cn(
-                                        "flex items-center justify-between rounded-md px-2.5 py-1.5 text-[13px] transition-colors",
-                                        isActive
-                                            ? "bg-zinc-100 font-semibold text-zinc-900"
-                                            : "text-zinc-500 hover:bg-zinc-50 hover:text-zinc-900"
-                                    )}
-                                >
-                                    <span>{formatArchiveDate(date)}</span>
-                                    <span className="text-[11px] text-zinc-400">
-                                        {count}
-                                    </span>
-                                </Link>
-                            </li>
-                        );
-                    })}
-                </ol>
+                <NewsArchiveCalendar
+                    summaries={summaries}
+                    currentDate={currentDate}
+                />
             </section>
 
             <p className="rounded-xl bg-zinc-50 p-4 text-[11px] leading-relaxed text-zinc-400">

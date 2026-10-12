@@ -41,8 +41,10 @@ export const readLatestNewsArchive = (): NewsArchive | null => {
     return latest ? readNewsArchive(latest) : null;
 };
 
-/** 사이드 네비게이션용 — 날짜 + 건수만 */
-export const readNewsArchiveSummaries = (limit = 30): NewsArchiveSummary[] => {
+/** 사이드 네비게이션용 — 날짜 + 건수만. 달력이 전 기간을 넘겨보므로 기본은 전체 */
+export const readNewsArchiveSummaries = (
+    limit = Infinity
+): NewsArchiveSummary[] => {
     return listNewsDates()
         .slice(0, limit)
         .map((date) => ({
