@@ -42,6 +42,8 @@ const NewsDatePage: NextPage<NewsDatePageProps> = ({ archive, summaries }) => {
                 title={title}
                 description={description}
                 path={path}
+                // 자동 수집 링크 모음이라 직접 쓴 콘텐츠가 아니다 — 검색·AdSense 심사 대상에서 뺀다
+                noindex
                 keywords={[
                     "개발 뉴스",
                     "IT 뉴스",

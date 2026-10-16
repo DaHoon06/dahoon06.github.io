@@ -26,7 +26,8 @@ interface NewsPageProps {
 const NewsPage: NextPage<NewsPageProps> = ({ archive, summaries }) => {
     return (
         <>
-            <SeoHead {...PAGE_SEO.news} jsonLd={newsJsonLd} />
+            {/* 자동 수집 링크 모음이라 검색·AdSense 심사 대상에서 뺀다 */}
+            <SeoHead {...PAGE_SEO.news} noindex jsonLd={newsJsonLd} />
             <BaseLayout
                 aside={
                     <NewsArchiveNav

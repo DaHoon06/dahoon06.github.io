@@ -17,6 +17,8 @@ export const ROUTES = {
     TOOLS_BASE64: "/tools/base64-url",
     FOOD: "/food",
     ABOUT: "/about-me",
+    PRIVACY: "/privacy",
+    CONTACT: "/contact",
     ABOUT_PROJECTS: "/about-me#projects",
     ABOUT_PROJECT: (slug: string) => `/about-me/projects/${slug}`,
 } as const;

@@ -10,7 +10,6 @@ import {
 } from "@shared/config/seo";
 import SeoHead from "@shared/ui/heads/SeoHead";
 import { BaseLayout } from "@widgets/layouts";
-import { DisplayAd } from "@shared/ui/ads";
 
 const seo = PAGE_SEO.base64Url;
 
@@ -49,7 +48,6 @@ const Base64UrlPage: NextPage = () => {
                     <Base64UrlCodec />
                 </section>
 
-                <DisplayAd className="mt-10" />
             </BaseLayout>
         </>
     );

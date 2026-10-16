@@ -37,8 +37,6 @@ const RULES = [
     { test: (p) => p === "/tools", priority: 0.8, changefreq: "monthly" },
     { test: (p) => p.startsWith("/tools/"), priority: 0.8, changefreq: "monthly" },
     { test: (p) => p === "/about-me", priority: 0.7, changefreq: "monthly" },
-    { test: (p) => p === "/news", priority: 0.6, changefreq: "daily" },
-    { test: (p) => p.startsWith("/news/"), priority: 0.4, changefreq: "never" },
 ];
 
 /**
@@ -53,7 +51,8 @@ module.exports = {
     outDir: "./out",
     generateRobotsTxt: true,
     sitemapSize: 20000,
-    exclude: ["/api/*", "/404", "/500"],
+    // /news 는 자동 수집 링크 모음이라 noindex — 사이트맵에서도 뺀다
+    exclude: ["/api/*", "/404", "/500", "/news", "/news/*"],
     robotsTxtOptions: {
         policies: [
             { userAgent: "*", allow: "/", disallow: ["/api/"] },
@@ -62,10 +61,7 @@ module.exports = {
     transform: async (config, path) => {
         const rule = RULES.find((r) => r.test(path));
 
-        let lastmod = articleLastmod.get(path);
-        if (!lastmod && path.startsWith("/news/")) {
-            lastmod = toIso(`${path.slice("/news/".length)}T07:00:00+09:00`);
-        }
+        const lastmod = articleLastmod.get(path);
 
         return {
             loc: path,

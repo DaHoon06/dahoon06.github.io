@@ -188,6 +188,20 @@ export const PAGE_SEO = {
             "프로젝트",
         ],
     },
+    privacy: {
+        title: "개인정보처리방침",
+        description:
+            "전다훈 개발 블로그가 수집하는 정보, 쿠키·Google AdSense·Google Analytics 사용, 맞춤 광고 해제 방법을 안내합니다.",
+        path: "/privacy",
+        keywords: ["개인정보처리방침", "쿠키 정책", "Google AdSense"],
+    },
+    contact: {
+        title: "연락처 — 문의·제보·협업",
+        description:
+            "글 내용 오류 제보, 협업·채용 제안, 광고·저작권 문의는 이메일로 받습니다. 전다훈 개발 블로그 연락처 안내.",
+        path: "/contact",
+        keywords: ["연락처", "문의", "협업 제안"],
+    },
 } satisfies Record<string, PageSeo>;
 
 /** 상대 경로·이미지를 절대 URL 로 — og:image, canonical 은 절대 URL 이어야 한다 */

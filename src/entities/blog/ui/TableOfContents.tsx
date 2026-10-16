@@ -136,6 +136,14 @@ export const TableOfContents = (): ReactElement | null => {
         };
     }, [buildToc, observeHeadings, observeMutations]);
 
+    // 읽고 있는 섹션의 본문 제목에 형광펜 하이라이트 (_notion.scss의 .notion-h--active)
+    useEffect(() => {
+        if (!activeId) return;
+        const heading = document.getElementById(activeId);
+        heading?.classList.add("notion-h--active");
+        return () => heading?.classList.remove("notion-h--active");
+    }, [activeId]);
+
     const handleClick = (id: string) => {
         const el = document.getElementById(id);
         if (!el) return;

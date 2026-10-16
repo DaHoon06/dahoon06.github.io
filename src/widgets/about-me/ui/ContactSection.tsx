@@ -64,12 +64,20 @@ export const ContactSection = () => (
                     Copyright © {new Date().getFullYear()} {profileData.nameEn}
                     . All rights reserved.
                 </p>
-                <Link
-                    href={ROUTES.HOME}
-                    className="text-zinc-400 transition-colors hover:text-white"
-                >
-                    ← 블로그로 돌아가기
-                </Link>
+                <div className="flex gap-4">
+                    <Link
+                        href={ROUTES.PRIVACY}
+                        className="text-zinc-400 transition-colors hover:text-white"
+                    >
+                        개인정보처리방침
+                    </Link>
+                    <Link
+                        href={ROUTES.HOME}
+                        className="text-zinc-400 transition-colors hover:text-white"
+                    >
+                        ← 블로그로 돌아가기
+                    </Link>
+                </div>
             </footer>
         </Container>
     </section>
