@@ -13,7 +13,14 @@ import { GetStaticProps, NextPage } from "next";
 import { CONFIG } from "@root/site.config";
 import { BaseLayout } from "@widgets/layouts";
 import { BlogSideNav, ProfileCard } from "@widgets/nav";
-import { ArchivingShowcase, PostListRenderer } from "@features/blog/post-list";
+import { ArchivingShowcase } from "@features/blog/post-list";
+import { readLatestNewsArchive } from "@entities/news/lib/news-archive";
+import type { NewsItem } from "@entities/news";
+import {
+    LatestPostsSection,
+    NewsPreviewSection,
+    ToolsShortcut,
+} from "@widgets/home";
 import { PAGE_SEO, SITE, personJsonLd } from "@shared/config/seo";
 import SeoHead from "@shared/ui/heads/SeoHead";
 
@@ -29,11 +36,15 @@ const homeJsonLd = {
     publisher: personJsonLd,
 };
 
+/** 홈에는 뉴스 상위 몇 건만 — 하루치 전체를 props로 싣지 않는다 */
+const NEWS_PREVIEW_LIMIT = 5;
+
 interface HomePageProps {
     dehydratedState: DehydratedState;
+    news: { date: string; items: NewsItem[] } | null;
 }
 
-const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
+const HomePage: NextPage<HomePageProps> = ({ dehydratedState, news }) => {
     return (
         <HydrationBoundary state={dehydratedState}>
             <SeoHead {...PAGE_SEO.home} rawTitle jsonLd={homeJsonLd} />
@@ -46,7 +57,11 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState }) => {
                     <ProfileCard />
                 </div>
                 <ArchivingShowcase />
-                <PostListRenderer />
+                <LatestPostsSection />
+                {news && (
+                    <NewsPreviewSection date={news.date} items={news.items} />
+                )}
+                <ToolsShortcut />
             </BaseLayout>
         </HydrationBoundary>
     );
@@ -57,6 +72,7 @@ export default HomePage;
 export const getStaticProps: GetStaticProps = async () => {
     const posts = filterPosts(readCachedPosts());
     const archivings = readCachedArchiving();
+    const latestNews = readLatestNewsArchive();
 
     await Promise.all([
         queryClient.prefetchQuery({
@@ -72,6 +88,14 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
         props: {
             dehydratedState: dehydrate(queryClient),
+            news: latestNews
+                ? {
+                      date: latestNews.date,
+                      items: [...latestNews.items]
+                          .sort((a, b) => b.score - a.score)
+                          .slice(0, NEWS_PREVIEW_LIMIT),
+                  }
+                : null,
         },
         ...(CONFIG.isProd ? { revalidate: 3600 } : {}),
     };

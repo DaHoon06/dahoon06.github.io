@@ -1,16 +1,13 @@
 import { ReactElement, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { usePostsQuery, useTagsQuery } from "@features/blog/post-list";
+import { useTagsQuery } from "@features/blog/post-list";
 import { ROUTES } from "@shared/routes";
 import cn from "@shared/lib/cn";
 import { ProfileCard } from "./ProfileCard";
 
-const RECOMMEND_COUNT = 3;
-
 export const BlogSideNav = (): ReactElement => {
     const router = useRouter();
-    const posts = usePostsQuery();
     const tags = useTagsQuery();
 
     const currentTag = `${router.query.tag ?? ""}` || undefined;
@@ -19,10 +16,6 @@ export const BlogSideNav = (): ReactElement => {
     const tagNames = useMemo(
         () => Object.keys(tags).sort((a, b) => (tags[b] ?? 0) - (tags[a] ?? 0)),
         [tags]
-    );
-    const recommendedPosts = useMemo(
-        () => posts.slice(0, RECOMMEND_COUNT),
-        [posts]
     );
 
     return (
@@ -43,7 +36,8 @@ export const BlogSideNav = (): ReactElement => {
                                 <Link
                                     key={tag}
                                     href={{
-                                        pathname: router.pathname,
+                                        // 홈에는 태그 필터 목록이 없으므로 항상 /posts 로 보낸다
+                                        pathname: ROUTES.POSTS,
                                         query: isActive ? {} : { tag },
                                     }}
                                     className={cn(
@@ -58,38 +52,6 @@ export const BlogSideNav = (): ReactElement => {
                             );
                         })}
                     </div>
-                </section>
-            )}
-
-            {recommendedPosts.length > 0 && (
-                <section className="rounded-2xl bg-zinc-50 p-5">
-                    <h2 className="mb-4 text-[13px] font-semibold tracking-tight text-zinc-900">
-                        최신 글
-                    </h2>
-                    <ol className="space-y-4">
-                        {recommendedPosts.map((post, index) => (
-                            <li key={`${post.id}_${post.slug}`}>
-                                <Link
-                                    href={ROUTES.POST(post.slug)}
-                                    className="group flex gap-3"
-                                >
-                                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-white text-[11px] font-bold text-zinc-400 transition-colors group-hover:text-primary-900">
-                                        {index + 1}
-                                    </span>
-                                    <span className="min-w-0">
-                                        <span className="line-clamp-2 text-[13px] font-semibold leading-snug text-zinc-800 transition-colors group-hover:text-primary-900">
-                                            {post.title}
-                                        </span>
-                                        {post.summary && (
-                                            <span className="mt-1 block truncate text-xs text-zinc-400">
-                                                {post.summary}
-                                            </span>
-                                        )}
-                                    </span>
-                                </Link>
-                            </li>
-                        ))}
-                    </ol>
                 </section>
             )}
         </div>
