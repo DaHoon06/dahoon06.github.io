@@ -1,0 +1,551 @@
+{
+  "date": "2026-10-20",
+  "collectedAt": "2026-10-20T00:52:07.180Z",
+  "items": [
+    {
+      "slug": "minimax-m31-flash",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "summary": "Hacker News 토론 161개 · 371 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T16:39:09.000Z",
+      "contentType": "discussion",
+      "engagement": 371,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "wine-ported-to-openbsd",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "summary": "Hacker News 토론 163개 · 489 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T13:35:34.000Z",
+      "contentType": "discussion",
+      "engagement": 489,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "anomalycoopencode-typescript",
+      "title": "anomalyco/opencode (TypeScript)",
+      "url": "https://github.com/anomalyco/opencode",
+      "summary": "The open source coding agent.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:52:05.757Z",
+      "contentType": "repo",
+      "engagement": 217814,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "ruvnetruflo-typescript",
+      "title": "ruvnet/ruflo (TypeScript)",
+      "url": "https://github.com/ruvnet/ruflo",
+      "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG in",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:52:05.759Z",
+      "contentType": "repo",
+      "engagement": 77187,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "stablyaiorca-typescript",
+      "title": "stablyai/orca (TypeScript)",
+      "url": "https://github.com/stablyai/orca",
+      "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:52:05.760Z",
+      "contentType": "repo",
+      "engagement": 98288,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "anthropicsclaude-code-typescript",
+      "title": "anthropics/claude-code (TypeScript)",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natura",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:52:05.761Z",
+      "contentType": "repo",
+      "engagement": 152653,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "i-built-a-drone-with-only-one-motor-video",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "summary": "Hacker News 토론 77개 · 368 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T09:05:07.000Z",
+      "contentType": "discussion",
+      "engagement": 368,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "timestral-mistrals-time-series-foundation-models",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "summary": "Hacker News 토론 101개 · 537 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T09:59:32.000Z",
+      "contentType": "discussion",
+      "engagement": 537,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "minimax-m31-flash-에이전트-성능을-높이고-사용-비용을-70-낮춘-모델",
+      "title": "MiniMax M3.1 Flash - 에이전트 성능을 높이고 사용 비용을 70% 낮춘 모델",
+      "url": "https://news.hada.io/topic?id=35657",
+      "summary": "MiniMax가 업무 자동화와 코딩, 컴퓨터 사용, 사이버보안 역량을 강화한 M3.1 Flash 출시. 익명으로 200조 토큰 이상을 처리한 Space Bunny가 이 모델의 초기 버전 MiniMax 기준 전작보다 온라인 추론 속도는 약 3배, 에이전트 작업의 전체 사용 비용은 70...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-19T19:33:43.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "github-actions-github-pages-webhooks-가용성-저하",
+      "title": "GitHub Actions, GitHub Pages, Webhooks 가용성 저하",
+      "url": "https://news.hada.io/topic?id=35656",
+      "summary": "GitHub Actions, GitHub Pages, Webhooks에서 가용성 저하가 발생했으며, 2026년 10월 19일 16:56 UTC에 정상 운영 확인과 함께 장애가 해결됨 장애 영향으로 워크플로 처리, 사이트 빌드, 웹훅 전달이 지연될 수 있었음 완화 조치 이후...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-19T18:55:06.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "ask-gn-회사에서-계속해서-늘어나는-에이전트-어떻게-관리하나요",
+      "title": "Ask GN: 회사에서 계속해서 늘어나는 에이전트, 어떻게 관리하나요?",
+      "url": "https://news.hada.io/topic?id=35673",
+      "summary": "데브옵스로 일하고 있는데, 여러 팀들이 클로드나 코덱스로 팀 에이전트를 만들고 배포하고 슬랙으로 연동하고 있습니다. 자동화하는 것은 문제가 아닌데, 운영 팀 입장에선 중복과 보안이 문제가 되는 것 같습니다. 대부분의 에이전트가 코딩, Q&A이다 보니 기능적으로 겹치는 부분이 많습니다. 또",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:49:14.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "plex-취약점-암호화폐-채굴기-설치를-위한-실제-공격에-악용-중",
+      "title": "Plex 취약점, 암호화폐 채굴기 설치를 위한 실제 공격에 악용 중",
+      "url": "https://news.hada.io/topic?id=35672",
+      "summary": "취약한 Plex 버전을 실행한 허니팟에서 2026년 10월 17일 실제 취약점 악용과 암호화폐 채굴기 배포가 관측됨 Plex2Shell은 여러 취약점을 연결해 원격 코드 실행을 달성하며, Plex는 앞서 9월 1일 관련 보안 업데이트를 공지함 서로 다...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:32:17.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "평균-cpu는-여유로운데-커밋은-왜-느릴까",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
+      "summary": "NIC 인터럽트에서 찾은 병목",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-19T03:07:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "one-hash-bloom-filters",
+      "title": "One Hash Bloom Filters",
+      "url": "https://www.calabro.io/ohbf",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T15:47:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "compsci",
+        "databases"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a5-v10",
+      "title": "A5 v1.0",
+      "url": "https://a5geo.org/blog/2026/10/14/a5-v1",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T13:56:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "compsci",
+        "math",
+        "visualization"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "making-all-divisions-slower-to-fix-a-bug-in-0000000000000000000542-of",
+      "title": "Making all divisions slower to fix a bug in 0.000000000000000000542% of cases",
+      "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T16:42:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "c",
+        "compilers"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "in-context",
+      "title": "In Context",
+      "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-19T18:25:48.000Z",
+      "contentType": "article",
+      "tags": [
+        "video",
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "improving-navigation-experience-in-v0-with-nextjs-164",
+      "title": "Improving navigation experience in v0 with Next.js 16.4",
+      "url": "https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4",
+      "summary": "How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-16T15:00:00.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "generating-natural-sounding-text-without-an-llm-a-report-comment",
+      "title": "Generating Natural-Sounding Text Without an LLM: A Report Comment Generator in Plain JavaScript",
+      "url": "https://dev.to/craig_george_4cd7d46650e4/generating-natural-sounding-text-without-an-llm-a-report-comment-generator-in-plain-javascript-g13",
+      "summary": "Teachers write hundreds of report card comments a term. Many reach for ChatGPT, but that usually means pasting student details into a third-party tool, which most school privacy policies forbid. So when I built a report ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:47:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "webdev",
+        "privacy"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "js-reverse-engineering-case-study-8-reconstructing-a-param-rsa-long",
+      "title": "JS Reverse Engineering Case Study #8 — Reconstructing a param RSA Long-Encryption Payload (Dynamic Public Key + subprocess/Node Emulation)",
+      "url": "https://dev.to/fxxx/js-reverse-engineering-case-study-8-reconstructing-a-param-rsa-long-encryption-payload-dynamic-2icm",
+      "summary": "JS Reverse Engineering Case Study #8 — Reconstructing a param RSA Long-Encryption Payload (Dynamic Public Key + subprocess/Node Emulation) Part 8 of the \"JS Reverse Engineering in Practice — 30 Case Studies\" series. JS R",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:45:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "this-week-in-react-301",
+      "title": "This Week In React 301",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-301",
+      "summary": "TanStack Start, React Aria, Base UI, Satori, Next.js, Vitest RSC, MobX | RN Web, Tamagui, One, Skia, Observe, Screens, Hot Updater, Nano Icons | Deno, Bun, TS, JPEG XL, AsyncContext, Playwright, pnpm",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-16T12:23:26.000Z",
+      "contentType": "article",
+      "score": 36
+    },
+    {
+      "slug": "hackavpi",
+      "title": "HACKAVPI",
+      "url": "https://dev.to/pastek/hackavpi-dp8",
+      "summary": "Dans le cadre de notre Master MIAGE à l'Université de la Nouvelle-Calédonie 🎓, toute notre promotion participe au projet HackAVP 2026 ! Avec Dan, nous avons pris en charge une pièce centrale du projet : HACKAVPI, l'API ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:47:37.000Z",
+      "contentType": "article",
+      "tags": [
+        "api",
+        "backend",
+        "programming"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "top-5-developer-tools-and-tutorials-you-need-to-know-in-october-2026",
+      "title": "Top 5 Developer Tools and Tutorials You Need to Know in October 2026",
+      "url": "https://dev.to/karleeov/top-5-developer-tools-and-tutorials-you-need-to-know-in-october-2026-5h4f",
+      "summary": "1. GitHub Copilot Studio's AI-Powered Code Review What it is: GitHub Copilot Studio has introduced AI-powered code review capabilities that analyze your code changes and provide detailed feedback to streamline the review",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:47:33.000Z",
+      "contentType": "article",
+      "tags": [
+        "azure",
+        "github",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "why-buying-trustpilot-reviews-is-essential-for-success",
+      "title": "Why Buying Trustpilot Reviews is Essential for Success",
+      "url": "https://velog.io/@zipnick257925/Why-Buying-Trustpilot-Reviews-is-Essential-for-Success-nepgdjt5",
+      "summary": "In today’s digital marketplace, credibility can have a major influence on whether a potential customer chooses your business or moves on to a competitor. Before making a purchase, customers frequently look at online revi",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:51:13.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "해커스-한권토익-무료강의-출석체크-4주차",
+      "title": "해커스 한권토익 무료강의 출석체크 4주차",
+      "url": "https://velog.io/@ttii/%ED%95%B4%EC%BB%A4%EC%8A%A4-%ED%95%9C%EA%B6%8C%ED%86%A0%EC%9D%B5-%EB%AC%B4%EB%A3%8C%EA%B0%95%EC%9D%98-%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC-4%EC%A3%BC%EC%B0%A8-coguwlpz",
+      "summary": "벌써 해당 챌린지의 끝으로 왔어요..! 시간이 이렇게 빠르다니... 조금 더 열심히 공부할수 있지 않았을까? 라는 생각도 드네요! 해커스 토익 800 교재를 들고 뛰는 저 치아..? 모양 친구도 뭔가 정든것같습니다 ㅎㅎㅎ 망토도 뭔가 귀엽고..? 마지막 후기인만큼 다시한번 강조드리자면!! 도중도중 후기글을 쓸때마다 위 이미지와 같은 보상들이 주어져요! 너무재밌어서 공부가 힘들어도 계속 하게 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:50:18.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "라이브와-빌드본이-한-줄-달랐다-cdn이-끼워-넣은-통계-스크립트와-배포-검증",
+      "title": "라이브와 빌드본이 한 줄 달랐다 — CDN이 끼워 넣은 통계 스크립트와 배포 검증",
+      "url": "https://velog.io/@stop515/cdn-beacon-one-line",
+      "summary": "정적 사이트를 하나 운영하면서 지키는 규칙이 있다. 배포가 끝나면 라이브 파일을 받아서 내 빌드 결과와 바이트 단위로 비교하고, 같을 때만 검색엔진에 \"새 글이 있다\"고 알린다. 덜 올라간 파일이나 캐시에 남은 옛 버전을 알리는 실수를 막으려는 장치다. 어느 날 이 비교가 실패했다. 파일을 다시 올려도 마찬가지였다. 차이는 딱 한 줄이었다. 1. 끼어든 한 줄 라이브 HTML의 바로 앞에 내",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:48:07.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "spring-cloud-circuit-breaker와-resilience4j",
+      "title": "Spring Cloud Circuit Breaker와 Resilience4j",
+      "url": "https://velog.io/@joeynoh2002/Spring-Cloud-Circuit-Breaker%EC%99%80-Resilience4j",
+      "summary": "1. Circuit Breaker란? Circuit Breaker(서킷 브레이커)는 마이크로서비스 간 통신에서 특정 서비스에 장애가 발생했을 때, 해당 서비스로 반복적인 요청을 보내지 않도록 차단하는 기능이다. 예를 들어 User Service가 사용자 정보를 조회하면서 Order Service에 주문 내역을 요청한다고 가정하자. 이때 Order Service가 중지되면 주문 조회 요청이 계",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:45:17.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "실행은-도메인별로-문맥은-한-레포에",
+      "title": "실행은 도메인별로, 문맥은 한 레포에",
+      "url": "https://toss.tech/article/dw-airflow-migration",
+      "summary": "중앙 DW Airflow를 멈추지 않고 도메인별 DW로 나눈 9개월",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-16T06:15:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "토스뱅크가-패키지를-관리하는-방식-2-토스뱅크-패키지의-세-가지-기준",
+      "title": "토스뱅크가 패키지를 관리하는 방식 #2: 토스뱅크 패키지의 세 가지 기준",
+      "url": "https://toss.tech/article/package-management-2",
+      "summary": "안정성, 예측 가능성, 디버깅 편의성. 패키지가 갖춰야 할 세 가지 기준과, 문법 변환과 번들링을 사용하는 서비스에 맡긴 이유를 소개해요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-16T01:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "apples-robotic-arm-datacenter-debt-crisis-people-behind-software",
+      "title": "Apple's robotic arm 🤖, datacenter debt crisis 📉, people behind software 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-19",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "토스뱅크가-패키지를-관리하는-방식-1-패키지를-esm으로만-제공하기로-했어요",
+      "title": "토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요",
+      "url": "https://toss.tech/article/package-management-1",
+      "summary": "ESM과 CJS를 함께 제공할 때 생길 수 있는 상태 분리와 타입 누락 문제를 살펴보고, 패키지를 ESM-only로 전환한 이유를 소개해요.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-15T09:23:00.000Z",
+      "contentType": "article",
+      "score": 27
+    },
+    {
+      "slug": "ai로-e2e-회귀-테스트-자동화하기-딸깍을-파이프라인으로-바꾸기까지",
+      "title": "AI로 E2E 회귀 테스트 자동화하기: ‘딸깍’을 파이프라인으로 바꾸기까지",
+      "url": "https://techblog.lycorp.co.jp/ko/ai-e2e-test-automation",
+      "summary": "들어가며안녕하세요. LINE Plus에서 대만 Giftshop 서비스 QA를 담당하고 있는 김혜영입니다.최근 AI를 테스트 자동화에 활용하려는 다양한 시도와 실제 적용 사례를 접하...",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-16T02:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "is-your-organization-messing-up-ai-adoption",
+      "title": "Is Your Organization Messing Up AI Adoption?",
+      "url": "https://smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/",
+      "summary": "What can digital transformation teach us about AI adoption? Paul Boag revisits his book Digital Adaptation to show how lessons from the past can help organizations navigate the challenges of AI today.",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-16T10:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "파이썬-315-lazy-import로-프로그램-시작-시간-줄이기",
+      "title": "파이썬 3.15 lazy import로 프로그램 시작 시간 줄이기",
+      "url": "https://daleseo.com/python-lazy-import/",
+      "summary": "파이썬 3.15에 추가된 lazy import 문법으로 모듈을 처음 쓸 때 불러와 시작 시간을 줄이는 방법을 알아봅니다. 에러가 드러나는 시점, 쓸 수 없는 곳, 기존 코드 적용법까지 실습합니다",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    },
+    {
+      "slug": "redirects-정적-사이트에서-리디렉션-규칙-관리하기",
+      "title": "_redirects: 정적 사이트에서 리디렉션 규칙 관리하기",
+      "url": "https://daleseo.com/redirects-file/",
+      "summary": "Cloudflare와 Netlify의 _redirects 문법, 스플랫과 플레이스홀더, 규칙 순서, Vercel과 프레임워크 설정까지 정적 사이트에서 옛 주소를 지키는 리디렉션 규칙을 실측 결과와 함께 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    },
+    {
+      "slug": "tesla-roadster-muse-spark-open-internal-vibe-coding",
+      "title": "Tesla Roadster 🚗, Muse Spark Open ✨, internal vibe coding 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-16",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 21
+    }
+  ]
+}
