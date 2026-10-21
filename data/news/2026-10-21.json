@@ -1,0 +1,493 @@
+{
+  "date": "2026-10-21",
+  "collectedAt": "2026-10-21T00:17:34.141Z",
+  "items": [
+    {
+      "slug": "tsrs-a-port-of-typescript-to-rust",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "summary": "Hacker News 토론 156개 · 336 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T13:18:07.000Z",
+      "contentType": "discussion",
+      "engagement": 336,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 81
+    },
+    {
+      "slug": "how-i-got-over-300-tor-exit-nodes-removed",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "summary": "Hacker News 토론 74개 · 308 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T13:39:24.000Z",
+      "contentType": "discussion",
+      "engagement": 308,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 81
+    },
+    {
+      "slug": "simcity-but-with-permits",
+      "title": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "summary": "Hacker News 토론 262개 · 491 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T18:29:09.000Z",
+      "contentType": "discussion",
+      "engagement": 491,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "deepinfer-high-performance-inference-framework-for-deepseek-models",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "summary": "Hacker News 토론 821개 · 2104 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T09:08:54.000Z",
+      "contentType": "discussion",
+      "engagement": 2104,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "cloudflaresecurity-audit-skill-javascript",
+      "title": "cloudflare/security-audit-skill (JavaScript)",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:17:32.433Z",
+      "contentType": "repo",
+      "engagement": 34171,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "madslorentzenai-job-search-python",
+      "title": "MadsLorentzen/ai-job-search (Python)",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:17:32.432Z",
+      "contentType": "repo",
+      "engagement": 60524,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "comfy-orgcomfyui-python",
+      "title": "Comfy-Org/ComfyUI (Python)",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:17:32.435Z",
+      "contentType": "repo",
+      "engagement": 140745,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "graphify-labsgraphify-python",
+      "title": "Graphify-Labs/graphify (Python)",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:17:32.436Z",
+      "contentType": "repo",
+      "engagement": 130221,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "announcing-typescript-71-beta",
+      "title": "Announcing TypeScript 7.1 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+      "summary": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes are",
+      "sourceId": "typescript-blog",
+      "sourceName": "TypeScript Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-20T17:53:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 51
+    },
+    {
+      "slug": "google-tpu용-네이티브-pytorch-백엔드-torchtpu-오픈소스로-공개",
+      "title": "Google, TPU용 네이티브 PyTorch 백엔드 TorchTPU 오픈소스로 공개",
+      "url": "https://news.hada.io/topic?id=35728",
+      "summary": "TorchTPU는 Google의 TPU에서 PyTorch 모델과 연산을 실행할 수 있게 하는 백엔드임 TPU용 ATen 커널과 XLA 연산 실행을 최적화하는 컴파일 캐시를 포함함 torch.compile() 과 통합해 그래프 모드 실행을...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T20:36:23.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "tsrs-typescript-컴파일러의-rust-포트",
+      "title": "tsrs: TypeScript 컴파일러의 Rust 포트",
+      "url": "https://news.hada.io/topic?id=35724",
+      "summary": "Cloudflare와 VoidZero가 Owner.com의 Max Schwenk와 함께 TypeScript 컴파일러의 Rust 포트인 tsrs를 개발함. TypeScript 팀과 긴밀히 협력하며 Oxc 도구 체계 안에서 프로젝트를 육성함 초기 벤치마크에서 동일한 타입 검사 워커 수를 사용할 때...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-20T17:37:54.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "macos에서-touch-id로-ssh-키-설정하기",
+      "title": "macOS에서 Touch ID로 SSH 키 설정하기",
+      "url": "https://news.hada.io/topic?id=35734",
+      "summary": "Mac의 Secure Enclave에 추출할 수 없는 개인 키를 만들고, SSH 인증 때마다 Touch ID로 사용을 승인하는 구성이 가능함 기본 제공 도구로 신원 생성, SSH 에이전트 등록, 공개 키 확인까지 명령 3개로 설정할 수 있으며 GitHub의 SSH 인증에도 적...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:07:12.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "emudhra-중간-인증서-침해에-따른-firefox-사용자-보호-조치",
+      "title": "eMudhra 중간 인증서 침해에 따른 Firefox 사용자 보호 조치",
+      "url": "https://news.hada.io/topic?id=35733",
+      "summary": "eMudhra 중간 인증서 8개에 연결된 개인 키가 침해됐다는 신고가 Mozilla에 접수됨. 공격자는 이 키로 자신이 통제하지 않는 웹사이트의 위조 HTTPS 인증서를 발급할 수 있음 사용자 연결을 가로챌 수 있는 공격자는 위조 인증서로 웹사이트를 사칭하고, 트래픽을 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:04:12.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "글로벌-최고-수준의-자체-비전-인코더-kanana-2-vision-encoder-개발기",
+      "title": "글로벌 최고 수준의 자체 비전 인코더, Kanana-2-vision-encoder 개발기",
+      "url": "https://tech.kakao.com/posts/840",
+      "summary": "안녕하세요. 카카오 Multimodal Model Training팀에서 카나나를 연구·개발하는 Polar(엄지환)입니다. 카카오가 자체 기술력만으로 밑바닥부터(from scratch) 개발한 독자 비전 인코더, Kanana-2-vision-encoder를 소개합니다. Kanana-2-vision-encoder는 카카오 언어모델 Kanana-2 LLM[1]의 가중치와 구조를 활용해 학습과 추론",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-20T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "2026년과-이후-javascript의-동향-javascriptecmascript",
+      "title": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
+      "url": "https://d2.naver.com/helloworld/2675915",
+      "summary": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에서 플래그 없이 쓸 수 있습니다. 달",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-20T05:51:56.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "protecting-firefox-users-following-the-compromise-of-emudhra",
+      "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
+      "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T13:00:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nixos-is-making-me-less-afraid",
+      "title": "NixOS is making me less afraid",
+      "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T13:44:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "nix"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "making-a-vga-driver-in-systemverilog",
+      "title": "Making a VGA Driver in SystemVerilog",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T15:58:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware",
+        "graphics"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "mastodon-50-a-closer-look",
+      "title": "Mastodon 5.0: A closer look",
+      "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-20T17:33:54.000Z",
+      "contentType": "article",
+      "tags": [
+        "design",
+        "release"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "embracing-playful-imperfection-with-the-css-random-function",
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+      "summary": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS `random()` function brings a ",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "the-up-to-8x-faster-rust-port-of-typescript",
+      "title": "The up to 8x faster Rust port of TypeScript",
+      "url": "https://javascriptweekly.com/issues/807",
+      "summary": "#​807 — October 20, 2026 Read on the Web JavaScript Weekly tsrs: Cloudflare and VoidZero's Rust Port of TypeScript — A Rust port of the Go-based TypeScript 7 compiler, built with some input from the TypeScript team and h",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "do-ai-generated-product-descriptions-need-a-label-under-article-50",
+      "title": "Do AI-generated product descriptions need a label under Article 50?",
+      "url": "https://dev.to/mdodeja/do-ai-generated-product-descriptions-need-a-label-under-article-50-3of6",
+      "summary": "This guide was drafted by an AI agent from the primary sources linked at the bottom, and has not been reviewed by a lawyer. It is general information, not legal advice. The original is at https://mdodeja.github.io/eu-ai-",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:14:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "legal",
+        "compliance"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "the-ten-unglamorous-tasks-my-agent-actually-handles",
+      "title": "The Ten Unglamorous Tasks My Agent Actually Handles",
+      "url": "https://dev.to/galagent/the-ten-unglamorous-tasks-my-agent-actually-handles-cf6",
+      "summary": "Nobody wants a demo of the boring stuff. But the boring stuff is where the time went, and it is where an agent is safest, because the failure is obvious. Here is the actual list from a month of real use, ordered by how m",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:14:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "productivity",
+        "discuss",
+        "showdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "vektor-201-desk-routing-went-from-11-to-90-measured-via-minimax-matrix",
+      "title": "VEKTOR 2.0.1: Desk routing went from 11% to 90%. Measured via Minimax matrix",
+      "url": "https://dev.to/vektor_memory_43f51a32376/vektor-201-desk-routing-went-from-11-to-90-measured-via-minimax-matrix-25di",
+      "summary": "Before this release, Desk’s automatic routing ran the right mode for about 11 of every 100 messages that needed one. In our test it was 15 of 133. Desk has eight modes: ordinary chat, Council, Critique, Collab, Agent, Co",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:13:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "superintelligence",
+        "llm"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "counting-cardano-builder-activity-weekly-commits-and-30-day-releases",
+      "title": "Counting Cardano builder activity: weekly commits and 30-day releases across 15 core repos from the GitHub API",
+      "url": "https://dev.to/elliotagent/counting-cardano-builder-activity-weekly-commits-and-30-day-releases-across-15-core-repos-from-the-5g51",
+      "summary": "At The Cardano Record most of what we publish comes from our own cardano-db-sync node. This segment is the exception. You can't read builder activity from the chain, so it comes from GitHub, and no db-sync table is invol",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:12:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "cardano",
+        "opensource",
+        "python"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "ai-agent-engineer-roadmap-36-mcpmodel-context-protocol란-무엇인가",
+      "title": "AI Agent Engineer Roadmap #36 - MCP(Model Context Protocol)란 무엇인가?",
+      "url": "https://velog.io/@ornni/AI-Agent-Engineer-Roadmap-36-MCPModel-Context-Protocol%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80",
+      "summary": "지난 글에서는 OpenAI Agents SDK를 이용해 Agent 애플리케이션을 어떻게 구현할 수 있는지 알아봤다. 이번에는 Agent가 GitHub, Database, Slack, File System 같은 외부 시스템과 연결될 때 사용할 수 있는 표준인 MCP(Model Context Protocol)에 대해 알아보자. 먼저 지금까지 배운 Agent를 생각해보자 예를 들어 사용자가 다음과",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:15:50.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "프로그래머스-프로세스",
+      "title": "[프로그래머스] 프로세스",
+      "url": "https://velog.io/@uaho01/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4",
+      "summary": "문제 보러가기 https://school.programmers.co.kr/learn/courses/30/lessons/42587 첫번째 풀이 이 문제는 큐를 활용하여 푸는 문제이다. 필자는 아래와 같이 긴 코드로 문제를 풀었다. from collections import deque def solution(priorities, location): answer = 0 sorted_list = s",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:15:24.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "climate-news-ipcc-report-timetable-stalls-again-in-ethiopia-1020",
+      "title": "[Climate News] IPCC Report Timetable Stalls Again in Ethiopia (10.20)",
+      "url": "https://velog.io/@hyuckjin/climate-environment-briefing-2026-10-20-en",
+      "summary": "IPCC Report Timetable Stalls Again in Ethiopia (10.20) Table of contents Overview Details Overview Countries failed for a sixth time to agree on the timetable for the IPCC’s next major reports, leaving their publication ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:14:29.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "리액트-시작",
+      "title": "리액트 시작",
+      "url": "https://velog.io/@alwaysryu13/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8B%9C%EC%9E%91",
+      "summary": "폴더구조 package.json dependencies 의존성 라이브러리 터미널 명령어 npm install로 한번 싹 업데이트 가능 node_modules에 업데이트 됨 파일과 실행순서 index.html index.html javascript실행 -> main.jsx 실행 React 실습 샌드박스 - main.jsx JavaScript안에 HTML마크업을 쓸 수 있게 해주는 확장문법임 `",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T00:12:38.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "touchscreen-macbook-pro-waymo-to-5x-fleet-inference-cost-cuts",
+      "title": "Touchscreen MacBook Pro 💻, Waymo to 5x fleet 🚗, inference cost cuts 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-20",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "올리브영의-첫-테크-컨퍼런스-defineomni-2026이-열립니다",
+      "title": "올리브영의 첫 테크 컨퍼런스, define:OMNI 2026이 열립니다",
+      "url": "https://oliveyoung.tech/2026-10-20/oy-conference-2026-notice/",
+      "summary": "2026년 11월 19일(목), Next Omni-channel을 함께 만들어갈 분들과 성수에서 만납니다.",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Culture",
+        "Tech",
+        "Product"
+      ],
+      "score": 28
+    }
+  ]
+}
