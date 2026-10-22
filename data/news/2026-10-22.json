@@ -1,0 +1,500 @@
+{
+  "date": "2026-10-22",
+  "collectedAt": "2026-10-22T00:21:40.836Z",
+  "items": [
+    {
+      "slug": "todays-php-security-release-and-how-were-strengthening-security",
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "summary": "Hacker News 토론 323개 · 654 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T15:48:56.000Z",
+      "contentType": "discussion",
+      "engagement": 654,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "compromised-litellm-11070-on-pypi-installs-a-credential-stealer-and",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "summary": "Hacker News 토론 131개 · 420 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T14:00:26.000Z",
+      "contentType": "discussion",
+      "engagement": 420,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "meta-ordered-to-pay-25b-penalty-in-new-mexico-cambridge-analytica-case",
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "summary": "Hacker News 토론 202개 · 326 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T17:45:13.000Z",
+      "contentType": "discussion",
+      "engagement": 326,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "duckdb-200-lts-cinnamon-teal",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "summary": "Hacker News 토론 43개 · 355 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T14:01:22.000Z",
+      "contentType": "discussion",
+      "engagement": 355,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "supabasesupabase-typescript",
+      "title": "supabase/supabase (TypeScript)",
+      "url": "https://github.com/supabase/supabase",
+      "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:21:39.176Z",
+      "contentType": "repo",
+      "engagement": 112992,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "twentyhqtwenty-typescript",
+      "title": "twentyhq/twenty (TypeScript)",
+      "url": "https://github.com/twentyhq/twenty",
+      "summary": "The open alternative to Salesforce, designed for AI.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:21:39.176Z",
+      "contentType": "repo",
+      "engagement": 59155,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "vllm-projectvllm-python",
+      "title": "vllm-project/vllm (Python)",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:21:39.174Z",
+      "contentType": "repo",
+      "engagement": 94859,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "headroomlabs-aiheadroom-python",
+      "title": "headroomlabs-ai/headroom (Python)",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:21:39.175Z",
+      "contentType": "repo",
+      "engagement": 77247,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "한국의-신규-ai-파생-모델-절반-가까이가-중국-qwen-기반임",
+      "title": "한국의 신규 AI 파생 모델 절반 가까이가 중국 Qwen 기반임",
+      "url": "https://news.hada.io/topic?id=35785",
+      "summary": "2026년 1~8월 Hugging Face에 공개한 한국 계정들의 신규 언어모델 1,845건 중 49.3%가 중국 모델 기반 확산을 주도한 것은 알리바바 Qwen으로, 전체의 46.8%인 864건을 차지. Gemma 14.7%, Llama 13.8%, EXAONE 9.3%가 뒤를 이었으며, DeepSeek 기반은 1.0%에 그침...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:10:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "10월-28일-lobsters-뉴욕-밋업",
+      "title": "10월 28일 Lobsters 뉴욕 밋업",
+      "url": "https://news.hada.io/topic?id=35784",
+      "summary": "다음 주 뉴욕 방문에 맞춰 Lobsters 이용자들이 만나는 밋업을 제안함 Array Language 커뮤니티 사람들도 함께할 예정임 시작 시간은 오후 5시 30분을 제안했으며, 종료 시간은 정하지 않음 장소는 Bryant Park 또는 B...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:04:35.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "firefox-local-mode-로컬-파일을-맞춤-https-url로-불러오는-개발-도구-기능",
+      "title": "Firefox Local Mode - 로컬 파일을 맞춤 HTTPS URL로 불러오는 개발 도구 기능",
+      "url": "https://news.hada.io/topic?id=35782",
+      "summary": "Firefox 153에 도입된 Local Mode는 맞춤 HTTPS URL과 로컬 폴더를 연결해, 별도 HTTP 서버 없이 웹 페이지를 테스트할 수 있게 함 보안 컨텍스트(Secure Contexts) 로 제한된 API를 포함해 모든 웹 API를 테스트하기 쉽게 함 실험이나 프로젝트마다",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:01:35.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-서버-업로드-없이-브라우저에서-음원-6트랙-분리자동-마스터링하는-도구",
+      "title": "Show GN: 서버 업로드 없이 브라우저에서 음원 6트랙 분리·자동 마스터링하는 도구",
+      "url": "https://news.hada.io/topic?id=35781",
+      "summary": "Suno 등으로 만든 곡을 보컬·드럼·베이스·피아노·기타·그 외 악기로 나누고 마스터링까지 하는 웹 도구 '결소리(Gyeolsori)'를 만들었습니다. 왜 만들었나 스템 분리와 마스터링은 보통 서버에 파일을 올려야 하거나, 가입·결제가 필요하거나, 로컬에 별도 프로그램을 설치해야 합니다. 이걸 브라우",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-21T23:58:29.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "wednesday-october-21-2026-security-releases",
+      "title": "Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-21T22:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "nodejs-26121-current",
+      "title": "Node.js 26.12.1 (Current)",
+      "url": "https://nodejs.org/en/blog/release/v26.12.1",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-21T10:39:20.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "nodejs-24221-lts",
+      "title": "Node.js 24.22.1 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v24.22.1",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-21T10:39:14.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "nodejs-22234-lts",
+      "title": "Node.js 22.23.4 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v22.23.4",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-21T10:39:12.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "2026년과-이후-javascript의-동향-브라우저-밖의-javascript",
+      "title": "2026년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript",
+      "url": "https://d2.naver.com/helloworld/1443473",
+      "summary": "브라우저 밖의 JavaScript 동향을 마지막으로 다루었던 2019년 시점(1부, 2부)에서는 Node.js 12와 막 1년을 넘긴 Deno를 소개하며 \"Node.js와 같은 성공을 거둘 수 있을지는 아직 미지수\"라고 썼습니다. 패키지 관리자 영역은 \"npm의 독주 체제\"라고 표현했고 npm 회사의 불확실한 상황에 맞서 Entropic, Open-Registry, GitHub Package",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-21T03:38:48.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "firefox-local-mode",
+      "title": "Firefox Local Mode",
+      "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T15:47:59.000Z",
+      "contentType": "article",
+      "tags": [
+        "browsers"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "zls-0170",
+      "title": "zls 0.17.0",
+      "url": "https://zigtools.org/zls/releases/0.17.0/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T15:24:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "release",
+        "zig"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "passkeys-attestation-trap",
+      "title": "Passkeys Attestation Trap",
+      "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T18:16:22.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "cve-2026-107891-musl-libc-multiple-integer-overflow-in-regcomp-possibly",
+      "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
+      "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-21T17:40:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "c"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "block-burner-emails-in-the-nextjs-saas-starter",
+      "title": "Block burner emails in the Next.js SaaS starter",
+      "url": "https://dev.to/signupbouncer/block-burner-emails-in-the-nextjs-saas-starter-2h5d",
+      "summary": "I build SignupBouncer, the signup check in this guide. The original is on signupbouncer.com. How do I stop burner and repeat signups in the Next.js SaaS starter? Add one SignupBouncer check to signUp, the server action t",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:06:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "nextjs",
+        "webdev",
+        "security"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "모델만-바꿨는데-llm-비용이-3배가-된-이유",
+      "title": "모델만 바꿨는데 LLM 비용이 3배가 된 이유",
+      "url": "https://medium.com/daangn/%EB%AA%A8%EB%8D%B8%EB%A7%8C-%EB%B0%94%EA%BF%A8%EB%8A%94%EB%8D%B0-llm-%EB%B9%84%EC%9A%A9%EC%9D%B4-3%EB%B0%B0%EA%B0%80-%EB%90%9C-%EC%9D%B4%EC%9C%A0-5ae60ab5108b?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-21T09:28:26.000Z",
+      "contentType": "article",
+      "tags": [
+        "engineering",
+        "ai"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "the-five-senses-of-artificial-intelligence",
+      "title": "The Five Senses of Artificial Intelligence",
+      "url": "https://dev.to/massigenta/the-five-senses-of-artificial-intelligence-31n8",
+      "summary": "An AI agent can write a program, execute it, discover that something went wrong, and try again. But what happens when the program works perfectly and the person using it still finds it useless? There’s an important diffe",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:18:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "opensource",
+        "programming"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "docker-publishing-with-github-actions-a-practical-end-to-end-setup",
+      "title": "Docker Publishing with GitHub Actions: A Practical End-to-End Setup",
+      "url": "https://dev.to/rakeshranderia/docker-publishing-with-github-actions-a-practical-end-to-end-setup-39g4",
+      "summary": "Docker Publishing with GitHub Actions: A Practical End-to-End Setup I wanted a small Docker implementation that covered the complete lifecycle rather than stopping at docker build. The result is a deliberately simple sta",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:15:38.000Z",
+      "contentType": "article",
+      "tags": [
+        "docker",
+        "githubactions",
+        "devops"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "five-questions-to-ask-before-you-use-an-ai-answer",
+      "title": "Five questions to ask before you use an AI answer",
+      "url": "https://dev.to/toritic/five-questions-to-ask-before-you-use-an-ai-answer-29d3",
+      "summary": "AI tools write answers that sound sure, including the wrong ones. You do not need to be technical to catch many of them. Ask these five questions, in this order, in the same chat. \"What would have to be true for this to ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:15:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "beginners",
+        "productivity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "1234",
+      "title": "1234",
+      "url": "https://velog.io/@no4926/1234",
+      "summary": "-- 통합테스트 시나리오 선택 업무 DML / 2026-10-22 -- 원천: 개발DB TB_AD_TS_SCNR_CASE 읽기 전용 추출, 현재 저장값 그대로. -- 범위: 일정관리 12 / 경영유의사항 관리 30 / 사전감사자료 조회 7·관리 16 / -- 미사용 부서 관리 17 / 공통 31 = 총 113건. -- 대상 테이블 TB_AD_TS_SCNR_CASE가 이미 존재하는 환경에서 실",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:19:34.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "php2shell-쉽게-정리해-보기",
+      "title": "PHP2Shell, 쉽게 정리해 보기",
+      "url": "https://velog.io/@jinbumlee95/PHP2Shell",
+      "summary": "PHP2Shell, 쉽게 정리해 보기 어제(10/21) 전 세계 웹사이트를 긴장하게 만든 보안 사고가 있었다. 이름은 PHP2Shell. 나도 보안 전문가는 아니라서, 최대한 쉽게 이해한 만큼 정리해 봤다. 1. PHP가 뭔데? 웹사이트는 크게 두 부분으로 나뉜다. 화면 : 우리가 브라우저에서 보는 부분 서버 : 뒤에서 \"로그인 확인해 줘\", \"글 저장해 줘\" 같은 일을 처리하는 부분 PHP",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:18:02.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "논문리뷰-mmenterprise-bench-evaluating-enterprise-agents-over-evolving",
+      "title": "[논문리뷰] MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records (사내 기록 충돌 벤치마크)",
+      "url": "https://velog.io/@mini_knows/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-MMEnterprise-Bench-Evaluating-Enterprise-Agents-over-Evolving-Multimodal-Records-%EC%82%AC%EB%82%B4-%EA%B8%B0%EB%A1%9D-%EC%B6%A9%EB%8F%8C-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC",
+      "summary": "(출처: arXiv:2610.27911, Figure 1) MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records 저자: Seohyun Lee†, Jongha Kim†, Dohwan Ko, Ji Soo Lee, Seoung Choi, Jayun Ku, Hyunwoo J. Kim‡ (†동등 기여, ‡교신",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:16:53.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "우리won-spring",
+      "title": "[우리WON] Spring",
+      "url": "https://velog.io/@jpyo40/%EC%9A%B0%EB%A6%ACWON-Spring",
+      "summary": "정의 Java 언어를 기반으로 안전하고 편리하게 웹사이트와 응용 프로그램을 만들 수 있게 도와주는 프레임워크 프레임워크 vs 라이브러리 프레임워크 70-80% 만들어져 있는 뼈대 -> 가져다 사용하기만 하면 됨 => 처음부터 개발할 필요가 없어서 만드는 속도가 압도적으로 빠르고 안전 예: Spring, Django, Flutter, Angular 라이브러리 특정 기능을 끝까지 판 것 => 내",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:16:10.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ten-css-features-worth-voting-for",
+      "title": "Ten CSS features worth voting for",
+      "url": "https://frontendfoc.us/issues/763",
+      "summary": "🚀 Frontend Focus #​763 — October 21, 2026 | Read on the web Everyone's Interop 2027 Wishlists Last week we shared that you can now rank the Interop web platform proposals for 2027. Since then, plenty of folks have share",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "anthropic-s-1-leaks-tesla-spacex-merger-talks-increase-your-slope",
+      "title": "Anthropic S-1 leaks 💰, Tesla SpaceX merger talks 🚀, increase your slope 📈",
+      "url": "https://tldr.tech/tech/2026-10-21",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
