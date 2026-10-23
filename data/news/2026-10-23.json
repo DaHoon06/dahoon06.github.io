@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-23",
+  "collectedAt": "2026-10-23T00:18:21.826Z",
+  "items": [
+    {
+      "slug": "quad9-dns-resolver-to-exit-france",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "summary": "Hacker News 토론 347개 · 960 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T14:32:38.000Z",
+      "contentType": "discussion",
+      "engagement": 960,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "woman-faces-six-years-in-prison-over-cash-app-account-she-never-opened",
+      "title": "Woman faces six years in prison over Cash App account she never opened",
+      "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+      "summary": "Hacker News 토론 457개 · 450 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T13:11:00.000Z",
+      "contentType": "discussion",
+      "engagement": 450,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "run-full-ios-165-firmware-on-android-devices",
+      "title": "Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "summary": "Hacker News 토론 119개 · 313 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T15:26:22.000Z",
+      "contentType": "discussion",
+      "engagement": 313,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "emudhra-to-exit-global-ssltls-certificate-business",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "summary": "Hacker News 토론 620개 · 907 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T13:33:39.000Z",
+      "contentType": "discussion",
+      "engagement": 907,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "phpphp-src-c",
+      "title": "php/php-src (C)",
+      "url": "https://github.com/php/php-src",
+      "summary": "The PHP Interpreter",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:18:19.203Z",
+      "contentType": "repo",
+      "engagement": 41145,
+      "tags": [
+        "github",
+        "C"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "anthropicsknowledge-work-plugins-python",
+      "title": "anthropics/knowledge-work-plugins (Python)",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:18:19.204Z",
+      "contentType": "repo",
+      "engagement": 31581,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "fastapifastapi-python",
+      "title": "fastapi/fastapi (Python)",
+      "url": "https://github.com/fastapi/fastapi",
+      "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:18:19.207Z",
+      "contentType": "repo",
+      "engagement": 103732,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "luongnv89claude-howto-python",
+      "title": "luongnv89/claude-howto (Python)",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:18:19.208Z",
+      "contentType": "repo",
+      "engagement": 43181,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "show-gn-vibeterm바이브텀-claude-codecodex-여러-개를-한-화면에서-굴리는-무료-windows-터미널",
+      "title": "Show GN: VibeTerm(바이브텀) - Claude Code·Codex 여러 개를 한 화면에서 굴리는 무료 Windows 터미널",
+      "url": "https://news.hada.io/topic?id=35841",
+      "summary": "Claude Code를 서버 몇 대와 로컬에 여러 개 띄워 두고 일하다 보면 정작 시간을 잡아먹는 건 코딩이 아니라 \"어느 탭이 지금 나를 기다리고 있지?\" 를 확인하러 탭을 돌아다니는 일이었습니다. 그래서 AI 코딩 에이전트를 여러 개 돌리는 사람을 위한 SSH·터미널을 직접 만들어 매일 쓰고...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:12:43.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "mac-부팅이-5에서-멈추는-문제-헤드리스-chrome-앱-복제본-누적",
+      "title": "Mac 부팅이 5%에서 멈추는 문제 (헤드리스 Chrome 앱 복제본 누적)",
+      "url": "https://news.hada.io/topic?id=35839",
+      "summary": "macOS 의 Chrome 은 브라우저 프로세스를 띄울 때마다 앱 전체를 /var/folders/.../X/ 에 복제하고, 정상 종료할 때만 이 복제본을 지웁니다. SIGKILL 이나 크래시로 끝나면 재부팅 때까지 남습니다. 헤드리스 Chrome 을 렌더마다 SIGKILL 로 끝내는 렌더러를 쓰다 보니 한 달 반 넘게 재부...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:05:52.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "macos의-gcc-바이너리-살펴보기",
+      "title": "macOS의 gcc 바이너리 살펴보기",
+      "url": "https://news.hada.io/topic?id=35838",
+      "summary": "macOS의 gcc는 단순한 별칭이 아니라 실행 파일이며, 실제 컴파일은 clang으로 이어짐 첫 번째 바이너리는 libxcselect.dylib의 xcselect_invoke_xcrun() 을 호출하며, 이는 사실상 xcrun을 실행...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:01:10.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "earcut보다-빠르게-지도-폴리곤-370만-개를-489ms에-삼각분할하기",
+      "title": "earcut보다 빠르게: 지도 폴리곤 370만 개를 489ms에 삼각분할하기",
+      "url": "https://news.hada.io/topic?id=35837",
+      "summary": "지도 엔진의 삼각분할기를 귀 자르기(ear clipping) 기반 earstrip으로 교체해, M4 Pro 단일 코어에서 폴리곤 374만 개의 처리 시간을 기존 제약 Delaunay 방식의 2,931ms에서 489ms로 줄임 지도 영역을 단색으로 채우는 작업에는 삼각형 모양의 품질이 중요하지 않...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-22T23:40:05.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "docker-is-weird",
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T20:09:22.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a-hacky-fucked-up-way-to-portably-access-errno-from-outside-of-c",
+      "title": "a hacky fucked up way to portably access errno from outside of c",
+      "url": "https://sebsite.pw/w/20260925-errno.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T21:42:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "c"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "expose-only-share-links-of-a-private-service-with-caddy",
+      "title": "Expose only share links of a private service with caddy",
+      "url": "https://dataswamp.org/~solene/2026-10-21-caddy-forward-auth-public-share-links.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T16:30:14.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "devops"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "objects-attributes-maps-oh-my",
+      "title": "Objects, attributes, maps, oh my",
+      "url": "https://bernsteinbear.com/blog/object-shapes/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-22T17:35:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "compilers"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "realtime-message-order-delivery-guarantees-across-classroom-reconnects",
+      "title": "Realtime Message Order: Delivery Guarantees Across Classroom Reconnects and Backfills",
+      "url": "https://dev.to/rhettmurray8263/realtime-message-order-delivery-guarantees-across-classroom-reconnects-and-backfills-3276",
+      "summary": "TL;DR: Message order describes the sequence a receiver is allowed to observe on one channel; delivery order is the sequence events actually reach each learner after delay, loss, retries, and reconnects. In plain terms, a",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:12:55.000Z",
+      "contentType": "article",
+      "tags": [
+        "realtime",
+        "python",
+        "architecture"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "i-made-a-youtube-shorts-blocker-then-my-brain-found-another-way-to",
+      "title": "I made a YouTube Shorts blocker, then my brain found another way to waste time lol",
+      "url": "https://dev.to/w1that/i-made-a-youtube-shorts-blocker-then-my-brain-found-another-way-to-waste-time-lol-1a2c",
+      "summary": "So I've been trying to spend less time on social media. Deleted Instagram and Twitter, kept Reddit on desktop only. Also deleted the YouTube app from my iPhone, but I still wanted to watch videos so I kept using Safari. ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:17:55.000Z",
+      "contentType": "article",
+      "tags": [
+        "showdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "scrape-plus-embed-pipeline-citable-page-change-alerts-end-to-end",
+      "title": "Scrape Plus Embed Pipeline: Citable Page-Change Alerts End to End",
+      "url": "https://dev.to/fairchildblake8483/scrape-plus-embed-pipeline-citable-page-change-alerts-end-to-end-53",
+      "summary": "A page-change alert is useful only when an editor can open the exact source that justified it. Short answer: what a scrape plus embed pipeline looks like end to end is five separately retryable stages: discover pages, de",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:16:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "scrape",
+        "embeddings",
+        "pipeline"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "json-ld-structured-data-basics-how-rich-results-get-generated",
+      "title": "JSON-LD Structured Data Basics — How Rich Results Get Generated",
+      "url": "https://dev.to/susumun/json-ld-structured-data-basics-how-rich-results-get-generated-47m4",
+      "summary": "You have probably seen search results that show more than a blue link and a snippet: a publish date, an author, or a breadcrumb trail of the site's hierarchy. These are called rich results, and the raw material behind th",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:15:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "wordpress",
+        "php",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "vx18582098539",
+      "title": "昆明（上门服务）修车【VX~185≈8209≈8539上门】",
+      "url": "https://velog.io/@m7ihm4hb/qc54p7cz",
+      "summary": "昆明（上门服务）修车【VX~185≈8209≈8539上门】提供全国及一二线城市外围模特伴游预约、空姐、模特、留学生、熟女、白领、老师、优质资源覆盖全国。hMC70006",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:18:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "vx130-6432-9994",
+      "title": "广州外围{顶级资源}?VX:130-6432-9994",
+      "url": "https://velog.io/@ki1omgjr/k9bj8m0r",
+      "summary": "广州外围{顶级资源}?VX:130-6432-9994提供全国及一二线城市外围模特伴游预约、空姐、模特、留学生、熟女、白领、老师、优质资源覆盖全国。Uea02676",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:18:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "v13064329994",
+      "title": "杭州临屏区外围上门（高端外围）(V信~130#6432#9994）",
+      "url": "https://velog.io/@qlahwyan/3ikon8ji",
+      "summary": "杭州临屏区外围上门（高端外围）(V信~130#6432#9994）面到付款，上门服务。也有工作室，精挑细选，各种类型，应有尽有，诚信经营。SQi16522",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:18:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "vx17628679727",
+      "title": "东莞南城外围（兼职约炮）【VX~176*2867*9727上门服务】",
+      "url": "https://velog.io/@j472ihla/8k4hh6x7",
+      "summary": "东莞南城外围（兼职约炮）【VX~17628679727上门服务】面到付款，上门服务。也有工作室，精挑细选，各种类型，应有尽有，诚信经营。TCZ84004",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:18:09.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "카카오-ai-돛-summit-26-다시보기-공개-ai-인프라부터-서비스-적용-개발과-창업까지",
+      "title": "카카오 AI 돛 Summit 26 다시보기 공개 — AI 인프라부터 서비스 적용, 개발과 창업까지",
+      "url": "https://tech.kakao.com/posts/842",
+      "summary": "지난 9월 29일 부산에서 약 800명의 참가자와 함께한 ‘카카오 AI 돛 Summit 26’의 주요 세션 VOD를 공개합니다. 👉 카카오 AI 돛 Summit 26 세션 VOD 보러 가기 AI와 함께 개발하는 방식부터 실제 서비스에 AI를 적용하는 과정, 연구를 창업으로 연결하는 경험까지. 현장에 참석하지 못했거나 동시에 진행되어 놓쳤던 발표를 이제 온라인에서 만나보세요. 어떤 세션부터 ",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-21T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "anthropics-ai-agent-elons-merger-internet-security-meltdown",
+      "title": "Anthropic's AI agent 🤖, Elon's merger 💰, internet security meltdown 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-22",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "컨트롤-플레인과-데이터-플레인-시스템을-두-층으로-나누는-이유",
+      "title": "컨트롤 플레인과 데이터 플레인: 시스템을 두 층으로 나누는 이유",
+      "url": "https://daleseo.com/control-plane-data-plane/",
+      "summary": "쿠버네티스, Envoy, Tailscale에 나오는 컨트롤 플레인과 데이터 플레인을 정리합니다. 프론트엔드와 백엔드와는 다른 기준으로 시스템을 나누는 법, 장애로 두 층을 구분하는 질문, Bun 예제까지 살펴봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    }
+  ]
+}
