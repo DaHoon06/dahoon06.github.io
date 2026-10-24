@@ -1,0 +1,444 @@
+{
+  "date": "2026-10-24",
+  "collectedAt": "2026-10-24T00:10:33.010Z",
+  "items": [
+    {
+      "slug": "nodejsnode-javascript",
+      "title": "nodejs/node (JavaScript)",
+      "url": "https://github.com/nodejs/node",
+      "summary": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:10:30.789Z",
+      "contentType": "repo",
+      "engagement": 122854,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 79
+    },
+    {
+      "slug": "kimi-k31-pro-and-k31-pro-highspeed",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "summary": "Hacker News 토론 422개 · 663 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "contentType": "discussion",
+      "engagement": 663,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "apple-music-404-not-found",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "summary": "Hacker News 토론 179개 · 523 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T12:28:47.000Z",
+      "contentType": "discussion",
+      "engagement": 523,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "today-we-hacked-what-wed-set-out-to-hack-the-iphone",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "summary": "Hacker News 토론 467개 · 713 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T16:21:50.000Z",
+      "contentType": "discussion",
+      "engagement": 713,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "openbmbvoxcpm-python",
+      "title": "OpenBMB/VoxCPM (Python)",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:10:30.788Z",
+      "contentType": "repo",
+      "engagement": 40245,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "dessa-the-most-authentic-full-duplex-speech-model-ever-built",
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "url": "https://block.xyz/dessa",
+      "summary": "Hacker News 토론 80개 · 190 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T19:09:54.000Z",
+      "contentType": "discussion",
+      "engagement": 190,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "renhuai123ziwei-doushu-typescript",
+      "title": "Renhuai123/ziwei-doushu (TypeScript)",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "summary": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:10:30.788Z",
+      "contentType": "repo",
+      "engagement": 6843,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "snailsploitclaude-red-python",
+      "title": "SnailSploit/Claude-Red (Python)",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface ",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:10:30.788Z",
+      "contentType": "repo",
+      "engagement": 8466,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "this-week-in-react-302",
+      "title": "This Week In React 302",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-302",
+      "summary": "Next.js, React Router, DevTools, Security, shadcn, Hydrogen, Vinext, Mutative, R3F | RN 0.88, Expo 58, Navigation, FastImage, Screens, Device Hub, Edge to Edge | TypeScript, PHP, CrUX, Rsdoctor, Astro",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-23T12:40:03.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "링크를-함부로-바꾸지-마세요",
+      "title": "링크를 함부로 바꾸지 마세요",
+      "url": "https://news.hada.io/topic?id=35890",
+      "summary": "링크는 클릭하면 이동하는 버튼 이상의 기능을 제공함. JavaScript로 이동시키는 버튼은 새 탭 열기, URL 복사, 키보드 탐색 등 실제 링크의 기능을 대체하지 못함 실제 링크의 클릭을 가로채 팝업으로 열면 브라우저의 로딩 상태 확인, 취소, 오류 확인과 재시도,...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-24T00:09:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "google-gmail과-google-photos-데이터를-타깃-광고에-사용할-수도-있다고-밝힘",
+      "title": "Google, Gmail과 Google Photos 데이터를 타깃 광고에 사용할 수도 있다고 밝힘",
+      "url": "https://news.hada.io/topic?id=35889",
+      "summary": "Google이 개인정보처리방침을 변경해, 사용자가 Gmail, Drive, Google Photos 데이터를 맞춤형 광고를 지원하는 다른 Google 서비스에 제공하면 광고 개인화에 사용할 수 있도록 예외를 추가함 Personal Intelligence를 통해 해당 데이터를 AI Mode나 다른 검색 도...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T23:31:42.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai가-saas를-무너뜨린다고-67개-기업의-실적-발표는-달랐다",
+      "title": "AI가 SaaS를 무너뜨린다고? 67개 기업의 실적 발표는 달랐다",
+      "url": "https://news.hada.io/topic?id=35888",
+      "summary": "상장 SaaS 기업 67곳의 실적 발표를 검토한 결과, 거의 모든 기업이 전망 초과, 전망 상향, 성장 가속, 수익성 개선 중 하나 이상을 기록했으며 AI 제품이 실제 계약과 매출에 기여하고 있음 경쟁력의 중심은 범용 모델보다 맥락, 데이터, 업무 흐름, 통합...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T23:28:09.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai-에이전트-제품을-설계할-때-필요한-15가지-사고-도구",
+      "title": "AI 에이전트 제품을 설계할 때 필요한 15가지 사고 도구",
+      "url": "https://news.hada.io/topic?id=35887",
+      "summary": "무엇을 자동화하고, 어디까지 맡기며, 무엇을 검증할지 결정하기 위해, 제번스 역설과 굿하트의 법칙 등 15가지 사고 도구를 AI 에이전트의 비용과 검증, 권한, 제품 전략에 적용 에이전트의 경제성은 토큰 단가보다 허용 기준을 충족한 작업당 비용",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-23T23:24:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "머릿속에-있던-로그-정의-기준을-모두의-ai-스킬로-만들기",
+      "title": "머릿속에 있던 로그 정의 기준을 모두의 AI 스킬로 만들기",
+      "url": "https://toss.tech/article/dataops-log-definition-skill",
+      "summary": "도구가 규칙을 검사하고 AI가 제안하면 사람이 확정해서, 누구나 같은 기준으로 로그를 정의해요",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-23T01:53:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "the-glorious-xkcdrandom-zig-builtin",
+      "title": "The glorious @xkcdRandom Zig builtin",
+      "url": "https://ochagavia.nl/blog/the-glorious-@xkcdrandom-zig-builtin/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T14:30:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "satire",
+        "compilers",
+        "zig"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "software-is-slow-because-of-bad-design-not-slow-languages",
+      "title": "Software is slow because of bad design, not slow languages",
+      "url": "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T12:58:10.000Z",
+      "contentType": "article",
+      "tags": [
+        "performance"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "attention-people-who-think-ub-is-fine",
+      "title": "Attention people who think UB is fine",
+      "url": "https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T20:47:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "c",
+        "c++"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a-whirlwind-tour-of-systemd-nspawn-containers-2025",
+      "title": "A whirlwind tour of systemd-nspawn containers (2025)",
+      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-23T17:12:35.000Z",
+      "contentType": "article",
+      "tags": [
+        "systemd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "accordion-icons-which-work-best",
+      "title": "Accordion Icons: Which Work Best?",
+      "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+      "summary": "A closer look at accordion icons, why split menus are harmful, and why it’s better not to have icons and text labels link to different actions. Plus, why the caret is the safest icon choice. You’ll find more [useful guid",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-23T13:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "classify-logistics-review-text-data-using-an-embeddings-api-in-nodejs-3",
+      "title": "Classify Logistics Review Text Data Using an Embeddings API in Node.js: 3 Steps",
+      "url": "https://dev.to/marencrest5138/classify-logistics-review-text-data-using-an-embeddings-api-in-nodejs-3-steps-3cgb",
+      "summary": "Short answer: use embeddings to classify logistics text by comparing a new review item with pre-labeled examples, then keep the provider behind a Node.js adapter so the API can change without changing your queue. To clas",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:08:48.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "embeddings",
+        "textclassification"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "nodejs-setup-to-create-and-publish-message-queue-tasks-for-renewal",
+      "title": "Node.js Setup to Create and Publish Message Queue Tasks for Renewal Deadlines",
+      "url": "https://dev.to/trippdonovan5461/nodejs-setup-to-create-and-publish-message-queue-tasks-for-renewal-deadlines-2fai",
+      "summary": "For a healthtech renewal reminder, this Node.js setup creates a message queue and publishes a background task that must wait until a business deadline, survive a worker restart, and remain explainable when an operator ha",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:08:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "jobqueues",
+        "observability"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "reliable-message-queue-consumption-for-long-running-edtech-cleanup-jobs",
+      "title": "Reliable Message Queue Consumption for Long-Running EdTech Cleanup Jobs",
+      "url": "https://dev.to/nyxenl29/reliable-message-queue-consumption-for-long-running-edtech-cleanup-jobs-3elp",
+      "summary": "Short answer: consume cleanup work with a bounded worker, make the operation idempotent, acknowledge only after durable success, and send repeatedly failing messages to a dead-letter queue. The least complex design is us",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:09:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "scheduling",
+        "messagequeue",
+        "edtech"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "writing-a-google-review-link-to-an-nfc-tag-ntag213215216-with-a-qr",
+      "title": "Writing a Google review link to an NFC tag (NTAG213/215/216) with a QR fallback",
+      "url": "https://dev.to/pocketfactory/writing-a-google-review-link-to-an-nfc-tag-ntag213215216-with-a-qr-fallback-4lm3",
+      "summary": "Plenty of small businesses want a \"tap here to review us\" card or sticker at the counter. Doing it yourself takes a few dozen lines of JavaScript, a few cheap NTAG stickers and an Android phone. You do have to watch a fe",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-24T00:07:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "nfc",
+        "tutorial",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "smvx130-6432-9994",
+      "title": "石家庄外围（上门sm服务）全套?VX130-6432-9994",
+      "url": "https://velog.io/@qlahwyan/1alt399w",
+      "summary": "石家庄外围（上门sm服务）全套?VX130-6432-9994外围小姐上门服务-选好30分钟到达-外围上门（外围平台）全国123线城市都可以安排，外围预约。hfc77435",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-24T00:10:30.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "v185-82098539",
+      "title": "海口外围【找妹子大圈】(V信~185-8209=8539）",
+      "url": "https://velog.io/@x8zfmekv/f6stnh53",
+      "summary": "海口外围【找妹子大圈】(V信~185-8209=8539）提供顶级外围女上门，可满足你的一切要求,真实高端外围上门全区覆盖可提供工作室。tSy20782",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-24T00:10:16.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "v176-28679727",
+      "title": "南宁同城[外围全套](V信~176-2867=9727）",
+      "url": "https://velog.io/@1twqp60r/t0p32wox",
+      "summary": "南宁同城[外围全套](V信176-2867=9727）外围小姐上门服务-选好30分钟到达-外围上门（外围平台）全国12~3线城市都可以安排，外围预约。okJ40595",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-24T00:10:14.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "openai-signal-leaks-alexa-tablet-formal-software-verification",
+      "title": "OpenAI Signal leaks 💬, Alexa Tablet 💻, formal software verification 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-23",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "fsearch-맥-디스크-전체를-미리-색인해-두는-검색-도구",
+      "title": "FSearch: 맥 디스크 전체를 미리 색인해 두는 검색 도구",
+      "url": "https://daleseo.com/fsearch/",
+      "summary": "macOS 전용 파일 검색 도구 FSearch를 직접 써 봅니다. 오타를 허용하는 이름 검색과 색인 기반 내용 검색, ripgrep과 fd 대비 속도, Claude Code에 MCP 서버로 붙이는 법까지 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
