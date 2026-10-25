@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-26",
+  "collectedAt": "2026-10-25T23:42:07.441Z",
+  "items": [
+    {
+      "slug": "dolly-partons-imagination-library",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "summary": "Hacker News 토론 55개 · 317 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T18:23:54.000Z",
+      "contentType": "discussion",
+      "engagement": 317,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diagnosis",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "summary": "Hacker News 토론 183개 · 380 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T17:15:38.000Z",
+      "contentType": "discussion",
+      "engagement": 380,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "i-refuse-to-accept-a-censored-internet-join-me-at-fosdem-27",
+      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://talkweb.eu/openweb/4558/",
+      "summary": "Hacker News 토론 177개 · 354 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T17:30:55.000Z",
+      "contentType": "discussion",
+      "engagement": 354,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "oregon-police-are-charging-a-local-news-outlet-25m-for-records-about",
+      "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+      "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+      "summary": "Hacker News 토론 84개 · 335 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T18:04:11.000Z",
+      "contentType": "discussion",
+      "engagement": 335,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nutlopehallmark-css",
+      "title": "Nutlope/hallmark (CSS)",
+      "url": "https://github.com/Nutlope/hallmark",
+      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:42:05.488Z",
+      "contentType": "repo",
+      "engagement": 33695,
+      "tags": [
+        "github",
+        "CSS"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "debpalashvoicestudio-python",
+      "title": "debpalash/VoiceStudio (Python)",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:42:05.489Z",
+      "contentType": "repo",
+      "engagement": 86749,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "tauricresearchtradingagents-python",
+      "title": "TauricResearch/TradingAgents (Python)",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:42:05.490Z",
+      "contentType": "repo",
+      "engagement": 114565,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "coollabsiocoolify-php",
+      "title": "coollabsio/coolify (PHP)",
+      "url": "https://github.com/coollabsio/coolify",
+      "summary": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:42:05.490Z",
+      "contentType": "repo",
+      "engagement": 64341,
+      "tags": [
+        "github",
+        "PHP"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "10년-된-cnn-피부암-진단에서-최첨단-llm보다-높은-성능-기록",
+      "title": "10년 된 CNN, 피부암 진단에서 최첨단 LLM보다 높은 성능 기록",
+      "url": "https://news.hada.io/topic?id=35987",
+      "summary": "조직검사로 확인한 피부 병변 200개를 6개 진단으로 분류하는 시험에서 Inception v3 기반 CNN은 125개(62%), GPT-6 Astra와 Claude Fable 5.1은 각각 84개와 85개(42%)를 맞힘 CNN은 공개 피부과 이미지로 약 20분간 미세 조정했으며, 시험 병변뿐 아니라 같은 병...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T19:40:23.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "세르비아-vucic-선거-패배-인정학생-운동의-역사적-승리",
+      "title": "세르비아 Vucic, 선거 패배 인정…학생 운동의 역사적 승리",
+      "url": "https://news.hada.io/topic?id=35997",
+      "summary": "세르비아의 Aleksandar Vucic이 학생 주도 운동에 선거 패배를 인정하면서 오랜 권력 장악이 끝남 조기 총선은 부패 의혹과 점진적인 권위주의화에 반대하는 학생 시위가 거의 2년간 이어진 뒤 치러짐 CESID-IPSPS의 표본 기반 추정에서...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T23:32:07.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "moderna와-merck-mrna-암-백신으로-사망-또는-재발-위험-42-감소했다고-발표",
+      "title": "Moderna와 Merck, mRNA 암 백신으로 사망 또는 재발 위험 42% 감소했다고 발표",
+      "url": "https://news.hada.io/topic?id=35995",
+      "summary": "Moderna와 Merck의 흑색종 3상 임상시험에서 개인 맞춤형 mRNA 백신과 Keytruda 병용군의 재발 또는 사망 위험이 Keytruda와 위약을 받은 대조군보다 42% 낮았음 백신 intismeran(mRNA-4157) 은 환자의 암세포와 정상세포 유전자를 비교해 고른 암...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T22:36:42.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "jetbrains-thinkrail-명세로-프로젝트-지식을-유지하는-에이전트-ide",
+      "title": "JetBrains Thinkrail - 명세로 프로젝트 지식을 유지하는 에이전트 IDE",
+      "url": "https://news.hada.io/topic?id=35994",
+      "summary": "ThinkRail은 pi 코딩 에이전트에 편집기, 터미널, 검토 도구를 결합하고, 지속적으로 갱신하는 명세와 재사용 가능한 스킬로 프로젝트 지식을 세션 너머까지 유지하는 IDE임 git worktree 기반 작업공간마다 브랜치와 작업 디렉터리를 분리해 에이전트...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T22:33:42.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "posix-wordexp3-is-dangerous",
+      "title": "POSIX wordexp(3) is dangerous",
+      "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T15:09:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "c"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-slurptop-a-home-built-luggable-that-runs-on-power-tool-batteries",
+      "title": "The Slurptop: A home-built luggable that runs on power tool batteries",
+      "url": "https://slurpburgers.com/slurpbuilds/the-slurptop/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T13:43:11.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware",
+        "art"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "vim-classic",
+      "title": "Vim Classic",
+      "url": "https://vim-classic.org/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T15:05:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "vim",
+        "editors"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "partial-order-precedence",
+      "title": "Partial Order Precedence",
+      "url": "https://ziglang.org/devlog/2026/#2026-10-24",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T14:18:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "zig"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nodejs-realtime-tokens-3-scoping-boundaries-that-protect-health-chat",
+      "title": "Node.js Realtime Tokens: 3 Scoping Boundaries That Protect Health Chat",
+      "url": "https://dev.to/malachinilsson7591/nodejs-realtime-tokens-3-scoping-boundaries-that-protect-health-chat-3i5a",
+      "summary": "Realtime tokens exist so a browser can connect without a server key; scoping them protects each patient's chat room from every other user. Give each browser a short-lived token limited to its authorized room, then revoke",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:37:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "realtime",
+        "security"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "kann-man-den-reels-tab-bei-instagram-entfernen-was-auf-dem-iphone-geht",
+      "title": "Kann man den Reels-Tab bei Instagram entfernen? Was auf dem iPhone geht und was nicht (2026)",
+      "url": "https://dev.to/ayumu_kitabayashi_8e0de96/kann-man-den-reels-tab-bei-instagram-entfernen-was-auf-dem-iphone-geht-und-was-nicht-2026-1c25",
+      "summary": "Der Reels-Tab sitzt in der unteren Leiste von Instagram genau dort, wo der Daumen sowieso hinkommt. Viele, die eigentlich nur eine DM beantworten wollen, landen deshalb im Reels-Feed. Die naheliegende Frage: Kann man den",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:41:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "german",
+        "instagram",
+        "ios"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "autonomous-smart-contract-auditing-ast-traversal-and-cei-verification",
+      "title": "Autonomous Smart Contract Auditing: AST Traversal and CEI Verification",
+      "url": "https://dev.to/nindhita/autonomous-smart-contract-auditing-ast-traversal-and-cei-verification-25l8",
+      "summary": "Sebagian besar exploit smart contract tidak membutuhkan zero-day di level compiler. Penyerang hanya mencari pengembang yang lupa bahwa eksekusi eksternal menyerahkan alur kontrol kepada pihak asing. Checks-Effects-Intera",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:40:10.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "web3",
+        "python"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "market-analysis-the-rise-of-governance-attacks-and-the-erosion-of",
+      "title": "Market Analysis: The Rise of Governance Attacks and the Erosion of Decentralized Trust",
+      "url": "https://dev.to/ksp_fc16f85860b36c9a9/market-analysis-the-rise-of-governance-attacks-and-the-erosion-of-decentralized-trust-51ki",
+      "summary": "Executive Summary The recent security breach involving the hijacking of three governance seats and the subsequent loss of millions of dollars represents a critical inflection point in the evolution of decentralized finan",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-25T23:40:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "crypto",
+        "web3",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "v192-7709-5667-tc698comtc698com",
+      "title": "东莞南城街道外围上门（顶级网红上门）电V：192-7709-5667 网址tc698点com浴龙筋官网（tc698点com）高端商务定制，精选空姐、白领及优质模特，颜值天花板级别，尊享顶级外围体验。",
+      "url": "https://velog.io/@dgfdfg/q00eh60h",
+      "summary": "东莞南城街道外围上门（顶级网红上门）电V：192-7709-5667 网址tc698点com浴龙筋官网（tc698点com）高端商务定制，精选空姐、白领及优质模特，颜值天花板级别，尊享顶级外围体验。qbvLj https://velog.io/@dgfdfg/scyqgysu",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T23:41:26.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "v199-6764-4114-yy397tc698com",
+      "title": "东莞市外围上门（大圈外围资源）电V：199-6764-4114 飞机：@yy397浴龙筋官网（tc698点com）一二线城市均可安排，涵盖空姐、模特、白领、留学生、优质御姐，全天候工作室预约。",
+      "url": "https://velog.io/@fdhg85/z3cf5z0j",
+      "summary": "东莞市外围上门（大圈外围资源）电V：199-6764-4114 飞机：@yy397浴龙筋官网（tc698点com）一二线城市均可安排，涵盖空姐、模特、白领、留学生、优质御姐，全天候工作室预约。EzuEk https://velog.io/@fdhg85/64fa6n5m",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T23:41:26.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "php2shell-이후-패치의-우선순위와-ai-연구의-성과를-읽는-법",
+      "title": "PHP2Shell 이후, 패치의 우선순위와 AI 연구의 성과를 읽는 법",
+      "url": "https://velog.io/@bbqgo807/php2shell-%EC%9D%B4%ED%9B%84-%ED%8C%A8%EC%B9%98%EC%9D%98-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%EC%99%80-ai-%EC%97%B0%EA%B5%AC%EC%9D%98-%EC%84%B1%EA%B3%BC%EB%A5%BC-%EC%9D%BD%EB%8A%94-%EB%B2%95-f5f068",
+      "summary": "Wiz Research는 PHP 코어의 여러 메모리 안전성 결함을 연결한 PHP2Shell로 비인증 원격 코드 실행과 프로세스 메모리 읽기를 실증했습니다. 네덜란드 국가사이버보안센터(NCSC)는 이에 대비해 공식 웹사이트 운영을 잠시 멈췄습니다. AI가 공격 개발을 도운 이번 사례에서 운영자가 결정할 문제는, 실증된 위험을 바탕으로 패치와 서비스 운영의 우선순위를 어떻게 정할지입니다. 공격이",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T23:41:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "v190-2897-2771-cc397-tc698com",
+      "title": "东莞外围上门（本地同城约炮）电V：190-2897-2771 飞机：@cc397 浴龙筋官网（tc698点com）真实外围预约，工作室直营，支持现场验证，不符要求随时终止，所有损失由我承担。",
+      "url": "https://velog.io/@dgfdfg/scyqgysu",
+      "summary": "东莞外围上门（本地同城约炮）电V：190-2897-2771 飞机：@cc397 浴龙筋官网（tc698点com）真实外围预约，工作室直营，支持现场验证，不符要求随时终止，所有损失由我承担。lSiic https://velog.io/@dgfdfg/yxl526sz",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-25T23:40:44.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "openai-decisions-api-확률과-선택지로-답하는-판단-전용-api",
+      "title": "OpenAI Decisions API: 확률과 선택지로 답하는 판단 전용 API",
+      "url": "https://daleseo.com/openai-decisions-api/",
+      "summary": "정식 출시된 OpenAI Decisions API의 세 가지 질문 유형과 응답 구조를 살펴보고, Bun으로 문의 분류 서버를 만들며 임계값 정하는 법과 Structured Outputs와의 차이를 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "mcp-extensions-코어-명세-밖에서-기능을-키우는-법",
+      "title": "MCP Extensions: 코어 명세 밖에서 기능을 키우는 법",
+      "url": "https://daleseo.com/mcp-extensions/",
+      "summary": "MCP Extensions의 동작 방식을 정리합니다. 확장 식별자와 기능 협상, 지원하지 않는 상대를 위한 대체 동작, 공식 확장과 실험적 확장의 차이, SEP 기반 생명주기와 버전 관리, 지금 나와 있는 공식 확장까지 살펴봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
