@@ -52,7 +52,7 @@ export const ArchivingShowcase = (): ReactElement | null => {
     if (!featured) return null;
 
     return (
-        <section className="mb-12">
+        <section>
             <div className="mb-5 flex items-end justify-between gap-4">
                 <div>
                     <h2 className="text-lg font-bold tracking-tight text-zinc-900">

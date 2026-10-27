@@ -6,7 +6,7 @@ import { HomeSectionHeader } from "./HomeSectionHeader";
 
 /** 홈 — 개발 도구 바로가기. 목록은 TOOL_ITEMS 한 곳에서만 관리한다 */
 export const ToolsShortcut = (): ReactElement => (
-    <section>
+    <section className="mb-12">
         <HomeSectionHeader
             title="개발 도구"
             description="브라우저에서 바로 쓰는 작은 유틸"

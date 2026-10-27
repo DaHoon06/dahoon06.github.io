@@ -56,12 +56,12 @@ const HomePage: NextPage<HomePageProps> = ({ dehydratedState, news }) => {
                 <div className="mb-8 lg:hidden">
                     <ProfileCard />
                 </div>
-                <ArchivingShowcase />
+                <ToolsShortcut />
                 <LatestPostsSection />
                 {news && (
                     <NewsPreviewSection date={news.date} items={news.items} />
                 )}
-                <ToolsShortcut />
+                <ArchivingShowcase />
             </BaseLayout>
         </HydrationBoundary>
     );
