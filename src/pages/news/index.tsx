@@ -10,9 +10,6 @@ import { NewsArchiveNav, NewsArchiveStrip } from "@widgets/nav";
 import { PAGE_SEO, breadcrumbJsonLd } from "@shared/config/seo";
 import SeoHead from "@shared/ui/heads/SeoHead";
 
-/** 모바일 칩은 가로 스크롤이라 최근 것만 깐다 (PC 달력은 전체) */
-const STRIP_LIMIT = 30;
-
 const newsJsonLd = breadcrumbJsonLd([
     { name: "홈", path: "/" },
     { name: "개발 뉴스", path: PAGE_SEO.news.path },
@@ -40,7 +37,7 @@ const NewsPage: NextPage<NewsPageProps> = ({ archive, summaries }) => {
                     archive={archive}
                     dateNav={
                         <NewsArchiveStrip
-                            summaries={summaries.slice(0, STRIP_LIMIT)}
+                            summaries={summaries}
                             currentDate={archive?.date}
                         />
                     }

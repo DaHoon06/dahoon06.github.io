@@ -11,6 +11,8 @@ interface NewsArchiveCalendarProps {
     summaries: NewsArchiveSummary[];
     /** 현재 보고 있는 날짜 */
     currentDate?: string;
+    /** 날짜를 고르면 호출 — 바텀시트를 닫는 데 쓴다 */
+    onSelect?: () => void;
 }
 
 /** `2026-10` → [2026, 10] */
@@ -42,7 +44,8 @@ const buildMonthCells = (monthKey: string): (string | null)[] => {
 };
 
 /**
- * PC aside 전용 날짜 네비게이션 — 수집된 날만 색을 채우고 링크로 건다.
+ * 날짜 네비게이션 달력 — PC aside 와 모바일 바텀시트(`NewsCalendarSheet`)에서 쓴다.
+ * 수집된 날만 색을 채우고 링크로 건다.
  *
  * 목록으로 늘어놓으면 하루 걸러 빠진 날(수집 실패)이 눈에 안 띄고 30일 넘게 쌓이면
  * 길어지기만 한다. 달력으로 두면 빈 날이 그대로 보이고 높이도 고정된다.
@@ -50,6 +53,7 @@ const buildMonthCells = (monthKey: string): (string | null)[] => {
 export const NewsArchiveCalendar = ({
     summaries,
     currentDate,
+    onSelect,
 }: NewsArchiveCalendarProps): ReactElement | null => {
     const countByDate = useMemo(
         () => new Map(summaries.map(({ date, count }) => [date, count])),
@@ -142,6 +146,7 @@ export const NewsArchiveCalendar = ({
                             aria-label={label}
                             title={label}
                             aria-current={isActive ? "page" : undefined}
+                            onClick={onSelect}
                             className={cn(
                                 cellClass,
                                 "font-semibold transition-colors",
