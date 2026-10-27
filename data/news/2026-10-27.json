@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-27",
+  "collectedAt": "2026-10-27T01:01:40.099Z",
+  "items": [
+    {
+      "slug": "css-tricks-has-a-new-owner",
+      "title": "CSS-Tricks has a new owner",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "summary": "Hacker News 토론 88개 · 372 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T15:51:23.000Z",
+      "contentType": "discussion",
+      "engagement": 372,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 81
+    },
+    {
+      "slug": "announcing-three-new-discoveries-in-mathematics-computer-science-and",
+      "title": "Announcing three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "summary": "Hacker News 토론 141개 · 366 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T21:35:28.000Z",
+      "contentType": "discussion",
+      "engagement": 366,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "sebastian-raschkas-from-scratch-video-course-on-building-reasoning",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "summary": "Hacker News 토론 80개 · 537 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T15:11:59.000Z",
+      "contentType": "discussion",
+      "engagement": 537,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "gpt-61-terra",
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "summary": "Hacker News 토론 309개 · 487 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T18:01:17.000Z",
+      "contentType": "discussion",
+      "engagement": 487,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "affaan-mecc-javascript",
+      "title": "affaan-m/ECC (JavaScript)",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:01:37.807Z",
+      "contentType": "repo",
+      "engagement": 289847,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "gitroomhqpostiz-app-typescript",
+      "title": "gitroomhq/postiz-app (TypeScript)",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "summary": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:01:37.810Z",
+      "contentType": "repo",
+      "engagement": 38455,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "nvidiaskillspector-python",
+      "title": "NVIDIA/SkillSpector (Python)",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "summary": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:01:37.808Z",
+      "contentType": "repo",
+      "engagement": 22195,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "makecindycindy-typescript",
+      "title": "makecindy/cindy (TypeScript)",
+      "url": "https://github.com/makecindy/cindy",
+      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:01:37.807Z",
+      "contentType": "repo",
+      "engagement": 6482,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "show-gn-spring-ai-privacy-guardrails-spring-ai용-개인정보-보호-도구-권한-제어-콘텐츠-검사",
+      "title": "Show GN: Spring AI Privacy Guardrails - Spring AI용 개인정보 보호, 도구 권한 제어, 콘텐츠 검사",
+      "url": "https://news.hada.io/topic?id=36083",
+      "summary": "Spring AI를 위한 오픈소스 보안 가드레일 라이브러리를 개발했습니다. Spring AI Privacy Guardrails GitHub: https://github.com/ultramancode/spring-ai-privacy-guardrails 프로젝트는 Spring 공식 블로그 'This Week in Spring'에서 소개됐고, Spring AI Community의 Awe",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-27T00:45:53.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ask-gn-메모리-도구를-사용-하고-있지-않은-이유는-무엇인가요",
+      "title": "Ask GN: 메모리 도구를 사용 하고 있지 않은 이유는 무엇인가요?",
+      "url": "https://news.hada.io/topic?id=36082",
+      "summary": "메모리 제품이 필요하다라는 의견은 많은데 정작 메모리를 사용해본적은 없다고 말씀하시는 걸 많이 봤습니다. 그럼 메모리 도구를 사용 하고 있지 않은 이유는 무엇인가요? 비싸서? 어떻게 하는지 몰라서? 뭐가 좋아지는지 체감이 안되서? 필요한 건 아는데 지금도 어느정도 만족해서? 클로드나 gpt 재미나이",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-27T00:44:32.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "미국-헬륨을-핵심-소재로-지정",
+      "title": "미국, 헬륨을 핵심 소재로 지정",
+      "url": "https://news.hada.io/topic?id=36081",
+      "summary": "미국 에너지부가 반도체 제조에 필수적이고 글로벌 공급 중단 위험이 높다는 이유로 헬륨을 핵심 소재로 지정함 이번 지정으로 헬륨 생산업체가 활용할 수 있는 연방 금융 지원이 늘어나고, 정부의 공급 상황 모니터링도 강화됨 주요 생산국인 카타르는 호...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-27T00:43:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "거짓인-exponential-time-hypothesis-pdf",
+      "title": "거짓인 Exponential Time Hypothesis [pdf]",
+      "url": "https://news.hada.io/topic?id=36080",
+      "summary": "거짓인 Exponential Time Hypothesis [pdf]",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-27T00:40:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "why-is-it-so-expensive-to-send-an-email",
+      "title": "Why is it so expensive to send an email?",
+      "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T13:25:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "email"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a-faster-way-to-compute-signed-64-bit-floor-division-by-constants",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T18:44:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "c++",
+        "performance"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "stalwart-v10-the-fastest-mail-server-on-the-planet",
+      "title": "Stalwart v1.0: The Fastest Mail Server on the Planet",
+      "url": "https://stalw.art/blog/stalwart-1-0/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-26T16:28:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "email"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "shitty-screenshare",
+      "title": "Shitty Screenshare",
+      "url": "http://shittyscreenshare.com",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T00:12:16.000Z",
+      "contentType": "article",
+      "tags": [
+        "browsers",
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ios-271-is-iphone-duo-only-keeping-your-min-version-matrix-and-ci-honest",
+      "title": "iOS 27.1 Is iPhone Duo Only: Keeping Your Min-Version Matrix and CI Honest",
+      "url": "https://dev.to/devinios/ios-271-is-iphone-duo-only-keeping-your-min-version-matrix-and-ci-honest-249o",
+      "summary": "On 23 October 2026 Apple released iOS 27.1 for exactly one device, the iPhone Duo, while its own security page still called iOS 27.0.1 the latest version for iPhone 11 and later. That single line splits what most iOS tea",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T00:55:19.000Z",
+      "contentType": "article",
+      "tags": [
+        "ios",
+        "xcode",
+        "cicd"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "flava-mcp-hub가-걸어온-길-ai-시대를-위한-배관-공사",
+      "title": "Flava MCP Hub가 걸어온 길: AI 시대를 위한 배관 공사",
+      "url": "https://techblog.lycorp.co.jp/ko/flava-mcp-hub-ai-infrastructure",
+      "summary": "들어가며\"우리 서비스, 지금 어떤 상태야?\"AI 에이전트에게 이렇게 물어보신 적 있으신가요? 아마 겉보기에는 그럴듯하지만 실제로 활용하기는 어려운 답이 돌아왔을 겁니다. LLM(l...",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-26T02:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "pwa-architecture-decisions-that-actually-matter-in-production-manifests",
+      "title": "PWA Architecture Decisions That Actually Matter in Production: Manifests, Workbox Strategies, and Push Notifications Done Right",
+      "url": "https://dev.to/emongmarcc/pwa-architecture-decisions-that-actually-matter-in-production-manifests-workbox-strategies-and-9a2",
+      "summary": "Most PWA tutorials get you to a Lighthouse score of 100 and call it a day. That's fine for a demo, but production is different. Users install your app, kill it, come back three days later expecting fresh data, and get a ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:00:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "pwa",
+        "javascript",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "saya-memindai-30-image-docker-populer-10-masih-percaya-root-ca-yang",
+      "title": "Saya Memindai 30 Image Docker Populer. 10 Masih Percaya Root CA yang Sudah Dicabut Chrome",
+      "url": "https://dev.to/kielltampubolon/saya-memindai-30-image-docker-populer-10-masih-percaya-root-ca-yang-sudah-dicabut-chrome-49j5",
+      "summary": "Versi bahasa Inggris dengan metodologi lengkap: The eMudhra Fallout, Part 2: I Scanned 30 Docker Images. Mulai 27 Oktober 2026, Chrome menghapus emSign ECC Root CA - G3 dari daftar root yang dipercayainya. Mozilla NSS su",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T01:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "docker",
+        "devops"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "chatbot-semantic-search-for-gaming-invoices-reliable-structured",
+      "title": "Chatbot Semantic Search for Gaming Invoices: Reliable Structured Extraction",
+      "url": "https://dev.to/kiernanberg3867/chatbot-semantic-search-for-gaming-invoices-reliable-structured-extraction-9e8",
+      "summary": "The operational constraint changes the answer: a gaming chatbot that helps staff find supplier invoices must return the right fields, not merely a plausible answer. I would use an OpenAI-compatible /v1/chat/completions c",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T00:58:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "semanticsearch",
+        "chatbots"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "iphone-duo-spacex-military-access-ambitious-software",
+      "title": "iPhone Duo 📱, SpaceX military access 🛰️, ambitious software 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-26",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
