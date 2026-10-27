@@ -3,24 +3,6 @@
   "collectedAt": "2026-09-19T23:48:50.778Z",
   "items": [
     {
-      "slug": "zuodaotecheveryone-can-use-english-typescript",
-      "title": "ZuodaoTech/everyone-can-use-english (TypeScript)",
-      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
-      "summary": "人人都能用英语",
-      "sourceId": "github-trending",
-      "sourceName": "GitHub Trending",
-      "group": "community",
-      "language": "en",
-      "publishedAt": "2026-09-19T23:48:48.183Z",
-      "contentType": "repo",
-      "engagement": 37771,
-      "tags": [
-        "github",
-        "TypeScript"
-      ],
-      "score": 75
-    },
-    {
       "slug": "i-built-non-autoregressive-decision-models-with-rl-a-year-ago",
       "title": "I built non-autoregressive decision models with RL a year ago",
       "url": "https://laya.convaiinnovations.com/",
@@ -103,23 +85,6 @@
       "tags": [
         "github",
         "Python"
-      ],
-      "score": 71
-    },
-    {
-      "slug": "ruanyfweekly",
-      "title": "ruanyf/weekly",
-      "url": "https://github.com/ruanyf/weekly",
-      "summary": "科技爱好者周刊，每周五发布",
-      "sourceId": "github-trending",
-      "sourceName": "GitHub Trending",
-      "group": "community",
-      "language": "en",
-      "publishedAt": "2026-09-19T23:48:48.182Z",
-      "contentType": "repo",
-      "engagement": 103110,
-      "tags": [
-        "github"
       ],
       "score": 71
     },

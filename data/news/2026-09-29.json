@@ -54,24 +54,6 @@
       "score": 77
     },
     {
-      "slug": "byoungdup-javascript",
-      "title": "byoungd/up (JavaScript)",
-      "url": "https://github.com/byoungd/up",
-      "summary": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-      "sourceId": "github-trending",
-      "sourceName": "GitHub Trending",
-      "group": "community",
-      "language": "en",
-      "publishedAt": "2026-09-29T01:22:45.756Z",
-      "contentType": "repo",
-      "engagement": 64702,
-      "tags": [
-        "github",
-        "JavaScript"
-      ],
-      "score": 75
-    },
-    {
       "slug": "parley-federated-decentralised-chat-that-speaks-plain-irc",
       "title": "Parley: Federated, decentralised chat that speaks plain IRC",
       "url": "https://git.mills.io/prologic/parley",
@@ -280,24 +262,6 @@
       "score": 35
     },
     {
-      "slug": "152",
-      "title": "前端性能优化:15个工具页面首屏加载<2秒实践",
-      "url": "https://dev.to/chilam_chan_68a518a731328/qian-duan-xing-neng-you-hua-15ge-gong-ju-ye-mian-shou-ping-jia-zai-2miao-shi-jian-e72",
-      "summary": "Frontend Performance Optimization: Getting 15 Tool Pages to Load in import('./tools/JSONFormatter')); const PasswordGenerator = React.lazy(() => import('./tools/PasswordGenerator')); // In the router (React Router) }> } ",
-      "sourceId": "dev-to",
-      "sourceName": "DEV Community",
-      "group": "community",
-      "language": "en",
-      "publishedAt": "2026-09-29T01:12:51.000Z",
-      "contentType": "article",
-      "tags": [
-        "frontend",
-        "javascript",
-        "performance"
-      ],
-      "score": 35
-    },
-    {
       "slug": "converting-iphone-hevc-videos-into-telegram-video-avatars",
       "title": "Converting iPhone HEVC Videos Into Telegram Video Avatars",
       "url": "https://dev.to/liveavabot/converting-iphone-hevc-videos-into-telegram-video-avatars-3m0f",
@@ -313,19 +277,6 @@
         "python",
         "ffmpeg"
       ],
-      "score": 35
-    },
-    {
-      "slug": "2026-2032",
-      "title": "世界のラグビーグッズ市場規模レポート2026-2032：競合状況、需要分析、成長予測",
-      "url": "https://velog.io/@nekoneko/%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E3%82%B0%E3%83%83%E3%82%BA%E5%B8%82%E5%A0%B4%E8%A6%8F%E6%A8%A1%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%882026-2032%EF%BC%9A%E7%AB%B6%E5%90%88%E7%8A%B6%E6%B3%81%E3%80%81%E9%9C%80%E8%A6%81%E5%88%86%E6%9E%90%E3%80%81%E6%88%90%E9%95%B7%E4%BA%88%E6%B8%AC-gyczli31",
-      "summary": "QY Research株式会社（所在地：東京都中央区）は、最新の調査資料「ラグビーグッズ―グローバル市場シェアとランキング、全体の売上と需要予測、2026～2032」を2026年9月29日より発行しました。本レポートでは、ラグビーグッズの世界市場規模、成長予測、過去データ及び将来の市場動向を詳細に分析し、業界の主要な推進要因、課題、リスクと機会について包括的に考察しております。ラグビーグッズ市場を製品タイプ、応用分野、地域別に分類し、各",
-      "sourceId": "velog-trending",
-      "sourceName": "Velog 트렌딩",
-      "group": "community",
-      "language": "ko",
-      "publishedAt": "2026-09-29T01:22:29.000Z",
-      "contentType": "article",
       "score": 35
     },
     {

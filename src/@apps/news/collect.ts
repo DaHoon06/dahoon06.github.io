@@ -72,8 +72,10 @@ const main = async () => {
     const collected = results.flatMap((result) => result.items);
     console.log(`   수집: ${collected.length}건`);
 
-    // 3. 오래된 글 제외 → 중복 제거 → 점수 정렬
-    const fresh = collected.filter((item) => isFresh(item));
+    // 3. 한자 제목·오래된 글 제외 → 중복 제거 → 점수 정렬
+    const fresh = collected.filter(
+        (item) => !hasHanTitle(item) && isFresh(item)
+    );
     const unique = dedup(fresh, context);
     console.log(
         `   신선도 필터 ${fresh.length}건 → 중복 제거 ${unique.length}건`
@@ -178,6 +180,11 @@ const selectBalanced = (
 
     return picked;
 };
+
+/** velog 등에 올라오는 중국어 광고 글 차단 — 제목에 한자가 있으면 수집하지 않는다 */
+const HAN_PATTERN = /\p{Script=Han}/u;
+const hasHanTitle = (item: CollectedItem): boolean =>
+    HAN_PATTERN.test(item.title);
 
 const isFresh = (item: CollectedItem): boolean => {
     const published = new Date(item.publishedAt).getTime();

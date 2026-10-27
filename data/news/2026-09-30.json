@@ -71,24 +71,6 @@
       "score": 73
     },
     {
-      "slug": "t8y2dbx-rust",
-      "title": "t8y2/dbx (Rust)",
-      "url": "https://github.com/t8y2/dbx",
-      "summary": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，",
-      "sourceId": "github-trending",
-      "sourceName": "GitHub Trending",
-      "group": "community",
-      "language": "en",
-      "publishedAt": "2026-09-30T00:55:54.965Z",
-      "contentType": "repo",
-      "engagement": 22004,
-      "tags": [
-        "github",
-        "Rust"
-      ],
-      "score": 71
-    },
-    {
       "slug": "vectifyaipageindex-python",
       "title": "VectifyAI/PageIndex (Python)",
       "url": "https://github.com/VectifyAI/PageIndex",
