@@ -1,0 +1,472 @@
+{
+  "date": "2026-10-28",
+  "collectedAt": "2026-10-28T00:51:24.617Z",
+  "items": [
+    {
+      "slug": "genie-4",
+      "title": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "summary": "Hacker News 토론 425개 · 704 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T16:06:01.000Z",
+      "contentType": "discussion",
+      "engagement": 704,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ghostty-14",
+      "title": "Ghostty 1.4",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "summary": "Hacker News 토론 220개 · 723 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T16:51:22.000Z",
+      "contentType": "discussion",
+      "engagement": 723,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "new-imac-with-m6",
+      "title": "New iMac with M6",
+      "url": "https://www.apple.com/imac/",
+      "summary": "Hacker News 토론 371개 · 306 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T13:02:02.000Z",
+      "contentType": "discussion",
+      "engagement": 306,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on",
+      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "summary": "Hacker News 토론 276개 · 769 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T14:06:42.000Z",
+      "contentType": "discussion",
+      "engagement": 769,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "obrasuperpowers-shell",
+      "title": "obra/superpowers (Shell)",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:51:22.571Z",
+      "contentType": "repo",
+      "engagement": 306440,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "hkudsdeeptutor-python",
+      "title": "HKUDS/DeepTutor (Python)",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "summary": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:51:22.572Z",
+      "contentType": "repo",
+      "engagement": 45896,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "elayadesignai-design-skills",
+      "title": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "summary": "",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:51:22.570Z",
+      "contentType": "repo",
+      "engagement": 9331,
+      "tags": [
+        "github"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "togg53192-cmdjailbreaks",
+      "title": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "summary": "LIST OF ALL MY JAILBREAKS",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:51:22.573Z",
+      "contentType": "repo",
+      "engagement": 5540,
+      "tags": [
+        "github"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "upcoming-nextjs-november-security-release",
+      "title": "Upcoming Next.js November Security Release",
+      "url": "https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026",
+      "summary": "Next.js is preparing a scheduled November security release for November 3, 2026.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-27T18:00:00.000Z",
+      "contentType": "article",
+      "score": 54
+    },
+    {
+      "slug": "agent-sdk-팀-맞춤형-에이전트를-코드로-정의하고-배포하는-cursor-프레임워크-공개",
+      "title": "Agent SDK - 팀 맞춤형 에이전트를 코드로 정의하고 배포하는 Cursor 프레임워크 공개",
+      "url": "https://news.hada.io/topic?id=36138",
+      "summary": "Cursor가 Agent SDK를 정식 출시함. Bugbot, Security Reviewer, Rollouts 같은 자체 관리형 에이전트를 만드는 프레임워크로, 팀별 업무 흐름에 맞는 에이전트를 일반 소프트웨어 프로젝트처럼 개발하고 관리할 수 있음 에이전트는 이벤트와 팀 정책에 따라 작동함...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:44:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "unlimited-ocr-2-페이지-간-문맥을-이어-수백-페이지-문서를-파싱하는-ocr-모델",
+      "title": "Unlimited-OCR 2 - 페이지 간 문맥을 이어 수백 페이지 문서를 파싱하는 OCR 모델",
+      "url": "https://news.hada.io/topic?id=36137",
+      "summary": "Baidu가 여러 페이지를 한 요청으로 처리하는 Unlimited-OCR 2를 공개함. 페이지 간 문맥을 활용하며, 유한한 컨텍스트 윈도 안에서 매우 긴 문서를 이어서 파싱하도록 설계됨 SR-SWA는 텍스트와 시각 정보 간 어텐션 상호작용을 고정 크기 참조 집합으로 압축해, ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:37:25.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "streamfusion-flink-sql을-rust-기반-네이티브-실행기로-가속하는-도구",
+      "title": "StreamFusion - Flink SQL을 Rust 기반 네이티브 실행기로 가속하는 도구",
+      "url": "https://news.hada.io/topic?id=36136",
+      "summary": "Apache Flink가 작성한 실행 계획의 쿼리를 Rust, Apache Arrow, DataFusion 기반 네이티브 실행기로 처리하는 가속기 Flink는 SQL 계획과 작업 조정, checkpoint를 계속 담당하며, 애플리케이션 코드를 고치지 않고 기존 streaming SQL 작업에 적용 가능 계획 단계...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "지수-시간-가설은-거짓이다-pdf",
+      "title": "지수 시간 가설은 거짓이다 [PDF]",
+      "url": "https://news.hada.io/topic?id=36134",
+      "summary": "모든 고정된 (k\\ge2)에 대해 k-CNF의 만족 할당 수를 준지수 시간과 다항 공간으로 정확히 계산하는 결정적 알고리듬을 제안하며, 이를 통해 ETH를 반증한다고 주장하는 논문임 핵심은 변수들을 작은 그룹으로 나누고, 그룹 사이의 의존성을 소수의 공유 선형 요약값",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:09:29.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "fuzzers-vs-ai-comparing-fuzzilli-and-bigsleep-on-javascript-engines",
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T19:08:23.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "ai"
+      ],
+      "score": 45
+    },
+    {
+      "slug": "손가락-튕기기로-llm-비용-줄이기",
+      "title": "손가락 튕기기로 LLM 비용 줄이기",
+      "url": "https://toss.tech/article/snap-llm-cost-reduction",
+      "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-27T07:05:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "whats-important-19-css-refraction-effects-scroll-state-queries-custom",
+      "title": "What’s !important #19: CSS Refraction Effects, Scroll State Queries, @custom-media, and More",
+      "url": "https://css-tricks.com/whats-important-19/",
+      "summary": "We’re back! Don't worry, this isn’t a trick (despite what our name suggests!). However, due to the hiatus, we're also a little behind. That’s why this issue of What’s !important is absolutely stacked. All killer, no fill",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-27T15:09:16.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "news"
+      ],
+      "score": 42
+    },
+    {
+      "slug": "a-fast-and-secure-tar-parser-for-the-rust-ecosystem",
+      "title": "A fast and secure tar parser for the Rust ecosystem",
+      "url": "https://astral.sh/blog/tar-codec",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T16:59:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "python",
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "1447-emoji-well-do-it-live",
+      "title": "1,447 emoji? We'll do it live",
+      "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T18:28:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "design"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "compile-time-dependent-types",
+      "title": "Compile-Time Dependent Types",
+      "url": "https://thenumb.at/Syl-Intro/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-27T14:40:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "ml",
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "architecting-a-high-performance-real-time-multiplayer-card-game-on",
+      "title": "Architecting a High-Performance Real-Time Multiplayer Card Game on Cloudflare Workers & Durable Objects",
+      "url": "https://dev.to/theoblake/architecting-a-high-performance-real-time-multiplayer-card-game-on-cloudflare-workers-durable-2c87",
+      "summary": "Real-time browser multiplayer games have historically demanded complex Kubernetes statefulsets, dedicated WebSocket gateways, and costly Redis caching tiers. When engineering WikiMasters (wikimasters.org) — an open-sourc",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:43:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "cloudflare",
+        "typescript"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "langgraph-rag-agent-구현-검색을-tool로-만들까-node로-만들까",
+      "title": "LangGraph RAG Agent 구현: 검색을 Tool로 만들까, Node로 만들까?",
+      "url": "https://velog.io/@dev_alchemist/LangGraph-RAG-Agent-%EA%B5%AC%ED%98%84-%EA%B2%80%EC%83%89%EC%9D%84-Tool%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B9%8C-Node%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B9%8C",
+      "summary": "벡터 데이터베이스를 만들었다면 이제 사용자의 질문에 맞는 문서를 찾아 답변하는 앱을 연결할 차례다. 이때 자주 고민하는 것이 검색을 모델이 선택하는 도구(Tool)로 둘지, 매번 실행되는 그래프 노드(Node)로 둘지다. 두 방식은 비슷해 보여도 제어권이 다르다. Tool 기반 검색과 Node 기반 검색 비교 기준 Tool 기반 Node 기반 검색 시점 모델이 필요하다고 판단할 때 그래프에 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:46:40.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "langgraph-기초-state-node-routing-loop로-ai-워크플로우-만들기",
+      "title": "LangGraph 기초: State, Node, Routing, Loop로 AI 워크플로우 만들기",
+      "url": "https://velog.io/@dev_alchemist/LangGraph-%EA%B8%B0%EC%B4%88-State-Node-Routing-Loop%EB%A1%9C-AI-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0",
+      "summary": "하나의 LLM 호출로 모든 일을 처리하려고 하면 입력이 복잡해지고, 무엇이 잘못됐는지 찾기도 어려워진다. 사용자 문의를 분류하고, 적절한 담당 기능에 전달하고, 결과를 검토하는 작업은 여러 단계의 워크플로우로 나누면 관리하기 쉽다. Python 라이브러리 LangGraph는 이런 흐름을 그래프 형태로 정의하도록 도와준다. 워크플로우와 에이전트는 어떤 차이가 있을까? 워크플로우는 개발자가 미리",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:43:57.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "rebuilding-the-original-gta-engine-in-javascript",
+      "title": "Rebuilding the original GTA engine in JavaScript",
+      "url": "https://javascriptweekly.com/issues/808",
+      "summary": "#​808 — October 27, 2026 Read on the Web JavaScript Weekly TanStack AI 1.0: The Vendor-Neutral AI Toolkit Goes Stable — TanStack's framework-agnostic AI toolkit reaches 1.0, with stable APIs for chat, tools and media, pl",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "ai-시대의-개발자를-꿈꾸는-학생-개발자에게",
+      "title": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+      "url": "https://d2.naver.com/helloworld/1975819",
+      "summary": "시작하며: 2018년과 2026년 사이의 간격과 격변기의 고민 ​ 2018년에 저는 '백엔드 개발자를 꿈꾸는 학생개발자에게'라는 글을 이곳 D2 블로그에 공유했습니다. 당시 학생 개발자들과의 미트업 행사에서 나왔던 질문과 답변을 정리한 글이었습니다. 그 후 8년의 시간이 흘렀기에 그 글만 노출된다면 학생들에게 현시점에 적절한 정보를 주지 못할까 봐 걱정되었습니다. 그래서 2025년 말 설문으",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-27T04:20:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "my-ai-was-in-the-cloud-i-brought-it-home",
+      "title": "My AI was in the cloud. I brought it home.",
+      "url": "https://dev.to/thomasbnt/my-ai-was-in-the-cloud-i-brought-it-home-4hp4",
+      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine. A personal AI agent that lives on my NAS instead of someone else's cloud. Four moving parts: Home hardware OpenClaw, an op",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:50:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "networking-series-finale-mastering-active-directory-pentesting",
+      "title": "🌐 Networking Series Finale: Mastering Active Directory & Pentesting Foundations",
+      "url": "https://dev.to/yash-infra/networking-series-finale-mastering-active-directory-pentesting-foundations-107c",
+      "summary": "🌐 Networking Series Finale: Mastering Active Directory & Pentesting Foundations How does foundational networking knowledge serve as the ultimate weapon for offensive security researchers and penetration testers entering",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:50:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "cybersecurity",
+        "networking",
+        "security"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "ofintech-desk-an-open-source-ai-workspace-for-finance-where-every",
+      "title": "OfinTech Desk: an open-source AI workspace for finance where every number has a source",
+      "url": "https://dev.to/rafmo20d/ofintech-desk-an-open-source-ai-workspace-for-finance-where-every-number-has-a-source-48ij",
+      "summary": "Most \"AI for finance\" demos have the same flaw: the model writes a confident paragraph full of numbers, and nobody can tell which of them came from the ledger and which the model made up. **[OfinTech Desk](https://github",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:48:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "javascript",
+        "python"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "논문리뷰-ovisocr3-technical-report-08b-통합-ocr-모델",
+      "title": "[논문리뷰] OvisOCR3 Technical Report (0.8B 통합 OCR 모델)",
+      "url": "https://velog.io/@mini_knows/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-OvisOCR3-Technical-Report-0.8B-%ED%86%B5%ED%95%A9-OCR-%EB%AA%A8%EB%8D%B8",
+      "summary": "(출처: arXiv:2610.33066, Figure 1 — \"Performance of OvisOCR3 across benchmarks for OCR-related tasks.\") 논문 제목: OvisOCR3 Technical Report 저자: ATH-MaaS (Alibaba Group) ㆍCore Contributors: Yu Xia, Yinglun Li, Yuhui Chen, Jinl",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:51:07.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "파인튜닝과-lora-입문-hugging-face로-텍스트-분류-모델-개선하기",
+      "title": "파인튜닝과 LoRA 입문: Hugging Face로 텍스트 분류 모델 개선하기",
+      "url": "https://velog.io/@dev_alchemist/%ED%8C%8C%EC%9D%B8%ED%8A%9C%EB%8B%9D%EA%B3%BC-LoRA-%EC%9E%85%EB%AC%B8-Hugging-Face%EB%A1%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0",
+      "summary": "LLM을 사용하다 보면 \"프롬프트만 바꾸는 것으로 충분할까?\", \"회사 데이터로 모델을 직접 학습시켜야 할까?\"라는 고민이 생긴다. 파인튜닝(Fine-tuning)은 이미 학습된 모델을 특정 작업에 맞는 데이터로 추가 학습하는 것이다. 그리고 LoRA(Low-Rank Adaptation)는 전체 파라미터를 모두 수정하는 대신 작은 적응 파라미터를 추가해 학습 비용을 줄이려는 기법이다. 두 방",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-28T00:48:29.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "anthropic-ipo-openai-disproves-eth-end-of-the-internet",
+      "title": "Anthropic IPO 💰, OpenAI disproves ETH 👨‍💻, end of the internet 🌍",
+      "url": "https://tldr.tech/tech/2026-10-27",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
