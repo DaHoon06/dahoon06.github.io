@@ -1,0 +1,525 @@
+{
+  "date": "2026-10-30",
+  "collectedAt": "2026-10-30T01:28:35.384Z",
+  "items": [
+    {
+      "slug": "binance-hacker-1029-56b-stolen-from-binance",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "summary": "Hacker News 토론 418개 · 685 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T21:38:59.000Z",
+      "contentType": "discussion",
+      "engagement": 685,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "were-releasing-the-weights-of-mistral-large-4",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "summary": "Hacker News 토론 338개 · 1189 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
+      "contentType": "discussion",
+      "engagement": 1189,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "h264-is-magic-2016",
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "summary": "Hacker News 토론 124개 · 327 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T15:53:03.000Z",
+      "contentType": "discussion",
+      "engagement": 327,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "patrick-stewart-has-died",
+      "title": "Patrick Stewart has died",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "summary": "Hacker News 토론 494개 · 2371 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T19:41:39.000Z",
+      "contentType": "discussion",
+      "engagement": 2371,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "donchitosclaude-code-game-studios-shell",
+      "title": "Donchitos/Claude-Code-Game-Studios (Shell)",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:28:33.668Z",
+      "contentType": "repo",
+      "engagement": 29228,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "jetbrainsthinkrail-typescript",
+      "title": "JetBrains/thinkrail (TypeScript)",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "summary": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:28:33.666Z",
+      "contentType": "repo",
+      "engagement": 6029,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "milind-soniopenmausbot-typescript",
+      "title": "milind-soni/OpenMausBot (TypeScript)",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:28:33.667Z",
+      "contentType": "repo",
+      "engagement": 7496,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "copilotkitopenbot-typescript",
+      "title": "CopilotKit/OpenBot (TypeScript)",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:28:33.668Z",
+      "contentType": "repo",
+      "engagement": 8170,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "ship-less-javascript-in-nextjs-with-your-ai-agent",
+      "title": "Ship less JavaScript in Next.js with your AI agent",
+      "url": "https://nextjs.org/blog/ship-less-javascript-with-ai",
+      "summary": "Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-28T20:00:00.000Z",
+      "contentType": "article",
+      "score": 48
+    },
+    {
+      "slug": "show-gn-데드라인-렌즈-고지서-사진에서-납부기한을-찾아-알림을-거는-온디바이스-android-앱",
+      "title": "Show GN: 데드라인 렌즈 - 고지서 사진에서 납부기한을 찾아 알림을 거는 온디바이스 Android 앱",
+      "url": "https://news.hada.io/topic?id=36256",
+      "summary": "과태료 통지서, 자동차 검사 안내문 같은 종이 우편물의 기한을 관리하는 앱입니다. 기능 고지서를 촬영하거나 사진/텍스트를 공유하면 해야 할 일과 기한을 제안 어느 문장에서 찾았는지 보여주고, 사용자가 확인·수정한 뒤에만 저장 기한 전 알림, 홈 화면 D-day 위젯, .ics",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-29T23:26:41.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-반토막-매일-다른-물건을-반으로-자르는-웹-퍼즐",
+      "title": "Show GN: 반토막 - 매일 다른 물건을 반으로 자르는 웹 퍼즐",
+      "url": "https://news.hada.io/topic?id=36255",
+      "summary": "지난번 ITLAND를 소개했던 개발자입니다. 이번에는 플랫폼에 추가한 웹 퍼즐 반토막의 플레이 방식에 대해 의견을 듣고 싶습니다. 매일 주어지는 물건에 선을 그어 두 부분으로 나누고, 얼마나 균형 있게 잘랐는지 기록을 비교하는 게임입니다. 오늘의 물건은 세 개이며, 물건마다 세 번 도전할 수 있습니다....",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-29T23:25:39.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "좀비-통계-ai가-인용하는-숫자는-어디에서-오는가",
+      "title": "좀비 통계: AI가 인용하는 숫자는 어디에서 오는가",
+      "url": "https://news.hada.io/topic?id=36254",
+      "summary": "5개 AI 서비스가 인용한 통계 1,285건의 출처를 추적한 결과, 원연구와 내용이 일치한 비율은 40% 였음 인용 페이지에 해당 숫자가 있는 경우는 82%였지만, 원연구를 직접 인용한 비율은 21% 에 그침. 인용은 AI가 숫자를 발견한 곳을 알려줄 뿐, 숫자의 기원까지 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-29T22:44:46.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "9비트-aes-키-사건",
+      "title": "9비트 AES 키 사건",
+      "url": "https://news.hada.io/topic?id=36253",
+      "summary": "여러 PDF 구현체가 AES-256 파일 키를 전수 탐색 가능한 작은 상태 공간에서 생성해, 비밀번호 없이도 암호화 문서를 복호화할 수 있음 MuPDF 1.28.5 이전 버전은 실제 키에 영향을 주는 난수 상태가 9비트뿐이며, 가능한 512개 스트림을 탐색하는 데 비최적화 Pyt...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-29T22:41:46.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nodejs-2700-alpha000-alpha",
+      "title": "Node.js 27.0.0-alpha.0.0.0 (Alpha)",
+      "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-29T19:52:29.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "london-meetup",
+      "title": "London meetup",
+      "url": "https://lobste.rs/s/dsrruj/london_meetup",
+      "summary": "Hi everyone, I recently saw a post about an NYC lobsters meetup, and am wondering how many people here could make it to a London meetup. If more than a couple of people here are based in London and can make it, I'll orga",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T20:56:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "event"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "shared-password-manager-for-families",
+      "title": "Shared password manager for families?",
+      "url": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
+      "summary": "Long story short, I need to have a bunch of shared accounts with family for finance and insurance and stuff, mostly for the sake of family members who are getting old and need help keeping things organized. So the requir",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T14:39:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "ask"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "my-favourite-powermac-is-a-nintendo-wii",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T16:32:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "reversing",
+        "retrocomputing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "c2pas-emudhra-moment",
+      "title": "C2PA's eMudhra Moment",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-29T20:33:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "cryptography"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-frankenstein-table",
+      "title": "The Frankenstein Table",
+      "url": "https://css-tricks.com/the-frankenstein-table/",
+      "summary": "A super scary way to go about tables using other layout techniques, like CSS Grid. The Frankenstein Table originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-29T13:47:08.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "grid",
+        "tables"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "사이드카의-선언적-관리-openkruise-sidecarset-도입과-운영",
+      "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+      "url": "https://d2.naver.com/helloworld/2983631",
+      "summary": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-29T08:22:22.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "nodejs-24222-lts",
+      "title": "Node.js 24.22.2 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v24.22.2",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-28T18:40:14.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "nodejs-26130-lts",
+      "title": "Node.js 26.13.0 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v26.13.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-10-28T16:58:40.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "the-dashboard-is-a-story",
+      "title": "The Dashboard Is a Story",
+      "url": "https://dev.to/swipe-again/the-dashboard-is-a-story-27fi",
+      "summary": "A recovery dashboard is read the way a headline is read: the first screen decides what the reader believes the month was. Lead with activity — attempts made, emails sent, texts fired — and the team learns to generate act",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:19:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "saas",
+        "analytics",
+        "ux"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "add-a-live-poll-to-your-next-talk-meetup-or-webinar-free-no-add-in",
+      "title": "Add a Live Poll to Your Next Talk, Meetup or Webinar (Free, No Add-in)",
+      "url": "https://dev.to/livepoll/add-a-live-poll-to-your-next-talk-meetup-or-webinar-free-no-add-in-11nh",
+      "summary": "The quickest way to wake up a room is to ask it something. \"Who here has shipped a Friday deploy?\" works fine with a show of hands, until the hands half go up and you can't count them, or the talk is on Zoom and half the",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:18:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "devrel",
+        "productivity",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "retries-are-promises",
+      "title": "Retries Are Promises",
+      "url": "https://dev.to/swipe-again/retries-are-promises-3oi3",
+      "summary": "Every retry attempt makes a small promise to an issuing bank: this charge is wanted, the customer knows, the amount is right. Keep the promise and the bank learns to trust the traffic. Break it — attempt too often, re-pr",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:18:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "saas",
+        "payments",
+        "architecture"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-does-the-dashboard-that-agent-create-look-like",
+      "title": "How does the dashboard that agent create look\r\nLike ?",
+      "url": "https://dev.to/sujatha_sundaram_8031852e/how-does-the-dashboard-that-agent-create-looklike--f90",
+      "summary": "Beyond the Dashboard: How I Built an AI Agent to Revolutionize Data Reporting aakas Sep 19 '25 #ai #learning #llm #rag 7 reactions Add Comment 8 min read",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-30T01:18:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "agents",
+        "ai",
+        "analytics"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-i-score-text-to-video-clips-before-i-hit-publish",
+      "title": "How I Score Text-to-Video Clips Before I Hit Publish",
+      "url": "https://velog.io/@texttovideo/How-I-Score-Text-to-Video-Clips-Before-I-Hit-Publish",
+      "summary": "Disclosure: I work with DeepOasis LLC, which builds Text to Video. This article is a practical evaluation loop from my own shipping process, not a sponsored placement. Parts of the draft were AI-assisted and then rewritt",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-30T01:28:32.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "node-security-releases-to-fix-a-brotli-flaw",
+      "title": "Node security releases to fix a Brotli flaw",
+      "url": "https://nodeweekly.com/issues/645",
+      "summary": "#​645 — October 29, 2026 Read on the Web Node.js 26 'Lithium' Is Now the Active LTS Line — Node.js 26.13.0 promotes Node 26 to long-term support, with updates through April 2029, making it the new line to target for prod",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "touchscreen-macbook-pro-gemini-4-carbon-slack-code-api",
+      "title": "Touchscreen MacBook Pro 💻, Gemini 4 Carbon 🤖, Slack Code API 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-29",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "더-중요한-고민에-집중하는-올리브영-pm이-ai로-일하는-방식",
+      "title": "더 중요한 고민에 집중하는 올리브영 PM이 AI로 일하는 방식",
+      "url": "https://oliveyoung.tech/2026-10-29/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81-pm%EC%9D%B4-ai%EC%99%80-%ED%95%A8%EA%BB%98-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D/",
+      "summary": "올리브영 PM들이 AI를 활용해 업무 방식을 바꿔나간 과정을 소개합니다.",
+      "sourceId": "oliveyoung-tech",
+      "sourceName": "올리브영 테크블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Product",
+        "일하는방식",
+        "자동화"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "팀이-신뢰할-수-있는-ai-분석-환경-만들기-추천팀의-컨텍스트-설계",
+      "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+      "url": "https://tech.kakao.com/posts/844",
+      "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이터",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "the-spyware-hiding-in-old-script-tags",
+      "title": "The spyware hiding in old script tags",
+      "url": "https://frontendfoc.us/issues/764",
+      "summary": "🚀 Frontend Focus #​764 — October 28, 2026 | Read on the web 🖼️ HTML-in-Canvas: Interactive DOM Inside 2D, WebGL and WebGPU Canvases — Arriving in stable Chrome next week, this long-incubated API draws real, live HTML i",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "m6-macbook-pro-amazon-anti-tokenmaxxing-advice-for-junior-swes",
+      "title": "M6 MacBook Pro 💻, Amazon anti-tokenmaxxing 📉, advice for junior SWEs 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-10-28",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    }
+  ]
+}
