@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-01",
+  "collectedAt": "2026-11-01T00:35:28.139Z",
+  "items": [
+    {
+      "slug": "hackertube-youtube-built-from-videos-recommended-by-hn",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summary": "Hacker News 토론 217개 · 604 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T19:56:53.000Z",
+      "contentType": "discussion",
+      "engagement": 604,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "thu-maicopenmaic-typescript",
+      "title": "THU-MAIC/OpenMAIC (TypeScript)",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:35:27.032Z",
+      "contentType": "repo",
+      "engagement": 42183,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "do-the-math-how-we-took-over-chatgpt-accounts",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "summary": "Hacker News 토론 148개 · 300 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "contentType": "discussion",
+      "engagement": 300,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "digital-minimalism",
+      "title": "Digital minimalism",
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "summary": "Hacker News 토론 225개 · 303 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T06:16:36.000Z",
+      "contentType": "discussion",
+      "engagement": 303,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "lightpanda-iobrowser-zig",
+      "title": "lightpanda-io/browser (Zig)",
+      "url": "https://github.com/lightpanda-io/browser",
+      "summary": "Lightpanda: the headless browser designed for AI and automation",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:35:27.031Z",
+      "contentType": "repo",
+      "engagement": 39245,
+      "tags": [
+        "github",
+        "Zig"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "tcp-use-after-free-cve-2026-98432-cvss-98",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "summary": "Hacker News 토론 144개 · 296 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T19:16:30.000Z",
+      "contentType": "discussion",
+      "engagement": 296,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "orkas-aiorkas-javascript",
+      "title": "Orkas-AI/Orkas (JavaScript)",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "summary": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with proj",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:35:27.031Z",
+      "contentType": "repo",
+      "engagement": 6186,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "tangled-hire-a-front-end-accessibility-expert",
+      "title": "Tangled, hire a front-end accessibility expert",
+      "url": "https://dbushell.com/2026/11/01/tangled-accessibility/",
+      "summary": "A response to https://lobste.rs/s/ukj8mm/federated_code_forge Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T16:29:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "rant",
+        "vcs",
+        "a11y"
+      ],
+      "score": 49
+    },
+    {
+      "slug": "anthropic-더-큰-모델-학습에-조금이라도-관련된-작업을-하는-사용자를-차단",
+      "title": "Anthropic, 더 큰 모델 학습에 조금이라도 관련된 작업을 하는 사용자를 차단",
+      "url": "https://news.hada.io/topic?id=36358&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Jiahao Shao는 Claude로 연구 작업을 자동화하다가 “경쟁 모델 학습”으로 분류돼 차단 등의 조치를 받았다고 밝힘 Shao에 따르면 Claude를 증류한 적은 없으며, 롤아웃은 성능이 좋은 오픈소스 모델에서 생성함 해당 작업에서 Claude의 역할",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-31T23:42:59.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "프랑스-하원-gb당-0055유로-인터넷세-도입안-가결",
+      "title": "프랑스 하원, GB당 0.055유로 인터넷세 도입안 가결",
+      "url": "https://news.hada.io/topic?id=36357&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "프랑스 하원이 프랑스 이용자에게 전송하는 데이터에 GB당 0.055유로를 부과하는 수정안을 가결함. 납세 대상은 이용자가 아닌 온라인 콘텐츠 공급자임 인터넷 서비스 제공업체가 사업자별 전송량을 분기마다 측정하며, 이용자 가까이 있는 중계 ...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-31T23:39:59.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "gpt-56-sol-평화-모드에서-factorio-클리어-가능",
+      "title": "GPT-5.6 Sol, 평화 모드에서 Factorio 클리어 가능",
+      "url": "https://news.hada.io/topic?id=36356&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "GPT-5.6 Sol이 Codex에서 낮은 사고 수준으로 실행돼, 바이터가 없는 Factorio 평화 모드를 게임 내 시간 13.5시간 만에 클리어함 게임 관리자와 Python 라이브러리로 게임을 조작했으며, 플레이어의 도달 거리와 전장의 안개 등 GUI로 플레이하는...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-31T23:36:58.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "공백-문자인지-확인하는-일이-얼마나-어려울까",
+      "title": "공백 문자인지 확인하는 일이 얼마나 어려울까?",
+      "url": "https://news.hada.io/topic?id=36354&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "공백 판별은 단순한 c == ' ' 비교로 끝나지 않으며, Unicode의 25개 공백 문자와 런타임별 판정 기준을 구분해야 함 Java, Python, JavaScript는 같은 문자도 다르게 판정함. 줄바꿈 없는 공백, 제어 문자, 너비 없는 문자 등의 포함 여부가 서로 다...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-10-31T23:01:10.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "the-kluever-maneuver",
+      "title": "The Kluever Maneuver",
+      "url": "https://jordi.inversethought.com/blog/the-kluever-maneuver/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T15:05:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "avoid-public-functions-calling-other-public-functions",
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T18:05:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "api",
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-10-31T19:50:11.000Z",
+      "contentType": "article",
+      "tags": [
+        "science"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a-spark-of-color-in-novembers-gray-2026-wallpapers-edition",
+      "title": "A Spark Of Color In November’s Gray (2026 Wallpapers Edition)",
+      "url": "https://smashingmagazine.com/2026/10/desktop-wallpaper-calendars-november-2026/",
+      "summary": "Let’s kick of November with a new collection of desktop wallpapers! Designed by creatives from across the globe, the wallpapers come in a variety of screen resolutions and can be downloaded for free. Enjoy!",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-10-31T08:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "my-ai-directory-has-92-categories-ten-of-them-hold-37-of-the-listings",
+      "title": "My AI directory has 92 categories. Ten of them hold 37% of the listings.",
+      "url": "https://dev.to/li_yi_dcec96bf2647dec1b7e/my-ai-directory-has-92-categories-ten-of-them-hold-37-of-the-listings-3ei8",
+      "summary": "I ran one query against my AI tools directory last night, and the result explained why some of its pages get crawled while others sit ignored. Category Tools RIP AI 405 Video Generators 294 Image Generators 269 Productiv",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:32:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "webdev",
+        "database"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "this-is-an-area-i-have-struggled-for-decade-i-was-talking-to-my-wife",
+      "title": "This is an area I have struggled for decade. I was talking to my wife recently and came across the Mel Robbin’s talk on YouTube\r\nhttps://youtube.com/shorts/0nvIcyON0p0?is=fEHOe-0Id19rcAFn\r\n\r\nThis was a shorter version, there is an hour long one too.",
+      "url": "https://dev.to/debashish_ghosal/this-is-an-area-i-have-struggled-for-decade-i-was-talking-to-my-wife-recently-and-came-across-the-2o89",
+      "summary": "Stop Controlling, Start Leading: The \"Let Them\" Mindset at Work Debashish Ghosal Nov 1 #healthydebate #leadership #discuss #growth 6 reactions Add Comment 3 min read The Let Them Theory Will Change Your Life | Mel Robbin",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:31:38.000Z",
+      "contentType": "article",
+      "tags": [
+        "leadership",
+        "management",
+        "productivity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "search-hacker-news-who-is-hiring-threads-by-keyword-with-the-free",
+      "title": "Search Hacker News \"Who is hiring?\" threads by keyword with the free Algolia API",
+      "url": "https://dev.to/northgrid-data/search-hacker-news-who-is-hiring-threads-by-keyword-with-the-free-algolia-api-4203",
+      "summary": "Disclosure: I built the Apify Actor linked at the end and charge per result. The raw endpoints below are free and need no key. Every month a \"Who is hiring?\" thread appears on Hacker News, with hundreds of job comments. ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:30:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "api",
+        "webdev",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "devtrace-our-first-overnight-hackathon-three-friends-and-a-journey-of",
+      "title": "DevTrace: Our First Overnight Hackathon, Three Friends, and a Journey of Building Together",
+      "url": "https://dev.to/arpitgoyal1306/devtrace-our-first-overnight-hackathon-three-friends-and-a-journey-of-building-together-30fp",
+      "summary": "Our experience at Hacktoberfest Hack Day | 31 October – 1 November 2026 There is something special about doing something for the first time. You don't know exactly what to expect, you aren't sure how things will turn out",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T00:30:23.000Z",
+      "contentType": "article",
+      "tags": [
+        "mlhacks",
+        "devchallenge",
+        "hackathon"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "today-i-learned",
+      "title": "Today I Learned",
+      "url": "https://velog.io/@gogogi313/Today-I-Learned-9feemkrx",
+      "summary": "오늘 할일 코드 상세 리뷰(이전버전, 공부목적, 결과물 문서1) 지원서비스 배포 상표권 확인 Com.On 유지보수 이슈확인",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T00:26:27.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "영상-하나-보러-갔다가-사라지는-시간",
+      "title": "영상 하나 보러 갔다가 사라지는 시간",
+      "url": "https://velog.io/@parkkh/%EC%98%81%EC%83%81-%ED%95%98%EB%82%98-%EB%B3%B4%EB%9F%AC-%EA%B0%94%EB%8B%A4%EA%B0%80-%EC%82%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%8B%9C%EA%B0%84",
+      "summary": "원문: https://plainfeed.app/blog/why-plainfeed 요약 영상 하나 보려고 유튜브를 열었다가, 추천을 따라가다 보면 시간이 사라졌습니다. 막아 보려는 시도를 따로 한 적은 없어요. 그래서 추천과 쇼츠를 빼고, 내가 고른 채널의 새 영상만 올라온 순서대로 보여주는 화면을 만들었습니다. 지금은 새 영상만 보고 끕니다. 원래 하려던 것만 하고 나오는 게 목표였고, 그건",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T00:26:21.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "dfs는-재귀로-그래프를-탐색하는-방법이-아니다",
+      "title": "DFS는 재귀로 그래프를 탐색하는 방법이 아니다",
+      "url": "https://velog.io/@vxdeveloper/algorithm42",
+      "summary": "DFS를 처음 배울 때는 한 노드에서 출발해 방문하지 않은 이웃을 재귀적으로 탐색하는 방법이라고 설명한다. function dfs( lessonId: string, graph: Map , visited: Set ) { if (visited.has(lessonId)) { return; } visited.add(lessonId); for ( const nextLessonId of graph.ge",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T00:25:30.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "til-자바-변수타입-2",
+      "title": "(TIL) 자바 변수타입 2",
+      "url": "https://velog.io/@wjstkdrl123/TIL-%EC%9E%90%EB%B0%94-%EB%B3%80%EC%88%98%ED%83%80%EC%9E%85-2",
+      "summary": "변수 타입2 숫자 타입 Var8 ** ** package variable; public class Var8 { public static void main(String[] args) { //정수 byte b = 127; //-128 ~ 127 short s = 32767; // -32,768 ~ 32,767 int i = 2147483647; //-2,147,483,648 ~ 2,147,483",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T00:22:21.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
