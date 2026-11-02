@@ -1,0 +1,361 @@
+{
+  "date": "2026-11-02",
+  "collectedAt": "2026-11-02T01:09:15.079Z",
+  "items": [
+    {
+      "slug": "show-hn-hackerbooks-hackertube-but-for-books-mentioned-on-hn",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "summary": "Hacker News 토론 176개 · 893 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T15:58:28.000Z",
+      "contentType": "discussion",
+      "engagement": 893,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "lenovos-encrypted-fingerprint-usb-is-just-an-unencrypted-sd-card-in-a",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "summary": "Hacker News 토론 139개 · 388 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T14:34:43.000Z",
+      "contentType": "discussion",
+      "engagement": 388,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "patrick-stewart-taught-us-what-good-men-do-with-power",
+      "title": "Patrick Stewart taught us what good men do with power",
+      "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+      "summary": "Hacker News 토론 250개 · 364 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T17:28:16.000Z",
+      "contentType": "discussion",
+      "engagement": 364,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "shiyu-coderkronos-python",
+      "title": "shiyu-coder/Kronos (Python)",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:09:12.861Z",
+      "contentType": "repo",
+      "engagement": 45399,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "public-apispublic-apis-python",
+      "title": "public-apis/public-apis (Python)",
+      "url": "https://github.com/public-apis/public-apis",
+      "summary": "A collective list of free APIs",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:09:12.862Z",
+      "contentType": "repo",
+      "engagement": 494619,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "cjpaishandy-rust",
+      "title": "cjpais/Handy (Rust)",
+      "url": "https://github.com/cjpais/Handy",
+      "summary": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:09:12.862Z",
+      "contentType": "repo",
+      "engagement": 36567,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "mathematics-has-changed-lets-act-like-it",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "summary": "Hacker News 토론 234개 · 215 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T18:28:42.000Z",
+      "contentType": "discussion",
+      "engagement": 215,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "korniakornia-python",
+      "title": "kornia/kornia (Python)",
+      "url": "https://github.com/kornia/kornia",
+      "summary": "🐍 Geometric Computer Vision Library for Spatial AI",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:09:12.863Z",
+      "contentType": "repo",
+      "engagement": 11795,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "태평양의-작은-나라-보편적-기본소득-시행",
+      "title": "태평양의 작은 나라, 보편적 기본소득 시행",
+      "url": "https://news.hada.io/topic?id=36424&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "마셜제도가 미국에서 유입된 뜻밖의 재원을 활용해 모든 국민에게 보편적 기본소득을 지급함 미국은 제2차 세계대전 직후, 빠르게 늘리던 핵무기를 시험할 장소로 마셜제도를 선택함 당시 마셜제도는 미국 통치 아래 있...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T23:38:15.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "jepa로-플라톤적-표현-가설을-증명하고-개선하기",
+      "title": "JEPA로 플라톤적 표현 가설을 증명하고 개선하기",
+      "url": "https://news.hada.io/topic?id=36423&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "서로 다른 모달리티에서 독립적으로 학습한 JEPA가 동일한 세계 상태를 연결하는 양성 쌍을 사용하면, 일정한 가정 아래 회전 변환만 다른 동일한 표현을 학습한다는 정리를 증명함 정렬을 좌우하는 핵심은 규모뿐 아니라 뷰의 구성임. 같은 장면의 서로 다른 관측...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T23:35:15.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "영국-전역-기존-유선전화망-100일-뒤-종료기한-연장-없어",
+      "title": "영국 전역 기존 유선전화망, 100일 뒤 종료…기한 연장 없어",
+      "url": "https://news.hada.io/topic?id=36422&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Openreach가 기존 공중교환전화망(PSTN)을 2027년 1월 31일 종료하며, 기한을 더 미루지 않겠다고 통신사업자들에게 통보함 전화기뿐 아니라 결제 단말기, 화재/보안 경보, 돌봄 경보 장치도 영향을 받으며, 기존 PSTN 연결을 유지하는 기업과 소비자는 서비스 중단...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T22:42:59.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "groff로-중편소설-쓰기",
+      "title": "Groff로 중편소설 쓰기",
+      "url": "https://news.hada.io/topic?id=36421&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "groff로 두 편의 중편소설을 조판한 개인 작업 사례로, 작은 매크로 패키지와 텍스트 중심 도구만으로 책 형태의 PDF를 제작함 작고 빠르면서도 품질 좋은 출력이 groff를 선택한 이유였으며, 13.5년 된 PC에서 전처리를 포함해 50쪽 문서는 약 700ms, 120쪽 문서는...",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-01T22:39:59.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "an-outsiders-perspective-on-scion-and-mononoke",
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T15:22:36.000Z",
+      "contentType": "article",
+      "tags": [
+        "vcs"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "pratt-parsing-is-a-black-box",
+      "title": "Pratt parsing is a black box",
+      "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T17:41:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "compilers",
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "london-meetup-nov-2026",
+      "title": "London Meetup - Nov 2026",
+      "url": "https://lobste.rs/s/cqzwwg/london_meetup_nov_2026",
+      "summary": "Pub Address: The Fellow, 24 York Way, London, N1 9AA. Date: Sunday, 15/11/2026 1pm The idea is to just meet and have a chat really. I have submitted a request to book a table. Hopefully they approve but if not we can jus",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T18:47:10.000Z",
+      "contentType": "article",
+      "tags": [
+        "event"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "work-on-gefs-the-good-enough-file-system-for-openbsd-progresses",
+      "title": "Work on GEFS (the Good Enough File System) for OpenBSD progresses",
+      "url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-01T20:13:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "openbsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-email-i-wish-id-sent-the-first-time-a-client-said-quick-tweak",
+      "title": "The email I wish I’d sent the first time a client said “quick tweak”",
+      "url": "https://dev.to/lululapeng/the-email-i-wish-id-sent-the-first-time-a-client-said-quick-tweak-2lo3",
+      "summary": "The first year I freelanced, “quick tweak” cost me more than any unpaid invoice. A button color. A “tiny” extra page. A “can you also…” on Friday afternoon. I said yes because I wanted to be easy to work with. By month t",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:08:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "freelancing",
+        "career"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "electron-memory-management-a-practical-guide-to-finding-leaks-and",
+      "title": "Electron Memory Management: A Practical Guide to Finding Leaks and Keeping Your App Slim",
+      "url": "https://dev.to/mp3sss31/electron-memory-management-a-practical-guide-to-finding-leaks-and-keeping-your-app-slim-lc2",
+      "summary": "Electron Memory Management: A Practical Guide to Finding Leaks and Keeping Your App Slim Electron apps don't leak memory because of one bug — they leak because of a dozen small ones, amplified by the fact that every wind",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:07:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "tooling",
+        "webdev",
+        "node"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "lazycolumn-under-the-hood-lazylayout-slot-reuse-and-the-failure-modes",
+      "title": "LazyColumn Under the Hood: LazyLayout, Slot Reuse, and the Failure Modes That Ship to Production",
+      "url": "https://dev.to/sivavishnu_r_1ee8971ed42d/lazycolumn-under-the-hood-lazylayout-slot-reuse-and-the-failure-modes-that-ship-to-production-d1d",
+      "summary": "LazyColumn looks like a simple function. You pass it a list, it scrolls. But if you have ever debugged a checkbox that jumped to the wrong row, a text field that cleared itself mid-scroll, or a feed that stutters only wh",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:05:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "android",
+        "jetpackcompose",
+        "performance"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "audit-alt-text-bng-python-bt-alt-thiu-alt-trng-alt-l-tn-file-v-alt-nhi",
+      "title": "Audit alt text bằng Python: bắt alt thiếu, alt trùng, alt là tên file và alt nhồi từ khóa",
+      "url": "https://dev.to/onicai/audit-alt-text-bang-python-bat-alt-thieu-alt-trung-alt-la-ten-file-va-alt-nhoi-tu-khoa-448d",
+      "summary": "Alt text thường được kiểm bằng một câu hỏi duy nhất: có hay không. Nhưng phần lớn lỗi alt thực tế lại nằm ở chỗ có mà sai: mọi ảnh dùng chung tiêu đề bài, alt là tên file, alt là chuỗi từ khóa cách nhau bằng dấu phẩy. Bà",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:04:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "a11y",
+        "seo",
+        "python"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "프로그래머스-행렬의-곱셈-이차원-배열-삼중-for문",
+      "title": "📌 프로그래머스 - 행렬의 곱셈 (이차원 배열 / 삼중 for문)",
+      "url": "https://velog.io/@sang5517/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88-%EC%9D%B4%EC%B0%A8%EC%9B%90-%EB%B0%B0%EC%97%B4-%EC%82%BC%EC%A4%91-for%EB%AC%B8",
+      "summary": "📌 1. 문제 설명 두 개의 행렬 arr1, arr2가 주어진다. 두 행렬을 곱한 결과를 반환하는 문제이다. 처음에는 행렬의 곱셈이라고 해서 단순히 같은 위치에 있는 숫자끼리 곱하면 되는 줄 알았다. 하지만 행렬의 곱셈은 조금 다르다. 첫 번째 행렬의 행과 두 번째 행렬의 열을 각각 곱한 다음, 그 결과를 모두 더해야 한다. 예를 들어 다음과 같은 행렬이 있다고 해보자. arr1 = [[1",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-02T01:07:28.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "cloudflare-turnstile로-캡차-없이-폼-스팸-봇-막기",
+      "title": "Cloudflare Turnstile로 캡차 없이 폼 스팸 봇 막기",
+      "url": "https://daleseo.com/cloudflare-turnstile/",
+      "summary": "퍼즐 없이 폼 스팸 봇을 걸러 주는 Cloudflare Turnstile을 소개합니다. 위젯 모드, Bun 서버에서 Siteverify로 토큰 검증하기, 테스트 키로 실패 재현하기, 흔한 실수까지 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    }
+  ]
+}
