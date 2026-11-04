@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-04",
+  "collectedAt": "2026-11-04T01:47:19.501Z",
+  "items": [
+    {
+      "slug": "stringman-an-800-open-source-room-scale-gripper-robot",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "summary": "Hacker News 토론 143개 · 382 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T16:47:29.000Z",
+      "contentType": "discussion",
+      "engagement": 382,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "qwen-38-27b-on-my-laptop-can-interpret-model-weights-too",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "summary": "Hacker News 토론 153개 · 488 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T17:40:00.000Z",
+      "contentType": "discussion",
+      "engagement": 488,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "postman-silently-auto-installs-ai-plugins-and-attempts-to-share-all-api",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "summary": "Hacker News 토론 343개 · 1024 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T17:22:37.000Z",
+      "contentType": "discussion",
+      "engagement": 1024,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "mac-at-any-scale",
+      "title": "Mac at Any Scale",
+      "url": "https://namespace.so/blog/mac-at-any-scale",
+      "summary": "Hacker News 토론 183개 · 315 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T14:53:42.000Z",
+      "contentType": "discussion",
+      "engagement": 315,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "thedotmackclaude-mem-typescript",
+      "title": "thedotmack/claude-mem (TypeScript)",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:47:17.342Z",
+      "contentType": "repo",
+      "engagement": 111952,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "p-e-wheretic-python",
+      "title": "p-e-w/heretic (Python)",
+      "url": "https://github.com/p-e-w/heretic",
+      "summary": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:47:17.345Z",
+      "contentType": "repo",
+      "engagement": 38828,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "floci-iofloci-java",
+      "title": "floci-io/floci (Java)",
+      "url": "https://github.com/floci-io/floci",
+      "summary": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:47:17.346Z",
+      "contentType": "repo",
+      "engagement": 28832,
+      "tags": [
+        "github",
+        "Java"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "vercel-labsagent-desktop-rust",
+      "title": "vercel-labs/agent-desktop (Rust)",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "summary": "Computer use CLI for AI agents",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:47:17.343Z",
+      "contentType": "repo",
+      "engagement": 12863,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "wterm-dom-렌더링과-ghostty-코어를-지원하는-웹-터미널-에뮬레이터",
+      "title": "wterm - DOM 렌더링과 Ghostty 코어를 지원하는 웹 터미널 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=36554&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Vercel Labs의 웹 터미널 라이브러리로, DOM 렌더링을 통해 브라우저의 기본 선택과 복사, 찾기, 접근성 기능을 활용 약 26KB의 Zig/WASM 코어와 Ghostty 기반 코어 중 선택 가능. Ghostty는 더 폭넓은 터미널 호환성을 제공 Worker에서 출력을 해석하고 변경된 행만 다시 그리며, 스크롤백을 가상화해 화면 주변만 DOM에 유지 CJK와 이모지, 한글 IME 조합",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T00:30:02.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "november-2026-security-release",
+      "title": "November 2026 Security Release",
+      "url": "https://nextjs.org/blog/november-2026-security-release",
+      "summary": "The November 2026 security release for Next.js is now available",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-03T18:00:00.000Z",
+      "contentType": "article",
+      "score": 50
+    },
+    {
+      "slug": "show-gn-uranusvenus-긴-한글-문서를-위한-한글-전용-typora-테마",
+      "title": "Show GN: Uranus·Venus - 긴 한글 문서를 위한 한글 전용 Typora 테마",
+      "url": "https://news.hada.io/topic?id=36553&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "한글로 작성된 긴 문서를 Typora에서 오래 읽어도 덜 피로하도록 조판한 라이트 테마 두 개입니다. 둘 다 기본/White/Wide/White Wide 네 가지 변형을 제공합니다. Uranus: https://github.com/cosmos2/typora-uranus-theme Venus: https://github.com/cosmos2/typora-venus-theme 공통 한글 조판 행",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T00:26:37.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "지금-쓰는-nix를-선택한-이유는-무엇인가요",
+      "title": "지금 쓰는 nix를 선택한 이유는 무엇인가요?",
+      "url": "https://news.hada.io/topic?id=36552&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "어떤 nix를 선택하면 좋을지 몰라, 현재 쓰는 것을 선택한 이유를 구함 비교 대상으로 C++ 기반 Nix, Determinate Nix, Lix, 또는 Guix를 고려 중임 Snix, Tvix 등은 일반적인 사용을 위한 것은 아닌 듯하다고 추측하지만, 틀릴 가능성도 열어 둠 …",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T00:11:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ubuntu-2604의-rust-sudo는-표준-sudo와-호환되지-않음",
+      "title": "Ubuntu 26.04의 Rust sudo는 표준 sudo와 호환되지 않음",
+      "url": "https://news.hada.io/topic?id=36551&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Ubuntu 26.04의 sudo-rs에서 기존 /etc/sudoers.d 규칙으로 허용했던 Exim 명령의 비밀번호 없는 실행이 동작하지 않는 사례가 확인됨 표준 sudo가 -bp[acru]를 네 가지 인자에 대응하는 패턴으로 처리하는 반면, sudo-rs는 이를 문자열 그대로 처리해 허용하는 명령이 달라짐 sudo-rs 매뉴얼은 명령행 인자의 와일드카드를 지원하지 않는다고 명시하며, 마지",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T00:08:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "modern-css-might-make-your-front-end-more-complex",
+      "title": "Modern CSS Might Make Your Front-End More Complex",
+      "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+      "summary": "Replacing JavaScript with a modern CSS feature can simplify a piece of code while making the wider application harder to reason about. Gabriel Shoyombo explores what happens when logic is split between CSS and JavaScript",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-03T10:00:00.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "re-implementing-nth-child-with-modern-css",
+      "title": "Re-Implementing :nth-child() With Modern CSS",
+      "url": "https://css-tricks.com/re-implementing-nth-child-with-modern-css/",
+      "summary": "Combining :nth-child with style queries and sibling-index() to conditionally select child elements. Re-Implementing :nth-child() With Modern CSS originally handwritten and published with love on CSS-Tricks. You should re",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-03T14:50:32.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "pseudo elements"
+      ],
+      "score": 42
+    },
+    {
+      "slug": "fe-news-26년-11월-소식을-전해드립니다",
+      "title": "FE News 26년 11월 소식을 전해드립니다.",
+      "url": "https://d2.naver.com/news/1095957",
+      "summary": "주요소식 26년 11월 소식에서는 다음과 같은 유용한 정보들을 만나보실 수 있습니다. ​ Tailwind Labs is joining Shopify Tailwind CSS를 만든 Adam Wathan이 Tailwind Labs의 Shopify 합류를 발표했다. Tailwind CSS를 비롯한 오픈소스 프로젝트는 계속 MIT 라이선스로 남고 Tailwind 팀이 Shopify의 지원을 받아 유",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-04T01:24:58.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "death-comes-for-xslt",
+      "title": "Death comes for XSLT",
+      "url": "https://dbushell.com/2026/11/03/xslt-rip/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T15:19:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "browsers",
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-ubuntu-2604-rust-sudo-is-not-compatible-with-standard-sudo",
+      "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T15:23:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "linux",
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "announcing-netbsd-111",
+      "title": "Announcing NetBSD 11.1",
+      "url": "https://www.netbsd.org/releases/formal-11/NetBSD-11.1.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T22:00:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "release",
+        "netbsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "would-you-believe-its-jank",
+      "title": "Would you believe it's jank?",
+      "url": "https://www.youtube.com/watch?v=tHgApFhevrQ",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-03T20:03:16.000Z",
+      "contentType": "article",
+      "tags": [
+        "video",
+        "c++",
+        "clojure"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "what-claude-spends-building-with-12-javascript-stacks",
+      "title": "What Claude spends building with 12 JavaScript stacks",
+      "url": "https://javascriptweekly.com/issues/809",
+      "summary": "#​809 — November 3, 2026 Read on the Web JavaScript Weekly The AI Cost of JavaScript Frameworks Nolan Lawson had Claude build the same app five times in each of twelve JS stacks to test common \"X is better for agents\" cl",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "딸깍으로-안되는-multi-interest-개발기",
+      "title": "딸깍으로 안되는 Multi-interest 개발기",
+      "url": "https://d2.naver.com/helloworld/9639872",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 딸깍으로 안되는 Multi-interest 개발기 NAVER D2 | 딸깍으로 안되는 Multi-interest 개발기 naver.me ​ 발표 내용 다양한 관심사 추천 모델인 Multi-interest를 여러 지면에 적용하며 겪었던 문제를 해결했던 과정을 공유합니다. ​ 주",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-03T04:45:30.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "국내-최초-광고-mcp를-출시하며-개발자의-역할은-어디까지-넓어졌을까",
+      "title": "국내 최초 광고 MCP를 출시하며, 개발자의 역할은 어디까지 넓어졌을까?",
+      "url": "https://medium.com/daangn/%EA%B5%AD%EB%82%B4-%EC%B5%9C%EC%B4%88-%EA%B4%91%EA%B3%A0-mcp%EB%A5%BC-%EC%B6%9C%EC%8B%9C%ED%95%98%EB%A9%B0-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%97%AD%ED%95%A0%EC%9D%80-%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80-%EB%84%93%EC%96%B4%EC%A1%8C%EC%9D%84%EA%B9%8C-8dea7fe41c07?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-03T09:27:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "product-management",
+        "ai-agent",
+        "engineering"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "how-to-query-the-cms-open-payments-api-without-downloading-multi-gb-csvs",
+      "title": "How to Query the CMS Open Payments API (Without Downloading Multi-GB CSVs)",
+      "url": "https://dev.to/thetatech/how-to-query-the-cms-open-payments-api-without-downloading-multi-gb-csvs-4d86",
+      "summary": "What is CMS Open Payments? CMS Open Payments (the Sunshine Act transparency program) publishes payments and transfers of value from drug and device manufacturers to physicians, non-physician practitioners, and teaching h",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:46:14.000Z",
+      "contentType": "article",
+      "tags": [
+        "healthcare",
+        "api",
+        "opendata"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "a-9b-assistant-built-from-our-specs-went-from-6-to-32-right-answers-out",
+      "title": "A 9B assistant built from our specs went from 6 to 32 right answers out of 32. Most of the fixes were code, not prompts",
+      "url": "https://dev.to/weekendaiprojects/a-9b-assistant-built-from-our-specs-went-from-6-to-32-right-answers-out-of-32-most-of-the-fixes-49a7",
+      "summary": "A personal assistant is easy to demo and hard to trust. The demo ends when the assistant answers. Trust starts when it can change your real calendar, when the model is small enough to run on your own computer, and when i",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:44:42.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "python",
+        "llm"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "the-last-mile-of-agent-adoption-why-vercel-labsagent-desktop-proves",
+      "title": "The Last Mile of Agent Adoption: Why `vercel-labs/agent-desktop` Proves Onboarding Matters More Than Capability",
+      "url": "https://dev.to/fenju_fu/the-last-mile-of-agent-adoption-why-vercel-labsagent-desktop-proves-onboarding-matters-more-24cl",
+      "summary": "Today's GitHub Trending tells a clear story: AI agents have enough capability. What they're missing is a way for users to actually use them. vercel-labs/agent-desktop sits at #1 with 3,791 stars today — a Rust CLI that g",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:43:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "aiagents",
+        "githubtrending",
+        "tutorial"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "binance-hit-by-63-billion-dollar-crypto-theft",
+      "title": "Binance hit by 6.3 billion dollar crypto theft",
+      "url": "https://dev.to/ashish_624379625242c5d263/binance-hit-by-63-billion-dollar-crypto-theft-1jil",
+      "summary": "Amblyotube: engineering a dichoptic vision gym The Binance $6.3 billion heist dominates headlines — state‑level actors, compromised infrastructure, billions vanishing in minutes. It is a stark reminder that even decentra",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-04T01:43:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "blockchain",
+        "crypto",
+        "cybersecurity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "birthday-wishes-for-a-cat-from-their-favourite-human",
+      "title": "Birthday Wishes for a Cat: From Their Favourite Human",
+      "url": "https://velog.io/@ucapanulangtahun/Birthday-Wishes-for-a-Cat-From-Their-Favourite-Human",
+      "summary": "Happy birthday to me — at least, that is what my favourite human keeps saying while I pretend not to care. I care. I just care in the dignified, slightly suspicious way that cats do, with one ear turned toward the treat ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T01:44:11.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "buy-aol-mail-accounts-from-bestsupplyus-key-benefits-30-day-replacement",
+      "title": "Buy AOL Mail Accounts from BestSupplyUS: Key Benefits & 30-Day Replacement Guarantee",
+      "url": "https://velog.io/@bestsupplyus/Buy-AOL-Mail-Accounts-from-BestSupplyUS-Key-Benefits-30-Day-Replacement-Guarantee",
+      "summary": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ ⏰Contact us — we reply within 1 minute! 💌 ✅▶▶Telegram:@bestsupplyus ✅▶▶Telegram Link:http://t.me/bestsupplyus ✅▶▶Whatsapp:+13109824828 ✅▶▶Whatsapp Link:https://wa.me/13109824828 ✅Producthttps://bestsuppl",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T01:43:05.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "겨울-데일리코디-dailycodycom",
+      "title": "겨울 데일리코디 dailycody.com",
+      "url": "https://velog.io/@dailycody/%EA%B2%A8%EC%9A%B8-%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%BD%94%EB%94%94-dailycody.com",
+      "summary": "아침마다 옷장 앞에서 시간이 오래 걸리는 분들이 많죠. 니트 하나를 고를 때도 색부터 고민되고요. 그래서 저희가 가진 코디를 직접 세어 봤어요. 저희는 코디 추천 서비스 데일리코디를 운영하는 팀이에요. 공개된 코디 사진 4,911개 중 가을·겨울로 분류된 1,900개를 골라 어떤 옷과 색이 많이 나오는지 정리했어요. 먼저 하나만 짚고 갈게요. 이 숫자는 온라인 판매 사진에 많이 나오는 코디예",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-04T01:40:26.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "apples-home-robot-openai-scales-git-open-source-value",
+      "title": "Apple's home robot 🤖, OpenAI scales git 📈, open source value 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-03",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
