@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-06",
+  "collectedAt": "2026-11-06T01:57:04.115Z",
+  "items": [
+    {
+      "slug": "claude-code-sends-your-email-address-to-websites",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "summary": "Hacker News 토론 176개 · 513 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T22:17:15.000Z",
+      "contentType": "discussion",
+      "engagement": 513,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "search-for-everyone",
+      "title": "Search for everyone",
+      "url": "https://kagi.com/changelog#11820",
+      "summary": "Hacker News 토론 258개 · 519 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T20:03:34.000Z",
+      "contentType": "discussion",
+      "engagement": 519,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ms-paint-remote-code-execution-vulnerability",
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "summary": "Hacker News 토론 105개 · 322 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T20:43:42.000Z",
+      "contentType": "discussion",
+      "engagement": 322,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "alpine-linux-security-advisory-openssh-server-password-authentication",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "summary": "Hacker News 토론 125개 · 587 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T14:44:20.000Z",
+      "contentType": "discussion",
+      "engagement": 587,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "garrytangstack-typescript",
+      "title": "garrytan/gstack (TypeScript)",
+      "url": "https://github.com/garrytan/gstack",
+      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:57:02.786Z",
+      "contentType": "repo",
+      "engagement": 139970,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "googleskills-python",
+      "title": "google/skills (Python)",
+      "url": "https://github.com/google/skills",
+      "summary": "Agent Skills for Google products and technologies",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:57:02.788Z",
+      "contentType": "repo",
+      "engagement": 22397,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "vercel-labsagent-browser-rust",
+      "title": "vercel-labs/agent-browser (Rust)",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "summary": "Browser automation CLI for AI agents",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:57:02.788Z",
+      "contentType": "repo",
+      "engagement": 45928,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "microsoftvibevoice-python",
+      "title": "microsoft/VibeVoice (Python)",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "summary": "Open-Source Frontier Voice AI",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:57:02.789Z",
+      "contentType": "repo",
+      "engagement": 55978,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "ai로-부활하는-해킨토시",
+      "title": "AI로 부활하는 해킨토시",
+      "url": "https://news.hada.io/topic?id=36684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "비 Apple 하드웨어에서 macOS를 구동하는 Hackintosh와 hackios 커뮤니티에서 최근 몇 주간 개발 활동과 성공 사례가 급증했으며, AI의 부상이 이를 이끌고 있음 Apple의 ARM 전환에 이어 macOS 27(Golden Gate) 에서 x86 지원이 종료됐지만, Snapdragon 노트북과 ARM 단일 보드 컴퓨터에서 macOS를 구동하는 사례가 등장함 Nintendo ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:39:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "servo의-9월-업데이트-ltprogressgt-둥근-사각형-등",
+      "title": "Servo의 9월 업데이트: &lt;progress&gt;, 둥근 사각형 등",
+      "url": "https://news.hada.io/topic?id=36683&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Servo 0.7.0에 9월의 527개 커밋이 반영됐으며, 요소와 Canvas의 둥근 사각형 그리기 등 웹 플랫폼 지원이 확대됨 CSS와 DOM API 지원을 넓혀 :checked, user-select, CSS 타입 연산, CSS/text 모듈, WebCrypto의 MLKEM768-X25519 알고리듬 등을 추가함 실제 웹 호환성이 개선돼 Candy Crush 게임을 플레이할 수 있으며, ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:36:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "voxl-매우-빠른-브라우저-기반-원격-데스크톱-도구",
+      "title": "voxl - 매우 빠른 브라우저 기반 원격 데스크톱 도구",
+      "url": "https://news.hada.io/topic?id=36682&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "서버나 샌드박스의 GUI를 브라우저에서 최대 60 FPS로 부드럽게 보고 조작할 수 있는 Rust 기반 오픈소스 도구 noVNC, Sunshine, Neko, KasmVNC, Selkies보다 높은 프레임률과 낮은 지연을 기록함 Linux의 X11과 Xvfb를 지원해 모니터나 GPU 없는 VM에서 사용 가능. macOS와 Windows 10 이상도 지원 화면을 H.264로 CPU 인코딩해 W",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "로봇-촉각-데이터-243만-건-시대-왜-다른-로봇의-손끝-경험은-그대로-쓸-수-없을까",
+      "title": "로봇 촉각 데이터 243만 건 시대, 왜 다른 로봇의 손끝 경험은 그대로 쓸 수 없을까?",
+      "url": "https://news.hada.io/topic?id=36679&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "사람은 눈을 감고도 손끝의 압력과 미끄러짐을 감지합니다. 로봇도 촉각 센서로 이런 정보를 수집하지만, 한 로봇이 배운 손끝의 경험을 다른 로봇에게 그대로 전달하기는 어렵습니다. 센서마다 접촉을 측정하는 방식과 신호 구조가 다르기 때문입니다. 같은 물체를 잡더라도 어떤 센서는 전기저항의 변화를, 다른 센서는 정전용량이나 광학적 변화를 기록합니다. 2026년 발표된 AnyTouch 2 연구의 T",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-05T23:49:21.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "taming-typography-building-a-modern-css-reset",
+      "title": "Taming Typography: Building a Modern CSS Reset",
+      "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+      "summary": "Stu created tidy-typography.css: a style reset for taming typography with modern CSS features for everything from fluid typography and vertical rhythm, to hyphens and variable fonts. Taming Typography: Building a Modern ",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-05T14:55:31.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "reset",
+        "resource"
+      ],
+      "score": 42
+    },
+    {
+      "slug": "notable-v8-changes-from-nodejs-26-to-27-alpha",
+      "title": "Notable V8 changes from Node.js 26 to 27 (Alpha)",
+      "url": "https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "ai-에이전트를-위한-멀티모달-의사결정-모델-kanana-2-v-decide-오픈소스-공개",
+      "title": "AI 에이전트를 위한 멀티모달 의사결정 모델 ‘Kanana-2-v-decide’ 오픈소스 공개",
+      "url": "https://tech.kakao.com/posts/846",
+      "summary": "안녕하세요, 카카오 Applied AI Model팀의 Shawn(정성효), Michael(이주영)입니다. 고객 문의를 분류하고, 상품 사진을 확인하고, 에이전트가 다음 작업에 사용할 도구를 고르는 일. 서비스에는 긴 답변보다 명확한 판단이 필요한 순간이 많습니다. 특히 AI 에이전트는 하나의 요청을 처리하는 동안 이러한 판단을 여러 차례 반복합니다. Agentic AI 시대에 각 단계에서 필",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-05T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "software-line-specialist",
+      "title": "Software Line Specialist",
+      "url": "https://lovro-bikic.github.io/software-line-specialist/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T16:32:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "satire",
+        "programming",
+        "ai"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "sourcehut-disabled-registration-bypass-cve-2026-121728",
+      "title": "SourceHut disabled registration bypass | CVE-2026-121728",
+      "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T18:34:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "x-87-dos-256-bytes",
+      "title": "X-87 - DOS 256 bytes",
+      "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T00:16:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "assembly",
+        "art",
+        "concatenative"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "a-quick-guide-to-gos-assembler",
+      "title": "A Quick Guide to Go's Assembler",
+      "url": "https://go.dev/doc/asm",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-05T22:07:32.000Z",
+      "contentType": "article",
+      "tags": [
+        "go",
+        "assembly",
+        "compilers"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-to-build-a-browser-based-jigsaw-puzzle-game-with-javascript-and",
+      "title": "How to Build a Browser-Based Jigsaw Puzzle Game with JavaScript and HTML5 Canvas",
+      "url": "https://dev.to/cliffwang/how-to-build-a-browser-based-jigsaw-puzzle-game-with-javascript-and-html5-canvas-33gm",
+      "summary": "Building a jigsaw puzzle game for the browser is an interesting combination of geometry, graphics programming, and interactive game development. Unlike a traditional grid-based puzzle, a jigsaw puzzle requires irregular ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:47:01.000Z",
+      "contentType": "article",
+      "tags": [
+        "frontend",
+        "gamedev",
+        "javascript"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "worklog-system-주간보고-자동화-구축-경험기",
+      "title": "worklog-system 주간보고 자동화 구축 경험기",
+      "url": "https://d2.naver.com/helloworld/5037598",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ worklog-system 주간보고 자동화 구축 경험기 NAVER D2 | worklog-system 주간보고 자동화 구축 경험기 naver.me 발표 내용 대 AI 시대에 본인의 업무 기록을 수집하고 TODO 및 회의록을 기록하는 시스템을 소개합니다. ​ 이 도구를 만들며 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-05T04:50:54.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "making-immersive-llm-chat-experiences-more-accessible",
+      "title": "Making Immersive LLM Chat Experiences More Accessible",
+      "url": "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
+      "summary": "As LLM chat patterns become more widespread, making them accessible is essential to ensuring everyone can access the information, tools, and opportunities they offer. Drawing on his work improving these interfaces, Eric ",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "2026년과-이후-javascript의-동향-webassembly",
+      "title": "2026년과 이후 JavaScript의 동향 - WebAssembly",
+      "url": "https://d2.naver.com/helloworld/7770448",
+      "summary": "2020년 글은 W3C 권고(1.0) 직후의 WebAssembly(이하 'wasm')를 다뤘습니다. '미래 버전에 포함될 작업'으로 스레드, SIMD(single instruction, multiple data), 참조 타입, 꼬리 호출, ESM(ECMAScript modules) 통합을 소개했고, Bytecode Alliance와 WASI(WebAssembly System Interface",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-05T01:42:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai-financial-reporting-a-14-case-release-gate-for-close-narratives",
+      "title": "AI Financial Reporting: A 14-Case Release Gate for Close Narratives",
+      "url": "https://dev.to/isabelle_dubuis_d858453d7/ai-financial-reporting-a-14-case-release-gate-for-close-narratives-4dgh",
+      "summary": "AI Financial Reporting: A 14-Case Release Gate for Close Narratives A finance team should treat an AI-written close narrative as a proposal, not as a number source or a self-approving control. The practical sequence is: ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:44:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "finance",
+        "business"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "demystifying-the-mcp-protocol-for-open-source-ai",
+      "title": "Demystifying the MCP Protocol for Open Source AI",
+      "url": "https://dev.to/tercelyi/demystifying-the-mcp-protocol-for-open-source-ai-39da",
+      "summary": "The MCP protocol is the connective tissue for many open source AI workflows—yet is often treated as a black box. Here’s a developer’s-eye primer on why MCP matters, how it relates to A2A and CLI adapters, and where runti",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:44:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "agents",
+        "ai",
+        "mcp"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "open-models-vs-claude-kimi-k3-glm-53-and-deepseek-v4-pro-against-sonnet",
+      "title": "Open models vs Claude: Kimi K3, GLM 5.3 and DeepSeek V4 Pro against Sonnet 5.5 and Opus 5.5",
+      "url": "https://dev.to/xiun_xiao_6eae2df5c108c5f/open-models-vs-claude-kimi-k3-glm-53-and-deepseek-v4-pro-against-sonnet-55-and-opus-55-3f1d",
+      "summary": "Originally published on the QuickSilver Pro blog. The usual reason to choose an open model over Claude is price. Now that every Claude model on QuickSilver Pro costs 75% less than Anthropic's list price, that reason need",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T01:44:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "llm",
+        "programming"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "정보보안기사-필기-공부-dns-보안",
+      "title": "정보보안기사 필기 공부- DNS 보안",
+      "url": "https://velog.io/@kd123/%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0-%EA%B3%B5%EB%B6%80-DNS-%EB%B3%B4%EC%95%88-f2ccaj4k",
+      "summary": "1. DNS(Domain Name System) DNS는 사람이 사용하는 도메인 이름을 IP 주소로 변환하는 시스템이다. 예를 들어 www.example.com이라는 도메인을 입력하면 DNS를 통해 해당 도메인에 대응하는 IP 주소를 조회한다. DNS 조회 과정 사용자 PC에서 도메인 조회 요청 DNS 재귀 리졸버에서 캐시 확인 캐시에 정보가 없으면 Root DNS에 질의 TLD DNS 및 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T01:53:42.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai로-로그라이크-게임-만들기",
+      "title": "AI로 로그라이크 게임 만들기",
+      "url": "https://velog.io/@lsb2018/AI%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0",
+      "summary": "이번에 대구게임아카데미 정규과정을 수강하면서, Phaser 3와 TypeScript로 2D 로그라이크 게임을 바이브 코딩으로 개발했다. 하나의 확실한 컨셉은 절대 직접 손으로 코드를 수정하지 않는 것이었다. 단순한 프롬프트 -> 개발 프로세스 설계 처음에는 플레이어 이동, 카메라 추적, 벽 생성 등의 기능을 각각 만들면서 모두가 하는 것처럼 프롬프트를 작성했다. 하지만 기능이 늘어날수록 기존",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T01:52:25.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "스터디-스프링-예외처리",
+      "title": "[스터디] 스프링 예외처리",
+      "url": "https://velog.io/@myhyeoeo/%EC%8A%A4%ED%84%B0%EB%94%94-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC",
+      "summary": "기본적인 예외처리 우선 사용자의 요청의 흐름도는 위와 같다. 요청이 필터를 통과해서 디스패처 서블렛이 전달받으면 해당 요청을 위임할 컨트롤러를 찾고 핸들러 어댑터를 찾아서 컨트롤러에게 전달. 비즈니스 로직을 실행한 후 컨트롤러가 반환값을 반환하고, 핸들러 어댑터도 반환값을 처리하면 서버의 응답을 클라이언트에게 돌려준다 근데 컨트롤러가 로직을 처리하던 중 에러가 발생하면? 예외처리가 필요 Ba",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T01:49:28.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai-초안을-평가-가능한-선택지로-만들기-기준-근거-보류-규칙",
+      "title": "AI 초안을 평가 가능한 선택지로 만들기 — 기준, 근거, 보류 규칙",
+      "url": "https://velog.io/@aiajeossi/AI-%EC%B4%88%EC%95%88%EC%9D%84-%ED%8F%89%EA%B0%80-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%84%A0%ED%83%9D%EC%A7%80%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EA%B8%B0%EC%A4%80-%EA%B7%BC%EA%B1%B0-%EB%B3%B4%EB%A5%98-%EA%B7%9C%EC%B9%99-caezk7cq",
+      "summary": "AI 초안을 평가 가능한 선택지로 만들기 — 기준, 근거, 보류 규칙 AI에게 여러 초안을 만들어 달라고 하면 선택지는 빠르게 늘어납니다. 그러나 초안이 많아지는 것과 비교가 쉬워지는 것은 다릅니다. 무엇을 우선할지, 어떤 근거가 필요한지, 어디서 멈출지를 정하지 않으면 모델의 문장력이나 확신이 평가 기준을 대신하게 됩니다. 가상의 반복 업무에서는 AI 결과를 “추천”이 아니라 사람이 검토할",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-06T01:38:22.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "node-27s-first-alpha-brings-breaking-changes",
+      "title": "Node 27's first alpha brings breaking changes",
+      "url": "https://nodeweekly.com/issues/646",
+      "summary": "#​646 — November 5, 2026 Read on the Web Node.js 27 Alpha: The First Release Under Node's New Schedule — Under Node's new release model, each major release spends six months in alpha before stable release — so v27's fina",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "크림에서-통합-임베딩universal-embedding은-어떻게-쓰일까",
+      "title": "크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까?",
+      "url": "https://d2.naver.com/helloworld/7134499",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까? NAVER D2 | 크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까? naver.me ​ 발표 내용 여러 엔티티를 한 공간에 담은 통합 임베딩과 범용 리트리벌이 크림 추천 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-04T04:54:08.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "chatgpt-gifs-apple-cuts-ai-budget-rebuilding-xcom",
+      "title": "ChatGPT GIFs 🖼️, Apple cuts AI budget 💰, rebuilding X.com 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-05",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "smashing-ai-conference",
+      "title": "Smashing AI Conference",
+      "url": "https://css-tricks.com/smashing-ai-conference/",
+      "summary": "The AI 2027 Conference is a live online day for designers and engineers on where AI stands today, what to expect in 2027, and where teams are getting it right. Smashing AI Conference originally handwritten and published ",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-04T15:02:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "Links",
+        "ai",
+        "event"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "wednesday-november-11-2026-security-releases",
+      "title": "Wednesday, November 11, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-03T23:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "safari-will-dark-mode-your-site-for-you",
+      "title": "Safari will 'dark mode' your site for you",
+      "url": "https://frontendfoc.us/issues/765",
+      "summary": "🚀 Frontend Focus #​765 — November 4, 2026 | Read on the web Safari Introduces Adaptive Dark Mode — A new (opt-in) feature added to the Safari 27.3 beta that automatically adapts light sites to dark ones. It's here becau",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "contentType": "article",
+      "score": 26
+    },
+    {
+      "slug": "siri-ai-dev-preview-chatgpt-races-google-engineering-is-changing",
+      "title": "Siri AI dev preview 📱, ChatGPT races Google 📈, engineering is changing 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-04",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    },
+    {
+      "slug": "새로운-세대에게-ai-시대에-맞는-소통-방식을-배우는-중입니다",
+      "title": "새로운 세대에게 AI 시대에 맞는 소통 방식을 배우는 중입니다",
+      "url": "https://daleseo.com/ai-native-communication/",
+      "summary": "대학 생활 내내 AI와 함께한 ChatGPT 세대 신입 개발자와 일하며 겪은 소통의 간극. 장문의 AI 답변 뒤에 숨은 생각을 듣고, 사람 사이의 메시지가 프롬프트가 되어가는 변화에 대해 이야기합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
