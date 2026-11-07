@@ -1,0 +1,512 @@
+{
+  "date": "2026-11-07",
+  "collectedAt": "2026-11-07T01:29:04.427Z",
+  "items": [
+    {
+      "slug": "reactreact-javascript",
+      "title": "react/react (JavaScript)",
+      "url": "https://github.com/react/react",
+      "summary": "The library for web and native user interfaces.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:29:02.916Z",
+      "contentType": "repo",
+      "engagement": 252260,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 79
+    },
+    {
+      "slug": "a-jev-that-can-ask-opus-for-help-gives-opus-accuracy-at-4x-lower-cost",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "summary": "Hacker News 토론 70개 · 324 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T19:48:51.000Z",
+      "contentType": "discussion",
+      "engagement": 324,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "angularangular-typescript",
+      "title": "angular/angular (TypeScript)",
+      "url": "https://github.com/angular/angular",
+      "summary": "Deliver web apps with confidence 🚀",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:29:02.916Z",
+      "contentType": "repo",
+      "engagement": 101364,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "microsoftvscode-typescript",
+      "title": "microsoft/vscode (TypeScript)",
+      "url": "https://github.com/microsoft/vscode",
+      "summary": "Visual Studio Code",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:29:02.917Z",
+      "contentType": "repo",
+      "engagement": 195028,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "tesla-to-wind-down-cybertruck-production",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "summary": "Hacker News 토론 1679개 · 835 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T12:13:51.000Z",
+      "contentType": "discussion",
+      "engagement": 835,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "zed-industrieszed-rust",
+      "title": "zed-industries/zed (Rust)",
+      "url": "https://github.com/zed-industries/zed",
+      "summary": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:29:02.913Z",
+      "contentType": "repo",
+      "engagement": 93648,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "firecracker-vm-escape-pwnescape-part-2",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "summary": "Hacker News 토론 73개 · 169 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T19:33:38.000Z",
+      "contentType": "discussion",
+      "engagement": 169,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "ai-is-dramatically-accelerating-ai-research",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "summary": "Hacker News 토론 148개 · 193 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T20:27:23.000Z",
+      "contentType": "discussion",
+      "engagement": 193,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "doordash가-정확도를-유지하면서-llm-검색-비용을-98-줄인-방법",
+      "title": "DoorDash가 정확도를 유지하면서 LLM 검색 비용을 98% 줄인 방법",
+      "url": "https://news.hada.io/topic?id=36733&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "LLM의 내장 웹 검색을 별도의 검색 API로 분리해, 검색어의 의도를 분류하는 평가에서 정확도를 유지하면서 검색 요금을 98% 이상 절감함. 모델 추론 비용은 제외한 수치임 여러 AI 에이전트가 하나의 검색 게이트웨이를 공유하며, 모델과 검색 업체를 독립적으로 교체할 수 있음. 검색 결과 수, 캐시 정책, 장애 시 대체 업체도 설정으로 관리함 같거나 의미가 비슷한 질문의 검색 결과를 재사용",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:40:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai가-ai-연구를-극적으로-가속하고-있음",
+      "title": "AI가 AI 연구를 극적으로 가속하고 있음",
+      "url": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "METR 조사에 따르면 Anthropic의 AI 역량 발전 속도는 최근 1년간 이전 1년 대비 약 2배가 됐으며, 현재 이 속도를 유지하는 주된 요인은 AI를 통한 연구 자동화로 추정됨 전체 역량 발전이 2배 빨라지려면 연구 노동의 생산성은 훨씬 더 높아져야 함. 실험용 연산 자원과 수확 체감을 고려한 단순 모형에서는 약 10배의 노동 생산성 향상이 필요할 수 있지만, 불확실성이 매우 큼 더",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:34:28.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "대부분의-ai-스타트업은-살아남지-못한다-살아남는-회사를-만드는-방법-영상",
+      "title": "대부분의 AI 스타트업은 살아남지 못한다 - 살아남는 회사를 만드는 방법 [영상]",
+      "url": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "OpenAI나 Anthropic이 내 제품의 기능을 제공하게 되어도 회사가 살아남을 수 있는가? Khosla Ventures의 키스 라보이스가 산업별 AI 기업을 고를 때 던지는 핵심 질문임 사람의 일을 보조하는 코파일럿보다 업무를 끝까지 수행하는 오토파일럿이 장기적으로 더 방어력 있는 사업이 될 수 있음 기반 모델의 부족한 부분을 메우는 데 머무르지 않고, 모델이 발전할수록 고객에게 더 큰",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:31:01.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "craft-anything-웹사이트-앱-게임을-분석하고-ai로-재구현하는-도구",
+      "title": "Craft Anything - 웹사이트, 앱, 게임을 분석하고 AI로 재구현하는 도구",
+      "url": "https://news.hada.io/topic?id=36730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "원본과 원하는 결과를 지정하면 분석 → 구현 → 비교 → 개선을 거쳐 새 프로젝트를 만들어 줌 “이 웹사이트를 재현해 줘”, “이 게임을 Rust로 만들어 줘”처럼 요청 가능 원본과 다른 부분을 찾아 반복 수정함 웹사이트는 세 화면 너비에서 레이아웃, 시각적 유사성과 메뉴 동작 등을 비교함 기본 Clean room 모드는 원본 코드나 파일을 읽지 않고 화면과 배치, 색상 등으로 작업함 운영체",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:30:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "this-week-in-react-304",
+      "title": "This Week In React 304",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-304",
+      "summary": "Next.js, Compiler, Redux Toolkit, Suspense, Resizable Panels, Preact, Redact | RN 0.89 RC, Vega OS, Screens, Hermes, WebView, Unistyles, tgfx, Pager View | Node.js, Parcel, Rspack, Actions, Vitest, js",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-06T13:15:55.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "rss-club-css-tricks-redesign-preview",
+      "title": "RSS Club: CSS-Tricks Redesign Preview",
+      "url": "https://css-tricks.com/css-tricks-redesign-preview/",
+      "summary": "Hey you wonderful RSS subscribers! We just soft-pushed a site redesign and wanted to give ya'll the first heads-up. A full write-up is coming but here are the high-level details. RSS Club: CSS-Tricks Redesign Preview ori",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-06T18:52:59.000Z",
+      "contentType": "article",
+      "tags": [
+        "RSS Club",
+        "css-tricks"
+      ],
+      "score": 42
+    },
+    {
+      "slug": "2026년과-이후-javascript의-동향-라이브러리와-프레임워크",
+      "title": "2026년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크",
+      "url": "https://d2.naver.com/helloworld/0627744",
+      "summary": "\"어느 한 프레임워크가 독보적인 위치를 차지하지 않는 상태는 많은 이들에게 희망과 고통을 동시에 안겨준다.\" 2020년 글은 이 문장으로 시작했습니다. 6년이 지난 지금, 이 문장은 절반만 맞습니다. 사용률로 보면 React는 독보적인 위치를 굳혔고, 고민은 '어떤 프레임워크를 고를까'에서 'React 위에서 어떤 메타 프레임워크와 빌드 도구를 고를까', 그리고 'AI 도구가 기본값으로 고르",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-06T02:04:33.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "the-mustcreate-pattern-for-go-tests",
+      "title": "The MustCreate Pattern for Go Tests",
+      "url": "https://mtlynch.io/notes/go-must-create-pattern/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T15:37:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "go",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "upgrading-netbsd-from-110-to-111",
+      "title": "Upgrading NetBSD from 11.0 to 11.1",
+      "url": "https://www.dwarmstrong.org/netbsd-upgrade/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T15:22:55.000Z",
+      "contentType": "article",
+      "tags": [
+        "netbsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-port-that-does-not-exist",
+      "title": "The Port That Does Not Exist",
+      "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T23:03:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "networking"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nondeterminism-in-futhark",
+      "title": "Nondeterminism in Futhark",
+      "url": "https://futhark-lang.org/blog/2026-11-04-nondeterminism.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-06T19:16:01.000Z",
+      "contentType": "article",
+      "tags": [
+        "plt",
+        "apl"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nodejs-token-diagnostics-when-a-participant-cannot-enter-the-intended",
+      "title": "Node.js Token Diagnostics: When a Participant Cannot Enter the Intended Video Room",
+      "url": "https://dev.to/godfreysterling9226/nodejs-token-diagnostics-when-a-participant-cannot-enter-the-intended-video-room-1e3e",
+      "summary": "Use the server's mint record to verify the participant identity and exact room name before debugging WebRTC. The deciding constraint is trust: a browser can report what it tried to join, but it cannot prove what the issu",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:17:04.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "video",
+        "webrtc"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "react-함수-매개변수parameter-사용법",
+      "title": "React - 함수 매개변수(parameter) 사용법",
+      "url": "https://velog.io/@4dinno/React-%ED%95%A8%EC%88%98-%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98parameter-%EC%82%AC%EC%9A%A9%EB%B2%95-7dpwr7ol",
+      "summary": "함수 매개변수(parameter) 사용법1 : 기본형 아래 함수 App()에서 함수 Box를 호출하면서 name을 넘겨주는 예시입니다. 문자열은 큰따옴표(\"\")로, 변수나 숫자를 보낼 때는 중괄호({ })를 사용합니다. (참고: 리액터에서는 이렇게 호출하는 함수를 컴포넌트라고 함) jsx function App() { return ( ); } 함수 Box는 Box(props)로 선언하고 pr",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T01:14:26.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "녹화-버튼-뒤에서-일어나는-일-line-프리미엄콜-개발기",
+      "title": "녹화 버튼 뒤에서 일어나는 일: LINE 프리미엄콜 개발기",
+      "url": "https://techblog.lycorp.co.jp/ko/line-premium-call-recording",
+      "summary": "들어가며안녕하세요. LINE 앱에서 VoIP(voice over Internet protocol, 인터넷 기반 음성 통화) Android 서비스 개발을 담당하고 있는 안덕용입니다....",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-06T02:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "a-new-community-for-in-house-ux-people",
+      "title": "A New Community For In-House UX People",
+      "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+      "summary": "We’ve been working on something new! We’ve teamed up for a **new small community** for people doing UX-inside organizations — with weekly calls and a shared library of the business cases, templates, and research plans th",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "got-tired-of-typing-random-dictionary-words-so-i-built-syntaxmonkey-its",
+      "title": "Got tired of typing random dictionary words, so I built SyntaxMonkey 🐒. It's a typing test specifically for developers to practice syntax in Python, JS, C++ & more. Track your WPM & accuracy on real code! \r\nTry it out: www.syntaxmonkey.online",
+      "url": "https://dev.to/surajdev3290/got-tired-of-typing-random-dictionary-words-so-i-built-syntaxmonkey-its-a-typing-test-572b",
+      "summary": "",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:21:20.000Z",
+      "contentType": "article",
+      "tags": [
+        "coding",
+        "programming",
+        "showdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "hitobito-oauth-tokens-inherit-the-full-role-set-of-their-user",
+      "title": "Hitobito OAuth tokens inherit the full role set of their user",
+      "url": "https://dev.to/facilishz/hitobito-oauth-tokens-inherit-the-full-role-set-of-their-user-o52",
+      "summary": "Hitobito OAuth tokens inherit the full role set of their user Hitobito manages hierarchical groups, members, roles and events. Its access model is derived from the roles a person holds in different groups, which makes th",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:21:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "autonomous",
+        "zoomeye"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "어디서-틀렸는지-모르겠습니다-예치금-정합성-배치를-주문-1건-단위로-다시-설계한-이야기",
+      "title": "“어디서 틀렸는지 모르겠습니다.” — 예치금 정합성 배치를 주문 1건 단위로 다시 설계한 이야기",
+      "url": "https://dev.to/park_suhyun_44708616b3a00/eodiseo-teulryeossneunji-moreugessseubnida-yecigeum-jeonghabseong-baecireul-jumun-1geon-danwiro-dasi-seolgyehan-iyagi-4h87",
+      "summary": "들어가며 예치금을 다루는 시스템에서 금액의 오차는 작더라도 그냥 넘길 수 없습니다. 이번 글에서는 하루치 합계를 비교하던 예치금 정합성 배치를, 주문 1건의 기대값에서 출발하는 구조로 바꾼 과정을 이야기합니다. 예치금의 정합성을 보여주는 템플릿이 있습니다. 핵심은 다음 한 줄로 정리됩니다. 오늘자 거래 집계 금액 = 오늘과 어제 사이의 거래금액 차이 결제금액, 수수료 등 여러 항목의 하루치 ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T01:20:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "architecture",
+        "backend",
+        "debugging"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "t-dp-i-trong-nh-cho-khch-sn-spa-5-cu-nn-hi-xng-trc-khi-cht",
+      "title": "Đặt dép đi trong nhà cho khách sạn, spa: 5 câu nên hỏi xưởng trước khi chốt",
+      "url": "https://velog.io/@gbvietkhue/dat-dep-di-trong-nha-khach-san-spa-5-cau-hoi",
+      "summary": "Dép đi trong nhà trông là món đơn giản. Nhưng khi đặt vài trăm, vài nghìn đôi cho khách sạn, spa hay chương trình quà tặng, một lựa chọn sai về chất liệu hoặc size sẽ lặp lại trên cả lô hàng. Bài này là ghi chú tóm tắt t",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T01:27:52.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "펜토바르비탈넴부탈을-이용한-자발적-안락사",
+      "title": "펜토바르비탈(넴부탈)을 이용한 자발적 안락사",
+      "url": "https://velog.io/@maxthotrading/%ED%8E%9C%ED%86%A0%EB%B0%94%EB%A5%B4%EB%B9%84%ED%83%88%EB%84%B4%EB%B6%80%ED%83%88%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9E%90%EB%B0%9C%EC%A0%81-%EC%95%88%EB%9D%BD%EC%82%AC",
+      "summary": "저희는 독일, 오스트리아, 스위스 및 기타 국가들에 고품질 경구용 약물을 제공하고 있습니다. 넴부탈(Nembutal) 및 펜토바르비탈(Pentobarbital)을 온라인으로 구매하세요. 넴부탈을 어디서 주문해야 할지 고민 중이시라면, 저희 웹사이트를 방문해 주십시오. 넴부탈 구매처를 찾고 계신 분들께 최적의 선택지가 될 것입니다. https://maxthotrading.com/product/",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T01:21:46.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "3d-애니메이션과-스키닝",
+      "title": "3D 애니메이션과 스키닝",
+      "url": "https://velog.io/@minehye720/3D-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%EA%B3%BC-%EC%8A%A4%ED%82%A4%EB%8B%9D",
+      "summary": "유니티 3D 애니메이션, 스키닝에 대해 진행한 공부를 기록하기 위한 글 입니다. 3D 캐릭터 구조 3D 캐릭터를 움직이기 위해서 가장 먼저 이 캐릭터의 구조를 이해해야한다. 3D 캐릭터의 애니메이션을 구현하는 가장 대표적인 방법은 뼈대(Skeleton)를 이용한 방법으로, 이 뼈대를 움직임으로써 전체적인 동작을 제어한다. 이미지에서 확인되는 몸체 내부 하늘색 계열 막대기들 하나하나가 각각의 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T01:11:00.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "anthropic-ipo-doubts-datacenter-bans-githubs-new-storage",
+      "title": "Anthropic IPO doubts 📉, datacenter bans 🛑, GitHub's new storage 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-06",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "뱅크샐러드-저금리-대출-대리조회-금융위-혁신금융서비스-지정",
+      "title": "뱅크샐러드 '저금리 대출 대리조회' 금융위 혁신금융서비스 지정",
+      "url": "https://corp.banksalad.com/blog/news/bs1501/",
+      "summary": "- 고객 대신 대출 가심사 신청하고 결과 안내…더 유리한 금리·한도 탐색 지원- 마이데이터 기반 대출 AI 에이전트 고도화…중·저신용자 금리 단층 완화 기대 뱅크샐러드(대표 김태훈)는 ‘저금리 대출 대리조회’ 서비스가 금융위원회 혁신금융서비스로 지정됐다고 밝혔다. 금융위원회는 지난 2…",
+      "sourceId": "banksalad-tech",
+      "sourceName": "뱅크샐러드",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "뱅크샐러드-데이터-기반-카드-추천평균-105만원-혜택-받는다",
+      "title": "뱅크샐러드 데이터 기반 카드 추천⋯평균 105만원 혜택 받는다",
+      "url": "https://corp.banksalad.com/blog/news/bs1503/",
+      "summary": "- 마이데이터 기반 소비 분석⋯고객 소비 패턴 고려해 최적의 카드 추천- 평균 105만 원 혜택 받아⋯카드 한 장으로 금융 생활 변화 뱅크샐러드(대표 김태훈)가 마이데이터 기반 맞춤형 카드 추천 서비스를 이용한 고객 데이터를 분석한 결과 평균 105만 원의 혜택을 받은 것으로 나타났다…",
+      "sourceId": "banksalad-tech",
+      "sourceName": "뱅크샐러드",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "뱅크샐러드-ai-에이전트-판단실행-제어-기술-특허-출원",
+      "title": "뱅크샐러드, AI 에이전트 판단·실행 제어 기술 특허 출원",
+      "url": "https://corp.banksalad.com/blog/news/bs1502/",
+      "summary": "- AI 에이전트 판단·실행 제어 기술…고객 안전망 구축 초점- 금융 정보∙계산 등 검증 이어가…AI 에이전트 신뢰도 제고 뱅크샐러드가 AI 에이전트(AI agent)의 판단과 실행을 제어하는 기술을 개발했다. AI 에이전트가 금융 서비스를 제공하는 과정에서 발생할 수 있는 오류를 통…",
+      "sourceId": "banksalad-tech",
+      "sourceName": "뱅크샐러드",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    }
+  ]
+}
