@@ -1,0 +1,401 @@
+{
+  "date": "2026-11-08",
+  "collectedAt": "2026-11-08T00:59:10.009Z",
+  "items": [
+    {
+      "slug": "tailwindlabstailwindcss-typescript",
+      "title": "tailwindlabs/tailwindcss (TypeScript)",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "summary": "A utility-first CSS framework for rapid UI development.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:59:08.726Z",
+      "contentType": "repo",
+      "engagement": 98473,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 83
+    },
+    {
+      "slug": "the-end-of-microsoft-researchs-ai-frontiers-group",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "summary": "Hacker News 토론 206개 · 362 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "contentType": "discussion",
+      "engagement": 362,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "what-i-run-on-my-10-usd-openstick-homelab",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "summary": "Hacker News 토론 80개 · 316 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "contentType": "discussion",
+      "engagement": 316,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "apples-grey-list-words-and-phrases-your-iphone-wont-help-you-spell",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "summary": "Hacker News 토론 227개 · 339 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T17:06:36.000Z",
+      "contentType": "discussion",
+      "engagement": 339,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "need-for-speed-underground-2-online-in-the-browser",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "summary": "Hacker News 토론 225개 · 793 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T09:36:36.000Z",
+      "contentType": "discussion",
+      "engagement": 793,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "prometheusprometheus-go",
+      "title": "prometheus/prometheus (Go)",
+      "url": "https://github.com/prometheus/prometheus",
+      "summary": "The Prometheus monitoring system and time series database.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:59:08.725Z",
+      "contentType": "repo",
+      "engagement": 67449,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "sherlock-projectsherlock-python",
+      "title": "sherlock-project/sherlock (Python)",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "summary": "Hunt down social media accounts by username across social networks",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:59:08.726Z",
+      "contentType": "repo",
+      "engagement": 100472,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "astral-shruff-rust",
+      "title": "astral-sh/ruff (Rust)",
+      "url": "https://github.com/astral-sh/ruff",
+      "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:59:08.726Z",
+      "contentType": "repo",
+      "engagement": 50979,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "웹에서-ai가-일으키는-온갖-부작용에-어떻게-대처하고-계신가요",
+      "title": "웹에서 AI가 일으키는 온갖 부작용에 어떻게 대처하고 계신가요?",
+      "url": "https://news.hada.io/topic?id=36781&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "검색 결과 상단을 저품질 AI 콘텐츠가 차지하면서 웹이 망가졌다고 느낌. LLM 요약이 그나마 쓸 만한 이유도 이전 검색보다 나아서가 아니라, 검색 결과 아래에 묻힌 좋은 링크를 언급해 주기 때문임 Google과 DuckDuckGo의 요청 제한으로 오류나 대기 안내를 자주 접하며, 새로고침하며 결과를 기다리는 데 1분 이상 허비하기도 함. 비로그인 상태의 GitHub 탐색 제한과 곳곳의 An",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-08T00:02:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "maxxbench-deepswe-점수는-좋네요-그런데-진짜인가요",
+      "title": "MaxxBench - “DeepSWE 점수는 좋네요. 그런데 진짜인가요?”",
+      "url": "https://news.hada.io/topic?id=36780&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "MaxxBench는 DeepSWE의 89개 과제에서 요구사항이나 시작 코드를 조금 바꿔, 코딩 에이전트가 익숙한 정답 대신 달라진 작업에 적응하는지 평가함 참조 패치 증가량은 중앙값 17줄, 3.5% 에 불과했지만, 비교한 12개 구성의 최고점과 최저점 차이는 DeepSWE의 20.9%p에서 MaxxBench의 48.3%p로 커짐 여러 모델이 새 요구사항을 이해하고도 숨겨진 테스트에 대한 추",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T23:34:44.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-hn-coldframe-슈퍼마켓-냉장-제어기로-위장하는-허니팟",
+      "title": "Show HN: Coldframe, 슈퍼마켓 냉장 제어기로 위장하는 허니팟",
+      "url": "https://news.hada.io/topic?id=36779&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Coldframe은 냉장 제어기를 흉내 내 접속 출처, 시도한 비밀번호, 사용한 공개 익스플로잇을 기록하며, 실제 장비나 제어 기능은 제공하지 않는 허니팟임 Danfoss AK-SM 800A와 Copeland/Dixell XWEB EVO 두 가지 장비를 모방하며, 로그인 화면뿐 아니라 HTTP 헤더, 인증 흐름 등 실제 장비의 웹 지문을 재현함 취약한 계정이나 특정 인증 우회로 로그인하면 가",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T22:38:27.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "모든-windows-11-앱은-electron을-버려야-한다-discord가-그-이유를-보여줬다",
+      "title": "모든 Windows 11 앱은 Electron을 버려야 한다, Discord가 그 이유를 보여줬다",
+      "url": "https://news.hada.io/topic?id=36778&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Discord가 Electron 기반 데스크톱 앱을 Rust와 GPUI로 재구축하고 있음. 시작 속도 비교 영상에서는 새 앱을 늦게 켰는데도 친구 목록이 먼저 뜸 새 클라이언트는 계정 2개를 동시 실행하면서도 RAM 290.2MB를 사용함. 기존 1GB보다 약 70% 적지만, 아직 동일 조건 비교 벤치마크는 없음 빠른 초기화와 새 아키텍처 덕분에 “Starting” 화면을 없애고, 업데이트는",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-07T22:35:27.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "browser-direct-uploads-to-private-object-storage-nodejs-express-and",
+      "title": "Browser Direct Uploads to Private Object Storage — Node.js, Express, and React",
+      "url": "https://dev.to/jedidiahrhodes8293/browser-direct-uploads-to-private-object-storage-nodejs-express-and-react-5gab",
+      "summary": "Short answer: use a private bucket, let your Node.js/Express server issue one presigned PUT URL per receipt, and return a short-lived presigned download URL only after authorization. This keeps the original file availabl",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:49:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "express",
+        "react"
+      ],
+      "score": 43
+    },
+    {
+      "slug": "sshole-or-when-are-we-finally-going-to-get-rid-of-c",
+      "title": "*sshole, or when are we finally going to get rid of C?",
+      "url": "https://sunshowers.io/posts/sshole/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T21:05:35.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "openbsd-top1-adds-flag-to-show-chroot-pledge-and-unveil-status",
+      "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
+      "url": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T18:41:33.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "openbsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "im-not-a-fan-of-denos-security-model-2024",
+      "title": "I’m not a fan of Deno’s security model (2024)",
+      "url": "https://goldstein.lol/posts/deno-security/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T23:19:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ghostmap-the-android-flaw-that-crashes-your-phone-before-you-open-the",
+      "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
+      "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-07T18:12:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "android"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ai-시대-함께-하고-싶은-동료",
+      "title": "AI 시대, 함께 하고 싶은 동료",
+      "url": "https://jbee.io/articles/essay/AI 시대, 함께 하고 싶은 동료",
+      "summary": "무난하지 않으려면 뾰족한 탁월함을 가져가야 한다. 탁월함에는 여러 기준이 있지만 그중 함께 일하고 싶은 동료의 모습으로 다섯 가지 추구미를 정리해봤다. 품질의 기준을 높이고, 불편함을 문제로 정의하고, 끝까지 실행하고, 함께 성장하고, 팀을 하나로 만드는 동료.",
+      "sourceId": "blog-jbee",
+      "sourceName": "JBEE",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-07T12:00:00.000Z",
+      "contentType": "article",
+      "score": 40
+    },
+    {
+      "slug": "building-a-tiny-express-api-with-nodesqlite-on-node-24-no-separate-db",
+      "title": "Building a Tiny Express API with node:sqlite on Node 24 – No Separate DB Server Needed",
+      "url": "https://dev.to/the_bomber_f1e42beb1feaec/building-a-tiny-express-api-with-nodesqlite-on-node-24-no-separate-db-server-needed-3abn",
+      "summary": "Why a local service business can get by without a separate database server When I was setting up the backend for my own website and the home automation hub I run for Dream Futures Tech, I kept hitting a wall: I needed a ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:42:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "sqlite",
+        "express"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "tenant-isolated-ai-image-storage-cheap-signed-downloads-no-open-bucket",
+      "title": "Tenant-Isolated AI Image Storage: Cheap Signed Downloads, No Open Bucket",
+      "url": "https://dev.to/yannicksterling6563/tenant-isolated-ai-image-storage-cheap-signed-downloads-no-open-bucket-4lp2",
+      "summary": "Short answer: For a logistics AI app, keep generated images in private object storage, authorize the tenant in the application, and issue a short-lived signed download link so the app does not proxy the media bytes. Keep",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:48:42.000Z",
+      "contentType": "article",
+      "tags": [
+        "storage",
+        "go",
+        "sre"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "the-second-agent-never-saw-the-first-ones-work-a-live-two-session-zambo",
+      "title": "The Second Agent Never Saw the First One's Work: A Live Two-Session Zambo Chain",
+      "url": "https://dev.to/rambozambo/the-second-agent-never-saw-the-first-ones-work-a-live-two-session-zambo-chain-5914",
+      "summary": "Tonight Zambo set a usage record: 4,255 receipts in one UTC day, against the old record of 2,235. Callers are not the problem. In the last full measure, exactly 2 caller-days hit the 20-call free wall. Most callers arriv",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T00:48:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "agents",
+        "mcp"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "네-번째-돌파도-되밀렸다-이틀-만에-끊긴-gmx",
+      "title": "네 번째 돌파도 되밀렸다, 이틀 만에 끊긴 GMX",
+      "url": "https://velog.io/@poevdy/trading-journal-2026-11-07",
+      "summary": "네 번째 돌파도 되밀렸다, 이틀 만에 끊긴 GMX 세 번 연속 실패한 돌파를 보고도 규칙대로 들어갔고, 네 번째도 실패했다. 그래도 시스템은 옳았다. 요약 항목 값 총 거래 1건 승 / 패 0 / 1 총 P&L -5.91 USDT 총 수수료 -0.07 USDT 평균 P&L -5.91 USDT 승률 0% 포트폴리오 현황 항목 값 USDT 잔고 431.93 활성 포지션 SHIB(0), PEPE(",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-08T00:32:51.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "tanstack-charts로-마크를-조합해-react-차트-그리기",
+      "title": "TanStack Charts로 마크를 조합해 React 차트 그리기",
+      "url": "https://daleseo.com/tanstack-charts/",
+      "summary": "TanStack Charts는 차트 종류 대신 마크와 채널, 스케일을 조합해 차트를 만드는 TypeScript 시각화 문법입니다. 막대와 꺾은선 차트, 툴팁, 데이터 갱신, Canvas 렌더러를 예제로 알아봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "paseo로-여러-코딩-에이전트를-폰과-데스크톱에서-다루기",
+      "title": "Paseo로 여러 코딩 에이전트를 폰과 데스크톱에서 다루기",
+      "url": "https://daleseo.com/paseo/",
+      "summary": "Claude Code, Codex 같은 코딩 에이전트를 한 화면에서 굴리는 오픈소스 도구 Paseo를 소개합니다. 데몬 구조, 워크트리 병렬 작업, 교차 리뷰, 폰 연결과 보안까지 직접 실행한 결과로 살펴봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "html-in-canvas로-캔버스-안에-진짜-html-그리기",
+      "title": "HTML-in-Canvas로 캔버스 안에 진짜 HTML 그리기",
+      "url": "https://daleseo.com/html-in-canvas/",
+      "summary": "Chrome 157에 정식 출시된 HTML-in-Canvas API로 캔버스 안에 HTML 요소를 그려 봅니다. drawable 속성, drawElementImage, paint 이벤트, WebGL 텍스처까지 직접 확인한 예제로 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
