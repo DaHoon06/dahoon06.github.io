@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-09",
+  "collectedAt": "2026-11-09T01:20:14.650Z",
+  "items": [
+    {
+      "slug": "goldman-sachs-is-pulling-claude-code-from-its-bankers-and-traders",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "summary": "Hacker News 토론 354개 · 582 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T18:16:07.000Z",
+      "contentType": "discussion",
+      "engagement": 582,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nvidia-ceo-jensen-huangs-letter-to-staff-about-affair",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+      "summary": "Hacker News 토론 322개 · 327 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T22:20:09.000Z",
+      "contentType": "discussion",
+      "engagement": 327,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nvidia-board-of-directors-is-investigating-jensen-huang",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "summary": "Hacker News 토론 291개 · 375 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T20:26:43.000Z",
+      "contentType": "discussion",
+      "engagement": 375,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "llama-modchip-284b-deepseek-on-64gb-ram-no-gpu",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "summary": "Hacker News 토론 152개 · 359 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "contentType": "discussion",
+      "engagement": 359,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "metaastryx-typescript",
+      "title": "meta/astryx (TypeScript)",
+      "url": "https://github.com/meta/astryx",
+      "summary": "An open source design system that's fully customizable and agent ready",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:20:12.653Z",
+      "contentType": "repo",
+      "engagement": 16849,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "ranxiangleibillion-context-typescript",
+      "title": "ranxianglei/billion-context (TypeScript)",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . ",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:20:12.654Z",
+      "contentType": "repo",
+      "engagement": 5174,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "anthropicsclaude-quickstarts-python",
+      "title": "anthropics/claude-quickstarts (Python)",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:20:12.652Z",
+      "contentType": "repo",
+      "engagement": 19435,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "google-deepmindmujoco-c",
+      "title": "google-deepmind/mujoco (C++)",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "summary": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:20:12.653Z",
+      "contentType": "repo",
+      "engagement": 16431,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "ai에-회사-맥락을-제공하고-회사-두뇌를-구축하는-방법",
+      "title": "AI에 회사 맥락을 제공하고 ‘회사 두뇌’를 구축하는 방법",
+      "url": "https://news.hada.io/topic?id=36856&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "AI가 회사에 맞는 답을 하려면 지표 정의, 정책, 업무 방식처럼 추측할 수 없는 정보를 문서화하고, 실제 업무 도구와 연결해 팀 전체가 공유해야 함 회사 두뇌(company brain) 는 직원과 AI 에이전트가 함께 사용하는 지식 기록으로, 문서뿐 아니라 연결된 도구의 최신 기록과 업무 중 쌓이는 수정 사항을 반영함 1~2페이지 문서에 신입 직원이 첫 주에 물어볼 내용부터 사내 기준을 정",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T00:40:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ask-hn-무엇을-만들거나-작업하고-계신가요-2026년-11월",
+      "title": "Ask HN: 무엇을 만들거나 작업하고 계신가요? (2026년 11월)",
+      "url": "https://news.hada.io/topic?id=36855&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "현재 진행 중인 작업과 최근 호기심을 느낀 주제를 공유하는 자리임",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T00:39:34.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ketchup-rust와-webgpu로-만든-오픈소스-sketchup-대안",
+      "title": "KetchUp - Rust와 WebGPU로 만든 오픈소스 SketchUp 대안",
+      "url": "https://news.hada.io/topic?id=36854&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "KetchUp은 목공과 가구 설계를 위한 무료 오픈소스 3D 모델링 앱으로, 제작 전에 선반, 테이블, 수납장, 작업대 등을 정확한 치수로 설계할 수 있음 선과 도형으로 면을 만든 뒤 Push/Pull로 두께를 부여하고, 이동, 크기 조절, 오프셋, 색칠 도구로 모델을 편집함 정확한 길이 입력과 스냅, 치수 도구로 크기와 맞춤 상태를 확인하고, 그룹, 재사용 가능한 컴포넌트, 태그로 부품을 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T00:36:34.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "univer-웹앱에-스프레드시트와-문서-편집기를-넣는-sdk",
+      "title": "Univer - 웹앱에 스프레드시트와 문서 편집기를 넣는 SDK",
+      "url": "https://news.hada.io/topic?id=36853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "자체 서비스 안에 스프레드시트와 문서 편집 환경을 만들 수 있음 편집 화면과 애플리케이션 코드가 같은 데이터를 다루며, 수식 결과도 자동으로 갱신 스프레드시트 편집 셀 서식, 병합, 틀 고정, 이미지와 실행 취소 수식 계산, 정렬, 필터, 데이터 검증과 조건부 서식 SUM, IF, XLOOKUP, 동적 배열 등 다양한 함수 지원 문서 편집 리치 텍스트, 문단 서식, 목록, 링크와 댓글을 제공",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "who-wants-to-crowdsource-llm-scans-of-articles-submitted-to-lobsters",
+      "title": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
+      "url": "https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles",
+      "summary": "Like many of us who value the human side of the web, I am looking for ways to keep slop at bay. It seems like LLM detection technology works reasonably well nowadays, with Pangram as the main provider. It is expensive, t",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T16:36:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "web",
+        "ask"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "unattended-reboots-with-encrypted-disks",
+      "title": "Unattended reboots with encrypted disks",
+      "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T16:58:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "freebsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "what-can-i-realistically-do-with-local-ai-on-a-mac-mini-m5-pro-48gb",
+      "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+      "url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "summary": "I just got a Mac mini with an M5 Pro (base CPU config) and 48GB of unified memory. I want to run as much AI locally as makes sense, but it's hard to separate what actually works day to day from benchmark hype. What I'd l",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T17:07:51.000Z",
+      "contentType": "article",
+      "tags": [
+        "mac",
+        "ask",
+        "ai"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "herb-sutter-when-a-languages-creator-and-its-owners-strongly-disagree",
+      "title": "Herb Sutter: When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
+      "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-08T21:59:26.000Z",
+      "contentType": "article",
+      "tags": [
+        "pdf",
+        "c++"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nodejs-postgres-backup-archive-to-a-storage-bucket-gzip-and-recovery",
+      "title": "Node.js Postgres Backup Archive to a Storage Bucket: Gzip and Recovery Links",
+      "url": "https://dev.to/rasmusberg6592/nodejs-postgres-backup-archive-to-a-storage-bucket-gzip-and-recovery-links-3ehd",
+      "summary": "A backup job should be judged by a measured restore drill, because a successful object upload says nothing about whether the application can recover within its recovery objectives. Start with an isolated restore, a bound",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:19:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "postgres",
+        "storage",
+        "go"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "til-how-to-read-gbase-databases-four-monitoring-tables",
+      "title": "TIL: How to Read GBase Database's Four Monitoring Tables",
+      "url": "https://dev.to/mmllllzcn/til-how-to-read-gbase-databases-four-monitoring-tables-2o",
+      "summary": "The first time you run gha_ctl monitor all, the output can look overwhelming. It is tempting to scroll to the last line and assume that the summary tells the whole story. But GBase Database(GBase 8c) organizes its cluste",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:18:34.000Z",
+      "contentType": "article",
+      "tags": [
+        "gbase",
+        "database",
+        "数据库"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "cmo-hacer-que-claude-code-le-pida-ayuda-a-codex-con-la-red-de-agentes",
+      "title": "Cómo hacer que Claude Code le pida ayuda a Codex con la red de agentes de osFoundry",
+      "url": "https://dev.to/bbt-es/como-hacer-que-claude-code-le-pida-ayuda-a-codex-con-la-red-de-agentes-de-osfoundry-3e32",
+      "summary": "Al terminar, Claude Code en una terminal y Codex en otra tienen cada uno un handle de osFoundry. Claude Code puede ver que @bob-codex está trabajando en la migración de orders, mandarle una pregunta directa y esperar la ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:17:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "claudecode",
+        "codex",
+        "osfoundry"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "measuring-architecture-drift-in-ai-edited-room-photos-with-opencv",
+      "title": "Measuring architecture drift in AI-edited room photos with OpenCV",
+      "url": "https://dev.to/stagingbench/measuring-architecture-drift-in-ai-edited-room-photos-with-opencv-flp",
+      "summary": "When an AI tool stages an empty room, the furniture is the easy part to judge. The hard part is whether the room itself is still the same room. If a window shrank or a wall moved by a hand's width, a buyer will notice at",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-09T01:17:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "computervision",
+        "python",
+        "opencv"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "loewe-sneakers-styling-guide-for-luxurious-everyday-outfits",
+      "title": "Loewe sneakers styling guide for luxurious everyday outfits",
+      "url": "https://velog.io/@editorialist/Loewe-sneakers",
+      "summary": "Finding the perfect athletic shoe that balances supreme comfort with a highly polished aesthetic requires careful consideration. Many fashion enthusiasts struggle to find reliable everyday footwear that looks incredible ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T01:20:03.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "hermes-agent-로컬-구축기-3-obsidian-볼트-연결과-qwen-캐시-검증",
+      "title": "Hermes Agent 로컬 구축기 #3: Obsidian 볼트 연결과 Qwen 캐시 검증",
+      "url": "https://velog.io/@soomin0209/Hermes-Agent-%EB%A1%9C%EC%BB%AC-%EA%B5%AC%EC%B6%95%EA%B8%B0-3-Obsidian-%EB%B3%BC%ED%8A%B8-%EC%97%B0%EA%B2%B0%EA%B3%BC-Qwen-%EC%BA%90%EC%8B%9C-%EA%B2%80%EC%A6%9D",
+      "summary": "에이전트가 메모와 리서치를 계속 쌓아도, 사람이 편하게 읽고 정리할 수 없다면 활용하기 어렵다. 반대로 에이전트가 “테스트에 성공했다”고 말해도, 그 결과를 확인할 근거가 없다면 그대로 믿기 어렵다. 이번에는 이 두 문제를 다뤘다. 하나는 Hermes가 사용하는 결과물 폴더를 Obsidian 볼트로 여는 것이고, 다른 하나는 Qwen3.8-Flash의 컨텍스트 캐시를 실제 API 응답으로 검",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T01:17:59.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "게임을-좋아하는-9살-아이를-위해-광고-없는-사칙연산-게임을-직접-만들었다-누미나-개발기",
+      "title": "게임을 좋아하는 9살 아이를 위해, 광고 없는 사칙연산 게임을 직접 만들었다 - 누미나 개발기",
+      "url": "https://velog.io/@reipier/%EA%B2%8C%EC%9E%84%EC%9D%84-%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94-9%EC%82%B4-%EC%95%84%EC%9D%B4%EB%A5%BC-%EC%9C%84%ED%95%B4-%EA%B4%91%EA%B3%A0-%EC%97%86%EB%8A%94-%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0-%EA%B2%8C%EC%9E%84%EC%9D%84-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8B%A4-%EB%88%84%EB%AF%B8%EB%82%98-%EA%B0%9C%EB%B0%9C%EA%B8%B0",
+      "summary": "*\"이 정도 쉬운 난이도면 내가 만들고 말지.\" 이틀 동안 AI에게 지시만 하며 만든 앱과, 첫째의 실제 기록* 게임만 하려는 9살 첫째(9살)는 게임을 하고 싶어 한다. 근데 수학은 소질이 있다. 3자리 × 2자리 곱셈도 곧잘 하는 아이다. 그런데 연산 연습은 하려고 하지 않는다. 쉬운건 재미없고, 재미없으면 대충하고. 또 너무 어려우면 피한다. 그런데 또 몰래 게임은 잘한다. 게임을 막을",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T01:15:36.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "hermes-agent-로컬-구축기-2-discord-봇-오프라인과-게이트웨이-소켓-오류-해결",
+      "title": "Hermes Agent 로컬 구축기 #2: Discord 봇 오프라인과 게이트웨이 소켓 오류 해결",
+      "url": "https://velog.io/@soomin0209/Hermes-Agent-%EB%A1%9C%EC%BB%AC-%EA%B5%AC%EC%B6%95%EA%B8%B0-2-Discord-%EB%B4%87-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EA%B3%BC-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4-%EC%86%8C%EC%BC%93-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0",
+      "summary": "컨테이너는 분명 Up이었다. 그런데 Discord 봇은 오프라인이었고, 메시지를 보내도 응답이 없었다. 첫 번째 글에서는 Mac의 Docker 환경에 Hermes Agent를 올리고, Discord와 장기 메모리, 결과물 볼트를 연결하는 과정에서 내린 결정을 정리했다. 이번에는 그 구성을 운영하다 만난 게이트웨이 시작 실패와 이를 해결하기 위해 선택한 업그레이드 전략을 기록한다. 이 글은 2",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-09T01:14:29.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "fe-news-26년-10월-소식을-전해드립니다",
+      "title": "FE News 26년 10월 소식을 전해드립니다.",
+      "url": "https://d2.naver.com/news/8711937",
+      "summary": "주요소식 ​ The Story of VS Code Visual Studio Code 공식 채널이 공개한 약 1시간 38분 분량의 다큐멘터리로, Erich Gamma가 이끈 취리히 팀이 브라우저용 편집기 컴포넌트 Monaco Editor를 만들던 시기부터 데스크톱 VS Code 발표와 오픈 소스 전환까지의 과정을 30여 명의 관계자 인터뷰로 보여 준다. 확장을 별도 프로세스에서 실행하고 한번 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-04T01:25:20.000Z",
+      "contentType": "article",
+      "score": 21
+    }
+  ]
+}
