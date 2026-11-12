@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-12",
+  "collectedAt": "2026-11-12T02:38:12.201Z",
+  "items": [
+    {
+      "slug": "aws-emulator",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "summary": "Hacker News 토론 219개 · 696 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "contentType": "discussion",
+      "engagement": 696,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "summary": "Hacker News 토론 392개 · 410 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T21:24:35.000Z",
+      "contentType": "discussion",
+      "engagement": 410,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "a-false-smoke-alarm-almost-drowned-jane-streets-only-nyc-datacenter",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "summary": "Hacker News 토론 215개 · 422 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T16:38:44.000Z",
+      "contentType": "discussion",
+      "engagement": 422,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nvidia-is-preparing-to-oust-jensen-huang",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "summary": "Hacker News 토론 812개 · 566 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T22:31:06.000Z",
+      "contentType": "discussion",
+      "engagement": 566,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "zhulinsendaily-stock-analysis-python",
+      "title": "ZhuLinsen/daily_stock_analysis (Python)",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:38:09.479Z",
+      "contentType": "repo",
+      "engagement": 70368,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "thealgorithmsjava-java",
+      "title": "TheAlgorithms/Java (Java)",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "summary": "All Algorithms implemented in Java",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:38:09.482Z",
+      "contentType": "repo",
+      "engagement": 67072,
+      "tags": [
+        "github",
+        "Java"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "openaicodex-security-typescript",
+      "title": "openai/codex-security (TypeScript)",
+      "url": "https://github.com/openai/codex-security",
+      "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:38:09.482Z",
+      "contentType": "repo",
+      "engagement": 11805,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "shadcnimprove",
+      "title": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:38:09.480Z",
+      "contentType": "repo",
+      "engagement": 10976,
+      "tags": [
+        "github"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "show-hn-투자할-yc-스타트업을-결정하는-게임으로-papers-please를-재현함",
+      "title": "Show HN: 투자할 YC 스타트업을 결정하는 게임으로 Papers, Please를 재현함",
+      "url": "https://news.hada.io/topic?id=37027&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Term Sheet, Please는 Papers, Please를 재현해 어느 YC 스타트업에 투자할지 결정하는 게임임 “CALL THE NEXT FOUNDER”로 다음 창업자를 호출함 투자 판단 선택지는 PASS / FUND / HOLD임 결정 서류를 책상 위에 놓으라는 안내와 함께, 서류에 적힌 사실을 클릭하는 INSPECT 기능이 표시됨 게임 화면의 시점은 데모데이 다음 날, ACT 01",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T01:40:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-hn-yogurt-무료이며-프라이버시를-보호하는-오픈소스-granola-대안",
+      "title": "Show HN: Yogurt - 무료이며 프라이버시를 보호하는 오픈소스 Granola 대안",
+      "url": "https://news.hada.io/topic?id=37025&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Yogurt는 비공개 AI 회의 노트를 위한 무료 오픈소스 앱임 회의에 봇을 추가하지 않고 통화를 녹음함 회의 요약 화면에서 계획과 담당자별 다음 단계, 개인 알림을 확인할 수 있음 Mac, Windows, Linux용 다운로드를 제공함 MIT 라이선스로 공개되며, 로컬 빌드와 실행을 위한 문서를 제공함 봇 없이 녹음하는 AI 회의 노트 Yogurt는 프라이버시를 내세우는 무료 오픈소스 AI",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T01:37:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "젠슨-황-직속-보고-임원과도-혼외-관계를-맺었다는-증언-나와",
+      "title": "젠슨 황, 직속 보고 임원과도 혼외 관계를 맺었다는 증언 나와",
+      "url": "https://news.hada.io/topic?id=37024&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Nvidia CEO Jensen Huang이 자신에게 직접 보고하는 임원 Kimberly Powell과 혼외 관계를 맺었다고 전직 직원 5명이 증언함 Powell은 Nvidia의 헬스케어 부문 부사장으로, 회사 행동강령은 개인적 관계를 포함해 이해충돌을 일으킬 수 있는 상황을 피하도록 규정하고 있음 지난 3월 Nvidia GTC 행사 기간 중 두 사람이 산호세의 한 호텔에서 애정 표현을 하는",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T01:34:18.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-openphoneuse-화면을-보고-직접-탭하는-모바일용-computer-use",
+      "title": "Show GN: OpenPhoneUse – 화면을 보고 직접 탭하는 모바일용 Computer Use",
+      "url": "https://news.hada.io/topic?id=37020&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Computer Use가 PC 화면을 보고 마우스와 키보드를 조작하듯, 안드로이드 폰 화면을 보고 직접 조작하는 AI 에이전트입니다. 할 일을 말하면 AI가 화면을 읽고 탭, 입력, 스크롤하며 여러 앱을 오가면서 처리합니다. 기존 폰 에이전트는 대부분 PC에 연결해 ADB로 조작해야 해서, 폰 안에서 단독으로 동작하도록 만들었습니다. 주요 특징 PC, ADB, 루트, Shizuku 없이 접근",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T00:51:56.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nodejs-26131-lts",
+      "title": "Node.js 26.13.1 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v26.13.1",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-11T16:45:20.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "nodejs-24223-lts",
+      "title": "Node.js 24.22.3 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v24.22.3",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-11T16:45:11.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "nodejs-22235-lts",
+      "title": "Node.js 22.23.5 (LTS)",
+      "url": "https://nodejs.org/en/blog/release/v22.23.5",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-11T16:44:58.000Z",
+      "contentType": "article",
+      "score": 45
+    },
+    {
+      "slug": "how-i-accidentally-became-a-millionaire",
+      "title": "How I accidentally became a millionaire",
+      "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T21:53:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "for-the-first-time-a-c-standard-failed-to-pass-the-national-bodies",
+      "title": "For the first time, a C++ standard failed to pass the national bodies",
+      "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T18:49:35.000Z",
+      "contentType": "article",
+      "tags": [
+        "c++"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "about-the-downtime-and-security-incident",
+      "title": "About the downtime and security incident",
+      "url": "https://danbooru.donmai.us/forum_topics/38685.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T16:58:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "andrew-kenslers-permute-a-function-for-stateless-constant-time",
+      "title": "Andrew Kensler's permute(), a function for stateless, constant-time pseudorandom-order array iteration",
+      "url": "https://andrew-helmer.github.io/permute/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-11T20:08:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "compsci"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nextjs-api-handler-for-generated-pngs-object-storage-with-expiring",
+      "title": "Next.js API Handler for Generated PNGs — Object Storage with Expiring Download Grants",
+      "url": "https://dev.to/falgrim78/nextjs-api-handler-for-generated-pngs-object-storage-with-expiring-download-grants-30dk",
+      "summary": "Situation Sensible default Why it wins The catch Private AI-generated PNGs for a US/EU SaaS Server-side API route, private bucket, short-lived signed URL The browser never sees storage credentials You need an authorizati",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:36:54.000Z",
+      "contentType": "article",
+      "tags": [
+        "nextjs",
+        "objectstorage",
+        "png"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "securing-webhooks-against-replay-attacks-a-production-grade-python",
+      "title": "Securing Webhooks Against Replay Attacks: A Production-Grade Python & Pydantic v2 Implementation",
+      "url": "https://dev.to/toai/securing-webhooks-against-replay-attacks-a-production-grade-python-pydantic-v2-implementation-56p9",
+      "summary": "Root Cause and Guardrails Against Replay Attacks Exploiting Missing Webhook Timestamp Validation In event-driven architectures, webhooks serve as the backbone for inter-service communication across SaaS platforms (e.g., ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:34:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "engineering",
+        "ai"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "chaos-mesh로-kubernetes-앱의-장애-내구성-검증하기",
+      "title": "Chaos Mesh로 Kubernetes 앱의 장애 내구성 검증하기",
+      "url": "https://d2.naver.com/helloworld/6523094",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Kubernetes 상에서 가상 인프라 장애를 통해 시스템을 사전에 검증하고 장애를 예방하는 기술을 소개합니다. ​ 발표 대상 Chaos Engineering 도입을 고민중인 개발자 ​ 목차 도입 : Chaos Engineering PART 1. Chaos Me",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-11T07:49:24.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "ai-산출물이-프로덕션이-되기까지-ai와-디자인시스템이-함께-일하는-법",
+      "title": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
+      "url": "https://d2.naver.com/helloworld/2568242",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI변화와 함께 성장하는 디자인시스템을 소개합니다. ​ AI 산출물이 프로덕션으로 이어지지 못하는 5가지 이유 스펙·HTML·이미지 어떤 입력이든 Figma로 모으는 전략과, Figma를 중심에 둔 이유 AI와 설계자가 같은 블록으로 조립하도록 컴포넌트·디자인 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-11T08:10:44.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "검수도-답변도-호출도-ai가-커머스api의-2026",
+      "title": "검수도 답변도 호출도 AI가? 커머스API의 2026",
+      "url": "https://d2.naver.com/helloworld/7749530",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 같은 API 스펙이 AI 에게 검수되고, 문의 답변의 근거가 되고, tool 로 호출되기까지 — 커머스API 플랫폼이 올해 진행한 AI native 과제 세 건의 설계 결정과 운영 결과를 소개합니다. ​ 발표 대상 API 를 만들거나 운영하는 백엔드 개발자 게이",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-11T08:11:58.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "socketio-서버를-여러-pod에서-운영하기",
+      "title": "Socket.IO 서버를 여러 Pod에서 운영하기",
+      "url": "https://d2.naver.com/helloworld/3517874",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Socket.IO와 n3r 기반의 소켓 서버를 자체 구축하면서, 여러 Pod 사이의 이벤트 전달과 안정적인 연결 유지를 위한 설계와 검증 과정, 운영 경험을 정리해 공유합니다. ​ 영상속 사내용어 n3r = 네이버 사내 쿠버네티스 기반 컨테이너 플랫폼 ​ 발표 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-11T08:14:48.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "implementing-retrieval-architecture-in-developer-changelog-tracker",
+      "title": "Implementing Retrieval Architecture in Developer Changelog Tracker: Canonical Source Control",
+      "url": "https://dev.to/jethrorhodes8268/implementing-retrieval-architecture-in-developer-changelog-tracker-canonical-source-control-4g2d",
+      "summary": "Short answer: use a staged retrieval design with an explicit collection, bounded queries, and source context that can be traced back to one canonical changelog record. Deduplicate before ranking. Freshness is a correctne",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:36:27.000Z",
+      "contentType": "article",
+      "tags": [
+        "rag",
+        "search",
+        "developertools"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "three-copies-of-the-same-http-code-and-how-one-go-engine-fixed-it",
+      "title": "Three copies of the same HTTP code, and how one Go engine fixed it",
+      "url": "https://dev.to/krockxz/three-copies-of-the-same-http-code-and-how-one-go-engine-fixed-it-i61",
+      "summary": "A free API client for REST, GraphQL, gRPC and WebSocket, and what building it taught me about SSRF, sandboxing other people's JavaScript, and keeping secrets away from AI agents. It started with a login screen. I wanted ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T02:36:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "go",
+        "opensource",
+        "api"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "m-ngc-8-tun-n-m-gala-cui-nm-hu-an-8-week-countdown-to-a-year-end-gala",
+      "title": "Đếm ngược 8 tuần đến đêm gala cuối năm ở Huế | An 8-Week Countdown to a Year-End Gala in Hue",
+      "url": "https://velog.io/@bgrouphue/dem-nguoc-8-tuan-gala-cuoi-nam-hue",
+      "summary": "Bài gốc / Originally published on: BGroup Huế blog Tiếng Việt Tháng 12 và tháng 1 là mùa cao điểm tiệc cuối năm: theo BGroup, nhà hàng, khách sạn, nghệ sĩ và đơn vị kỹ thuật thường kín lịch vào các tối cuối tuần. Bài này",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T02:37:55.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "재고는-언제-줄여야-할까",
+      "title": "재고는 언제 줄여야 할까",
+      "url": "https://velog.io/@ddingddong9/%EC%9E%AC%EA%B3%A0%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%A4%84%EC%97%AC%EC%95%BC-%ED%95%A0%EA%B9%8C",
+      "summary": "재고 차감 코드를 짜기 전에 먼저 막혔다. 어떻게 줄이느냐 이전에, 언제 줄이느냐를 몰랐다. 한정판 드롭(선착순) 커머스 백엔드를 포트폴리오로 만들고 있다. 코드부터 짜면 결과물은 나와도 면접에서 \"왜요?\"에 답을 못 할 것 같았다. 그래서 이번에는 질문을 하나씩 던지고 따져 보면서 도메인부터 파 보기로 했다. 이 글은 그 첫 번째 질문에 대한 기록이다. 정답보다 처음 가설이 어디서 깨졌는지",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T02:33:10.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "day-52-ai-웹서비스-배포와-포트폴리오-정리",
+      "title": "DAY 52. AI 웹서비스 배포와 포트폴리오 정리",
+      "url": "https://velog.io/@ran032415/DAY-52",
+      "summary": "핵심 주제: AI로 제작한 웹서비스를 실제 접속 가능한 주소로 배포하고, 리서치부터 구현까지의 과정을 포트폴리오로 정리한다. 01. 웹사이트 배포하기 웹사이트를 제작한 뒤에는 다른 사람도 접속할 수 있도록 인터넷에 배포해야 한다. 이번 수업에서는 Netlify를 이용해 프로젝트 폴더를 업로드하고 배포 주소를 생성하는 방법을 학습했다. 1. Netlify 배포 과정 계정 생성 및 로그인 — N",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T02:32:02.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "slam1",
+      "title": "SLAM(1)",
+      "url": "https://velog.io/@quesiman/SLAM1",
+      "summary": "SLAM이란 뭘까 SLAM - Gazebo Gazebo는 실제 시동 전 하드웨어 없이 사용해보는 시뮬레이터이야. 센서 피드백과 객체 간 상호작용을 생성하며 3D 동적 환경에서 요소들을 시뮬레이션한다. ros2와 연결되어 실제 하드웨어를 제어하는 것을 모의하게 된다. Gazebo의 특징 내부에서 클라이언트와 서버가 돌아가며, 서버는 월드 - 센서와 렌더링을 수행하며, 클라이언트는 렌더링과 gu",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-12T02:29:19.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "responsive-design-is-more-than-resizing-a-window",
+      "title": "Responsive design is more than resizing a window",
+      "url": "https://frontendfoc.us/issues/766",
+      "summary": "🚀 Frontend Focus #​766 — November 11, 2026 | Read on the web Beyond the Viewport: Introducing Site Seeing — Making a design responsive means tackling more than just resizing, with real users often having on-screen keybo",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "amazon-security-robots-anthropic-ipo-price-modern-web-guidance",
+      "title": "Amazon security robots 🤖, Anthropic IPO price 💰, modern web guidance 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-11",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "왜-우리는-이렇게-늘-불안할까요",
+      "title": "왜 우리는 이렇게 늘 불안할까요?",
+      "url": "https://daleseo.com/why-are-we-always-anxious/",
+      "summary": "연차가 쌓여도 면접 앞에서는 여전히 떨리고, AI로 빠르게 변하는 세상 앞에서는 불안합니다. 불안의 끝을 따라가 보니 그곳에 애정과 책임감이 있었던 경험과 불안을 행동으로 바꾸는 법에 대해 이야기합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "pi-durable로-죽지-않는-에이전트-만들기",
+      "title": "Pi Durable로 죽지 않는 에이전트 만들기",
+      "url": "https://daleseo.com/pi-durable/",
+      "summary": "Earendil의 실험적 에이전트 런타임 Pi Durable을 Bun으로 실행해 봅니다. 대화를 SQLite에 저장하고, 도구 실행 중 프로세스를 죽였다가 이어서 실행하며 재실행해도 안전한 도구의 조건을 살펴봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
