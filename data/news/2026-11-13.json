@@ -1,0 +1,502 @@
+{
+  "date": "2026-11-13",
+  "collectedAt": "2026-11-13T02:18:13.207Z",
+  "items": [
+    {
+      "slug": "rust-1100",
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "summary": "Hacker News 토론 181개 · 442 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T18:39:05.000Z",
+      "contentType": "discussion",
+      "engagement": 442,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "gemini-4-hydrogen-and-orchestrator",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "summary": "Hacker News 토론 75개 · 312 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T18:52:01.000Z",
+      "contentType": "discussion",
+      "engagement": 312,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "show-hn-my-300-embroidery-machine-needed-a-subscription-so-i-built-my",
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "summary": "Hacker News 토론 142개 · 350 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T17:02:42.000Z",
+      "contentType": "discussion",
+      "engagement": 350,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "service-degradation-on-microsoft-365",
+      "title": "Service degradation on Microsoft 365",
+      "url": "https://status.cloud.microsoft/",
+      "summary": "Hacker News 토론 480개 · 526 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T18:20:48.000Z",
+      "contentType": "discussion",
+      "engagement": 526,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "qwenlmqwen-code-typescript",
+      "title": "QwenLM/qwen-code (TypeScript)",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:18:11.611Z",
+      "contentType": "repo",
+      "engagement": 29850,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "nvm-shnvm-shell",
+      "title": "nvm-sh/nvm (Shell)",
+      "url": "https://github.com/nvm-sh/nvm",
+      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:18:11.609Z",
+      "contentType": "repo",
+      "engagement": 96023,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "alishahryar1free-claude-code-python",
+      "title": "Alishahryar1/free-claude-code (Python)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "summary": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harn",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:18:11.612Z",
+      "contentType": "repo",
+      "engagement": 69347,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "googlechromemodern-web-guidance-src-typescript",
+      "title": "GoogleChrome/modern-web-guidance-src (TypeScript)",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "summary": "Keep your coding agent up to date with the latest web best practices",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:18:11.608Z",
+      "contentType": "repo",
+      "engagement": 3139,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 59
+    },
+    {
+      "slug": "show-gn-dari-앱과-웹뷰가-주고받는-브릿지-메시지를-요청응답-짝으로-보여-주는-디버그-도구-androidios",
+      "title": "Show GN: Dari - 앱과 웹뷰가 주고받는 브릿지 메시지를 요청·응답 짝으로 보여 주는 디버그 도구 (Android/iOS)",
+      "url": "https://news.hada.io/topic?id=37089&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "네이티브 앱 안에 웹뷰를 띄워 화면 일부를 웹으로 만들다 보면, 웹과 앱이 주고받는 브릿지 메시지가 문제일 때가 많은데, 확인하려면 핸들러마다 로그를 넣고 Logcat이나 Xcode 콘솔을 스크롤하며 요청과 응답을 손으로 맞춰 봐야 했습니다. 이 메시지들을 한 목록에서 보려고 만들었습니다. 핵심 웹에서 앱으로, 앱에서 웹으로 오가는 호출을 requestId로 짝지어 한 줄에 보여 줍니다 상태",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T01:49:19.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "자애로운-수출-통제-기계",
+      "title": "자애로운 수출 통제 기계",
+      "url": "https://news.hada.io/topic?id=37088&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "다리오 아모데이의 에세이 \"Machines of Loving Grace\"을 패러디한 제목. 극성 인공지능 안전주의자들은 수출 통제를 맹목적으로 찬성하고, 국가 경쟁으로 규정함. 최근 반-개방 가중치 모델로도 나타남. 특히 극히 일부의 엘리트 이외의 컴퓨트 접근 자체가 금지되어야 한다는 사람들도 있으나, 이는 \"시모네타\" 의 재현일 뿐임. 최악의 경우라도 인공지능은 이중 용도 기술일 뿐, 전차",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T01:14:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nac-긴-작업에서-원래-목표를-잃지-않게-하는-에이전트-하네스",
+      "title": "nac - 긴 작업에서 원래 목표를 잃지 않게 하는 에이전트 하네스",
+      "url": "https://news.hada.io/topic?id=37085&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "실험, 모델 학습, 인프라 구축, 프로토타이핑처럼 오래 걸리는 작업을 처음 의도에 맞춰 이어가도록 설계된 오픈소스 하네스 중앙 오케스트레이터가 전체 작업을 계획하고, 명령 실행과 파일 수정은 개별 Thread에 맡김 같은 작업을 이어갈 때는 이전 작업 이력을 가진 Thread를 다시 사용함 Thread가 맡은 작업을 마칠 때마다 핵심 결과를 Episode로 남김. 오케스트레이터는 이 결과를 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T00:30:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "let-over-lambda-전체를-이제-온라인에서-무료로-읽을-수-있음",
+      "title": "『Let Over Lambda』 전체를 이제 온라인에서 무료로 읽을 수 있음",
+      "url": "https://news.hada.io/topic?id=37084&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Common Lisp 프로그래밍 서적 Let Over Lambda 전체가 2026년 업데이트를 통해 온라인에 무료로 공개됨 전문은 HTML과 PDF 두 형식으로 읽을 수 있음 책의 중심 주제는 프로그램을 작성하는 프로그램인 매크로이며, 기초부터 Common Lisp의 고급 기능까지 다룸 당장 프로그래밍 문제 해결에 활용할 매크로 작성 기법을 가르치는 동시에, 평소 접하기 어려운 프로그래밍 아",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T00:01:24.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nodejs-2700-alpha010-alpha",
+      "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
+      "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-12T13:36:10.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "def-con-ctf-2026-본선-참가기",
+      "title": "DEF CON CTF 2026 본선 참가기",
+      "url": "https://techblog.lycorp.co.jp/ko/defcon-ctf-2026-finals",
+      "summary": "들어가며안녕하세요. LY Corporation에서 서비스 보안 점검과 취약점 분석을 담당하고 있는 김종환, 양성조, 임홍렬입니다. 저희는 올해 연합팀 ‘SuperDiceCodeLo...",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-13T02:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "the-anti-marketing-aspect-of-the-gemini-network",
+      "title": "The anti-marketing aspect of the Gemini network",
+      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T16:17:25.000Z",
+      "contentType": "article",
+      "tags": [
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "paths-in-pieces",
+      "title": "Paths in pieces",
+      "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T14:49:26.000Z",
+      "contentType": "article",
+      "tags": [
+        "unix"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-secret-of-monkey-island-all-13-versions-side-by-side",
+      "title": "The Secret of Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T14:37:35.000Z",
+      "contentType": "article",
+      "tags": [
+        "games",
+        "graphics"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "freebsd-status-report-third-quarter-2026",
+      "title": "FreeBSD Status Report Third Quarter 2026",
+      "url": "https://www.freebsd.org/status/report-2026-07-2026-09/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-12T20:45:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "freebsd"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "beyond-12-columns-designing-layouts-with-personality",
+      "title": "Beyond 12 Columns: Designing Layouts With Personality",
+      "url": "https://css-tricks.com/beyond-12-columns/",
+      "summary": "Too many websites look alike. They use familiar layouts, repeat the same patterns, and often leave little impression once you’ve moved on. Andy Clarke explores how understanding a company’s story can lead to more distinc",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-12T16:06:55.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "book",
+        "layout"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "should-you-actually-add-ai-to-that-a-four-question-audit-for-product",
+      "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+      "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+      "summary": "An AI feature can save users time on a task, only for them to spend it checking the results. This practical audit helps product teams decide where AI earns its place and what users need to verify its output.",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-12T10:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "krestianstvo-abstract-holographic-computer-boseeinstein-condensates-and",
+      "title": "Krestianstvo Abstract Holographic Computer: Bose–Einstein condensates and Fermionic superfluids.",
+      "url": "https://dev.to/nikolaysuslov/krestianstvo-abstract-holographic-computer-bose-einstein-condensates-and-fermionic-superfluids-1m91",
+      "summary": "The Krestianstvo Abstract Holographic Computer (AHC) medium can now hold the quantum condensate dynamics in the field. Bose–Einstein condensates (BECs) are native c-fields. Fermionic superfluids use Bogoliubov–de Gennes ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:12:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "computerscience",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "local-ai-vs-cloud-ai-in-2026-a-developers-decision-guide",
+      "title": "Local AI vs Cloud AI in 2026: A Developer's Decision Guide",
+      "url": "https://dev.to/toolpotion/local-ai-vs-cloud-ai-in-2026-a-developers-decision-guide-4e59",
+      "summary": "Local AI vs Cloud AI in 2026: A Developer's Decision Guide Buy the GPU only if you will keep it busy. That is the short version of local AI versus cloud AI in 2026. Above roughly 26% sustained daily use (local vs cloud g",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:12:32.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "opensource"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "from-prompt-or-photo-through-mesh-density-to-a-pbr-glb",
+      "title": "From Prompt or Photo Through Mesh Density to a PBR GLB",
+      "url": "https://dev.to/derek_fowler_tech/from-prompt-or-photo-through-mesh-density-to-a-pbr-glb-mim",
+      "summary": "A usable 3D generation session is a short pipeline, not a single button. You choose an input, you choose how dense the mesh should be, and you leave with a textured asset in a format an engine can load. This note walks t",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:10:29.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "ai",
+        "gamedev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "chrome-extension-service-worker-4-rules-to-survive-shutdown",
+      "title": "Chrome Extension Service Worker: 4 Rules to Survive Shutdown",
+      "url": "https://dev.to/extensionbooster/chrome-extension-service-worker-4-rules-to-survive-shutdown-3784",
+      "summary": "Originally published on ExtensionLaunch. Your Chrome extension service worker works perfectly while you test it, then silently drops state, misses events or \"forgets\" a timer once real users have it. That is not a Chrome",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T02:10:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "javascript",
+        "chrome"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "재고-10갠데-100명이-주문에-성공했다",
+      "title": "재고 10갠데 100명이 주문에 성공했다.",
+      "url": "https://velog.io/@ddingddong9/%EC%9E%AC%EA%B3%A0-10%EA%B0%A0%EB%8D%B0-100%EB%AA%85%EC%9D%B4-%EC%A3%BC%EB%AC%B8%EC%97%90-%EC%84%B1%EA%B3%B5%ED%96%88%EB%8B%A4",
+      "summary": "도메인 탐구 첫 글에서 \"확인하고 바꾸면 늦는다\"고 적었다. 머리로는 알았다. 그런데 실제로 얼마나 늦는지는 본 적이 없었다. 재고 확인 코드를 넣었으니 몇 명 정도 더 팔리는 수준이겠지. 그래서 직접 재현해 보기로 했다. 블랙 270 드롭 재고 10켤레. 100명이 동시에 1켤레씩 주문한다. 재고 차감 코드에는 락이 없다. 읽고, 확인하고, 줄인다. 일꾼이 여러 명이라는 것 서버는 요청 하",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T02:17:26.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "hr-saas를-mcp로-claudechatgpt에-붙이기-전-확인할-6가지-인사책-mcp-문서-검토",
+      "title": "HR SaaS를 MCP로 Claude·ChatGPT에 붙이기 전 확인할 6가지 — 인사책 MCP 문서 검토",
+      "url": "https://velog.io/@insacheck/HR-SaaS%EB%A5%BC-MCP%EB%A1%9C-ClaudeChatGPT%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B8%B0-%EC%A0%84-%ED%99%95%EC%9D%B8%ED%95%A0-6%EA%B0%80%EC%A7%80-%EC%9D%B8%EC%82%AC%EC%B1%85-MCP-%EB%AC%B8%EC%84%9C-%EA%B2%80%ED%86%A0",
+      "summary": "이 글은 인사책과 관련된 작성자가 공개 문서(insacheck.com/ai, /docs/mcp)만 근거로 정리한 검토 글입니다. 직접 운영하며 측정한 후기가 아니며, 응답 속도·안정성 같은 수치는 다루지 않습니다. 사내 개발자나 IT 담당자가 \"우리 회사 HR 도구를 Claude나 ChatGPT에 붙여 보자\"는 요청을 받으면, 보통 MCP 서버가 있느냐부터 찾습니다. 그런데 HR 데이터는 일",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T02:16:57.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "아이맥-오디오-스트리밍-끊김-문제를-지터-버퍼로-조정한-기록",
+      "title": "아이맥 오디오 스트리밍 끊김 문제를 지터 버퍼로 조정한 기록",
+      "url": "https://velog.io/@samueljeong_sm/%EC%95%84%EC%9D%B4%EB%A7%A5-%EC%98%A4%EB%94%94%EC%98%A4-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%81%8A%EA%B9%80-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%EC%A7%80%ED%84%B0-%EB%B2%84%ED%8D%BC%EB%A1%9C-%EC%A1%B0%EC%A0%95%ED%95%9C-%EA%B8%B0%EB%A1%9D-a4w44cfr",
+      "summary": "개발자가 아닌 상태에서 클로드 같은 AI 코딩 도구를 활용해 macOS 앱인 SubMonitor Pro를 만들고 있다. 최근 2015년 후반 27인치 5K 아이맥과 M1 맥북 프로 16인치를 연결해 사용하는 분에게서 연락을 받았다. 맥북 화면을 아이맥으로 보내면서 소리도 아이맥 쪽으로 출력하도록 설정했을 때, 해상도 설정과 상관없이 소리가 심하게 뭉개지고 깨진다는 내용이었다. 문제를 살펴보니",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T02:16:47.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "27834789245-lost-lover-spell-caster-quickest-love-spells-in",
+      "title": "+27834789245 LOST LOVER SPELL CASTER ,QUICKEST LOVE SPELLS IN NORWAY,AUSTRALIA,USA,UAE,UK,KENYA,QATAR,MOZAMBIQUE,DUBAI,OMAN,KUWAIT",
+      "url": "https://velog.io/@kennethroger/27834789245-LOST-LOVER-SPELL-CASTER-QUICKEST-LOVE-SPELLS-IN-NORWAYAUSTRALIAUSAUAEUKKENYAQATARMOZAMBIQUEDUBAIOMANKUWAIT-gj0d4b8o",
+      "summary": "+27834789245 Traditional love spells will help you experience the joy of true love, meeting that special someone who you have mutual and reciprocal love for. True love is about a person who loves you, understands you and",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-13T02:16:39.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "22-node-bun-and-deno-stacks-benchmarked",
+      "title": "22 Node, Bun and Deno stacks benchmarked",
+      "url": "https://nodeweekly.com/issues/647",
+      "summary": "#​647 — November 12, 2026 Read on the Web An Experimental 'Green Threads' Implementation for Node — James has opened a PR that adds a new, lightweight kind of worker that shares a small pool of OS threads, with each work",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "nvidias-ceo-search-aws-emulator-gemini-decisions-api",
+      "title": "Nvidia's CEO search 🔍, AWS emulator 👨‍💻, Gemini Decisions API 💡",
+      "url": "https://tldr.tech/tech/2026-11-12",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "뱅크샐러드금융서비스-ai-os-인재-찾는다bfs-2기-공개-채용",
+      "title": "뱅크샐러드금융서비스, AI OS 인재 찾는다…BFS 2기 공개 채용",
+      "url": "https://corp.banksalad.com/blog/news/bs1504/",
+      "summary": "- 금융 솔루션 전문가 2기 채용…AI OS로 생산성 높여- AI 상담 플랫폼 활용…AI-Native Sales 비전 제시 뱅크샐러드의 자회사인 뱅크샐러드금융서비스(BFS)가 금융 솔루션 전문가 2기를 공개 채용한다고 밝혔다. 이번 채용을 통해 뱅크샐러드금융서비스의 AI OS 기반 새…",
+      "sourceId": "banksalad-tech",
+      "sourceName": "뱅크샐러드",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "issue-640",
+      "title": "Issue #640",
+      "url": "https://feedpress.me/link/24028/17523563/issue-640",
+      "summary": "Learn how to create diagrams with CSS, how to detect element overlap using CSS anchor positioning & scroll-driven animations, what’s the best way to use icons in web UIs, and more.",
+      "sourceId": "css-weekly",
+      "sourceName": "CSS Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Newsletter"
+      ],
+      "score": 28
+    }
+  ]
+}
