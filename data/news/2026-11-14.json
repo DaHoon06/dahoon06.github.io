@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-14",
+  "collectedAt": "2026-11-14T01:55:34.590Z",
+  "items": [
+    {
+      "slug": "faa-issues-national-ground-stop",
+      "title": "FAA issues national ground stop",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "summary": "Hacker News 토론 813개 · 1327 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T21:05:53.000Z",
+      "contentType": "discussion",
+      "engagement": 1327,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ai-unlocks-gdels-notebooks-said-to-contain-hundreds-of-proved-theorems",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "summary": "Hacker News 토론 92개 · 332 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T17:30:10.000Z",
+      "contentType": "discussion",
+      "engagement": 332,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "louislamuptime-kuma-javascript",
+      "title": "louislam/uptime-kuma (JavaScript)",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "summary": "A fancy self-hosted monitoring tool",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:55:30.685Z",
+      "contentType": "repo",
+      "engagement": 93875,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "chromedevtoolschrome-devtools-mcp-typescript",
+      "title": "ChromeDevTools/chrome-devtools-mcp (TypeScript)",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "summary": "Chrome DevTools for coding agents",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:55:30.693Z",
+      "contentType": "repo",
+      "engagement": 55476,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "doomsday-friday-13-november-ad-2026-1960",
+      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+      "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+      "summary": "Hacker News 토론 312개 · 454 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T12:10:24.000Z",
+      "contentType": "discussion",
+      "engagement": 454,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "alibabaopen-code-review-go",
+      "title": "alibaba/open-code-review (Go)",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS,",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:55:30.681Z",
+      "contentType": "repo",
+      "engagement": 50655,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "blockbuzz-rust",
+      "title": "block/buzz (Rust)",
+      "url": "https://github.com/block/buzz",
+      "summary": "A hive mind communication platform",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:55:30.685Z",
+      "contentType": "repo",
+      "engagement": 37308,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "live-airband-on-all-frequencies-from-kors-victoria-ca-also-ground",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "summary": "Hacker News 토론 45개 · 200 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T22:04:24.000Z",
+      "contentType": "discussion",
+      "engagement": 200,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "this-week-in-react-305",
+      "title": "This Week In React 305",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-305",
+      "summary": "X, Forms, e18e, Next.js, TanStack Start, Storybook, MobX, Zustand, XState | Exact, Discord, Shopify, Expo Modules, Audio API, Bottom Sheet, Keychain, Gesture Handler | Node.js, Safari, Rolldown, Playw",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-13T13:59:35.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "kors-모든-주파수의-항공-무선-실시간-청취-victoria-ca도-항공기-출발-중단",
+      "title": "KORS 모든 주파수의 항공 무선 실시간 청취, Victoria, CA도 항공기 출발 중단",
+      "url": "https://news.hada.io/topic?id=37139&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Orcas Airband는 San Juan Islands 지역의 항공 무선을 실시간으로 들을 수 있는 서비스임 제공된 페이지 스냅샷에서는 서비스 상태가 오프라인으로 표시됨 청취하려면 재생 버튼을 눌러야 하며, 그전에는 소리가 나오지 않음 Traffic board는 무선 교신을 바탕으로 자동 생성되며, 부정확하거나 불완전할 수 있어 항법용으로 사용할 수 없음 채널 화면에는 ATIS / AWOS",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T01:31:42.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "fm-1-workbench-fm1-펌웨어용-앱과-sdk의-라이선스-및-재배포-조건",
+      "title": "FM-1 Workbench - FM1 펌웨어용 앱과 SDK의 라이선스 및 재배포 조건",
+      "url": "https://news.hada.io/topic?id=37138&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "FM1의 공개 APP 소스는 GPLv3 전용 라이선스를 따르며, 별도 조건의 바이너리 SDK와 결합해 배포할 수 있도록 링크 예외를 둠 독점 엔진 SDK는 FM1 기기용으로만 개발, 실행, 바이너리 재배포를 허용하며, 상업적 이용도 가능하지만 독점 소스는 제공하지 않음 부팅/업데이트 리소스와 V15 복구 펌웨어는 Apache-2.0으로 배포되며, APP과 독점 엔진의 라이선스는 각각 유지됨 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T00:38:43.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ace-내-mac에서-팀원과-ai-에이전트가-함께-작업하는-코딩-환경",
+      "title": "Ace - 내 Mac에서 팀원과 AI 에이전트가 함께 작업하는 코딩 환경",
+      "url": "https://news.hada.io/topic?id=37137&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "채널에서 팀원과 구현 방향을 논의한 뒤 @ace를 부르면 에이전트가 앞선 대화를 읽고 작업을 시작 에이전트가 작업 중 질문을 올리면 답을 아는 팀원이 바로 답해 작업을 이어갈 수 있음 같은 Tailscale 네트워크에서 팀원의 채널에 들어가 대화와 진행 상황을 실시간으로 보고, 채널 주인이 허용하면 그 팀원의 Mac에서 실행되는 에이전트에 직접 작업을 맡김 에이전트는 Mac에 설치된 Xcod",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "최소한-제3의-선택지가-필요한-이유",
+      "title": "최소한 제3의 선택지가 필요한 이유",
+      "url": "https://news.hada.io/topic?id=37136&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Android와 iOS를 벗어나는 실용적인 대안이 필요함. Google 의존성을 제거한 ROM과 대체 앱 스토어만으로 충분하다는 기대와 달리, 사용자와 개발자가 기기와 앱을 통제할 여지가 줄고 있음 iOS는 원래 폐쇄적이었고, 개방형 대안이었던 Android도 통제를 강화하고 있음. 개발자 검증과 복잡한 앱 설치 절차뿐 아니라 대체 ROM을 차단하는 앱도 문제임 일상생활이 모바일 앱에 의존하",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T00:18:41.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "probabilistic-data-structures-in-go",
+      "title": "Probabilistic data structures in Go",
+      "url": "https://antonz.org/probabilistic-data-structures/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T16:03:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "go"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "beating-the-frontier-on-nethack",
+      "title": "Beating the frontier on NetHack",
+      "url": "https://antithesis.com/blog/2026/nethack/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T14:34:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "games",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "someones-impersonating-this-blog",
+      "title": "Someone's impersonating this blog",
+      "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T20:39:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "link-previews-and-you",
+      "title": "Link Previews and You",
+      "url": "https://sable.moe/en/blog/link-previews-and-you/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-13T17:34:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "privacy",
+        "web"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "10-big-ol-2027-black-friday-deals",
+      "title": "10 Big Ol’ 2027 Black Friday Deals",
+      "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+      "summary": "A big ol' roundup of Black Friday deals on front-end courses from the best independent publishers and educators in the business. 10 Big Ol’ 2027 Black Friday Deals originally handwritten and published with love on CSS-Tr",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-13T14:05:24.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "education"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "how-to-get-an-editable-caption-file-from-a-public-short-form-video",
+      "title": "How to Get an Editable Caption File From a Public Short-Form Video",
+      "url": "https://dev.to/cicadasai/how-to-get-an-editable-caption-file-from-a-public-short-form-video-5h09",
+      "summary": "Disclosure: I work on ClipScript, a short-form transcription tool. This article is about getting a caption file you can actually edit. The workflow below does not require that tool. You need the spoken words from a short",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:53:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "video",
+        "tutorial",
+        "productivity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "multi-agent-systems-dont-need-more-agents-they-need-better-orchestration",
+      "title": "Multi-Agent Systems Don't Need More Agents — They Need Better Orchestration",
+      "url": "https://dev.to/fenju_fu/multi-agent-systems-dont-need-more-agents-they-need-better-orchestration-1jnp",
+      "summary": "Today's GitHub Trending tells a clear story about where agent ecosystems are heading. Alibaba's open-code-review uses a hybrid architecture: deterministic pipelines handle known patterns (NPE, thread-safety, XSS, SQL inj",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:53:22.000Z",
+      "contentType": "article",
+      "tags": [
+        "aiagents",
+        "multiagent",
+        "orchestration"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "routing-google-cloud-vertex-ai-search-glean-autonomous-agents-to-slack",
+      "title": "Routing Google Cloud Vertex AI Search & Glean Autonomous Agents to Slack Sales War Rooms",
+      "url": "https://dev.to/instachime/routing-google-cloud-vertex-ai-search-glean-autonomous-agents-to-slack-sales-war-rooms-1p2m",
+      "summary": "In enterprise sales, speed to context matters. When someone at a target account reads your security documentation, searches your developer hub for SSO setup, or raises a technical blocker in an evaluation thread, that is",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:50:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "devops"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "5-reasons-your-json-fails-to-parse-and-how-to-fix-each-one",
+      "title": "5 reasons your JSON fails to parse (and how to fix each one)",
+      "url": "https://dev.to/aztechtools/5-reasons-your-json-fails-to-parse-and-how-to-fix-each-one-54b6",
+      "summary": "If a parser throws Unexpected token, the cause is almost always one of five things. JSON does not allow a comma after the last item, even though JavaScript does. { \"name\": \"Ana\", \"age\": 30, } Remove the last comma. Keys ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T01:50:43.000Z",
+      "contentType": "article",
+      "tags": [
+        "json",
+        "webdev",
+        "javascript"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "1인-법인-대표가-ai-비서에게-홍보를-통째로-맡긴-72시간-피클-실사용기",
+      "title": "1인 법인 대표가 AI 비서에게 홍보를 통째로 맡긴 72시간 (피클 실사용기)",
+      "url": "https://velog.io/@cpcai/1%EC%9D%B8-%EB%B2%95%EC%9D%B8-%EB%8C%80%ED%91%9C%EA%B0%80-AI-%EB%B9%84%EC%84%9C%EC%97%90%EA%B2%8C-%ED%99%8D%EB%B3%B4%EB%A5%BC-%ED%86%B5%EC%A7%B8%EB%A1%9C-%EB%A7%A1%EA%B8%B4-72%EC%8B%9C%EA%B0%84-%ED%94%BC%ED%81%B4-%EC%8B%A4%EC%82%AC%EC%9A%A9%EA%B8%B0",
+      "summary": "소프트웨어 회사를 하나 굴리고 있습니다. 직원은 저 혼자입니다. 코인 시황 웹앱, 턴제 포격 게임, 외주 개발까지 혼자 만들고 배포합니다. 홍보는 늘 뒷전이었습니다. 그래서 이번 주, 마케팅을 AI 비서에게 통째로 넘겨봤습니다. 결과부터 적으면 '해줘'라고 말하는 일은 줄고, '이건 이렇게 됐어'라고 보고받는 일이 늘었습니다. 실제로 맡겨서 끝난 일 인스타 릴스: 대본·렌더링·업로드까지 15",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T01:40:00.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "weekend-outing-in-korea-exciting-exploration-at-the-science-playground",
+      "title": "[Weekend Outing in Korea] \"Exciting Exploration at the Science Playground!\" Exploring the National Science Museum Gwacheon with a 7yo Daughter & 5yo Son",
+      "url": "https://velog.io/@delecia/Weekend-Outing-in-Korea-Exciting-Exploration-at-th-1794619629",
+      "summary": "\"Daddy! The dinosaurs are so big!\", \"I made this myself!\" The excited voices of my children still echo in my ears. It's often a challenge to satisfy the diverse interests of a 7-year-old daughter and a 5-year-old son sim",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T01:27:10.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "jensen-huang-resigns-spacex-tesla-merger-progress-state-of-slop",
+      "title": "Jensen Huang resigns 💼, SpaceX Tesla merger progress 🤝, state of slop 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-13",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
