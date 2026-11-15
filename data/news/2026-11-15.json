@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-15",
+  "collectedAt": "2026-11-15T01:27:28.416Z",
+  "items": [
+    {
+      "slug": "spacex-catches-the-starship-to-end-flight-15",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "summary": "Hacker News 토론 452개 · 667 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T21:22:24.000Z",
+      "contentType": "discussion",
+      "engagement": 667,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "lovable-apps-expose-passport-details-and-more-than-200k-private-messages",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "summary": "Hacker News 토론 266개 · 632 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T17:43:10.000Z",
+      "contentType": "discussion",
+      "engagement": 632,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "kde-the-documentary-video",
+      "title": "KDE: The documentary [video]",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "summary": "Hacker News 토론 82개 · 380 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T13:43:28.000Z",
+      "contentType": "discussion",
+      "engagement": 380,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "italy-fines-meta-887m-over-android-users-data-access",
+      "title": "Italy fines Meta $887M over Android users' data access",
+      "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+      "summary": "Hacker News 토론 219개 · 330 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T13:48:06.000Z",
+      "contentType": "discussion",
+      "engagement": 330,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "dream-numuniver-typescript",
+      "title": "dream-num/univer (TypeScript)",
+      "url": "https://github.com/dream-num/univer",
+      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:27:26.087Z",
+      "contentType": "repo",
+      "engagement": 24511,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "juliusbrusseecaveman-go",
+      "title": "JuliusBrussee/caveman (Go)",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:27:26.088Z",
+      "contentType": "repo",
+      "engagement": 120088,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "backnotpropplannotator-typescript",
+      "title": "backnotprop/plannotator (TypeScript)",
+      "url": "https://github.com/backnotprop/plannotator",
+      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:27:26.083Z",
+      "contentType": "repo",
+      "engagement": 11147,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "ag-ui-protocolag-ui-typescript",
+      "title": "ag-ui-protocol/ag-ui (TypeScript)",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:27:26.088Z",
+      "contentType": "repo",
+      "engagement": 17381,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "openai-범용-모델이-로봇을-제어하기-시작하면서-로보틱스-팀-해체",
+      "title": "OpenAI, 범용 모델이 로봇을 제어하기 시작하면서 로보틱스 팀 해체",
+      "url": "https://news.hada.io/topic?id=37180&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "OpenAI가 독립 로보틱스 팀을 해체하고 인력을 기존 연구 및 응용 조직으로 재배치함. 회사는 로봇 개발 철수가 아니라 범용 로봇 개발을 가속하기 위한 개편이라고 밝힘 개편의 계기는 GPT-6 Astra 등 범용 모델을 로봇에 직접 적용할 수 있다는 발견임. 로봇 전용 모델을 별도로 개발하기보다 언어, 코드, 시각 모델의 역량을 활용하는 방식에 무게를 둠 Nvidia 연구에서 Astra 기",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T23:34:39.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "pypi-보안-신호를-더-명확히-보여주는-개편된-프로젝트-페이지-공개",
+      "title": "PyPI, 보안 신호를 더 명확히 보여주는 개편된 프로젝트 페이지 공개",
+      "url": "https://news.hada.io/topic?id=37178&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "PyPI 프로젝트 상세 페이지 개편이 완료돼 적용됨. 새 보안 탭에서 릴리스의 출처 상태와 파일별 증명 정보를 확인할 수 있음 출처 상태는 릴리스 파일의 증명 보유 여부로 계산함. 증명이 없다는 사실만으로 악성 파일인 것은 아니며, 파일의 출처를 암호학적으로 검증할 수 없다는 뜻임 출처 경고는 일부 파일의 증명 누락, 같은 릴리스 내 출처 불일치, 이전 릴리스 대비 출처 변경이나 증명 소실을",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T22:36:47.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "spacex-starship-포획으로-15차-비행-마무리",
+      "title": "SpaceX, Starship 포획으로 15차 비행 마무리",
+      "url": "https://news.hada.io/topic?id=37177&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "SpaceX, Starship 포획으로 15차 비행 마무리",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T22:33:47.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "코끼리의-고립-심화로-사회적-연결망이-분절됨",
+      "title": "코끼리의 고립 심화로 사회적 연결망이 분절됨",
+      "url": "https://news.hada.io/topic?id=37176&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "UC San Diego 연구진이 스리랑카의 야생 암컷 아시아코끼리 440마리 이상을 12년간 분석한 결과, 개체군 감소와 함께 사회 집단이 작아지고 서로 고립되는 변화를 확인함 개체 손실이 서서히 누적된 뒤 연결망이 급격히 바뀌어, 개체군이 사회적 임계점을 넘어섰을 가능성이 있음 단순히 개체 수 감소로 관계 수가 줄어든 것뿐 아니라, 남아 있는 코끼리 사이의 관계 자체도 변화함 코끼리는 사회",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-14T21:36:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "let-me-let-you-own-your-data",
+      "title": "Let Me Let You Own Your Data",
+      "url": "https://www.willett.io/posts/data/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T16:08:27.000Z",
+      "contentType": "article",
+      "tags": [
+        "privacy",
+        "databases"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "walking-across-my-minecraft-backups-with-plakar",
+      "title": "Walking across my Minecraft backups with Plakar",
+      "url": "https://poolp.org/posts/2026-11-14/walking-across-my-minecraft-backups-with-plakar/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T23:23:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "go"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml",
+      "title": "Writing a DSL for high performance parallel programming in OxCaml",
+      "url": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T02:57:49.000Z",
+      "contentType": "article",
+      "tags": [
+        "performance",
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "store-ai-generated-images-in-nodejs-temporary-signed-download-links",
+      "title": "Store AI-Generated Images in Node.js — Temporary Signed Download Links",
+      "url": "https://dev.to/brockfletcher1438/store-ai-generated-images-in-nodejs-temporary-signed-download-links-3d9m",
+      "summary": "Short answer: In a Node.js developer tool, store each tenant's AI-generated images as private objects, authorize access in the application, and return short-lived signed download URLs; build exports as private snapshots ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:13:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "node",
+        "storage",
+        "security"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "s3-alternative-storage-providers-with-a-free-tier-for-user-files-in",
+      "title": "S3 Alternative Storage Providers With a Free Tier for User Files in Node.js",
+      "url": "https://dev.to/langstonhughes2689/s3-alternative-storage-providers-with-a-free-tier-for-user-files-in-nodejs-2bo8",
+      "summary": "Short answer: For a marketplace storing user files, start with Backblaze B2 when a free tier matters, move to Wasabi for predictable storage-heavy usage, and choose R2, S3, or Infrai when the surrounding platform and int",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:12:57.000Z",
+      "contentType": "article",
+      "tags": [
+        "storage",
+        "node",
+        "s3"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "what-happened-to-3com",
+      "title": "What happened to 3com?",
+      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-14T05:46:40.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware",
+        "historical",
+        "retrocomputing"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "61100-top-pypi-packages-ship-full-provenance",
+      "title": "61/100 top PyPI packages ship full provenance",
+      "url": "https://dev.to/frankchu/61100-top-pypi-packages-ship-full-provenance-3h40",
+      "summary": "61/100 top PyPI packages ship full provenance 61 of the 100 most-downloaded packages on PyPI now ship with full provenance. The other 39 — including boto3, the single most-downloaded package on the index — ship with no p",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:22:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "pypi",
+        "security"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "agents-need-hands-not-just-brains-how-rpa-fills-the-automation-gap",
+      "title": "Agents Need Hands, Not Just Brains — How RPA Fills the Automation Gap",
+      "url": "https://dev.to/fenju_fu/agents-need-hands-not-just-brains-how-rpa-fills-the-automation-gap-32lh",
+      "summary": "Today's GitHub Trending tells a clear story: agents are moving from generating content to operating real software. Three repos made this obvious: Chrome DevTools MCP (ChromeDevTools/chrome-devtools-mcp) gives coding agen",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T01:22:28.000Z",
+      "contentType": "article",
+      "tags": [
+        "aiagents",
+        "rpa",
+        "automation"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "27632807647-how-to-join-illuminati-in-south-africa-thohoyandou-umlazi",
+      "title": "+27632807647 how to join illuminati in SOUTH AFRICA Thohoyandou Umlazi Uplazi Vereeniging,Germiston, Boksburg, Durbun, United Kingdom Welcome Bellville Cape Town Durban George Ibhayi Kempton Park Polokwane",
+      "url": "https://velog.io/@hassanashly/27632807647-how-to-join-illuminati-in-SOUTH-AFRICA-Thohoyandou-Umlazi-Uplazi-VereenigingGermiston-Boksburg-Durbun-United-Kingdom-Welcome-Bellville-Cape-Town-Durban-George-Ibhayi-Kempton-Park-Polokwane",
+      "summary": "+27632807647 JOIN ILLUMINATI SOCIETY IN MPUMALANGA,WITBANK,NELSPRUIT,SECUNDA,MIDDELBURG,ERMELO,OGIES,PHOLA,CLEWER,HAZY VIEW,TASBET PARK,KLIPFONTEIN HOW TO JOIN ILLUMINATI SOCIETY IN SOUTH AFRICA AND UK!FOR MONEY,FAME,WEA",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-15T01:26:49.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "27632807647-why-join-illuminati-how-to-join-the-illuminati-how-do-you",
+      "title": "+27632807647 why join Illuminati, how to join the Illuminati, how do you join the Illuminati.Do not be deceived and beware of online internet fraudsters claiming to be one of us. Do make sure you confirm first before making an inquiries.",
+      "url": "https://velog.io/@hassanashly/27632807647-why-join-Illuminati-how-to-join-the-Illuminati-how-do-you-join-the-Illuminati.Do-not-be-deceived-and-beware-of-online-internet-fraudsters-claiming-to-be-one-of-us.-Do-make-sure-you-confirm-first-before-making-an-inquiries",
+      "summary": "JOIN ILLUMINATI (+27632807647) IN PRETORIA Vereeniging Witbank Pietermaritzburg Durban Cape TOWN **FOR MONEY, POWER, WEALTH AND FAME 100%, SOUTH AFRICA ZAMBIA NAMIBIA BOTSWANA ZIMBABWE HOW TO JOIN ILLUMINATI SECRET SOCIE",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-15T01:24:33.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "graphql-over-http-명세가-정한-상태-코드와-미디어-타입",
+      "title": "GraphQL over HTTP 명세가 정한 상태 코드와 미디어 타입",
+      "url": "https://daleseo.com/graphql-over-http/",
+      "summary": "GraphQL over HTTP 명세 첫 정식판의 graphql-response+json 미디어 타입, 상태 코드 규칙, 294 Partial Success를 실제 서버 응답과 비교해 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "contentType": "article",
+      "score": 28
+    },
+    {
+      "slug": "rust-never-타입으로-값을-돌려주지-않는-코드-다루기",
+      "title": "Rust never 타입(!)으로 값을 돌려주지 않는 코드 다루기",
+      "url": "https://daleseo.com/rust-never-type/",
+      "summary": "return, panic!, process::exit 같은 표현식이 어떤 타입 자리에든 들어가는 이유부터, never 타입 !로 Result를 쓰고 Infallible을 대신하는 방법까지 예제로 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    },
+    {
+      "slug": "modern-web-guidance로-코딩-에이전트에-최신-웹-기술-가르치기",
+      "title": "Modern Web Guidance로 코딩 에이전트에 최신 웹 기술 가르치기",
+      "url": "https://daleseo.com/modern-web-guidance/",
+      "summary": "Chrome 팀의 Modern Web Guidance 1.0이 웹 지식을 에이전트 스킬로 담은 이유와 로컬 검색 CLI로 가이드를 찾는 원리를 살펴보고, legacy-scan으로 레거시 코드를 현대화해 봅니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "contentType": "article",
+      "score": 23
+    }
+  ]
+}
