@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-16",
+  "collectedAt": "2026-11-16T01:30:19.765Z",
+  "items": [
+    {
+      "slug": "microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "summary": "Hacker News 토론 182개 · 391 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T18:36:10.000Z",
+      "contentType": "discussion",
+      "engagement": 391,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "all-ai-generated-code-should-be-open-source",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "summary": "Hacker News 토론 590개 · 1080 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "contentType": "discussion",
+      "engagement": 1080,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "the-macbook-pros-oled-pwm-problem",
+      "title": "The MacBook Pro's OLED PWM problem",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "summary": "Hacker News 토론 233개 · 418 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T13:15:22.000Z",
+      "contentType": "discussion",
+      "engagement": 418,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "old-bitly-links-are-being-hijacked",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "summary": "Hacker News 토론 80개 · 153 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T22:11:43.000Z",
+      "contentType": "discussion",
+      "engagement": 153,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 69
+    },
+    {
+      "slug": "google-labs-codestitch-skills-typescript",
+      "title": "google-labs-code/stitch-skills (TypeScript)",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:30:17.670Z",
+      "contentType": "repo",
+      "engagement": 9316,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "ggml-orgggml-c",
+      "title": "ggml-org/ggml (C++)",
+      "url": "https://github.com/ggml-org/ggml",
+      "summary": "Tensor library for machine learning",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:30:17.672Z",
+      "contentType": "repo",
+      "engagement": 15919,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "elementalsoulsclaude-bughunter-python",
+      "title": "elementalsouls/Claude-BugHunter (Python)",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure ",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:30:17.672Z",
+      "contentType": "repo",
+      "engagement": 6477,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "tradermontyclaude-trading-skills-python",
+      "title": "tradermonty/claude-trading-skills (Python)",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:30:17.673Z",
+      "contentType": "repo",
+      "engagement": 5582,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "주요-c-프로젝트-40개의-메모리-관리-방식-조사",
+      "title": "주요 C 프로젝트 40개의 메모리 관리 방식 조사",
+      "url": "https://news.hada.io/topic?id=37234&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "주요 C 프로젝트 40개 중 malloc/free 방식만 사용하는 프로젝트는 8개였으며, 다수는 영역 기반 할당, 참조 카운팅, 가비지 컬렉션 등 고수준 메모리 관리 방식을 함께 사용함 영역 기반 할당(region) 을 일부라도 사용하는 프로젝트는 15개, 주된 할당 방식으로 사용하는 프로젝트는 7개였음 가비지 컬렉션을 주로 사용하는 프로젝트는 5개, 참조 카운팅을 주로 사용하는 프로젝트는 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-16T00:02:28.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "실전파-컴퓨터-과학자를-위한-도서-목록",
+      "title": "실전파 컴퓨터 과학자를 위한 도서 목록",
+      "url": "https://news.hada.io/topic?id=37232&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "2025년판 추천 목록으로, 코드 작성 관행을 다루는 일반적인 프로그래머 추천서 대신 언어, 운영체제, 네트워크, 알고리듬, 계산 이론을 깊이 익히는 책에 초점을 맞춤 입문 목록은 C/C++와 Rust를 중심으로 구성됨. C/C++로 직접 개발할 필요는 대체로 없지만, 주요 운영체제의 네이티브 API를 표현하는 공통 언어라는 점을 중시함 본격적인 실전 목록은 시스템 프로그래밍과 컴퓨터 과학의",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-15T23:37:43.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "새대가리는-잘못된-표현이다-까마귀는-인간보다-빠르게-결정을-내린다",
+      "title": "‘새대가리’는 잘못된 표현이다. 까마귀는 인간보다 빠르게 결정을 내린다",
+      "url": "https://news.hada.io/topic?id=37231&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "송장까마귀 두 마리를 대상으로 한 연구에서 시각적 단서를 처리하고 반응하는 속도가 인간과 원숭이의 두 배에 달함 Science에 발표된 연구는 조류의 의사결정에 관여하는 신경 처리 속도를 처음으로 정량화함 조류는 작고 겉보기에 단순한 뇌 때문에 오랫동안 인지 능력을 과소평가받았지만, 지난 20년간 뇌 구조에 대한 이해가 달라짐 최근 연구에서 비둘기는 암세포와 비암세포, 수치, 단어와 비단어를",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-15T23:34:43.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "엘니뇨의-작동-원리를-짧게-설명하는-영상",
+      "title": "엘니뇨의 작동 원리를 짧게 설명하는 영상",
+      "url": "https://news.hada.io/topic?id=37229&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "엘니뇨는 태평양 무역풍이 약해지고 따뜻한 표층수가 동쪽으로 이동하면서, 대류와 폭풍이 발생하는 위치까지 바뀌는 현상임 이동한 따뜻한 공기는 제트기류를 더 동쪽과 남쪽으로 옮겨, 미국 남부에는 더 습한 겨울을, 북부 여러 지역에는 비교적 온화한 겨울을 가져올 가능성을 높임 캘리포니아와 남서부에서는 해수면 상승에 따른 해안 침수, 잦은 폭풍에 따른 광범위한 계기비행 기상조건과 산악 지형이 가려지",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-15T22:43:42.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "a-datetime-library-for-rust",
+      "title": "A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T22:39:34.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "blog-preventing-cross-service-udp-loops-in-quic",
+      "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
+      "url": "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T20:34:37.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "networking"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "please-implement-a-quorum-database",
+      "title": "Please Implement A Quorum Database",
+      "url": "https://transactional.blog/talk/please-implement-a-quorum-database",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-15T22:44:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "databases",
+        "distributed"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "beerdrvdrvdrv",
+      "title": "beer.drv.drv.drv",
+      "url": "https://fzakaria.com/2026/11/14/beer-drv-drv-drv",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T00:47:28.000Z",
+      "contentType": "article",
+      "tags": [
+        "nix"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "export-a-framer-site-as-a-static-site-with-vite",
+      "title": "Export a Framer site as a static site with Vite",
+      "url": "https://dev.to/designify101/export-a-framer-site-as-a-static-site-with-vite-5609",
+      "summary": "Framer can't export static files, but you can turn a published Framer site into one. Convert it with Deframer to the Vite target and you get a Vite and React project in TypeScript; npm run build prerenders every page int",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:23:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "framer",
+        "vite",
+        "react"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "what-makes-a-technology-project-trustworthy",
+      "title": "What Makes a Technology Project Trustworthy?",
+      "url": "https://dev.to/juanpabloabadiamedin/what-makes-a-technology-project-trustworthy-1od3",
+      "summary": "A technology project can look impressive in a demo and still fail when real users depend on it. Before choosing AI, blockchain, or a conventional database, I would ask three questions. First, can we explain where the dat",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:28:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "architecture",
+        "security",
+        "softwareengineering"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "agents-can-code-but-cant-see-why-multimodal-perception-is-the-missing",
+      "title": "Agents Can Code But Can't See: Why Multimodal Perception Is the Missing Skill Layer",
+      "url": "https://dev.to/fenju_fu/agents-can-code-but-cant-see-why-multimodal-perception-is-the-missing-skill-layer-51f3",
+      "summary": "Today's GitHub Trending tells a clear story: agent skills are going vertical. Google Labs shipped stitch-skills — a standardized skill library for coding agents. tradermonty/claude-trading-skills gives Claude Code market",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:27:15.000Z",
+      "contentType": "article",
+      "tags": [
+        "aiagents",
+        "multimodalai",
+        "opensource"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "our-mysql-rollup-job-blocked-the-sensors-it-was-supposed-to-summarize",
+      "title": "Our MySQL rollup job blocked the sensors it was supposed to summarize",
+      "url": "https://dev.to/solutionmarket/our-mysql-rollup-job-blocked-the-sensors-it-was-supposed-to-summarize-2fe3",
+      "summary": "InfraGuard Engineering Devlog, part 6 of 6. On November 12, five commits went into InfraGuard's rollup worker. Retention cleanup was not completing, a drain path had replayed data, and the worker blocked sensor inserts. ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T01:25:27.000Z",
+      "contentType": "article",
+      "tags": [
+        "sql",
+        "devops",
+        "debugging"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "towards-deep-learning-models-resistant-to-adversarial-attacks",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "url": "https://velog.io/@choiseungmu/Towards-Deep-Learning-Models-Resistant-to-Adversarial-Attacks",
+      "summary": "Abstract Adversarial Attacks : 자연 데이터와 거의 구별할 수 없지만 네트워크에 의해 잘못 분류되는 입력값에 취약하며, 딥러닝의 본질적인 약점이 될 수 있음 연구주제 : Adversarial Robustness Introduction Min-Max 공식(안장점)을 사용 내부 최대화 문제 : x에 대해 높은 손실을 달성하는 적대적 버전을 찾는 것을 목표로 함 -> 신경망",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-16T01:29:42.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "windows에서-oracle-expdp-전체-백업-자동화와-안전한-파일-정리",
+      "title": "Windows에서 Oracle expdp 전체 백업 자동화와 안전한 파일 정리",
+      "url": "https://velog.io/@hanseulg2/Windows%EC%97%90%EC%84%9C-Oracle-expdp-%EC%A0%84%EC%B2%B4-%EB%B0%B1%EC%97%85-%EC%9E%90%EB%8F%99%ED%99%94%EC%99%80-%EC%95%88%EC%A0%84%ED%95%9C-%ED%8C%8C%EC%9D%BC-%EC%A0%95%EB%A6%AC",
+      "summary": "기존 DB dump 작업 글을 바탕으로, Windows 환경에서 Oracle Data Pump의 전체 백업을 자동화할 때 반드시 확인해야 할 항목을 정리했다. 핵심은 Oracle DIRECTORY 객체와 실제 OS 폴더를 구분하고, 백업 성공을 확인한 뒤에만 오래된 파일을 삭제하는 것이다. 예제에는 실제 계정과 비밀번호를 넣지 않았다. 운영 환경에서는 비밀번호를 배치 파일에 평문으로 저장하지",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-16T01:29:25.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "ai-에이전트에게-한글-공문을-읽혀-봤습니다-둘-다-맞혔지만-일하는-방식이-달랐습니다",
+      "title": "AI 에이전트에게 한글 공문을 읽혀 봤습니다: 둘 다 맞혔지만, 일하는 방식이 달랐습니다",
+      "url": "https://velog.io/@phenomenon/opendockit-hermes-hwpx-agent",
+      "summary": "위 화면은 편집하지 않은 녹화입니다. 질문 하나에 문서 읽기 한 번, 5초 만에 답이 나옵니다. 요즘 AI 에이전트는 파일도 알아서 엽니다. 터미널을 쓸 수 있으니 unzip도 하고, 파이썬으로 XML도 뜯어봅니다. 그렇다면 문서를 Markdown으로 바꿔 주는 전용 도구가 아직 필요할까요? 궁금해서 직접 실험해 봤습니다. Hermes Agent에 Claude Sonnet 5.5를 붙이고, ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-16T01:28:24.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "27632807647-for-the-initiation-how-to-join-illuminati-wealth",
+      "title": "+27632807647 FOR THE INI­TIA­TION HOW TO JOIN IL­LU­MI­NA­TI WEAL­TH +27632807647 NEW WORLD OR­DER FOR FAME,RICH AND PO­WER Al Ah­ma­di Na­mi­bia USA UK Mo­zam­bi­que",
+      "url": "https://velog.io/@hassanashly/27632807647-FOR-THE-INITIATION-HOW-TO-JOIN-ILLUMINATI-WEALTH-27632807647-NEW-WORLD-ORDER-FOR-FAMERICH-AND-POWER-Al-Ahmadi-Namibia-USA-UK-Mozambique",
+      "summary": "@666（（ whatsapp )) Benefits Of Joining ** Kingdom +27632807647 #email:naseefbahwan7@gmail.com in South Africa,Join ** in lesotho, namibia ,Fame And Power in South Africa +27632807647 , Join ** in Swaziland +27632807647, ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-16T01:28:00.000Z",
+      "contentType": "article",
+      "score": 35
+    }
+  ]
+}
