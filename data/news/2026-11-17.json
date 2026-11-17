@@ -1,0 +1,508 @@
+{
+  "date": "2026-11-17",
+  "collectedAt": "2026-11-17T04:16:08.280Z",
+  "items": [
+    {
+      "slug": "carnegie-mellon-is-putting-computer-science-courses-on-youtube-for-free",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "summary": "Hacker News 토론 145개 · 938 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T20:43:36.000Z",
+      "contentType": "discussion",
+      "engagement": 938,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "windows-11-is-collecting-data-on-which-coding-agents-and-developer",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "summary": "Hacker News 토론 214개 · 352 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T22:58:20.000Z",
+      "contentType": "discussion",
+      "engagement": 352,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "bugmenot-has-closed",
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "summary": "Hacker News 토론 196개 · 389 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T21:32:17.000Z",
+      "contentType": "discussion",
+      "engagement": 389,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "frame-315-color-epaper-display",
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "summary": "Hacker News 토론 237개 · 336 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T16:23:22.000Z",
+      "contentType": "discussion",
+      "engagement": 336,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "mvanhornlast30days-skill-python",
+      "title": "mvanhorn/last30days-skill (Python)",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:16:06.900Z",
+      "contentType": "repo",
+      "engagement": 68263,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "deanchensjjiangshan-map-javascript",
+      "title": "DeanChensj/jiangshan-map (JavaScript)",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "summary": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:16:06.899Z",
+      "contentType": "repo",
+      "engagement": 7089,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "getarcaneapparcane-go",
+      "title": "getarcaneapp/arcane (Go)",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "summary": "Modern Docker Management, Designed for Everyone",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:16:06.898Z",
+      "contentType": "repo",
+      "engagement": 8851,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "nvidiaskillevaluator-python",
+      "title": "NVIDIA/SkillEvaluator (Python)",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent beh",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:16:06.900Z",
+      "contentType": "repo",
+      "engagement": 2867,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 55
+    },
+    {
+      "slug": "같은-모델-다른-예측",
+      "title": "같은 모델, 다른 예측",
+      "url": "https://toss.tech/article/training-serving-skew",
+      "summary": "Training–Serving Skew를 줄인 과정을 소개합니다.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-17T01:00:00.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "opencode-browse-코딩-에이전트가-사용자의-실제-브라우저를-쓰게-하는-도구",
+      "title": "OpenCode Browse - 코딩 에이전트가 사용자의 실제 브라우저를 쓰게 하는 도구",
+      "url": "https://news.hada.io/topic?id=37333&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "MCP 서버와 Chromium 확장 프로그램으로 에이전트가 사용자의 기존 탭, 로그인 상태, 확장 프로그램을 갖춘 실제 브라우저를 이용하게 함 에이전트는 페이지 읽기, 클릭, 입력을 수행하고 스크린샷, 탭 녹화, 네트워크 트래픽을 캡처할 수 있음 로그인, 2FA, 결제처럼 사용자 작업이 필요한 단계에서는 탭을 사용자에게 넘기고, 사용자가 Continue를 클릭하면 작업을 이어감 에이전트 탭은",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T03:33:45.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "squircles-정사각형과-원-사이의-곡선-구현-방식과-연속성-비교",
+      "title": "Squircles - 정사각형과 원 사이의 곡선, 구현 방식과 연속성 비교",
+      "url": "https://news.hada.io/topic?id=37332&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "스쿼클(squircle) 은 정사각형과 원 사이의 형태로, 하나의 수학적 정의가 아니라 여러 곡선으로 구현할 수 있으며 매개변수에 따라 원과 정사각형 사이에서 달라짐 슈퍼타원(superellipse) 은 대표적인 스쿼클로, 지수에 따라 형태가 바뀌며 서로 다른 변형은 단위 반지름에서 사분면 중점의 좌표인 게이지(gauge) 로 비교할 수 있음 Apple과 Figma의 스쿼클은 단순한 슈퍼타원",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T02:33:51.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-subscale-여러-tailscale-계정-중-주소별로-나눠-연결해주는-cli-도구",
+      "title": "Show GN: Subscale - 여러 Tailscale 계정 중 주소별로 나눠 연결해주는 CLI 도구",
+      "url": "https://news.hada.io/topic?id=37328&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Tailscale 계정을 여러개 등록해 사용하는 경우 동시에 여러 계정을 활성화 할 수 없고 수동으로 스위칭하며 사용해야 하는 문제가 있습니다 제 경우 회사용 계정, 개인 계정을 동시에 사용할 수가 없어 이를 해결하기 위해 Subscale을 만들었습니다 Subscale은 다른 네트워크에 접근해야 할 때 기존 연결을 유지하면서 필요한 주소만 다른 계정으로 접속할 수 있습니다 계정마다 이름을 붙",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T01:47:28.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "windows-11-사용하는-코딩-에이전트와-개발-도구-정보를-수집함",
+      "title": "Windows 11, 사용하는 코딩 에이전트와 개발 도구 정보를 수집함",
+      "url": "https://news.hada.io/topic?id=37327&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Windows의 MissionControlAggregator.dll은 기존 시스템 이벤트에서 코딩 에이전트와 개발 도구 사용 여부를 감지해 로컬에 저장하고 진단 보고서를 생성함 보고서는 개발 도구 범주 12개, CLI 에이전트 4개, 데스크톱 에이전트 5개의 관찰 여부를 비트맵으로 기록함. 조사한 보고서에서는 프롬프트나 소스 코드가 발견되지 않았음 선택적 진단 데이터를 허용하면 해당 보고서가",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T01:33:54.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "janet-reno-was-talking-about-my-friend-coolio-computer-criminal",
+      "title": "Janet Reno was talking about my friend Coolio (computer criminal)",
+      "url": "https://michael.bacarella.com/2026/11/16/janet-reno-vs-my-friend-coolio/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T16:43:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "culture"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "on-leaving-swift-for-rust",
+      "title": "On Leaving Swift for Rust",
+      "url": "https://www.prux.org/posts/goodbye-swift-hello-rust/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T17:56:45.000Z",
+      "contentType": "article",
+      "tags": [
+        "mobile",
+        "rust",
+        "swift"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "improving-the-wii-us-wii-mode",
+      "title": "Improving the Wii U's Wii Mode",
+      "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T22:39:54.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware",
+        "reversing",
+        "graphics"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "quality-imap-part-1-your-mailbox-is-a-database",
+      "title": "Quality IMAP, Part 1: Your Mailbox Is A Database",
+      "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-1/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-16T16:25:38.000Z",
+      "contentType": "article",
+      "tags": [
+        "testing",
+        "email"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "javascript-rendering-what-ai-crawlers-actually-see",
+      "title": "JavaScript rendering: what AI crawlers actually see",
+      "url": "https://dev.to/andrew517/javascript-rendering-what-ai-crawlers-actually-see-4hi4",
+      "summary": "A page built with React, Vue or Angular can look complete in every browser and still be empty to the systems deciding whether to quote it. The page a person sees and the page a crawler receives are not always the same do",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:06:03.000Z",
+      "contentType": "article",
+      "tags": [
+        "seo",
+        "webdev",
+        "javascript"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "staggering-scroll-driven-animations-with-animation-range-start",
+      "title": "Staggering Scroll-Driven Animations with animation-range-start",
+      "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "summary": "Imagine a CSS karaoke machine that displays a ball bouncing on text that incrementally highlights, based on progress through via speech recognition and running that kind of animation as a single predictable, holistic eff",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-16T16:47:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "scroll animations",
+        "Scroll Driven Animation"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "ifkakao26-현장-스케치",
+      "title": "if(kakao)26 현장 스케치",
+      "url": "https://tech.kakao.com/posts/849",
+      "summary": "지난 10월 13일과 14일, 카카오 AI 캠퍼스에서 if(kakao)26이 열렸습니다. ‘모든 연결에 지능을’이라는 주제 아래, 카카오가 만들어가는 AI 기술과 서비스를 소개하고 개발과 운영 과정에서 쌓은 경험을 나눴습니다. 현장과 온라인으로 함께해주신 모든 분께 감사드립니다. 올해 행사를 준비하며 집중한 것은 기술 세션과 만남이었습니다. 카카오가 도달한 지점과 아직 풀고 있는 문제를 솔직",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-16T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog",
+        "events"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "노트북을-닫아도-개발은-계속된다-자율-그래프-주도-개발",
+      "title": "노트북을 닫아도 개발은 계속된다: 자율 그래프 주도 개발",
+      "url": "https://d2.naver.com/helloworld/5976687",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 '자율 그래프 주도 개발(Autonomous Graph-Driven Development)'에서는 사람의 직접적인 지시 없이 그래프가 프로젝트 진행을 주도합니다. 스펙 문서와 코드는 AI Agent 루프가 작성하고, 결정론적 코드가 이를 기계적으로 검사하며, 결",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-16T09:04:47.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "image-ai-서빙-최적화-cpu와-gpu의-빈-시간을-줄여-h100-67장을-절감하기까지",
+      "title": "Image AI 서빙 최적화: CPU와 GPU의 빈 시간을 줄여 H100 67장을 절감하기까지",
+      "url": "https://d2.naver.com/helloworld/9994827",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 SNOW의 16개 Image AI 서비스에서 응답 속도와 안정성을 높이면서, H100 환산 약 67장의 GPU 자원을 절감한 경험을 공유합니다. LitServe 전환과 함께 불필요한 연산과 CPU·GPU의 대기 시간을 줄이고, 실제 트래픽에 맞게 설정을 조정하며",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-16T08:52:31.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "카페-관리도구-개편기-문서는-낡았고-사람은-떠났고-코드만-남았다",
+      "title": "카페 관리도구 개편기: 문서는 낡았고, 사람은 떠났고, 코드만 남았다.",
+      "url": "https://d2.naver.com/helloworld/4049909",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 코드만 남아 있던 14년 된 카페 관리도구를 AI와 함께 분석하고, Storybook과 MSW로 화면과 동작을 재현하며 새로운 카페 스튜디오를 개발했습니다. 이 과정에서 기획, 디자인, BE와의 협업 방식이 어떻게 달라졌는지 공유합니다. ​ 발표 대상 레거시 시",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-16T07:55:13.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "흩어진-행동을-연결하다-네이버-전-지면의-사용자-행동을-학습하는-추천-모델-개발기",
+      "title": "흩어진 행동을 연결하다: 네이버 전 지면의 사용자 행동을 학습하는 추천 모델 개발기",
+      "url": "https://d2.naver.com/helloworld/1599966",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 네이버의 검색·피드·광고 등 다양한 도메인의 데이터와 추천 기술을 연결하는 버티컬 추천 모델의 개발 및 서비스 적용 경험을 소개하고, 서빙·최적화와 지식 증류를 통한 도메인 간 지식 전이 방향을 공유합니다. ​ 발표 대상 여러 서비스 및 도메인의 사용자 행동 데이터",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-16T07:55:27.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "a-maintainers-guide-to-reviewing-ai-written-pull-requests",
+      "title": "A maintainer's guide to reviewing AI-written pull requests",
+      "url": "https://dev.to/egdprtriage/a-maintainers-guide-to-reviewing-ai-written-pull-requests-o0f",
+      "summary": "Open-source maintainers have always had to separate noisy pull requests from useful ones. An AI coding assistant can now produce a tidy diff, a confident description, and even tests — and still invent an API that is not ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:12:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "opensource",
+        "github",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "postgres-evidence-retention-in-2026-audit-logs-for-e-commerce-product",
+      "title": "Postgres Evidence Retention in 2026: Audit Logs for E-commerce Product Retrieval",
+      "url": "https://dev.to/mitchellcross2134/postgres-evidence-retention-in-2026-audit-logs-for-e-commerce-product-retrieval-2pif",
+      "summary": "Short answer: for e-commerce product search, choose a retrieval architecture that records the decision inputs, candidate identities, policy version, and cited evidence in one append-only audit event; don't treat the fina",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:12:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "search",
+        "rag",
+        "sre"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "tryhackme-corridor-finding-the-hidden-door-through-idor",
+      "title": "TryHackMe – Corridor: Finding the Hidden Door Through IDOR",
+      "url": "https://dev.to/thng_c3bdfbb790bc848d79c/tryhackme-corridor-finding-the-hidden-door-through-idor-2iic",
+      "summary": "1. Introduction In this write-up, I will document my experience completing the Corridor room on TryHackMe, focusing on identifying and exploiting an Insecure Direct Object Reference (IDOR) vulnerability. At first glance,",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T04:11:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "tryhackme",
+        "idor",
+        "websecurity"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "billie-eilish-vibes-but-make-it-art",
+      "title": "🖤🎶 BILLIE EILISH VIBES, BUT MAKE IT ART! ✨",
+      "url": "https://velog.io/@koolteee_store/BILLIE-EILISH-VIBES-BUT-MAKE-IT-ART",
+      "summary": "Some artists don't just make music. They create an entire mood, and Billie Eilish is the perfect example! 🖤 If your playlist is filled with emotional lyrics, haunting melodies, and unforgettable Billie Eilish songs, thi",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T04:15:03.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "cmp에서는-정말-koin이-정답일까",
+      "title": "CMP에서는 정말 Koin이 정답일까?",
+      "url": "https://velog.io/@purang/CMP%EC%97%90%EC%84%9C%EB%8A%94-%EC%A0%95%EB%A7%90-Koin%EC%9D%B4-%EC%A0%95%EB%8B%B5%EC%9D%BC%EA%B9%8C",
+      "summary": "사이드 프로젝트에서 CMP(Compose Multiplatform)로 앱을 개발하게 되면서 DI 도구로 자연스럽게 Koin을 선택했습니다. CMP에서 가장 많이 언급되는 DI 도구이기도 하고, Kotlin DSL 기반이라 적용도 간단했습니다. module { single { UserRepositoryImpl(get()) } } 복잡한 설정 없이 사용할 수 있었고, Android와 iOS를 함",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T04:12:28.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "how-domain-specific-language-models-are-changing-enterprise-ai",
+      "title": "How Domain-Specific Language Models Are Changing Enterprise AI",
+      "url": "https://velog.io/@mark12341/How-Domain-Specific-Language-Models-Are-Changing-Enterprise-AI",
+      "summary": "Artificial intelligence is transforming how businesses operate, make decisions, and interact with customers. While general-purpose large language models (LLMs) have accelerated AI adoption across industries, enterprises ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T04:09:20.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "장애-로그-보고서를-에이전트-하나와-그래프로-각각-써-봤다",
+      "title": "장애 로그 보고서를 에이전트 하나와 그래프로 각각 써 봤다",
+      "url": "https://velog.io/@ahrrhks/%EC%9E%A5%EC%95%A0-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B3%A0%EC%84%9C%EB%A5%BC-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%ED%95%98%EB%82%98%EC%99%80-%EA%B7%B8%EB%9E%98%ED%94%84%EB%A1%9C-%EA%B0%81%EA%B0%81-%EC%8D%A8-%EB%B4%A4%EB%8B%A4",
+      "summary": "장애가 끝나고 로그 수천 줄로 장애 보고서 초안을 쓰는 일을 두 가지 방식으로 시켜 봤다. 하나는 에이전트 세션 하나에 통째로 맡기는 루프, 다른 하나는 코드가 순서를 정하고 모델은 판단할 곳에서만 부르는 그래프다. 같은 요청으로 3번씩 돌리고 정답표와 코드로 대조했다. 채점한 항목(인용, 건수, 구간, 타임라인 시각, 원인)은 둘 다 다 맞았다. 차이는 시간, 비용, 그리고 검증을 누가 하",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-17T04:07:43.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "jensen-huang-discusses-return-spacex-catches-starship-making-a",
+      "title": "Jensen Huang discusses return 💼, SpaceX catches Starship 🚀, making a programming language 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-16",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
