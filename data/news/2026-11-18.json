@@ -1,0 +1,529 @@
+{
+  "date": "2026-11-18",
+  "collectedAt": "2026-11-18T03:16:11.837Z",
+  "items": [
+    {
+      "slug": "sveltejssvelte-javascript",
+      "title": "sveltejs/svelte (JavaScript)",
+      "url": "https://github.com/sveltejs/svelte",
+      "summary": "web development for the rest of us",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:16:08.614Z",
+      "contentType": "repo",
+      "engagement": 89629,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 79
+    },
+    {
+      "slug": "java4shell-rce-in-openjdk-when-processing-base64",
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "summary": "Hacker News 토론 158개 · 598 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T21:11:28.000Z",
+      "contentType": "discussion",
+      "engagement": 598,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "gpt62-astra-and-sol",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "summary": "Hacker News 토론 712개 · 1129 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T17:46:43.000Z",
+      "contentType": "discussion",
+      "engagement": 1129,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "quad9s-withdrawal-from-france-a-canary-in-the-coal-mine",
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "summary": "Hacker News 토론 99개 · 340 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T22:13:34.000Z",
+      "contentType": "discussion",
+      "engagement": 340,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nvidia-stopped-disclosing-singapore-sales-as-revenues-hit-104b",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "summary": "Hacker News 토론 202개 · 419 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T17:12:06.000Z",
+      "contentType": "discussion",
+      "engagement": 419,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "cursorplugins-typescript",
+      "title": "cursor/plugins (TypeScript)",
+      "url": "https://github.com/cursor/plugins",
+      "summary": "Cursor plugin specification and official plugins",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:16:08.613Z",
+      "contentType": "repo",
+      "engagement": 16932,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 67
+    },
+    {
+      "slug": "tencentloopforge-go",
+      "title": "Tencent/LoopForge (Go)",
+      "url": "https://github.com/Tencent/LoopForge",
+      "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:16:08.611Z",
+      "contentType": "repo",
+      "engagement": 3342,
+      "tags": [
+        "github",
+        "Go"
+      ],
+      "score": 55
+    },
+    {
+      "slug": "show-hn-alloy-css-javascript를-꺼도-작동하는-대화상자-메뉴-탭",
+      "title": "Show HN: Alloy CSS, JavaScript를 꺼도 작동하는 대화상자, 메뉴, 탭",
+      "url": "https://news.hada.io/topic?id=37385&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Alloy CSS로 만든 가상의 청구서 관리 앱 Ledger 예제이며, 단일 HTML 파일로 구성되고 JavaScript를 사용하지 않음 대화상자, 메뉴, 탭은 JavaScript를 꺼도 작동함 예제 화면은 청구서 상태별 탭과 기간 선택 메뉴를 갖추고, 전체/연체/결제 완료/초안 목록을 보여줌 청구서 표뿐 아니라 요약 지표, 주요 고객, 최근 활동, 자주 묻는 질문까지 포함한 관리 화면을 구",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T01:32:22.000Z",
+      "contentType": "article",
+      "score": 55
+    },
+    {
+      "slug": "how-were-using-ai-to-make-nextjs-more-secure",
+      "title": "How we're using AI to make Next.js more secure",
+      "url": "https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure",
+      "summary": "Why you're seeing more Next.js security advisories, and what we're doing about it.",
+      "sourceId": "nextjs-blog",
+      "sourceName": "Next.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-17T20:00:00.000Z",
+      "contentType": "article",
+      "score": 54
+    },
+    {
+      "slug": "이스라엘-대-wikipedia",
+      "title": "이스라엘 대 Wikipedia",
+      "url": "https://news.hada.io/topic?id=37388&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Tech for Palestine(T4P) 이 2001년 이후 Wikipedia를 친이스라엘 방향으로 조작하려 한 활동 17건을 정리한 보고서를 공개함. 공개 자료를 토대로 이 가운데 최소 9건이 여전히 진행 중이라고 밝힘 보고서는 Wikipedia에 대한 압력을 검색과 AI의 정보에 영향을 미치려는 활동과 연결함. Wikipedia가 Google 검색과 주요 AI 챗봇의 정보원이 된다는 점",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T02:32:23.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-lightcap-가볍고-빠른-맥용-화면-녹화스크린샷-앱",
+      "title": "Show GN: Lightcap - 가볍고 빠른 맥용 화면 녹화/스크린샷 앱",
+      "url": "https://news.hada.io/topic?id=37384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "맥에서 쓰는 가볍고 빠른 화면 녹화/스크린샷 앱입니다. 원래 CleanShot X랑 맥 기본 캡쳐를 썼는데, 앱이 무거워서 그런지 캡쳐도 녹화도 단축키를 눌렀는데 바로바로 실행이 안되더라구요.. 하루에도 여러번 쓰는 기능인데, 자꾸 그러니까 화가 쌓여서 진짜 가벼운 캡쳐툴을 만들자(가볍지만 편의기능 다 있는) 싶어서 제가 필요한 툴을 만드는 경험을 해봤네요..! 그래서 만들어진 결과물은 켜놔",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T01:31:57.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-깎깎-칼로-연필을-깎고-그-끝으로-그려-보는-3d-ios-게임",
+      "title": "Show GN: 깎깎 - 칼로 연필을 깎고 그 끝으로 그려 보는 3D iOS 게임",
+      "url": "https://news.hada.io/topic?id=37383&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "바이스에 물린 연필을 휠로 돌려 가며 칼로 한 겹씩 깎고, 다 깎은 끝으로 종이에 선을 그어 보는 게임입니다. 오늘 App Store 심사를 통과했고 Android(Google Play)에도 있습니다. 만들면서 신경 쓴 부분 연필 상태를 반지름 필드 하나로 들고 있습니다. 화면에 보이는 모양, 떨어지는 대팻밥, 절삭음, 종이에 그어지는 선이 모두 이 값 하나에서 나옵니다. 비대칭으로 깎입니다",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T00:59:30.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "지표-뒤에-숨은-맥락을-한눈에-new20-timeline-hub-만들기",
+      "title": "지표 뒤에 숨은 맥락을 한눈에: New20 Timeline Hub 만들기",
+      "url": "https://toss.tech/article/new20-timeline-hub",
+      "summary": "흩어진 정책, 배포, 실험 기록을 하나의 시간축으로 연결해 분석가의 질문에 답하는 허브를 만든 경험을 공유합니다.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-17T09:39:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "판단에만-집중하세요-토스-타겟팅-모델-개발-자동화",
+      "title": "판단에만 집중하세요: 토스 타겟팅 모델 개발 자동화",
+      "url": "https://toss.tech/article/targeting-model-automation",
+      "summary": "피쳐 개수 자동 결정부터 모델 비교, 평가 보고서 자동 생성, 메트릭 확인까지",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-17T07:14:00.000Z",
+      "contentType": "article",
+      "score": 43
+    },
+    {
+      "slug": "nodejs-2700-alpha011-alpha",
+      "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
+      "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
+      "summary": "",
+      "sourceId": "nodejs-blog",
+      "sourceName": "Node.js Blog",
+      "group": "framework",
+      "language": "en",
+      "publishedAt": "2026-11-17T08:41:07.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "phrack-73",
+      "title": "Phrack 73",
+      "url": "https://phrack.org/issues/73/introduction_md.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T17:40:32.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "release"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "steve-jobs-core-animation-demo-from-wwdc-2007",
+      "title": "Steve Jobs Core Animation demo from WWDC 2007",
+      "url": "https://lucas.love/100/058",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T15:23:20.000Z",
+      "contentType": "article",
+      "tags": [
+        "video",
+        "mac",
+        "graphics"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-to-bypass-rusts-orphan-rule",
+      "title": "How to Bypass Rust's Orphan Rule",
+      "url": "https://edvong.com/bypass-orphan-rule/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T15:35:36.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nimony-the-next-version-of-nim",
+      "title": "Nimony: The next version of Nim",
+      "url": "https://nimony.org/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-17T21:56:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "compilers"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ai-sped-up-the-build-how-can-accessibility-testing-keep-up",
+      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+      "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+      "summary": "AI has sped up how teams design and build, but quality assurance (QA) testing hasn’t kept pace, and the web may be getting less accessible. Drawing on new research, Andrew Chung explains what separates the teams whose ac",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "keep-css-scroll-snap-targets-visible-below-a-fixed-header",
+      "title": "Keep CSS scroll snap targets visible below a fixed header",
+      "url": "https://dev.to/chriserodriguez/keep-css-scroll-snap-targets-visible-below-a-fixed-header-27h6",
+      "summary": "A scroll-snap layout can select the correct section and still feel broken: the section heading lands beneath a fixed header. The snap rule is not necessarily wrong. The scrolling container simply has no knowledge that pa",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:11:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "css",
+        "frontend",
+        "webdev"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "how-far-can-btc-fall-before-an-86-ltv-loan-is-liquidated-a-30-line-node",
+      "title": "How far can BTC fall before an 86% LTV loan is liquidated? A 30-line Node check",
+      "url": "https://dev.to/coincrest_io/how-far-can-btc-fall-before-an-86-ltv-loan-is-liquidated-a-30-line-node-check-1j79",
+      "summary": "The news On 17 November 2026 Coinbase Borrow went live in New York, which The Block says completes its rollout across all 50 US states. Users borrow USDC against BTC, ETH or SOL. The loans run on Morpho, an onchain lendi",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:07:11.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "node",
+        "defi"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "closing-the-github-actions-monitoring-gap-observing-arc-runners-with-an",
+      "title": "Closing the GitHub Actions Monitoring Gap: Observing ARC Runners with an Exporter",
+      "url": "https://medium.com/daangn/closing-the-github-actions-monitoring-gap-observing-arc-runners-with-an-exporter-0a8f39c3b70b?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-17T09:49:49.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "engineering"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "github-actions-모니터링의-빈칸-exporter로-arc-runner-관측하기",
+      "title": "GitHub Actions 모니터링의 빈칸: Exporter로 ARC Runner 관측하기",
+      "url": "https://medium.com/daangn/github-actions-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%EC%9D%98-%EB%B9%88%EC%B9%B8-exporter%EB%A1%9C-arc-runner-%EA%B4%80%EC%B8%A1%ED%95%98%EA%B8%B0-cbe1a46a9e71?source=rss----4505f82a2dbd---4",
+      "summary": "",
+      "sourceId": "daangn-tech",
+      "sourceName": "당근 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-17T09:49:10.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming",
+        "engineering"
+      ],
+      "score": 37
+    },
+    {
+      "slug": "meet-ai-2027-conference-dec-1",
+      "title": "Meet AI 2027 Conference (Dec 1)",
+      "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+      "summary": "Roll up your sleeves! Meet shiny new [AI 2027 Conference](https://smashingconf.com/ai-2027-conference), a friendly online conference on AI-ready design systems, AI + Figma and AI design patterns. What to expect in 2027 a",
+      "sourceId": "smashing-magazine",
+      "sourceName": "Smashing Magazine",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "part-29-agent-cards-in-practice",
+      "title": "Part 29: Agent cards in practice",
+      "url": "https://dev.to/thasha/part-29-agent-cards-in-practice-1oe9",
+      "summary": "Part 29 · One Agent, Five Platforms An agent card is a CV for an agent. It tells other agents who it is, what it can do, where to reach it and how to prove who's calling. And like a CV, what you leave off matters as much",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:11:28.000Z",
+      "contentType": "article",
+      "tags": [
+        "a2a",
+        "ai",
+        "agents"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "shopifys-image-tag-already-lazy-loads-heres-what-it-leaves-to-you",
+      "title": "Shopify's image_tag already lazy-loads. Here's what it leaves to you.",
+      "url": "https://dev.to/rizehub-ph/shopifys-imagetag-already-lazy-loads-heres-what-it-leaves-to-you-1k3a",
+      "summary": "I used to write my own lazy-loading logic in every Shopify theme. Then I read the image_tag docs properly and deleted most of it. Shopify already does more than people think, and the two things it doesn't do are the ones",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T03:10:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "shopify",
+        "liquid",
+        "webperf"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "aws-workshop-accelerate-ai-model-fine-tuning-and-deployment-with",
+      "title": "AWS Workshop - Accelerate AI model fine-tuning and deployment with SageMaker HyperPod",
+      "url": "https://velog.io/@jungbin99/AWS-Workshop-Accelerate-AI-model-fine-tuning-and-deployment-with-SageMaker-HyperPod",
+      "summary": "시리즈 안내 1편: 인프라 & 아키텍처 편 (현재 글) 2편: 분산 학습 & 복원력 벤치마크 편 3편: 최적화 & 실시간 서빙 편 1. 클라우드 HyperPod를 들여다본 이유 데이터센터 현장에서 수많은 물리 서버와 대규모 GPU 팜을 매일 마주하다 보면 고민과 고질적인 문제에 부딪히게 됩니다. 1) 온프레미스 GPU 클러스터 현장의 고충 ** 훈련 중단**: 연구원이나 모델러들이 수십~수백",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T03:15:36.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "테더-가능-시원상사-라이브베팅-조합가능-신규입플-3253105-당첨상한3천만",
+      "title": "[[테더 가능 시원상사]] 라이브베팅 조합가능 | 신규입플 3+2/5+3/10+5 | 당첨상한3천만",
+      "url": "https://velog.io/@meo1212/%ED%85%8C%EB%8D%94-%EA%B0%80%EB%8A%A5-%EC%8B%9C%EC%9B%90%EC%83%81%EC%82%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%B2%A0%ED%8C%85-%EC%A1%B0%ED%95%A9%EA%B0%80%EB%8A%A5-%EC%8B%A0%EA%B7%9C%EC%9E%85%ED%94%8C-3253105-%EB%8B%B9%EC%B2%A8%EC%83%81%ED%95%9C3%EC%B2%9C%EB%A7%8C-crqo7hsh",
+      "summary": "최고의 놀이터 시원상사 ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ 주소 시원상사주소.com 가입코드 AGY333 카톡 / 텔레그램 AGY333 ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ 가입 후 텔레그램으로 문의 주셔야 승인됩니다 신규회원 입금플러스 이벤트 3+2 5+3 10+5 20+7 30+10 50+15 (미니게임 입플참여시 롤링 500%) (카지노 이용 참여불가) 신규페이백 15% / 매일돌",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T03:14:15.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "test-20261118-1",
+      "title": "TEST 20261118-1",
+      "url": "https://velog.io/@usuny0317/TEST-20261118-1",
+      "summary": "신청기간: 2026.06.01 ~ 2027.05.31까지 지원대상: 경제적으로 어려운 아동청소년 환자 (만 24세 이하) 지원 내용 지원질환: 중증질환, 희귀난치성질환 및 기타질환 지원내용: 입원 및 왜래치료비/간병비/의료보조기 등 지원규모: 심의를 통해 최대 1인당 최대 300만원 지원기간: 지원결정 후 3개월(연장 없이 1회 지원) 소득 및 재산 기준 국민기초생활보장수급자 및 차상위본인부",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T03:13:14.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "test-20261118",
+      "title": "TEST 20261118",
+      "url": "https://velog.io/@usuny0317/TEST-20261118",
+      "summary": "신청기간: 2026.06.01 ~ 2027.05.31까지 지원대상: 경제적으로 어려운 아동청소년 환자 (만 24세 이하) 지원 내용 지원질환: 중증질환, 희귀난치성질환 및 기타질환 지원내용: 입원 및 왜래치료비/간병비/의료보조기 등 지원규모: 심의를 통해 최대 1인당 최대 300만원 지원기간: 지원결정 후 3개월(연장 없이 1회 지원) 소득 및 재산 기준 국민기초생활보장수급자 및 차상위본인부",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T03:07:44.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "the-top-10-things-ai-gets-wrong-in-web-development",
+      "title": "The top 10 things AI gets wrong in web development",
+      "url": "https://javascriptweekly.com/issues/811",
+      "summary": "#​811 — November 17, 2026 Read on the Web JavaScript Weekly npkill 1.0: Not Just for node_modules Anymore — npx npkill has long offered a way to find and remove waste from node_modules folders. Its first release in two y",
+      "sourceId": "javascript-weekly",
+      "sourceName": "JavaScript Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "contentType": "article",
+      "score": 34
+    },
+    {
+      "slug": "trump-backs-huang-instagram-direct-formal-verification-limits",
+      "title": "Trump backs Huang 💼, Instagram Direct 💬, formal verification limits 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-17",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    },
+    {
+      "slug": "같은-gpu로-더-많은-ai-요청을-처리할-수-있을까-kv-캐시-오프로딩-epp-라우팅-계산-결과를-오래-남기고-다음-요청이-그",
+      "title": "같은 GPU로 더 많은 AI 요청을 처리할 수 있을까? ― KV 캐시 오프로딩 × EPP 라우팅: 계산 결과를 오래 남기고, 다음 요청이 그 결과를 찾아가게 하기",
+      "url": "https://tech.kakao.com/posts/848",
+      "summary": "“같은 GPU 32장, 같은 요청 3,456건. 처리 시간이 121.7분에서 47.2분으로 줄었습니다. GPU도 모델도 바꾸지 않았습니다. 바꾼 것은 두 가지입니다. 이미 계산한 결과를 GPU 밖에도 보관할 수 있게 했고, 같은 문서를 묻는 다음 요청이 그 결과를 가진 서버로 가게 했습니다.” 저희 팀은 사내 서비스가 쓰는 LLM 추론 플랫폼을 운영합니다. 모델을 GPU에 올리는 일부터 요청",
+      "sourceId": "kakao-tech",
+      "sourceName": "카카오 기술블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-15T15:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "blog"
+      ],
+      "score": 26
+    }
+  ]
+}
