@@ -1,0 +1,487 @@
+{
+  "date": "2026-11-19",
+  "collectedAt": "2026-11-19T02:54:03.479Z",
+  "items": [
+    {
+      "slug": "seven-new-models-at-scalable-price-performance",
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "summary": "Hacker News 토론 323개 · 465 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T16:08:24.000Z",
+      "contentType": "discussion",
+      "engagement": 465,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 81
+    },
+    {
+      "slug": "gemini-4-neon",
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "summary": "Hacker News 토론 467개 · 508 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T21:34:07.000Z",
+      "contentType": "discussion",
+      "engagement": 508,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "unauthenticated-remote-code-execution-in-nginx",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "summary": "Hacker News 토론 521개 · 1174 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T15:19:55.000Z",
+      "contentType": "discussion",
+      "engagement": 1174,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "ai-agents-ask-better-questions-than-kpmg-accountants-in-audit-trial",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "summary": "Hacker News 토론 165개 · 374 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T15:49:34.000Z",
+      "contentType": "discussion",
+      "engagement": 374,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "jqueryjquery-javascript",
+      "title": "jquery/jquery (JavaScript)",
+      "url": "https://github.com/jquery/jquery",
+      "summary": "jQuery JavaScript Library",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:54:01.780Z",
+      "contentType": "repo",
+      "engagement": 60026,
+      "tags": [
+        "github",
+        "JavaScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "appwriteappwrite-typescript",
+      "title": "appwrite/appwrite (TypeScript)",
+      "url": "https://github.com/appwrite/appwrite",
+      "summary": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:54:01.781Z",
+      "contentType": "repo",
+      "engagement": 58252,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "hkudscli-anything-python",
+      "title": "HKUDS/CLI-Anything (Python)",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:54:01.778Z",
+      "contentType": "repo",
+      "engagement": 59845,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "astral-shuv-rust",
+      "title": "astral-sh/uv (Rust)",
+      "url": "https://github.com/astral-sh/uv",
+      "summary": "An extremely fast Python package and project manager, written in Rust.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:54:01.780Z",
+      "contentType": "repo",
+      "engagement": 92253,
+      "tags": [
+        "github",
+        "Rust"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "gemini-4-neon-복잡한-코딩과-분석에-추론-성능과-효율을-갖춘-ai-모델",
+      "title": "Gemini 4 Neon - 복잡한 코딩과 분석에 추론 성능과 효율을 갖춘 AI 모델",
+      "url": "https://news.hada.io/topic?id=37432&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Google이 복잡한 코딩과 분석을 빠르고 비용 효율적으로 처리하는 Gemini 4 Neon을 공개함. 가장 어려운 장기 프로젝트용 Carbon과 빠른 일상 작업용 Hydrogen 사이에서 추론 깊이와 효율의 균형을 맡음 Artificial Analysis Intelligence Index에서 xhigh 추론 수준 기준 61점으로 전체 3위, Vals Index에서 2위를 기록했으며, 코딩 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-18T22:22:19.000Z",
+      "contentType": "article",
+      "score": 51
+    },
+    {
+      "slug": "show-gn-airstats-24시간-기록을-보여주는-가벼운-오픈소스-맥-메뉴-막대-시스템-모니터",
+      "title": "Show GN: AirStats - 24시간 기록을 보여주는 가벼운 오픈소스 맥 메뉴 막대 시스템 모니터",
+      "url": "https://news.hada.io/topic?id=37448&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "AirStats는 무료 오픈 소스(MIT) Mac 메뉴 막대 시스템 모니터 CPU, 메모리, GPU, 네트워크, 디스크, 배터리, 온도와 주요 프로세스를 메뉴 막대, 패널, 데스크톱 위젯에 표시 각 패널 모듈과 위젯에서 지난 24시간 기록 그래프 확인 가능 이번 1.7 버전에서 Intel Mac 지원(유니버설 바이너리) 추가 주요 프로세스를 CPU, 디스크, 에너지 기준으로 정렬하고 프로세스",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T01:44:11.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-hn-exitpath-slack-notion-microsoft-365에서-벗어나는-오픈소스-대안",
+      "title": "Show HN: ExitPath - Slack, Notion, Microsoft 365에서 벗어나는 오픈소스 대안",
+      "url": "https://news.hada.io/topic?id=37447&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "ExitPath는 대형 플랫폼을 대체할 오픈소스 도구와 이전 난이도를 모아 보여주는 서비스임 문서, 파일 공유, 이메일, 팀 채팅, 개발 도구 등 16개 도구에 대한 대안 30개와 이전 경로 45개를 제공함 난이도는 개인 사용과 자체 호스팅 조건에서 가장 쉬운 이전 경로를 기준으로 매기며, 100점 척도로 표시함 Slack의 대안은 Mattermost, Zulip, Element (Matri",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T01:37:56.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "우리에겐-진심으로-신경-쓰는-똑똑한-사람들이-필요하다",
+      "title": "우리에겐 진심으로 신경 쓰는 똑똑한 사람들이 필요하다",
+      "url": "https://news.hada.io/topic?id=37446&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "복잡하고 취약한 시스템을 실제로 지탱하는 것은 시스템을 깊이 이해하고 끝까지 신경 쓰는 사람들임 오래되고 결함이 많은 ACH가 실무에서는 안전하고 저렴하며 신뢰할 만한 시스템으로 통하는 데에는, 문제를 수정하거나 우회하고 수동으로 처리하는 사람들의 역할이 있음 최근 여러 서비스와 인프라 장애의 공통 원인은 이런 사람들의 부족일 수 있음. 다만 내부 정보가 아니라 복잡한 시스템을 다뤄온 경험에",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T01:34:56.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "컨테이너처럼-쓰고-vm처럼-격리하기-4편-ib-네트워크와-로컬-nvme-vcpu-배치-베어메탈-대비-성능",
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 4편 - IB 네트워크와 로컬 NVMe, vCPU 배치, 베어메탈 대비 성능",
+      "url": "https://d2.naver.com/helloworld/5896967",
+      "summary": "3편에서는 Fabric Manager가 NVLink로 묶어 주는 GPU 조합인 fabric partition(이하 '파티션')을 DRA(동적 리소스 할당)로 할당하고 VM에 연결했습니다. 학습 작업을 실행하려면 GPU뿐 아니라 다른 서버와 IB(InfiniBand)로 통신할 NIC(network interface card), 모델과 데이터를 읽고 쓸 로컬 스토리지도 필요합니다. 이 연재는 다",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-18T05:48:06.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "nginx2root",
+      "title": "nginx2root",
+      "url": "https://xint.io/blog/nginx2root-remote-code-execution",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T15:28:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "upcoming-critical-php-security-release-18-nov-2026",
+      "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
+      "url": "https://www.php.net/index.php#2026-11-18-1",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T19:44:06.000Z",
+      "contentType": "article",
+      "tags": [
+        "php",
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-i-made-a-custom-game-engine-for-satelital",
+      "title": "How I made a custom game engine for Satelital",
+      "url": "https://spectralorbit.com/blog/satelital_game_engine",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T16:39:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "games",
+        "graphics"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-magic-of-partial-evaluation",
+      "title": "The Magic of Partial Evaluation",
+      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-18T17:30:14.000Z",
+      "contentType": "article",
+      "tags": [
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "handling-turso-platform-api-discovery-delays-on-cold-start-in-nextjs",
+      "title": "Handling Turso Platform API Discovery Delays on Cold Start in Next.js",
+      "url": "https://dev.to/aditya_ekka_pulseroi/handling-turso-platform-api-discovery-delays-on-cold-start-in-nextjs-1fm8",
+      "summary": "The Problem Cold starts on serverless edge functions can break database initialization if connection discovery takes longer than expected, throwing connection refused errors before queries execute. While building PulseRO",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:45:52.000Z",
+      "contentType": "article",
+      "tags": [
+        "typescript",
+        "webdev",
+        "india"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "your-numbers-are-read-by-machines-that-do-not-run-your-javascript",
+      "title": "Your Numbers Are Read by Machines That Do Not Run Your JavaScript",
+      "url": "https://dev.to/minia2a/your-numbers-are-read-by-machines-that-do-not-run-your-javascript-32ko",
+      "summary": "This content reflects minia2a as of its publication date and is kept for the record. Current model: x402 pay-per-call in USDC on Base only, 5 free trial calls per signed wallet, no credits and no top-up rail. November 19",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:44:56.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "monitoring",
+        "ai"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "animate-popover-api-entry-and-exit-without-javascript-delays",
+      "title": "Animate Popover API entry and exit without JavaScript delays",
+      "url": "https://dev.to/chriserodriguez/animate-popover-api-entry-and-exit-without-javascript-delays-4ohh",
+      "summary": "A popover can animate in cleanly after showPopover() yet disappear immediately on close. The problem is not that showPopover() ignores animations. It changes the popover’s browser-managed state and top-layer participatio",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:41:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "api",
+        "css",
+        "frontend"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "백엔드-기초-개념-도커와-쿠버네티스",
+      "title": "[백엔드 기초 개념] 도커와 쿠버네티스",
+      "url": "https://velog.io/@5ceansdeep/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90-%EB%8F%84%EC%BB%A4-vs-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4",
+      "summary": "도커와 쿠버네티스, 처음부터 이해하기 \"도커와 쿠버네티스는 뭐가 다를까?\"라는 질문에서 시작해서 이미지, 컨테이너, 가상머신, 패키지 관리자까지 꼬리에 꼬리를 물고 정리한 글이다. 목차 한 줄 요약: 도커 vs 쿠버네티스 이미지와 컨테이너 가상머신 vs 컨테이너 도커 이전에는 어떻게 배포했을까 도커의 역할: Build, Ship, Run 패키지 관리자: apt와 npm 쿠버네티스 핵심 정리 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T02:31:05.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "cra에서-vite로-옮길-때-빌드-외에-확인한-것들",
+      "title": "CRA에서 Vite로 옮길 때 빌드 외에 확인한 것들",
+      "url": "https://velog.io/@blueiz920/CRA%EC%97%90%EC%84%9C-Vite%EB%A1%9C-%EC%98%AE%EA%B8%B8-%EB%95%8C-%EB%B9%8C%EB%93%9C-%EC%99%B8%EC%97%90-%ED%99%95%EC%9D%B8%ED%95%9C-%EA%B2%83%EB%93%A4",
+      "summary": "실무에서 CRA로 만든 React 앱을 Vite로 옮겼다. 개발 서버가 빨리 뜨는 건 바로 체감됐는데, 막상 작업을 끝내려니 더 신경 쓰인 건 “전환 전과 똑같이 동작하나?” 하는 점. 로그인 화면이 뜬다고 프록시나 배포 설정까지 맞는 건 아니니까. 개발 서버가 빨라진 이유 CRA의 webpack 개발 서버는 진입점에서 import를 따라가며 의존성을 분석하고 개발용 번들을 준비한다. Vit",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T02:26:15.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "when-everything-has-changed-what-do-we-do-next",
+      "title": "When Everything Has Changed, What Do We Do Next?",
+      "url": "https://css-tricks.com/when-everything-has-changed/",
+      "summary": "It’s been a… year, huh? I think the most common emoji I’ve seen this year is “Face with Bags Under Eyes” (🫩) and that says a lot. One thing is for sure: the industry we make a living in is … When Everything Has Changed,",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-18T14:55:21.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "artificial intelligence",
+        "opinion"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "컨테이너처럼-쓰고-vm처럼-격리하기-3편-fabric-manager-파티션과-dra를-이용한-gpu-할당",
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 3편 - Fabric Manager 파티션과 DRA를 이용한 GPU 할당",
+      "url": "https://d2.naver.com/helloworld/6180316",
+      "summary": "2편에서는 GPU를 vfio-pci에 바인딩해 VM에 연결하는 구조와 GPU 8장 VM의 부팅·메모리 구성을 살펴봤습니다. 이번 3편에서는 그 VM에 연결할 GPU를 어떻게 고르는지 다룹니다. 이 연재는 다음과 같이 구성됩니다. 1편: 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조 2편: GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성 3편: Fabri",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-18T05:47:12.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "컨테이너처럼-쓰고-vm처럼-격리하기-2편-gpu-패스스루-계층과-gpu-8장-vm의-부팅메모리-구성",
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 2편 - GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성",
+      "url": "https://d2.naver.com/helloworld/1376800",
+      "summary": "1편에서는 Kata Containers(이하 'kata')가 Pod마다 VM을 만들고 그 안에서 컨테이너를 실행하는 구조를 살펴봤습니다. 2편에서는 이 VM에 GPU를 연결합니다. 이 연재는 다음과 같이 구성됩니다. 1편: 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조 2편: GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성 3편: Fabric Manag",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-18T05:46:58.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "컨테이너처럼-쓰고-vm처럼-격리하기-1편-컨테이너와-vm의-차이-kata-containers의-pod-실행-구조",
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 1편 - 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조",
+      "url": "https://d2.naver.com/helloworld/8055238",
+      "summary": "GPU 서버 한 대를 여러 사용자가 함께 쓴다면 사용자의 작업을 어디까지 격리해야 할까요? 적어도 한 사용자의 컨테이너 탈출이 같은 서버에 있는 다른 사용자의 작업이나 GPU 접근으로 이어져서는 안 됩니다. Kubernetes 위에서 NVIDIA GPU 환경을 격리하면서 겪은 문제와 해결 방법을 네 편으로 나누어 정리했습니다. 1편: 컨테이너와 VM의 차이, Kata Containers의 P",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-18T05:46:34.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "opencode-custom-provider-connect-tokenhot-and-fix-missing-models",
+      "title": "OpenCode Custom Provider: Connect Tokenhot and Fix Missing Models",
+      "url": "https://dev.to/por_ty_35eac5b9bfc8b95909/opencode-custom-provider-connect-tokenhot-and-fix-missing-models-48l1",
+      "summary": "Originally published by Tokenhot Team on 2026-11-04. The DEV edition was formatted with AI assistance. To connect Tokenhot as an OpenCode custom provider, choose a model that supports the API format you need, provide you",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T02:46:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "api",
+        "opensource"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "값의-집합으로-타입-이해하기-2-인터섹션-충돌과-never",
+      "title": "값의 집합으로 타입 이해하기 2: 인터섹션 충돌과 never",
+      "url": "https://velog.io/@9reum/%EA%B0%92%EC%9D%98-%EC%A7%91%ED%95%A9%EC%9C%BC%EB%A1%9C-%ED%83%80%EC%9E%85-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2-%EC%9D%B8%ED%84%B0%EC%84%B9%EC%85%98-%EC%B6%A9%EB%8F%8C%EA%B3%BC-never",
+      "summary": "타입은 그 타입을 만족하는 값들의 집합이고, &는 값의 교집합이다. 두 집합에 겹치는 값이 하나도 없으면 교집합은 어떻게 될까? 1. 원시 타입에서 보는 공집합 type X = string & number; // never string은 문자열 값의 집합이고 number는 숫자 값의 집합이다. 문자열이면서 동시에 숫자인 값은 없으니 교집합은 공집합(never)이 된다. 겹치는 부분이 있으면 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T02:50:08.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "linux-프로세스-관리부터-systemd와-journalctl-로그-분석까지-day-04",
+      "title": "Linux 프로세스 관리부터 systemd와 journalctl 로그 분석까지 — Day 04",
+      "url": "https://velog.io/@richman/Linux-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC%EB%B6%80%ED%84%B0-systemd%EC%99%80-journalctl-%EB%A1%9C%EA%B7%B8-%EB%B6%84%EC%84%9D%EA%B9%8C%EC%A7%80-Day-04",
+      "summary": "Linux 프로세스 관리부터 systemd와 journalctl 로그 분석까지 — Day 04 들어가며 Linux 시스템을 운영할 때 프로세스와 서비스는 가장 기본적으로 확인해야 하는 대상이다. 프로세스가 실행 중인지, 어떤 프로세스에서 생성됐는지, CPU 자원을 얼마나 사용하는지 확인하는 것부터 시작해 서비스의 상태와 시스템 로그까지 살펴봤다. 이번 실습은 Ubuntu Server ARM6",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-19T02:46:45.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "what-developers-think-of-html-right-now",
+      "title": "What developers think of HTML right now",
+      "url": "https://frontendfoc.us/issues/767",
+      "summary": "🚀 Frontend Focus #​767 — November 18, 2026 | Read on the web 🗳️ The State of HTML 2026 Results The State of HTML 2026 results are now out covering what developers are using, loving and struggling with, plus how much th",
+      "sourceId": "frontend-focus",
+      "sourceName": "Frontend Focus",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "gpt-62-widespread-outages-being-known-as-a-good-dev",
+      "title": "GPT-6.2 🤖, widespread outages ⚠️, being known as a good dev 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-18",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
