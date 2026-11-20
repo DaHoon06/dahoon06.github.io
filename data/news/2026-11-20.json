@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-20",
+  "collectedAt": "2026-11-20T02:46:07.523Z",
+  "items": [
+    {
+      "slug": "anthropics-nasdaq-debut",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "summary": "Hacker News 토론 1857개 · 943 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T17:02:40.000Z",
+      "contentType": "discussion",
+      "engagement": 943,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "pancreatic-cancer-halted-by-virus-injection-in-three-patients",
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "summary": "Hacker News 토론 95개 · 610 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T17:25:33.000Z",
+      "contentType": "discussion",
+      "engagement": 610,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "claude-solves-two-open-problems-in-the-physics-of-black-holes",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "summary": "Hacker News 토론 184개 · 404 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T17:30:44.000Z",
+      "contentType": "discussion",
+      "engagement": 404,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order",
+      "title": "UK government forced to admit it issued Apple a secret encryption order",
+      "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "summary": "Hacker News 토론 239개 · 529 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T16:21:03.000Z",
+      "contentType": "discussion",
+      "engagement": 529,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "firecrawlfirecrawl-typescript",
+      "title": "firecrawl/firecrawl (TypeScript)",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:46:05.590Z",
+      "contentType": "repo",
+      "engagement": 204336,
+      "tags": [
+        "github",
+        "TypeScript"
+      ],
+      "score": 75
+    },
+    {
+      "slug": "jingyaogongminimind-python",
+      "title": "jingyaogong/minimind (Python)",
+      "url": "https://github.com/jingyaogong/minimind",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:46:05.590Z",
+      "contentType": "repo",
+      "engagement": 66975,
+      "tags": [
+        "github",
+        "Python"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "nginxnginx-c",
+      "title": "nginx/nginx (C)",
+      "url": "https://github.com/nginx/nginx",
+      "summary": "The official NGINX Open Source repository.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:46:05.590Z",
+      "contentType": "repo",
+      "engagement": 32362,
+      "tags": [
+        "github",
+        "C"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "cathrynlaverydiagram-design-html",
+      "title": "cathrynlavery/diagram-design (HTML)",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:46:05.591Z",
+      "contentType": "repo",
+      "engagement": 68699,
+      "tags": [
+        "github",
+        "HTML"
+      ],
+      "score": 71
+    },
+    {
+      "slug": "show-gn-법원-경매-예상-낙찰가-다음-매각기일-물건을-말로-찾고-지도로-보는-무료-사이트",
+      "title": "Show GN: 법원 경매 예상 낙찰가 - 다음 매각기일 물건을 말로 찾고 지도로 보는 무료 사이트",
+      "url": "https://news.hada.io/topic?id=37502&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "법원경매정보에 공고된 다음 매각기일 물건(지금 8천여 건)을 매일 모아, 지난 낙찰 결과로 학습한 모델이 물건마다 예상 낙찰가와 범위를 붙여 보여 주는 사이트입니다. 베타 기간이라 무료이고, 가입 없이 바로 써 볼 수 있습니다. 지금 되는 것 말로 찾기: \"서울 아파트 3억 이하\", \"유찰 2회 이상 5억 이하 토지\"처럼 쓰면 조건으로 읽어 찾습니다. 물건마다 예상 낙찰가와 범위, 이번 회차",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T01:22:32.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-onehandy-회원가입-없이-브라우저에서-쓰는-무료-웹-도구-123종-계산기변환기텍스트이미지",
+      "title": "Show GN: OneHandy - 회원가입 없이 브라우저에서 쓰는 무료 웹 도구 123종 (계산기·변환기·텍스트·이미지)",
+      "url": "https://news.hada.io/topic?id=37499&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "직접 만들고 있는 무료 웹 도구 모음입니다. 설치도 회원가입도 없이 바로 열어서 쓸 수 있습니다. 도구 123종: 텍스트 변환, 개발자 유틸리티, 디자인·색상, 생산성, 이미지, SEO 도구, 그리고 한국 생활 계산기(급여·4대보험·대출·학점 등) 계산·변환은 브라우저 안에서 처리하고, 입력값을 서버로 보내지 않습니다 Astro 5 정적 사이트(전 페이지 정적 HTML)로 만들었고 한국어·영",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T00:59:44.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "98-슬롯머신-유료-광고는-어떻게-착취적-세금이-되었나",
+      "title": "98% 슬롯머신: 유료 광고는 어떻게 착취적 세금이 되었나",
+      "url": "https://news.hada.io/topic?id=37498&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "유료 광고는 손익분기점에 조금 못 미치는 수익으로 창업자가 광고비를 계속 투입하게 만드는 슬롯머신과 같다는 비판을 받음 광고 대시보드는 순손실보다 노출, 클릭률, 클릭당 비용의 개선을 부각하고, 광고주는 손실 원인을 경매 구조가 아닌 랜딩 페이지나 광고 문구에서 찾게 됨 광고 경매의 경쟁 심화로 입찰가가 광고주의 매출총이익 기준 손익분기점까지 오르면서, 초기 초과이익이 플랫폼으로 이전됨 광고",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T00:37:13.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-hn-cornhole-news-hacker-news에서-영감을-받은-미국-중서부-뉴스-사이트",
+      "title": "Show HN: Cornhole News - Hacker News에서 영감을 받은 미국 중서부 뉴스 사이트",
+      "url": "https://news.hada.io/topic?id=37497&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Cornhole News는 미국 중서부 전역의 뉴스를 모아 보여주는 Hacker News 스타일의 사이트임 뉴스 목록은 외부 기사 링크로 구성되며, 각 항목에 투표 화살표와 점수, 댓글 수가 표시됨 지역 정치와 환경, 교육, 농업, 생활 소식을 함께 다루며, 지역 매체와 전국 매체의 기사를 연결함 기술 관련 지역 현안으로는 데이터센터 전력 비용과 데이터센터 건립 일시 중단 검토에 관한 기사가",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T00:34:13.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ai-시대-필수-보안-외부-가드레일-완벽-가이드",
+      "title": "AI 시대 필수 보안: 외부 가드레일 완벽 가이드",
+      "url": "https://techblog.lycorp.co.jp/ko/external-guardrails-for-ai-security",
+      "summary": "들어가며안녕하세요. LINE Plus에서 AI 서비스를 안전하게 사용하기 위한 가드레일을 개발하고 있는 김영현, 한종우, 장혁재, 이수아입니다.다양한 업무와 서비스에서 AI가 자연...",
+      "sourceId": "line-engineering",
+      "sourceName": "LINE Engineering",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-20T02:00:00.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "postgresql-19-released",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T15:12:08.000Z",
+      "contentType": "article",
+      "tags": [
+        "release",
+        "databases"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "hiring-a-systems-programmer-for-boxem",
+      "title": "Hiring a Systems Programmer for Boxem",
+      "url": "https://lobste.rs/s/pnfs5p/hiring_systems_programmer_for_boxem",
+      "summary": "Handmade Cities has a job referral program, where engineers and employers reach out about open roles. (It's a free community service, so I'm not getting paid.) I'm cross-posting an unusually good opportunity from Boxem, ",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T16:45:34.000Z",
+      "contentType": "article",
+      "tags": [
+        "c",
+        "job"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "distributed-high-performance-blob-storage-on-sqlite",
+      "title": "Distributed, high-performance blob storage on SQLite",
+      "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T08:37:13.000Z",
+      "contentType": "article",
+      "tags": [
+        "rust",
+        "distributed"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "visualizing-a-ledger-with-pgledger-ui",
+      "title": "Visualizing a Ledger with pgledger-ui",
+      "url": "https://www.pgrs.net/2026/11/19/visualizing-a-ledger-with-pgledger-ui/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-19T19:55:10.000Z",
+      "contentType": "article",
+      "tags": [
+        "databases",
+        "visualization"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-to-verify-instagram-webhook-signatures-in-your-dm-automation-2026",
+      "title": "How to Verify Instagram Webhook Signatures in Your DM Automation (2026)",
+      "url": "https://dev.to/peter11241342/how-to-verify-instagram-webhook-signatures-in-your-dm-automation-2026-4iop",
+      "summary": "If your Instagram DM automation accepts webhooks without verifying them, anyone who finds your endpoint can fake a DM event. Here is how to check every incoming webhook the way Meta intended, using the signature header a",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:45:17.000Z",
+      "contentType": "article",
+      "tags": [
+        "instagram",
+        "webhooks",
+        "api"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "nodejs-private-document-signed-urls-compare-s3-r2-supabase-firebase",
+      "title": "Node.js Private Document Signed URLs: Compare S3, R2, Supabase, Firebase Storage",
+      "url": "https://dev.to/gagesterling2648/nodejs-private-document-signed-urls-compare-s3-r2-supabase-firebase-storage-kjj",
+      "summary": "The page fires at 02:13: a customer cannot download a signed contract, and the on-call sees a spike in expired-link responses. The least complex fix is usually a short-lived presigned URL issued only after an ownership c",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:42:48.000Z",
+      "contentType": "article",
+      "tags": [
+        "storage",
+        "signedurls",
+        "sre"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "scroll-state",
+      "title": "scroll-state()",
+      "url": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+      "summary": "The CSS scroll-state() query, surprisingly, has nothing to do with whether you’re doom-scrolling in a state of existential dread. It does, however, allow you to change the CSS used based on scrolling behavior. scroll-sta",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-19T14:57:54.000Z",
+      "contentType": "article",
+      "score": 38
+    },
+    {
+      "slug": "what-a-scitt-receipt-doesnt-tell-your-verifier",
+      "title": "What a SCITT Receipt doesn't tell your verifier",
+      "url": "https://dev.to/veritaschain/what-a-scitt-receipt-doesnt-tell-your-verifier-koj",
+      "summary": "If you verify SCITT Receipts, here is a gap worth knowing about. We just recorded it as an open issue in the SCITT profile for the VeritasChain Protocol (VCP), in draft-kamimura-scitt-vcp-06. The draft does not solve it.",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:45:25.000Z",
+      "contentType": "article",
+      "tags": [
+        "security",
+        "cryptography",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "system-design-for-physical-ai-a-site-memory-that-answers-with-the-link",
+      "title": "System design for physical AI: a site memory that answers with the link down",
+      "url": "https://dev.to/umar_bilal_fd6e1f54398cec/system-design-for-physical-ai-a-site-memory-that-answers-with-the-link-down-39l7",
+      "summary": "By Muhammad Umar. This is the engineering summary of an open industrial AI reference architecture from CodeNinja Atoms for a remote site on a satellite link, built so the industrial AI its supervisors rely on runs on har",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-20T02:44:58.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "architecture",
+        "ontology"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "ares-신규첫충전-53-or-30-카지노포함-모든종목-매일첫충-15-무한매충-10",
+      "title": "(ARES) 신규첫충전 5+3 or 30% | 카지노포함 모든종목 매일첫충 15% 무한매충 10%",
+      "url": "https://velog.io/@meo1212/ARES-%EC%8B%A0%EA%B7%9C%EC%B2%AB%EC%B6%A9%EC%A0%84-53-or-30-%EC%B9%B4%EC%A7%80%EB%85%B8%ED%8F%AC%ED%95%A8-%EB%AA%A8%EB%93%A0%EC%A2%85%EB%AA%A9-%EB%A7%A4%EC%9D%BC%EC%B2%AB%EC%B6%A9-15-%EB%AC%B4%ED%95%9C%EB%A7%A4%EC%B6%A9-10-y50ird5r",
+      "summary": "가장 오래된 1세대 놀이터 아레스(ARES) ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ 가입코드 - agy333 평생주소 - 아레스1.com 텔레그램 - @agy333 ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ 첫가입 첫충 30% 혹은 5+3 포인트 지급 상품권 입금등록시 5+3만 지급 중개사이트 입금등록시 5+3만 지급 테더 입금등록시 5+3만 지급 각각 중복지급 가능 스포츠 / 카지노 / 슬",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T02:46:04.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "m-433-minimum-genetic-mutation",
+      "title": "[M] 433. Minimum Genetic Mutation",
+      "url": "https://velog.io/@yepi/M-433.-Minimum-Genetic-Mutation",
+      "summary": "https://leetcode.com/problems/minimum-genetic-mutation 문제 8글자짜리 유전자 서열 startGene 에서 endGene 까지 몇 번 걸려서 갔는지 (bank 에 있는 단어들 통해서) 답안 class Solution { public int minMutation(String startGene, String endGene, String[] bank) {",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T02:45:31.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "top-5-trusted-sites-to-buy-verified-linkedin-accounts-instantly",
+      "title": "Top 5 Trusted Sites to Buy Verified LinkedIn Accounts Instantly",
+      "url": "https://velog.io/@smmpvausad/Top-5-Trusted-Sites-to-Buy-Verified-LinkedIn-Accounts-Instantly",
+      "summary": "Top 5 Trusted Sites to Buy Verified LinkedIn Accounts Instantly You’ve spent weeks building your LinkedIn presence from scratch, only to see connection requests ignored, messages ignored, and opportunities slipping away.",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T02:40:56.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "top-10-sites-to-buy-verified-linkedin-accounts-in-2026-updated-list",
+      "title": "Top 10 Sites to Buy Verified LinkedIn Accounts in 2026 (Updated List)",
+      "url": "https://velog.io/@smmpvausad/Top-10-Sites-to-Buy-Verified-LinkedIn-Accounts-in-2026-Updated-List",
+      "summary": "Top 10 Sites to Buy Verified LinkedIn Accounts in 2026 (Updated List) You’ve been grinding for weeks on LinkedIn, only to watch your connection requests get ignored, your profile remain invisible, and every outreach mess",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-20T02:40:53.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "time-travel-debugging-for-node",
+      "title": "Time-travel debugging for Node",
+      "url": "https://nodeweekly.com/issues/648",
+      "summary": "#​648 — November 19, 2026 Read on the Web 🤖 node-skills: Teach Your Coding Agent About Modern Node.js — LLMs can fail to use features that Node has recently added unless you provide a little extra guidance. James's agen",
+      "sourceId": "node-weekly",
+      "sourceName": "Node Weekly",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "anthropics-historic-ipo-autonomous-model-y-foundation-software",
+      "title": "Anthropic's historic IPO 💰, autonomous Model Y 🚗, foundation software 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-19",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
