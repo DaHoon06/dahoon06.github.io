@@ -1,0 +1,409 @@
+{
+  "date": "2026-11-22",
+  "collectedAt": "2026-11-22T01:50:36.419Z",
+  "items": [
+    {
+      "slug": "lean-verification-of-the-riemann-hypothesis",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "summary": "Hacker News 토론 688개 · 836 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T14:36:45.000Z",
+      "contentType": "discussion",
+      "engagement": 836,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "inkling-2-mini-in-54-gb-memory",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "summary": "Hacker News 토론 93개 · 359 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T18:02:19.000Z",
+      "contentType": "discussion",
+      "engagement": 359,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "detonating-a-pile-of-lead-azide",
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "summary": "Hacker News 토론 347개 · 524 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T13:23:14.000Z",
+      "contentType": "discussion",
+      "engagement": 524,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "my-monitor-was-cutting-my-download-speed-by-75",
+      "title": "My monitor was cutting my download speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "summary": "Hacker News 토론 232개 · 493 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T10:36:32.000Z",
+      "contentType": "discussion",
+      "engagement": 493,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "openvinotoolkitopenvino-c",
+      "title": "openvinotoolkit/openvino (C++)",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:50:34.483Z",
+      "contentType": "repo",
+      "engagement": 11939,
+      "tags": [
+        "github",
+        "C++"
+      ],
+      "score": 63
+    },
+    {
+      "slug": "mjmirzaapp-store-compliance-shell",
+      "title": "mjmirza/app-store-compliance (Shell)",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, ",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:50:34.484Z",
+      "contentType": "repo",
+      "engagement": 3417,
+      "tags": [
+        "github",
+        "Shell"
+      ],
+      "score": 55
+    },
+    {
+      "slug": "astra-62와-sol-62-simplebench에서-부진",
+      "title": "Astra 6.2와 Sol 6.2, SimpleBench에서 부진",
+      "url": "https://news.hada.io/topic?id=37602&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "일상적 추론을 평가하는 SimpleBench에서 GPT-6.2 Astra는 77.3%, GPT-6.2 Sol은 69.9% 를 기록해 각각 17위와 30위에 머무름 SimpleBench는 고등학교 수준의 비전문 지식으로 풀 수 있는 객관식 텍스트 벤치마크로, 200개가 넘는 문항을 통해 시공간 추론, 사회적 지능, 함정 질문 대응 능력을 평가함 인간 기준 점수는 83.7% 로 두 모델보다 높지",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T01:32:10.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "ui-sdk-ai-에이전트가-ui의-기본-동작을-조합해-컴포넌트를-만드는-라이브러리",
+      "title": "UI SDK - AI 에이전트가 UI의 기본 동작을 조합해 컴포넌트를 만드는 라이브러리",
+      "url": "https://news.hada.io/topic?id=37600&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "AI 에이전트가 UI의 기본 동작을 조합해 맞춤형 컴포넌트를 만드는 라이브러리 팝업 열기, 항목 선택, 입력한 글자로 항목 찾기를 재사용해 Select부터 자동완성, 콤보박스, 사용자 선택기까지 제작 50개 이상의 동작 제공. 키보드 탐색, 포커스 관리, 드래그 앤 드롭, 크기 조절, 화면 확대와 축소 등을 처리 직접 구현하기 까다로운 키보드 조작과 스크린 리더 지원을 재사용하고, 완성한 컴",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T00:30:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "췌장암-치료-알약-수십-년-만의-최대-돌파구로-평가받음",
+      "title": "췌장암 치료 알약, ‘수십 년 만의 최대 돌파구’로 평가받음",
+      "url": "https://news.hada.io/topic?id=37598&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "경구 치료제 daraxonrasib 임상시험에서 전이성 췌장암 환자 61명 중 약 8%는 CT로 종양이 검출되지 않았으며, 약 90%에서 종양이 줄거나 더 자라지 않음 환자의 60% 이상에서 종양이 축소되거나 사라졌고, 치료 시작 1년 후 생존율은 76.6%로 항암화학요법만 받은 환자의 통상적인 40~45%보다 높았음 대부분의 췌장암에서 발견되는 특정 돌연변이에 작용해 암세포의 성장을 촉진하",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-21T21:31:35.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "fbi-범죄정보-데이터베이스-해킹-의심-사건-조사-중인-것으로-알려져",
+      "title": "FBI, 범죄정보 데이터베이스 해킹 의심 사건 조사 중인 것으로 알려져",
+      "url": "https://news.hada.io/topic?id=37597&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "사안을 보고받은 두 명을 인용한 미국 언론 보도에 따르면, FBI가 범죄정보 데이터베이스 침해 의심 사건을 조사 중임 대상인 국가범죄정보센터(NCIC) 데이터베이스는 연방 및 지역 법 집행기관이 영장과 신원조회 관련 정보를 공유하는 데 사용함 FBI는 BBC의 논평 요청에 즉각 답하지 않았으며, Donald Trump 대통령은 토요일 인터뷰에서 해킹 소식을 방금 들었다고 밝힘 지난 9월에도 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-21T20:37:21.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "todos-jj-style",
+      "title": "TODOs JJ Style",
+      "url": "https://bwc9876.dev/blog/jj_todo/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T15:17:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "vcs"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting",
+      "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T13:57:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "c++"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "how-i-got-postgres-into-a-single-binary",
+      "title": "How I Got Postgres into a Single Binary",
+      "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-21T19:32:22.000Z",
+      "contentType": "article",
+      "tags": [
+        "databases"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "nixos-bring-up-on-an-alibaba-risc-v-board",
+      "title": "NixOS bring-up on an Alibaba RISC-V board",
+      "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T00:30:07.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware",
+        "nix"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "this-week-in-react-306",
+      "title": "This Week In React 306",
+      "url": "https://substack.thisweekinreact.com/p/this-week-in-react-306",
+      "summary": "UI SDK, Fate, RSC, Next.js, Dragology, Helmet, React Flow, Virtualized, Anatomy | Expo Simulators, Exact, Bottom Sheet, Node-API, Graphite, Navigation, Nitro SQLite, Trading Charts | Solid, webpack, N",
+      "sourceId": "this-week-in-react",
+      "sourceName": "This Week In React",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-20T13:52:48.000Z",
+      "contentType": "article",
+      "score": 41
+    },
+    {
+      "slug": "ai-gateway-performance-comparison-2026-python-vs-go-vs-rust-vs-envoy",
+      "title": "AI Gateway Performance Comparison (2026): Python vs Go vs Rust vs Envoy, and Why the Benchmarks Disagree",
+      "url": "https://dev.to/park89329u7r9023/ai-gateway-performance-comparison-2026-python-vs-go-vs-rust-vs-envoy-and-why-the-benchmarks-2i5m",
+      "summary": "Published charts that crown a fastest AI gateway usually claim a lead by a factor of forty. They disagree with each other because they do not measure the same interval. One number is time spent inside the process, with J",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:39:53.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "backend",
+        "performance"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "fastapiuvloop-asyncpg-기반-초고성능-비동기-데이터-파이프라인-아키텍처",
+      "title": "【FastAPI】uvloop + asyncpg 기반 초고성능 비동기 데이터 파이프라인 아키텍처",
+      "url": "https://velog.io/@aman179102/fastapi-uvloop-asyncpg-high-throughput-pipeline-dr59ii5g",
+      "summary": "【FastAPI】uvloop + asyncpg 기반 초고성능 비동기 데이터 파이프라인 아키텍처 개요 (Overview) 대규모 트래픽(10,000+ req/sec)을 처리하는 현대 마이크로서비스 아키텍처에서는 I/O 바운드 작업의 병목을 제거하는 것이 시스템 전체의 P99 레이텐시를 결정짓는 핵심 요소입니다. 일반적인 동기식 ORM(예: SQLAlchemy 동기 모드)을 비동기 엔드포인트 내",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T00:52:06.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "디자인-시스템-만들던-디자이너가-3d-그래픽을-그린다면",
+      "title": "디자인 시스템 만들던 디자이너가 3D 그래픽을 그린다면",
+      "url": "https://toss.tech/article/bankbook_graphic",
+      "summary": "통장 개설 UI를 그리면서 AI와 함께 상상의 폭을 넓혀 본 과정을 소개합니다.",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-20T08:34:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "stop-copy-pasting-prompts-build-a-content-asset-pipeline-instead",
+      "title": "Stop Copy-Pasting Prompts: Build a Content Asset Pipeline Instead",
+      "url": "https://dev.to/germey/stop-copy-pasting-prompts-build-a-content-asset-pipeline-instead-5234",
+      "summary": "Content teams rarely have a shortage of AI tools. The real shortage is uninterrupted attention. A typical production day now looks oddly familiar: draft in one tab, generate artwork in another, wait for a video job somew",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:39:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "ai",
+        "automation",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "go-chat-authorization-with-room-channels-logistics-cursors-versus-one",
+      "title": "Go Chat Authorization with Room Channels (Logistics Cursors Versus One Filtered Stream)",
+      "url": "https://dev.to/seraphinalyn7139/go-chat-authorization-with-room-channels-logistics-cursors-versus-one-filtered-stream-5ebn",
+      "summary": "Choose a channel per room whenever room membership determines who may receive a cursor update. In a logistics team's collaborative editor, the authorization boundary belongs before delivery: a dispatcher editing one ship",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:37:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "go",
+        "channel",
+        "authorization"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "routing-workflow-with-spring-ai-classify-first-then-answer",
+      "title": "Routing Workflow with Spring AI: Classify First, Then Answer",
+      "url": "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b",
+      "summary": "Most LLM applications start with one prompt that tries to do everything. It classifies the request, answers it, and follows a policy, all in the same instruction. That works for a demo. In production, it becomes hard to ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T01:37:20.000Z",
+      "contentType": "article",
+      "tags": [
+        "java",
+        "springboot",
+        "ai"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "pandas-groupby-cumsum-8-checks-for-running-mention-totals-per-ticker",
+      "title": "pandas groupby cumsum: 8 Checks for Running Mention Totals per Ticker",
+      "url": "https://velog.io/@dustinliang/pandas-groupby-cumsum-8-Checks-for-Running-Mention-Totals-per-Ticker",
+      "summary": "To get a running total per group in pandas, sort the rows by the group key and the date, then call df.groupby(\"ticker\")[\"mentions\"].cumsum(). The result keeps the original row index, so you can assign it straight back as",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T01:40:42.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "sk-쉴더스-루키즈-지능형-애플리케이션-개발자-양성-과정-6기-최종-프로젝트-day-4멘토링",
+      "title": "SK 쉴더스 루키즈 지능형 애플리케이션 개발자 양성 과정 6기 - 최종 프로젝트 - Day 4(멘토링)",
+      "url": "https://velog.io/@sejin_j/SK-%EC%89%B4%EB%8D%94%EC%8A%A4-%EB%A3%A8%ED%82%A4%EC%A6%88-%EC%A7%80%EB%8A%A5%ED%98%95-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%96%91%EC%84%B1-%EA%B3%BC%EC%A0%95-6%EA%B8%B0-%EC%B5%9C%EC%A2%85-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Day-4%EB%A9%98%ED%86%A0%EB%A7%81",
+      "summary": "Day 04 · 2026.11.21 · 기획·팀 세팅 오늘은 최종 프로젝트 첫 멘토링 날이었다. 워크샵에서 안내받은 일정으로는 1회차가 계획 수립 단계라, 우리가 잡아둔 방향을 확인받는 자리가 될 거라고 생각하고 갔다. 결과는 방향이 꽤 바뀌었다. 대상앱과 진단앱을 나눠 서로 크로스 진단하려던 구조를 8명 전원이 웹 진단 28개 항목을 직접 해보는 쪽으로 정리됐다. 오후에는 실무 진단 절차와",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T01:31:23.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "기말",
+      "title": "기말",
+      "url": "https://velog.io/@bouncy/%EA%B8%B0%EB%A7%90",
+      "summary": "Part 1: 사고, 언어, 지능 (7장) 인간이란 존재는 대체 어떻게 생각하고, 어떻게 말을 뱉고, 지능이란 건 또 도대체 뭐길래 우리를 이토록 서열 매기며 고민하게 만드는 걸까? 1. 생각의 블록 쌓기: 개념(Concept)과 원형(Prototype) 우리가 복잡한 세상을 살아가면서 모든 사물을 하나하나 1:1로 기억하고 분석하려고 들면 인간 뇌는 금세 과부하가 걸려 뻗어버릴 거다. 그래",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-22T01:27:17.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "andy-clarke-answers-six-questions-about-standout-designs-for-the-web",
+      "title": "Andy Clarke answers six questions about Standout Designs for the Web",
+      "url": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+      "summary": "Web designer, author, and Stuff & Nonsense founder Andy Clarke has released Standout Designs for the Web, a new e-book that encourages designers to move beyond familiar templates and conventional layouts to create more p",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-20T15:03:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles"
+      ],
+      "score": 28
+    },
+    {
+      "slug": "apples-ai-agent-gta-iv-launch-ai-product-engineering",
+      "title": "Apple's AI agent 🤖, GTA IV launch 📈, AI product engineering 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-20",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 26
+    }
+  ]
+}
