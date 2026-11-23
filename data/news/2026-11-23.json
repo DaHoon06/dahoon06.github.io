@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-23",
+  "collectedAt": "2026-11-23T02:06:20.877Z",
+  "items": [
+    {
+      "slug": "the-birds-of-gta-6-a-field-guide-to-vice-city-and-leonidas-wildlife",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+      "summary": "Hacker News 토론 165개 · 363 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T19:10:34.000Z",
+      "contentType": "discussion",
+      "engagement": 363,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "summary": "Hacker News 토론 334개 · 485 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T17:06:27.000Z",
+      "contentType": "discussion",
+      "engagement": 485,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "what-happened-to-silicon-valley",
+      "title": "What Happened to Silicon Valley?",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "summary": "Hacker News 토론 255개 · 435 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T19:20:15.000Z",
+      "contentType": "discussion",
+      "engagement": 435,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "toyota-nissan-and-honda-to-standardize-parts-to-lower-costs",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "summary": "Hacker News 토론 681개 · 1194 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T04:04:56.000Z",
+      "contentType": "discussion",
+      "engagement": 1194,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "에이전트-시대의-postgres-데이터베이스",
+      "title": "에이전트 시대의 Postgres 데이터베이스",
+      "url": "https://news.hada.io/topic?id=37687&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "사람이 소수의 데이터베이스를 오래 운영하던 방식에서, AI 에이전트가 작업에 필요한 데이터베이스를 대량으로 만들고 폐기하는 방식으로 활용이 넓어지고 있음 관리형 클라우드는 운영 부담을 줄였고, 서버리스 Postgres는 빠른 생성과 사용량 기반 과금을 가능하게 했지만, 개발 과정에서 프로덕션 데이터를 다루는 문제는 남아 있음 Databricks는 2025년 5월 Neon 인수 발표 당시, N",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:50:02.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "nespresso의-캡슐당-커피-중량-감축-프로젝트",
+      "title": "Nespresso의 캡슐당 커피 중량 감축 프로젝트",
+      "url": "https://news.hada.io/topic?id=37686&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "공개된 내부 문서에 따르면, Nespresso의 Project Olympus는 분쇄와 로스팅 공정을 조정해 일부 Vertuo 캡슐에 들어가는 커피 중량을 줄이는 프로젝트임 Nespresso는 중량을 줄여도 맛, 컵당 커피 용량, 카페인 수준을 유지하며, 관능 평가로 맛과 만족도가 떨어지지 않는지 검증했다고 밝힘 문서상 변경은 2026년 1~3분기에 순차 적용할 계획이며, 1차 대상 6개와 2",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:32:51.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "alibaba에서-구한-risc-v-보드에-nixos-구동하기",
+      "title": "Alibaba에서 구한 RISC-V 보드에 NixOS 구동하기",
+      "url": "https://news.hada.io/topic?id=37685&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Zhihe Computing A210을 NixOS 빌드 서버로 구성하면서 사운드, HDMI, Bluetooth/Wi-Fi, 이더넷, GPU 동작을 확인함. 다만 공개한 구성이 다른 환경에서도 동일하게 동작한다는 보장은 없음 Nix 크로스 컴파일로 1,000개 넘는 패키지를 빌드하면서 만난 패키지 문제는 두 건이었고, 둘 다 RISC-V 고유 문제는 아니었음 부팅을 막은 핵심 문제는 OpenS",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:03:04.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "디자이너와-함께-일하기",
+      "title": "디자이너와 함께 일하기",
+      "url": "https://news.hada.io/topic?id=37684&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "디자이너는 엔지니어가 상상하지 못한 방식으로 UI를 개선하며, 엔지니어와의 문화적 차이는 협업에서 장점이 될 수 있음 디자이너가 동시에 여러 명 참여하면 서로 다른 취향 때문에 재설계와 수정 번복이 반복될 수 있음 디자인 시스템은 대규모 제품의 UI 일관성을 유지하는 데 유용하지만, 아름다운 공용 컴포넌트를 만들려는 팀과 까다로운 고객 요구를 충족해야 하는 제품 팀 사이에 갈등이 생김 프레임",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:00:03.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "calculate-radio-link-placement-and-node-amount-for-your-citys-mesh",
+      "title": "Calculate radio link placement and node amount for your city's mesh network",
+      "url": "https://meshcoveragecalculator.lalala.ing/",
+      "summary": "FSPL + Delta-Bullington based local-first WASM radio mesh network calculator with the end goal of making calls over mesh networks possible without pissing off anybody in the process (yes, I'm talking about you, Meshtasti",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T18:17:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "hardware"
+      ],
+      "score": 45
+    },
+    {
+      "slug": "github-actions-accepts-invalid-yaml",
+      "title": "GitHub Actions accepts invalid YAML",
+      "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T21:49:18.000Z",
+      "contentType": "article",
+      "tags": [
+        "programming"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "gliver-completes-the-guix-desktop",
+      "title": "Gliver completes the Guix desktop",
+      "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T20:10:15.000Z",
+      "contentType": "article",
+      "tags": [
+        "linux"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "falsehoods-programmers-believe-about-atproto",
+      "title": "Falsehoods Programmers Believe About ATProto",
+      "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-22T16:37:12.000Z",
+      "contentType": "article",
+      "tags": [
+        "api"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "ai-그리고-역할의-변화",
+      "title": "AI, 그리고 역할의 변화",
+      "url": "https://jbee.io/articles/essay/AI, 그리고 역할의 변화",
+      "summary": "개발자는 어떻게 될까. 요즘 개발자가 3명 이상 모이면 나오는 주제다. 직업의 안정성이 흔들리는 일. 과거에도 이런 일이 있지 않았을까? 과거부터 2010년까지 직업 271개가 어떻게 되었는지 추적한 연구에 의하면 완전히 사라진 직업은 엘리베이터 운전원 하나라고 한다. 나머지",
+      "sourceId": "blog-jbee",
+      "sourceName": "JBEE",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "contentType": "article",
+      "score": 40
+    },
+    {
+      "slug": "dont-fix-accessibility-after-the-fact-constraints-to-put-in-your-first",
+      "title": "Don't Fix Accessibility After the Fact: Constraints to Put in Your First AI Website Prompt",
+      "url": "https://dev.to/riona_he_211b12cf8ae69e74/dont-fix-accessibility-after-the-fact-constraints-to-put-in-your-first-ai-website-prompt-47bh",
+      "summary": "Disclosure: I am on the team behind VibUI, a paid prompt library for websites. You will see one mention of it in the last tool section. The accessibility rules here do not depend on it. Short answer: if you want an AI-bu",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T01:52:47.000Z",
+      "contentType": "article",
+      "tags": [
+        "a11y",
+        "webdev",
+        "ai"
+      ],
+      "score": 39
+    },
+    {
+      "slug": "개발자가-되기-위한-첫걸음-7-react-key-react-생명주기-데이터베이스-정규화-정리",
+      "title": "개발자가 되기 위한 첫걸음 - 7. React key · React 생명주기 · 데이터베이스 정규화 정리",
+      "url": "https://velog.io/@cococococomet/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C-7.-React-key-React-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%A0%95%EA%B7%9C%ED%99%94-%EC%A0%95%EB%A6%AC",
+      "summary": "리액트로 목록을 그리다 보면 콘솔에 Each child in a list should have a unique \"key\" prop.이라는 경고가 뜬다. 처음엔 시키는 대로 key={index}를 붙이고 넘어갔는데, \"이게 대체 왜 필요하고, 인덱스를 쓰면 왜 안 된다는 걸까?\"가 계속 마음에 걸렸다. 그리고 useEffect를 쓰다 보면 \"컴포넌트가 언제 생기고, 언제 다시 그려지고, 언제 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:49:58.000Z",
+      "contentType": "article",
+      "score": 39
+    },
+    {
+      "slug": "3-ways-to-set-a-proxy-in-chrome-and-why-theyre-not-the-same-thing",
+      "title": "3 Ways to Set a Proxy in Chrome (and Why They're Not the Same Thing)",
+      "url": "https://dev.to/axioapi/3-ways-to-set-a-proxy-in-chrome-and-why-theyre-not-the-same-thing-b15",
+      "summary": "3 Ways to Set a Proxy in Chrome (and Why They're Not the Same Thing) \"How do I set a proxy in Chrome\" gets you three genuinely different answers depending on what you actually need: a system-wide setting, a command-line ",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T02:00:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "chrome",
+        "networking",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "why-an-amazon-fnsku-cannot-be-a-upc-code-128-has-letters",
+      "title": "Why an Amazon FNSKU Cannot Be a UPC: Code 128 Has Letters",
+      "url": "https://dev.to/fancy39_9841cbc02f99f729c/why-an-amazon-fnsku-cannot-be-a-upc-code-128-has-letters-4mlh",
+      "summary": "A barcode is not a universal container for whatever text you throw at it. This becomes obvious the first time someone pastes X001ABCDE9 into a UPC-A form and wonders why the form looks unhappy. UPC-A encodes digits. An A",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T02:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "javascript",
+        "ecommerce",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "curl-cheat-sheet-for-api-debugging-commands-and-fixes",
+      "title": "curl Cheat Sheet for API Debugging: Commands and Fixes",
+      "url": "https://dev.to/devtalk94/curl-cheat-sheet-for-api-debugging-commands-and-fixes-4m80",
+      "summary": "Last updated: 15 November 2026. See theupdate logat the end. When an API call fails, the browser and your application are the worst places to debug it: too many layers, too little detail. curl removes the layers. You see",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T01:59:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "curl",
+        "api",
+        "debugging"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "how-an-experienced-round-sling-factory-improves-the-durability-of",
+      "title": "How an Experienced Round Sling Factory Improves the Durability of Endless Lifting Slings",
+      "url": "https://velog.io/@hdhdhhtht/How-an-Experienced-Round-Sling-Factory-Improves-the-Durability-of-Endless-Lifting-Slings",
+      "summary": "Durability is an important consideration when purchasing industrial lifting equipment. Businesses that regularly handle machinery, steel pipes, structural components, and heavy materials need slings capable of supporting",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T02:06:05.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "when-a-whole-game-team-dumps-urgency-on-the-pm-answering-faster-is-the",
+      "title": "When a whole game team dumps urgency on the PM, answering faster is the wrong fix",
+      "url": "https://velog.io/@pmnote/When-a-whole-game-team-dumps-urgency-on-the-PM-answering-faster-is-the-wrong-fix",
+      "summary": "This English version is adapted from the public Chinese original: 游戏PM的至暗时刻——所有人都在催你，然后呢. It is 9 a.m. You have not opened your laptop yet, and the phone has already buzzed more than a dozen times. The producer wants thi",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:53:06.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "줄여-달라고-했는데-원본이-돌아온-이유",
+      "title": "줄여 달라고 했는데 원본이 돌아온 이유",
+      "url": "https://velog.io/@du-log/resize-request-returns-original",
+      "summary": "이미지를 90%로 줄여 달라고 요청했는데, 서버가 줄이지 않은 원본을 그대로 돌려주는 경우가 있었어요. 반대로 요청을 지키면 이번에는 결과가 원본보다 커질 수 있었고요. 이 글은 그 두 문제를 차례로 풀어 간 기록이에요. 문제. 크기 조절을 켜도, 이미 압축된 파일은 \"결과가 원본 이상이면 원본을 돌려준다\"는 규칙이 먼저 적용돼서 해상도가 그대로였어요. 해결. 실제로 줄어드는 요청이면 원본 ",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-23T01:51:45.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "react-flow로-노드를-잇는-흐름도-에디터-만들기",
+      "title": "React Flow로 노드를 잇는 흐름도 에디터 만들기",
+      "url": "https://daleseo.com/react-flow/",
+      "summary": "React Flow로 노드와 엣지를 그리고, 끌어서 옮기고 연결하는 흐름도 에디터를 만들어 봅니다. 상태 관리 훅, 커스텀 노드, 핸들, 패널과 함께 초보자가 자주 겪는 실수도 정리합니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "contentType": "article",
+      "score": 32
+    },
+    {
+      "slug": "solidjs로-리렌더링-없는-시그널-기반-ui-만들기",
+      "title": "SolidJS로 리렌더링 없는 시그널 기반 UI 만들기",
+      "url": "https://daleseo.com/solid/",
+      "summary": "JSX를 쓰면서도 컴포넌트가 한 번만 실행되는 SolidJS를 시작해 봅니다. 시그널, 메모, 이펙트, 스토어, Show와 For, 비동기 데이터를 기다리는 Loading까지 할 일 목록 예제로 정리했습니다.",
+      "sourceId": "blog-daleseo",
+      "sourceName": "DaleSeo",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "contentType": "article",
+      "score": 27
+    }
+  ]
+}
