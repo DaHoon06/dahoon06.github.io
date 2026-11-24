@@ -1,0 +1,431 @@
+{
+  "date": "2026-11-24",
+  "collectedAt": "2026-11-24T05:42:13.388Z",
+  "items": [
+    {
+      "slug": "stalwart-is-now-a-drop-in-replacement-for-microsoft-exchange",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "summary": "Hacker News 토론 164개 · 334 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T22:32:29.000Z",
+      "contentType": "discussion",
+      "engagement": 334,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "per-arms-request-this-site-will-be-discontinued-on-4-december-2026",
+      "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+      "url": "https://arm.jonpalmisc.com/",
+      "summary": "Hacker News 토론 220개 · 954 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T19:17:55.000Z",
+      "contentType": "discussion",
+      "engagement": 954,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "vp-vnp-over-every-field",
+      "title": "VP ≠ VNP over Every Field",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "summary": "Hacker News 토론 262개 · 301 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T22:09:10.000Z",
+      "contentType": "discussion",
+      "engagement": 301,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 77
+    },
+    {
+      "slug": "nvidia-reinstates-jensen-huang-as-ceo",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "summary": "Hacker News 토론 3342개 · 2366 points",
+      "sourceId": "hackernews-top",
+      "sourceName": "Hacker News",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T14:00:18.000Z",
+      "contentType": "discussion",
+      "engagement": 2366,
+      "tags": [
+        "hackernews"
+      ],
+      "score": 73
+    },
+    {
+      "slug": "지역별-용달-요금-실제-화물-운송-데이터-기반-요금-통계",
+      "title": "지역별 용달 요금 – 실제 화물 운송 데이터 기반 요금 통계",
+      "url": "https://news.hada.io/topic?id=37763&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "안녕하세요. 화물운송 플랫폼 센디에서 프론트엔드 개발을 하고 있습니다. 센디에 축적된 실제 화물 운송 데이터를 활용해 지역별·노선별 용달 요금 통계를 확인할 수 있는 페이지를 만들었습니다. 만든 배경 용달 운송은 이동 거리, 차량 종류, 운반 옵션 등에 따라 가격이 달라지기 때문에, 이용 경험이 없는 사람은 어느 정도의 비용이 적정한지 판단하기 어렵습니다. 플랫폼 내부에 축적된 운송 데이터를",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T04:53:46.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-synology-markdown-note-synology-note-station용-markdown-편집기",
+      "title": "Show GN: Synology Markdown Note - Synology Note Station용 Markdown 편집기",
+      "url": "https://news.hada.io/topic?id=37757&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Synology NAS의 Note Station에 쌓아 둔 노트를 Markdown으로 작성하고 관리할 수 있도록 Synology Markdown Note를 만들었습니다. 기존 책장과 메모장을 그대로 열 수 있고, Note Station에서 작성한 일반 노트도 편집할 수 있습니다. macOS 앱·웹: Markdown 원문과 미리보기를 나란히 볼 수 있습니다. Mermaid 다이어그램과 수식을 ",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T03:50:19.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "boredcom-심심할-때-둘러볼-재미있고-흥미로운-웹사이트-모음",
+      "title": "Bored.com: 심심할 때 둘러볼 재미있고 흥미로운 웹사이트 모음",
+      "url": "https://news.hada.io/topic?id=37755&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "Bored.com은 브라우저 게임, 인터랙티브 장난감, 퀴즈, 창작 도구와 탐색용 웹사이트를 주제별로 모아 둔 디렉터리임 게임은 5분 정도 즐기는 미니 게임부터 RPG, 전략, 퍼즐, 방 탈출까지 나뉘며, 온라인 파티 게임과 키보드 하나로 둘이 하는 게임도 있음 AI 실험과 창작 도구에는 생성형 AI 도구, 시각 효과, 그림 그리기, 브라우저 악기, 색상과 글꼴 실험 등이 포함됨 코딩과 디자",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T03:32:41.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "show-gn-crama-file-파일을-서버에-안-올리는-무료-pdf이미지-도구-21종",
+      "title": "Show GN: CRAMA FILE – 파일을 서버에 안 올리는 무료 PDF·이미지 도구 21종",
+      "url": "https://news.hada.io/topic?id=37753&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "summary": "PDF 합치기, 용량 줄이기, JPG→PDF, HEIC→JPG 같은 일을 하려고 변환 사이트에 들어가면, 회사 서류나 신분증 사본을 남의 서버에 올리는 게 늘 찜찜했습니다. 몇 번 쓰면 유료로 바뀌거나 무료 체험에 카드를 등록하게 하는 곳도 많고요. 그래서 변환을 전부 브라우저 안에서 끝내는 도구 모음을 만들었습니다. 파일이 기기 밖으로 나가지 않음. 페이지를 연 뒤 와이파이를 끄고 써도 변",
+      "sourceId": "geeknews",
+      "sourceName": "GeekNews",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T02:56:43.000Z",
+      "contentType": "article",
+      "score": 47
+    },
+    {
+      "slug": "what-vp-vnp-means-in-3-minutes",
+      "title": "What VP != VNP Means (In 3 Minutes)",
+      "url": "https://www.friedgil.com/vpvnp/",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T02:10:30.000Z",
+      "contentType": "article",
+      "tags": [
+        "math"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "lua-for-data-representation",
+      "title": "Lua for data representation",
+      "url": "https://citrons.xyz/journal/2025-07-23",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T00:22:05.000Z",
+      "contentType": "article",
+      "tags": [
+        "lua"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "uq-researchers-send-an-unblockable-message-using-gravity",
+      "title": "UQ researchers send an unblockable message using gravity",
+      "url": "https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-23T20:01:46.000Z",
+      "contentType": "article",
+      "tags": [
+        "science",
+        "compsci"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "the-algebra-of-dependent-types-2025",
+      "title": "the algebra of dependent types (2025)",
+      "url": "https://dotat.at/@/2025-05-28-types.html",
+      "summary": "Comments",
+      "sourceId": "lobsters",
+      "sourceName": "Lobste.rs",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T00:51:41.000Z",
+      "contentType": "article",
+      "tags": [
+        "plt"
+      ],
+      "score": 41
+    },
+    {
+      "slug": "using-fallbacks-for-a-robust-front-end",
+      "title": "Using Fallbacks for a Robust Front-End",
+      "url": "https://css-tricks.com/using-frontend-fallbacks/",
+      "summary": "It’s important to use fallbacks to build a robust front end, either to quietly and discreetly avoid the error or to communicate it to our users. Using Fallbacks for a Robust Front-End originally handwritten and published",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-23T14:21:44.000Z",
+      "contentType": "article",
+      "tags": [
+        "Articles",
+        "cross-browser",
+        "ux"
+      ],
+      "score": 38
+    },
+    {
+      "slug": "목적마다-상품마다-늘던-모델을-하나로-금융-도메인에-멀티태스크-학습-적용하기",
+      "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
+      "url": "https://toss.tech/article/multi-task-learning-in-finance",
+      "summary": "목적과 상품이 늘 때마다 같이 늘어나던 모델을, 늘어나도 하나로 유지되는 구조로 바꾼 이야기",
+      "sourceId": "toss-tech",
+      "sourceName": "토스 기술 블로그",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-23T03:02:00.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "ai-신입사원을-뉴스-데이터-시니어로-키우는-레포-news-data",
+      "title": "AI 신입사원을 뉴스 데이터 시니어로 키우는 레포, news-data",
+      "url": "https://d2.naver.com/helloworld/3284900",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI 에이전트가 뉴스 데이터를 직접 찾고 추출·분석까지 수행하는 하네스 레포 news-data를 소개합니다. 작업마다 배운 것을 회고와 PR로 되돌려 도메인을 모르는 신입사원 같은 에이전트를 시니어로 키우는 과정과 운영하며 부딪힌 한계, 앞으로의 방향을 공유합니",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-23T07:51:06.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "새벽-3시-54분-agent가-먼저-분석하고-처리했습니다",
+      "title": "새벽 3시 54분, Agent가 먼저 분석하고 처리했습니다",
+      "url": "https://d2.naver.com/helloworld/1126768",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 개발과 운영 당번을 함께 맡으며 새벽 알림에 깨는 일, 언제까지 사람이 해야 할까요? 원인을 찾는 일부터 직접 조치하는 일까지 AI Agent에게 안심하고 맡길 수 있도록 풀어 간 경험을 공유 드립니다. ​ 발표 대상 개발과 서비스 운영(온콜)을 함께 맡고 있는 개",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-23T07:03:24.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "뇌를-닮은-세컨드-브레인-토큰-낭비-없는-rag",
+      "title": "뇌를 닮은 세컨드 브레인: 토큰 낭비 없는 RAG",
+      "url": "https://d2.naver.com/helloworld/5087915",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 기존 RAG의 텍스트 덤프 및 토큰 낭비 한계를 극복하고, 최신 인지 메모리 논문 기법을 결합해 지식 자율 진화와 99% 재현율을 달성하는 차세대 AI 메모리 아키텍처를 소개합니다. ​ 발표 대상 RAG의 검색 효율과 답변 품질 개선에 관심 있는 개발자 AI 에이전",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-23T06:19:13.000Z",
+      "contentType": "article",
+      "score": 37
+    },
+    {
+      "slug": "how-to-choose-a-sports-data-provider-10-factors-every-sportsbook-should",
+      "title": "How to Choose a Sports Data Provider: 10 Factors Every Sportsbook Should Evaluate",
+      "url": "https://dev.to/orbistats/how-to-choose-a-sports-data-provider-10-factors-every-sportsbook-should-evaluate-46f7",
+      "summary": "A sports data provider decides how fast your sportsbook can reprice a market, whether a bet settles correctly, how many sports you can offer and how much margin disappears into outages and integration work. Picking the w",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T05:32:33.000Z",
+      "contentType": "article",
+      "tags": [
+        "sportsdata",
+        "api",
+        "webdev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "woocommerce-pending-orders-cancelled-automatically-fix",
+      "title": "WooCommerce Pending Orders Cancelled Automatically: Fix",
+      "url": "https://dev.to/nextgenfusion/woocommerce-pending-orders-cancelled-automatically-fix-3i0l",
+      "summary": "If WooCommerce keeps cancelling orders that customers were still paying for, the cause is almost always one setting: \"Hold stock (minutes)\". By default WooCommerce cancels unpaid pending orders after 60 minutes, and it a",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T05:32:09.000Z",
+      "contentType": "article",
+      "tags": [
+        "woocommerce",
+        "wordpress",
+        "ecommerce"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "i-built-9-tiny-puzzle-games-that-run-in-your-browser-no-installs",
+      "title": "I built 9 tiny puzzle games that run in your browser, no installs",
+      "url": "https://dev.to/albeekcoder/i-built-9-tiny-puzzle-games-that-run-in-your-browser-no-installs-4db8",
+      "summary": "Over the last few weeks I built a small collection of puzzle games as a side project. Everything runs in the browser: no installs, no sign-ups, no ads. Most of them are single-file HTML/CSS/JS, which kept the scope hones",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T05:32:02.000Z",
+      "contentType": "article",
+      "tags": [
+        "webdev",
+        "javascript",
+        "gamedev"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "streaming-tool-calls-on-a-non-openai-upstream",
+      "title": "Streaming tool_calls on a non-OpenAI upstream",
+      "url": "https://dev.to/paipizze/streaming-toolcalls-on-a-non-openai-upstream-5mc",
+      "summary": "Function calling is the part of the OpenAI contract most likely to break when the model behind the endpoint is not OpenAI's, and the breakage is rarely a clean error. Arguments arrive as fragments, content is null on the",
+      "sourceId": "dev-to",
+      "sourceName": "DEV Community",
+      "group": "community",
+      "language": "en",
+      "publishedAt": "2026-11-24T05:32:01.000Z",
+      "contentType": "article",
+      "tags": [
+        "deepseek",
+        "api",
+        "llm"
+      ],
+      "score": 35
+    },
+    {
+      "slug": "morphology",
+      "title": "Morphology",
+      "url": "https://velog.io/@tony7401/Morphology",
+      "summary": "Morphology (모폴로지, 형태학적 이미지 처리) 이미지의 흰색 영역을 줄이거나 늘리고, 작은 노이즈를 제거하거나 끊어진 부분을 연결하는 기술 1) Erosion(침식) - 흰색 영역을 깎아내는 작업 흰색으로 표현된 물체가 있다면 주변 흰색 픽셀을 제거하면서 물체의 크기를 줄이는 것 erosion = cv2.erode(thresh, kernel, iterations = 1) 여기서 ke",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T05:41:39.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "생분해성-폴리에스터-수지-시장은-지속-가능한-포장재-수요-증가에-힘입어-2034년까지-연평균-72-성장하여-54억-달러에-이를",
+      "title": "생분해성 폴리에스터 수지 시장은 지속 가능한 포장재 수요 증가에 힘입어 2034년까지 연평균 7.2% 성장하여 54억 달러에 이를 것으로 전망됩니다.",
+      "url": "https://velog.io/@himanshudafare/%EC%83%9D%EB%B6%84%ED%95%B4%EC%84%B1-%ED%8F%B4%EB%A6%AC%EC%97%90%EC%8A%A4%ED%84%B0-%EC%88%98%EC%A7%80-%EC%8B%9C%EC%9E%A5%EC%9D%80-%EC%A7%80%EC%86%8D-%EA%B0%80%EB%8A%A5%ED%95%9C-%ED%8F%AC%EC%9E%A5%EC%9E%AC-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80%EC%97%90-%ED%9E%98%EC%9E%85%EC%96%B4-2034%EB%85%84%EA%B9%8C%EC%A7%80-%EC%97%B0%ED%8F%89%EA%B7%A0-7.2-%EC%84%B1%EC%9E%A5%ED%95%98%EC%97%AC-54%EC%96%B5-%EB%8B%AC%EB%9F%AC%EC%97%90-%EC%9D%B4%EB%A5%BC-%EA%B2%83%EC%9C%BC%EB%A1%9C-%EC%A0%84%EB%A7%9D%EB%90%A9%EB%8B%88%EB%8B%A4",
+      "summary": "포장재 및 기타 플라스틱 소비 산업에서 요구되는 가공 성능을 제공하면서 명확한 수명 주기 종료 경로를 지원할 수 있는 소재에 대한 관심이 높아짐에 따라, 전 세계 생분해성 폴리에스터 수지 시장의 중요성이 커지고 있습니다. 생분해성 폴리에스터 수지는 적절한 생물학적 조건에서 에스테르 결합이 분해될 수 있는 고분자를 포함합니다. 이 시장은 PBAT, PBS, PLA 및 기타 생분해성 폴리에스터를",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T05:41:38.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "재생에너지-및-대체연료-시장은-연평균-78-성장하여-2034년까지-3100억-달러에-이를-것으로-전망된다",
+      "title": "재생에너지 및 대체연료 시장은 연평균 7.8% 성장하여 2034년까지 3,100억 달러에 이를 것으로 전망된다.",
+      "url": "https://velog.io/@pharshu/%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80-%EB%B0%8F-%EB%8C%80%EC%B2%B4%EC%97%B0%EB%A3%8C-%EC%8B%9C%EC%9E%A5%EC%9D%80-%EC%97%B0%ED%8F%89%EA%B7%A0-7.8-%EC%84%B1%EC%9E%A5%ED%95%98%EC%97%AC-2034%EB%85%84%EA%B9%8C%EC%A7%80-3100%EC%96%B5-%EB%8B%AC%EB%9F%AC%EC%97%90-%EC%9D%B4%EB%A5%BC-%EA%B2%83%EC%9C%BC%EB%A1%9C-%EC%A0%84%EB%A7%9D%EB%90%9C%EB%8B%A4",
+      "summary": "글로벌재생에너지 및 대체 연료 시장정부, 제조업체 및 에너지 기업들이 청정 에너지원으로의 전환을 가속화함에 따라 재생 에너지 및 대체 연료는 에너지 및 화학 산업 전반에서 상당한 주목을 받고 있습니다. 재생 에너지 및 대체 연료에는 풍력, 태양열, 수력 및 지열 에너지로 생산된 전력과 바이오디젤, 에탄올, 재생 천연가스 및 녹색 수소와 같은 액체 및 기체 연료가 포함됩니다. 이러한 에너지 솔",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T05:41:30.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "목재-펠릿-활성탄-시장은-산업용-흡착-수요-증가에-힘입어-2034년까지-연평균-62-성장하여-9억-9670만-달러에-이를-것으로",
+      "title": "목재 펠릿 활성탄 시장은 산업용 흡착 수요 증가에 힘입어 2034년까지 연평균 6.2% 성장하여 9억 9,670만 달러에 이를 것으로 전망된다.",
+      "url": "https://velog.io/@minji_00/%EB%AA%A9%EC%9E%AC-%ED%8E%A0%EB%A6%BF-%ED%99%9C%EC%84%B1%ED%83%84-%EC%8B%9C%EC%9E%A5%EC%9D%80-%EC%82%B0%EC%97%85%EC%9A%A9-%ED%9D%A1%EC%B0%A9-%EC%88%98%EC%9A%94-%EC%A6%9D%EA%B0%80%EC%97%90-%ED%9E%98%EC%9E%85%EC%96%B4-2034%EB%85%84%EA%B9%8C%EC%A7%80-%EC%97%B0%ED%8F%89%EA%B7%A0-6.2-%EC%84%B1%EC%9E%A5%ED%95%98%EC%97%AC-9%EC%96%B5-9670%EB%A7%8C-%EB%8B%AC%EB%9F%AC%EC%97%90-%EC%9D%B4%EB%A5%BC-%EA%B2%83%EC%9C%BC%EB%A1%9C-%EC%A0%84%EB%A7%9D%EB%90%9C%EB%8B%A4",
+      "summary": "전 세계 목재 펠릿 활성탄 시장은 산업 시설에서 공기 정화, 용매 회수 및 배출 제어를 위한 흡착 기술을 점점 더 많이 도입함에 따라 성장세를 보이고 있습니다. 목재 유래 활성탄 펠릿은 우수한 흡착 특성, 기계적 내구성 및 고정층 처리 시스템에의 적합성으로 인해 높은 평가를 받고 있습니다. 24ChemicalResearch에 따르면, 목재 펠릿 활성탄 시장은 2025년 5억 8천만 달러 규모",
+      "sourceId": "velog-trending",
+      "sourceName": "Velog 트렌딩",
+      "group": "community",
+      "language": "ko",
+      "publishedAt": "2026-11-24T05:41:21.000Z",
+      "contentType": "article",
+      "score": 35
+    },
+    {
+      "slug": "dev-material-archive",
+      "title": "Dev Material Archive",
+      "url": "https://css-tricks.com/dev-material-archive/",
+      "summary": "A new resource resurrecting lost web-dev articles and posts: This is an archive of written articles about web development, web design, and web accessibility that once existed on the World Wide Web and which would otherwi",
+      "sourceId": "css-tricks",
+      "sourceName": "CSS-Tricks",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-23T14:18:50.000Z",
+      "contentType": "article",
+      "tags": [
+        "Links",
+        "resource"
+      ],
+      "score": 34
+    },
+    {
+      "slug": "gpu-노드-검증-자동화-상시-점검부터-부하-검증까지",
+      "title": "GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지",
+      "url": "https://d2.naver.com/helloworld/7131556",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지 (네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다.) [발표... NAVER D2 | GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지 (네이버 사내 ",
+      "sourceId": "naver-d2",
+      "sourceName": "NAVER D2",
+      "group": "korean",
+      "language": "ko",
+      "publishedAt": "2026-11-23T05:33:36.000Z",
+      "contentType": "article",
+      "score": 31
+    },
+    {
+      "slug": "anthropic-solves-riemann-tesla-fsd-v15-vibe-coding-inference-chip",
+      "title": "Anthropic solves Riemann 🧮, Tesla FSD v15 🚗, vibe coding inference chip 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-23",
+      "summary": "",
+      "sourceId": "tldr",
+      "sourceName": "TLDR",
+      "group": "newsletter",
+      "language": "en",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "contentType": "article",
+      "tags": [
+        "Tech"
+      ],
+      "score": 31
+    }
+  ]
+}
